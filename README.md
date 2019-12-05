@@ -160,13 +160,13 @@ Quels sont les risques que l'on souhaite prévenir ?
 | # | Risques | Exemples réels |
 |:---:|:---|:---|
 | R1 | l'exposition de données personnelles ou confidentielles, directement ou via ce qu'un modèle peut potentiellement révéler | ... _à compléter_ ... |
-| R2 | des "prises de décisions" par des systèmes automatiques qui seraient préjudiciables à des personnes ou des organisations du fait de leur "injustice" | [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) |
-| R3 | l'utilisation de modèles prédictifs dans des contextes où leur performance est insuffisante par rapport à l'attendu | ... _à compléter_ ... |
+| R2 | des "prises de décisions" par des systèmes automatiques qui seraient préjudiciables à des personnes ou des organisations du fait de leur injustice | [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) |
+| R3 | l'utilisation de modèles prédictifs dans des contextes où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu | ... _à compléter_ ... |
 | R4 | ne plus savoir comment un modèle prédictif a été élaboré (sur quelles données, avec quel algorithme d'apprentissage, à partir de quel modèle de départ) | ... _à compléter_ ... |
 | R5 | ne plus savoir comment la performance d'un modèle prédictif a été évaluée (sur quelles données, selon quelle métrique de performance) | ... _à compléter_ ... |
-| R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | ... _à compléter_ ... |
+| R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | [cas vécu par Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
 | R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | ... _à compléter_ ... |
-| R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle | ... _à compléter_ ... |
+| R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
 
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
 
