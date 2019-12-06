@@ -165,9 +165,10 @@ Quels sont les risques que l'on souhaite prévenir ?
 | R4 | ne plus savoir comment un modèle prédictif a été élaboré (sur quelles données, avec quel algorithme d'apprentissage, à partir de quel modèle de départ) | [Biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520)] |
 | R5 | ne plus savoir comment la performance d'un modèle prédictif a été évaluée (sur quelles données, selon quelle métrique de performance) | [Biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
 | R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | [cas vécu par Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
-| R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | [Fonctionnement d'un algorithme d'évaluation du risque médical mal compris par ses utilisateurs](https://science.sciencemag.org/content/366/6464/447) |
+| R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | [Christchurch: les algorithmes de censure sont moins efficaces pour détecter des tueries en Nouvelle Zélande que des vidéos de propagande de l'EI. Que détectent-ils fondamentalement?](https://techcrunch.com/2019/03/21/facebooks-ai-couldnt-spot-mass-murder/) |
 | R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
+-
 
 | # | Thèmes | Descriptions |
 |:---:|:---|:---|
