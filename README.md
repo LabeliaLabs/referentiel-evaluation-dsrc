@@ -155,21 +155,23 @@ Quelques observations :
 
 ## Propositions de thèmes, d'un canevas du référentiel
 
-Quels sont les risques que l'on souhaite prévenir ?
+Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les lister, en les structurant par "risques chapeaux" (RC) :
 
 | # | Risques | Exemples réels |
 |:---:|:---|:---|
-| R1 | l'exposition de données personnelles ou confidentielles, directement ou via ce qu'un modèle peut potentiellement révéler | [Re-identification de datasets "anonymisés"](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/), [Retro-engineering des résultats d'un algorithme](https://www.abc.net.au/news/2019-03-01/abs-census-vulnerability/10857236). |
-| R2 | des "prises de décisions" par des systèmes automatiques qui seraient préjudiciables à des personnes ou des organisations du fait de leur injustice | [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474), [Algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
-| R3 | l'utilisation de modèles prédictifs dans des contextes où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu | [L'exemple de Google Flu en médecine](https://science.sciencemag.org/content/343/6176/1203)|
-| R4 | ne plus savoir comment un modèle prédictif a été élaboré (sur quelles données, avec quel algorithme d'apprentissage, à partir de quel modèle de départ) | [biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520) |
-| R5 | ne plus savoir comment la performance d'un modèle prédictif a été évaluée (sur quelles données, selon quelle métrique de performance) | [Biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
-| R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | [cas vécu par Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
-| R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | [Christchurch: les algorithmes de censure sont moins efficaces pour détecter des tueries en Nouvelle Zélande que des vidéos de propagande de l'EI. Que détectent-ils fondamentalement?](https://techcrunch.com/2019/03/21/facebooks-ai-couldnt-spot-mass-murder/) |
-| R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
+| **RC1** | **l'exposition de données personnelles ou confidentielles** |  |
+| RC1-01 | des datasets contenant des données personnelles ou confidentielles sont exposés | [ré-identification de datasets anonymisés](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/) |
+| RC1-02 | l'exploitation malveillante d'un modèle prédictif expose des données personnelles ou confidentielles | [rétro-engineering des résultats d'un algorithme](https://www.abc.net.au/news/2019-03-01/abs-census-vulnerability/10857236) |
+| **RC2** | **la prise de décisions inappropriées par des systèmes automatiques**, qui seraient préjudiciables à des personnes ou des organisations |  |
+| RC2-01 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dans les données d'entraînement | [cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) ; [algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
+| RC2-02 | l'utilisation de modèles prédictifs dans des contextes où ils ne sont pas suffisamment performants, pas pertinents, voire dangereux (où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu) | [exemple de Google Flu Trends en santé](https://science.sciencemag.org/content/343/6176/1203) ; [biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520) ; [biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
+| **RC3** | **ne pas rendre des comptes de manière responsable à ses parties prenantes** quant aux conséquences de l'usage de modèles prédictifs |  |
+| RC3-01 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner pour demander des comptes | [cas de Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
+| RC3-02 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne pas savoir interpréter et expliquer la prédiction en cause | [les algorithmes de censure automatiques de Facebook ont été moins efficaces lors de l'attentat de Christchurch qu'avec les vidéos de l'EI, que détectent-ils exactement ?](https://techcrunch.com/2019/03/21/facebooks-ai-couldnt-spot-mass-murder/) |
+| **RC4** | **avoir une empreinte environnementale irresponsable** |  |
+| RC4-01 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
 
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
--
 
 | # | Thèmes | Descriptions |
 |:---:|:---|:---|
