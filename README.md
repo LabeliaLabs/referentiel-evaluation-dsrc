@@ -167,6 +167,7 @@ Quels sont les risques que l'on souhaite prévenir ?
 | R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | [cas vécu par Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
 | R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | [Christchurch: les algorithmes de censure sont moins efficaces pour détecter des tueries en Nouvelle Zélande que des vidéos de propagande de l'EI. Que détectent-ils fondamentalement?](https://techcrunch.com/2019/03/21/facebooks-ai-couldnt-spot-mass-murder/) |
 | R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
+
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
 -
 
