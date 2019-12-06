@@ -159,15 +159,14 @@ Quels sont les risques que l'on souhaite prévenir ?
 
 | # | Risques | Exemples réels |
 |:---:|:---|:---|
-| R1 | l'exposition de données personnelles ou confidentielles, directement ou via ce qu'un modèle peut potentiellement révéler | ... _à compléter_ ... |
-| R2 | des "prises de décisions" par des systèmes automatiques qui seraient préjudiciables à des personnes ou des organisations du fait de leur injustice | [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) |
-| R3 | l'utilisation de modèles prédictifs dans des contextes où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu | ... _à compléter_ ... |
-| R4 | ne plus savoir comment un modèle prédictif a été élaboré (sur quelles données, avec quel algorithme d'apprentissage, à partir de quel modèle de départ) | ... _à compléter_ ... |
-| R5 | ne plus savoir comment la performance d'un modèle prédictif a été évaluée (sur quelles données, selon quelle métrique de performance) | ... _à compléter_ ... |
+| R1 | l'exposition de données personnelles ou confidentielles, directement ou via ce qu'un modèle peut potentiellement révéler | [Re-identification de datasets "anonymisés"](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/), [Retro-engineering des résultats d'un algorithme](https://www.abc.net.au/news/2019-03-01/abs-census-vulnerability/10857236). |
+| R2 | des "prises de décisions" par des systèmes automatiques qui seraient préjudiciables à des personnes ou des organisations du fait de leur injustice | [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474), [Algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
+| R3 | l'utilisation de modèles prédictifs dans des contextes où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu | [L'exemple de Google Flu en médecine](https://science.sciencemag.org/content/343/6176/1203)|
+| R4 | ne plus savoir comment un modèle prédictif a été élaboré (sur quelles données, avec quel algorithme d'apprentissage, à partir de quel modèle de départ) | [Biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520)] |
+| R5 | ne plus savoir comment la performance d'un modèle prédictif a été évaluée (sur quelles données, selon quelle métrique de performance) | [Biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
 | R6 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour le sujet concerné, ne pas savoir vers qui se tourner | [cas vécu par Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
-| R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | ... _à compléter_ ... |
+| R7 | dans le cas d'un incident avec ou dû à un modèle prédictif : pour l'acteur qui met en oeuvre le modèle, ne savoir ni interpréter ni expliquer la prédiction en cause | [Fonctionnement d'un algorithme d'évaluation du risque médical mal compris par ses utilisateurs](https://science.sciencemag.org/content/366/6464/447) |
 | R8 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
-
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
 
 | # | Thèmes | Descriptions |
