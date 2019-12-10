@@ -8,8 +8,9 @@
     - [Un référentiel de bonnes pratiques](#un-referentiel-de-bonnes-pratiques)
 - [Approche participative](#approche-participative)
     - [Cycle d'ateliers de co-construction](#cycle-dateliers-de-co-construction)
-    - [Disponibilité en ligne des travaux et participation asynchrone](#disponibilite-en-ligne-des-travaux-et-participation-asynchrone)
+    - [Responsabilité éditoriale, disponibilité en ligne des travaux et participation asynchrone](#responsabilité-éditoriale-disponibilité-en-ligne-des-travaux-et-participation-asynchrone)
     - [Nature évolutive](#nature-évolutive)
+    - [Mise à disposition](#mise-à-disposition)
 - [Périmètres cible et hors-cible](#périmètres-cible-et-hors-cible)
 - [Travaux dans ce domaine](#travaux-dans-ce-domaine)
 - [Propositions de thèmes, d'un canevas du référentiel](#propositions-de-thèmes-dun-canevas-du-référentiel)
@@ -73,14 +74,20 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l’esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives, peut-être ne pas aboutir… avec la certitude en revanche de débattre et d’apprendre sur des sujets passionnants.
 
-### Disponibilité en ligne des travaux et participation asynchrone
+### Responsabilité éditoriale, disponibilité en ligne des travaux et participation asynchrone
 
-Ce projet en ligne et le dépôt de fichiers associés, hébergés par Substra Foundation sur Github, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il ainsi possible de participer de manière asynchrone.
+Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Substra Foundation, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
+
+Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Substra Foundation sur Github, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il donc également possible de participer de manière asynchrone.
 
 ### Nature évolutive
 
 Par nature cette démarche est en constante évolution. Il nous semble plus utile et plus transparent de mettre à disposition le référentiel dans son état du moment, plutôt que d'attendre le franchissement de jalons majeurs. Ainsi, chacun est en mesure d'en prendre connaissance et de participer par des questions ou des suggestions d'amélioration.
 Une logique de versions ou de jalons sera proposée afin de fournir un repère temporel aux organisations utilisatrices.
+
+### Mise à disposition
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>.
 
 ## Périmètres cible et hors-cible
 
