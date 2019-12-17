@@ -1,6 +1,6 @@
 # Principes de consensus
 
-# Approche
+## Approche
 
 Nous avons voulu travailler de manière ouverte et collaborative à la définition de ce que serait la data science responsable et de confiance. Par conséquent, les risques, thèmes et mesures sont le fruit d'un travail collaboratif entre l'ensemble des acteurs souhaitant participer à la démarche.
 
