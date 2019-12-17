@@ -28,7 +28,7 @@ Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le
 
 ## Travaux asynchrones
 
-- La mise en place du référentiel open source de bonnes pratiques permettant aux organisations intéressées d'évaluer leur niveau de maturité s'organise et s'erticule principalement autour des ateliers participatifs qui sont fixés tous les deux mois.
+- La mise en place du référentiel open source de bonnes pratiques permettant aux organisations intéressées d'évaluer leur niveau de maturité s'organise et s'articule principalement autour des ateliers participatifs qui sont fixés tous les deux mois.
 
 - Cependant, il est possible pour tous de participer en dehors de ces ateliers, en contribuant au [repo Github dédié](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance):
   - En créant une "issue": ceci correspond à une suggestion, une idée, une question, un commentaire, une demande de correction...
