@@ -2,7 +2,8 @@
 
 ## Approche
 
-Nous avons voulu travailler de manière ouverte et collaborative à la définition de ce que serait la data science responsable et de confiance. Par conséquent, les risques, thèmes et mesures sont le fruit d'un travail collaboratif entre l'ensemble des acteurs souhaitant participer à la démarche.
+Nous avons voulu travailler de manière ouverte et collaborative à la définition de ce que serait la data science responsable et de confiance. Notre conviction est que seule l'ouverture, la transparence, et la possibilité pour chacun de contribuer et faire valoir son point de vue, permettront d'élaborer un référentiel à la fois complet, rigoureux, proche des problématiques terrain, et actionnable. C'est une démarche qui s'inscrit dans un temps long, tout en visant à proposer rapidement une première base de travail utile aux organisations intéressées.
+Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Substra Foundation, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
 
 Un processus de décision de ce qui rentre dans le référentiel doit être défini, transparent et inclusif.
 
