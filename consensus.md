@@ -35,7 +35,7 @@ Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le
   - En contribuant à travers une "Pull request": il s'agit d'une contribution "concrète" au référential, par la rédaction et la proposition d'une partie de celui-ci.
 
 - Substra Foundation supporte la responsabilité éditoriale de ce repository. Elle en est le maintainer et se charge donc d'étudier et valider les contributions sous forme de "Pull Requests" qui sont soumises.
-Substra présentera lors des différents ateliers les contributions et issues qui ont été soumis afin de les valider collectivement.
+Substra présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
 
 Vous désirez en savoir plus sur git et son fonctionnement ? Une introduction par vidéos (environs 30 minutes) est disponible sur [le site officiel](https://git-scm.com/videos)    
 
