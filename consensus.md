@@ -15,7 +15,6 @@ Un consensus caractérise l'existence parmi les membres d'un groupe d'un accord 
 
 Le consensus est un effort intellectuel important pour chacun, mais il est la meilleure manière d'aboutir à un référentiel solide, représentatif des différentes compréhensions de ce qu'est la data science responsable et de confiance.
 
-
 ## Consensus au sein du groupe de travail
 
 L'objectif lors des ateliers est d'arriver à un consensus autour des risques, thèmes, mesures qui sont soumis par les différents contributeurs.
