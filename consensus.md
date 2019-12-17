@@ -26,7 +26,6 @@ L'objectif lors des ateliers est d'arriver à un consensus autour des risques, t
   - De manière asynchrone via le repo (voir ci-dessous).
 Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le consensus décide de l'inclure définitivement ou de le fermer.
 
-
 ## Travaux asynchrones
 
 - La mise en place du référentiel open source de bonnes pratiques permettant aux organisations intéressées d'évaluer leur niveau de maturité s'organise et s'erticule principalement autour des ateliers participatifs qui sont fixés tous les deux mois.
