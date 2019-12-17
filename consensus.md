@@ -35,7 +35,7 @@ Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le
 
 - Cependant, il est possible pour tous de participer en dehors de ces ateliers, en contribuant au [repo Github dédié](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance):
   - En créant une "issue" : ceci correspond à une suggestion, une idée, une question, un commentaire, une demande de correction...
-  - En contribuant à travers une "Pull request": il s'agit d'une contribution "concrète" au référential, par la rédaction et la proposition d'une partie de celui-ci.
+  - En contribuant à travers une "Pull Request" : il s'agit d'une contribution "concrète" au référentiel, par la rédaction et la proposition d'une partie de celui-ci.
 
 - Substra Foundation supporte la responsabilité éditoriale de ce repository. Elle en est le maintainer et se charge donc d'étudier et valider les contributions sous forme de "Pull Requests" qui sont soumises.
 Substra présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
