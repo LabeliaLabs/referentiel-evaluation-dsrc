@@ -145,7 +145,7 @@ Une logique de versions ou de jalons sera proposée afin de fournir un repère t
     > - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
     > - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
 
-- [Future of Life's AI principles](https://futureoflife.org/ai-principles/): endorsed by AI and tech major personalities
+- [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
 - [Google recommended practices for AI: Fairness, Interpretability, Privacy, Security](https://ai.google/education/responsible-ai-practices)
 - [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
@@ -153,11 +153,15 @@ Une logique de versions ou de jalons sera proposée afin de fournir un repère t
 - [Livre blanc Data Responsable](http://www.utopies.com/fr/initiatives/groupe-de-travail-data-responsable)
 - [Responsible AI Licenses](https://www.licenses.ai/)
 - [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)
+- [FAT ML](https://www.fatml.org/) : _semble inactif depuis fin 2018_
+- [AI for social good workshops](https://aiforsocialgood.github.io/neurips2019/) and research papers
+- [Building Fair and Transparent Machine Learning via Operationalized Risk
+Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf)
 
 Quelques observations :
 
 - Beaucoup de travaux s'intéressent à l'éthique par les usages et par la non-reproduction de discrimination
-- Il y a cependant très peu de choses sur comment un modèle est élaboré
+- Il y a cependant très peu de choses sur comment un modèle est élaboré (voir le [papier de Quantum Black](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf))
 - Le plus complet est peut-être le questionnaire d'évaluation de l'UE, mais il est loin d'être actionnable, opérationnel (63 questions dont de nombreuses sont des questions très ouvertes), et son processus d'élaboration et d'évolution est relativement fermé
 
 ## Propositions de thèmes, d'un canevas du référentiel
