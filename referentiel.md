@@ -43,16 +43,19 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 ## Proposition de mesures
 
 - **T1 - Protéger les données personnelles ou confidentielles**
-  - Un processus et une organisation de veille juridique et réglementaire concernant la gestion des données personnelles et la conception de modèoes sont mis en place et documentés.
+  - Un processus et une gouvernance de gestion de la donnée personnelle et confidentielle est mis en place dans le cadre de la conception de modèles.
+  - Un processus et une organisation de veille juridique et réglementaire concernant la gestion des données personnelles et la conception de modèles sont mis en place et documentés.
   - Les concepteurs de modèles sont formés en continue aux différents types d'attaques des modèles.
   - Une cartographie des risques d'attaques à travers les modèles est mise en place comprenant des mesures de prévention.
 
 - **T2 - Prévenir les biais malencontreux**
+  - Un processus de contrôle du risque de biais est documenté et mis en place.
+  - Un processus de suspension ou de restriction de l'utilisation d'un modèle est documenté et mis en place lorsqu'un biais dans les données, le modèle ou l'algorithme est détecté.
 
 - **T3 - Evaluer la performance de manière rigoureuse**
   - Les conditions de validité d'un modèle sont explicitées et documentées.
   - L'utilisation d'un modèle se restraint à une utilisation dans un périmètres contraints de conditions dans lequel celui-ci a été validé.
-  - La vérification de la validation d'un modèle est réalisée à intervalle de période régulier afin d'éviter la dégénérence du modèle.
+  - Un proceessus de vérification de la validation d'un modèle  à intervalle de période régulier est mis en place afin d'éviter la dégénérence d'un modèle.
   - Une mesure de "fairness" est mise en place et intégrée dans la mesure de performance du modèle.
 
 - **T4 - Etablir et maintenir une généalogie des modèles**
@@ -62,9 +65,10 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
   - La chaîne de responsabilités entre le fournisseur de données, le responsable de la conception du modèle et l'exploitant du modèle est décrite et validée par l'ensemble des parties prenantes.
   - Une cartographie des modèles existant et de la criticité des processus afférents est mise en place et maintenue.
   - Une politique de gestion des incidents liés à un modèle est mise en place, comprenant :
-    - Le processus d'arrêt d'utilisation d'un modèle en cas de défaillance constatée;
-    - Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt d'utilisation d'un modèle.
+    - Le processus d'arrêt de l''utilisation d'un modèle en cas de défaillance constatée;
+    - Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l''utilisation d'un modèle.
+  - Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
 
 - **T6 - Minimiser les externalités de l'activité data science**
-  - Une formation à l'éthique liée à l'utilisation de techniques algorithmiques sur des données, ainsi que les modèles prédictifs et les systèmes automatiques en résultant est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
+  - Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
   - Un processus de mesure des externalités d'un modèle est mis en place.
