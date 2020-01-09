@@ -103,14 +103,14 @@ Une logique de versions ou de jalons sera proposée afin de fournir un repère t
 ## Périmètres
 
 - Un référentiel de pratiques qui s'adresse à qui ?
-    - Cible : l'activité data science d'une organisation
-    - Hors-cible : un projet spécifique, un produit donné, un modèle en particulier
+    - Cible : l'activité data science d'une organisation. Des mesures plus ciblées visant un projet en particulier pourront être étudiées et proposées.
+    - Hors-cible : un produit donné, un modèle en particulier
     - Pourquoi ?
         - Les projets et produits peuvent prendre des formes extrêmement variées et il est donc très difficile d'être pertinent avec un référentiel générique
         - L'effort pour s'évaluer selon un référentiel peut être trop élevé s'il doit être fait projet par projet
         - Les mesures ou pratiques relatives aux collaborateurs (e.g. les formations) correspondent plus naturellement aux pratiques d'une organisation qu'à celle d'un projet donné
 - Que désigne-t-on par _IA_ et _data science_ ?
-    - Cible : l'utilisation de techniques algorithmiques sur des données, ainsi que les modèles prédictifs et les systèmes automatiques en résultant
+    - Cible : l'utilisation de techniques algorithmiques sur des données, ainsi que les modèles prédictifs et les systèmes automatiques en résultant. Les systèmes experts font partie de cette définition.
     - Hors cible : ...
 
 ## Travaux dans ce domaine
