@@ -37,7 +37,7 @@ Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les
 |  | se faire "voler" du temps de calcul par _adversarial reprogramming_ |  |
 |  | ne pas maîtriser les conséquences négatives de l'utilisation d'un modèle donné du fait du manque d'une "gouvernance globale" et de pertes de connaissances/contexte tout au long de la chaîne données, conception, entraînement, validation, exploitation |  |
 
-## Propositions de thèmes, d'un canevas du référentiel
+## Thèmes, canevas du référentiel
 
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques :
 
@@ -45,40 +45,69 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 |:---:|:---|:---|
 | T1 | **Protéger les données personnelles ou confidentielles** | L'utilisation de données personnelles ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. Elles doivent donc être protégées, les risques d'exposition doivent être minimisés. |
 | T2 | **Prévenir les biais malencontreux** | L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler néfaste lorsque les données historiques décrivent des phénomènes non souhaitables. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées et ce qu'elles représentent. |
-| T3 | **Evaluer la performance de manière rigoureuse** | Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Une spécification de l'équité recherchée entre populations doit également être définie. En effet, l'équité d'un modèle peut [être définie de plusieur manières qui sont incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions. |
+| T3 | **Evaluer la performance de manière rigoureuse** | Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Une spécification de l'équité recherchée entre populations doit également être définie. En effet, l'équité d'un modèle peut [être définie de plusieurs manières qui sont incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions. |
 | T4 | **Etablir et maintenir une généalogie des modèles** | Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. |
 | T5 | **Garantir la chaîne de responsabilité des modèles** | Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont nécessaires sur **l'interprétation et l'explication** des choix réalisés à l'aide de ces systèmes. Il apparaît également indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle. |
-| T6 | **Minimiser les externalités de l'activité data science** | La mise en place d'un modèle peut générer des externalités négatives, tant d'un point de vue sociétal que environnemental. Prendre conscience de ce phénomène est indispensable, ainsi que chercher à mesurer les différents impacts négatifs pour les limiter et optimiser l'utilisation des ressources. |
+| T6 | **Anticiper, suivre et minimiser les externalités négatives de l'activité data science** | La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs. |
 
-## Proposition de mesures
+## Bonnes pratiques et mesures de prévention des risques
 
-- **T1 - Protéger les données personnelles ou confidentielles**
-  - Un processus et une gouvernance de gestion de la donnée personnelle et confidentielle est mis en place dans le cadre de la conception de modèles.
-  - Un processus et une organisation de veille juridique et réglementaire concernant la gestion des données personnelles et la conception de modèles sont mis en place et documentés.
-  - Les concepteurs de modèles sont formés en continue aux différents types d'attaques des modèles.
-  - Une cartographie des risques d'attaques à travers les modèles est mise en place comprenant des mesures de prévention.
+- **T1 - Protéger les données personnelles ou confidentielles***
+  1. **Gouvernance des données personnelles ou confidentielles** : Dans le cadre des projets de data science, une gouvernance des données personnelles ou confidentielles est mise en place, en organisant le stockage, l'accès, le transfert, la protection, la responsabilité.
+
+  1. **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les PIA des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement.
+
+  1. **Les techniques de _privacy enhancement_** (comme par exemple : anonymisation, _differential privacy_, chiffrement homomorphe, etc.) sont prises en compte dans la conception de projets de data science, les choix de les utiliser ou non sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles conçus, entraînés, validés et exploités.
+
+  1. **Les approches limitant l'accès aux données ou le transfert de données** (comme par exemple : _remote execution_, _secure multi-party computation_, etc.) sont prises en compte dans la conception de projets de data science.
+
+  1. **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles.
+  Un processus de veille réglementaire doit être mis en place et documenté.
 
 - **T2 - Prévenir les biais malencontreux**
-  - Un processus de contrôle du risque de biais est documenté et mis en place.
-  - Un processus de suspension ou de restriction de l'utilisation d'un modèle est documenté et mis en place lorsqu'un biais dans les données, le modèle ou l'algorithme est détecté.
+
+  1. Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
+
+  1. Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées.
+
+  1. Une ou plusieurs mesures d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
 
 - **T3 - Evaluer la performance de manière rigoureuse**
-  - Les conditions de validité d'un modèle sont explicitées et documentées.
-  - L'utilisation d'un modèle se restraint à une utilisation dans un périmètres contraints de conditions dans lequel celui-ci a été validé.
-  - Un proceessus de vérification de la validation d'un modèle  à intervalle de période régulier est mis en place afin d'éviter la dégénérence d'un modèle.
-  - Une mesure de "fairness" est mise en place et intégrée dans la mesure de performance du modèle.
+
+  1. Protection des données de test pour garantir qu'elles sont isolées et n'ont pas contaminé l'apprentissage.
+
+  1. Représentativité des données de test.
+
+  1. Respect des bonnes pratiques statistiques de validation rigoureuse de la performance (par exemple définition de la métrique de performance en amont de l'apprentissage).
+
+  1. Dans les cas de figure d'apprentissage continu, un processus de vérification de la validation d'un modèle à intervalle régulier est mis en place afin d'éviter la dégénérescence d'un modèle.
 
 - **T4 - Etablir et maintenir une généalogie des modèles**
-  - Les conditions d'entrainements d'un modèle à sa mise en place et son évolution à travers le temps sont documentées.
+
+  1. Une "généalogie de bout-en-bout" des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation.
+
+  1. Les "conditions de validité" ou le "contexte d'utilisation recommandée" d'un modèle conçu, entraîné et validé par l'organisation sont explicités et documentés.
+
+  1. L'utilisation par l'organisation de modèles prédictifs s'effectue dans les conditions et pour les usages pour lesquels les modèles prédictifs en question ont été validés.
 
 - **T5 - Garantir la chaîne de responsabilité des modèles**
-  - La chaîne de responsabilités entre le fournisseur de données, le responsable de la conception du modèle et l'exploitant du modèle est décrite et validée par l'ensemble des parties prenantes.
-  - Une cartographie des modèles existant et de la criticité des processus afférents est mise en place et maintenue.
-  - Une politique de gestion des incidents liés à un modèle est mise en place, comprenant :
-    - Le processus d'arrêt de l''utilisation d'un modèle en cas de défaillance constatée;
-    - Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l''utilisation d'un modèle.
-  - Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
 
-- **T6 - Minimiser les externalités de l'activité data science**
-  - Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
-  - Un processus de mesure des externalités d'un modèle est mis en place.
+  1. La chaîne de responsabilités entre le(s) fournisseur(s) de données, le responsable de la conception du modèle et l'exploitant du modèle est décrite et validée par l'ensemble des parties prenantes.
+
+  1. Une cartographie des modèles existant et de la criticité des processus afférents est mise en place et maintenue.
+
+  1. Une politique de gestion des incidents liés à un modèle est mise en place, comprenant :
+      
+      1. Le processus d'arrêt de l'utilisation d'un modèle en cas de défaillance constatée.
+
+      1. Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l'utilisation d'un modèle.
+
+  1. Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
+
+  1. Un processus de suspension ou de restriction de l'utilisation d'un modèle est documenté et mis en place lorsqu'un biais dans les données, le modèle ou l'algorithme est détecté.
+
+- **T6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science**
+
+  1. Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
+  
+  1. Un processus d'évaluation des externalités d'un modèle est mis en place.
