@@ -17,8 +17,10 @@ Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les
 | RC2-01 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dans les données d'entraînement | [cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) ; [algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
 | RC2-02 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dans les données de test | cas à identifier |
 | RC2-03 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dûs à l'architecture ou la conception-même de l'algorithme d'apprentissage et/ou du modèle | word embedding > vecteur qui genre une profession (cas à creuser) |
-| RC2-04 | l'utilisation de modèles prédictifs dans des contextes pour lesquels ils ne sont pas suffisamment performants, pas pertinents voire dangereux, pas prévus et validés (où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu) | [exemple de Google Flu Trends en santé](https://science.sciencemag.org/content/343/6176/1203) ; [biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520) ; [biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
-| RC2-05 | l'utilisation de modèles ayant subi une dégénérescence ou _drift_ dans le temps (par exemple, dans les cas de figure d'apprentissage en continu, lorsque les nouvelles données inputs proviennent de situations dans lesquels le modèle a été utilisé) | cas à identifier |
+| RC2-04 | la prise de décisions infondées, injustes ou illégitimes du fait de données empoisonnées | |
+| RC2-05 | l'utilisation de modèles prédictifs dans des contextes pour lesquels ils ne sont pas suffisamment performants, pas pertinents voire dangereux, pas prévus et validés (où leur performance réelle est insuffisante par rapport au déclaré ou à l'attendu) | [exemple de Google Flu Trends en santé](https://science.sciencemag.org/content/343/6176/1203) ; [biais induits par les corpus de texte utilisés pour entraîner un modèle de word embedding](https://arxiv.org/abs/1607.06520) ; [biais et performances limitées du modèle COMPAS de prédiction de la récidive](https://advances.sciencemag.org/content/4/1/eaao5580) |
+| RC2-06 | l'utilisation de modèles ayant subi une dégénérescence ou _drift_ dans le temps (par exemple, dans les cas de figure d'apprentissage en continu, lorsque les nouvelles données inputs proviennent de situations dans lesquels le modèle a été utilisé) | cas à identifier |
+| RC2-07 | l'utilisation adversariale d'un système automatique basé sur un modèle prédictif de manière préjudiciable à des personnes ou des organisations | [Three Small Stickers in Intersection Can Cause Tesla Autopilot to Swerve Into Wrong Lane](https://spectrum.ieee.org/cars-that-think/transportation/self-driving/three-small-stickers-on-road-can-steer-tesla-autopilot-into-oncoming-lane) |
 |  |  |  |
 | **RC3** | **ne pas rendre des comptes de manière responsable à ses parties prenantes** quant aux conséquences de l'usage de modèles prédictifs |  |
 | RC3-01 | dans le cas d'un incident avec ou provoqué par un modèle prédictif, ne pas avoir de personne physique ou morale identifiée à qui demander des comptes | [cas de Steve Wozniak avec l'Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
@@ -28,7 +30,12 @@ Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les
 | **RC4** | **avoir une empreinte sociale et environnementale irresponsable** |  |
 | RC4-01 | ne pas connaître le coût énergétique ou environnemental de l'élaboration et de l'utilisation d'un modèle, ou qu'il soit disproportionné par rapport à l'usage cible du modèle | [AlphaGo en kW vs. 20W pour un humain](https://deepmind.com/blog/article/alphago-zero-starting-scratch) |
 | RC4-02 | ne pas anticiper les impacts sociaux de la mise en place d'un système automatique basé sur un modèle prédictif | cas à identifier |
-| RC4-03 | ne pas anticiper les usages négatifs ou dangereux d'un modèle lors de la conception | mise en place de la reconnaissance faciale |
+| RC4-03 | ne pas anticiper les effets négatifs/dangereux ou les usages malfaisants d'un modèle lors de la conception | mise en place de la reconnaissance faciale |
+|  |  |  |
+| **RCx** | **divers - à catégoriser** |  |
+|  | se faire "voler" un modèle par multiples inférences (_model stealing_) |  |
+|  | se faire "voler" du temps de calcul par _adversarial reprogramming_ |  |
+|  | ne pas maîtriser les conséquences négatives de l'utilisation d'un modèle donné du fait du manque d'une "gouvernance globale" et de pertes de connaissances/contexte tout au long de la chaîne données, conception, entraînement, validation, exploitation |  |
 
 ## Propositions de thèmes, d'un canevas du référentiel
 
