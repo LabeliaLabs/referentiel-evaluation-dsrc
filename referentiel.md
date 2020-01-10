@@ -52,7 +52,8 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
 ## Bonnes pratiques et mesures de prévention des risques
 
-- **T1 - Protéger les données personnelles ou confidentielles***
+- **T1 - Protéger les données personnelles ou confidentielles**
+
   1. **Gouvernance des données personnelles ou confidentielles** : Dans le cadre des projets de data science, une gouvernance des données personnelles ou confidentielles est mise en place, en organisant le stockage, l'accès, le transfert, la protection, la responsabilité.
 
   1. **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les PIA des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement.
@@ -68,17 +69,19 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
   1. Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
 
+  1. Une ou plusieurs mesures d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
+
   1. Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées.
 
-  1. Une ou plusieurs mesures d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
+  1. Les données synthétiques, les approches de _data augmentation_ ou _re-weighting_ doivent être documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
 
 - **T3 - Evaluer la performance de manière rigoureuse**
 
-  1. Protection des données de test pour garantir qu'elles sont isolées et n'ont pas contaminé l'apprentissage.
+  1. Protection des données de test pour garantir qu'elles sont isolées et n'ont pas contaminé l'apprentissage. (_À REDIGER_)
 
-  1. Représentativité des données de test.
+  1. Représentativité des données de test. (_À REDIGER_)
 
-  1. Respect des bonnes pratiques statistiques de validation rigoureuse de la performance (par exemple définition de la métrique de performance en amont de l'apprentissage).
+  1. Respect des bonnes pratiques statistiques de validation rigoureuse de la performance (par exemple définition de la métrique de performance en amont de l'apprentissage). (_À REDIGER_)
 
   1. Dans les cas de figure d'apprentissage continu, un processus de vérification de la validation d'un modèle à intervalle régulier est mis en place afin d'éviter la dégénérescence d'un modèle.
 
@@ -97,10 +100,8 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
   1. Une cartographie des modèles existant et de la criticité des processus afférents est mise en place et maintenue.
 
   1. Une politique de gestion des incidents liés à un modèle est mise en place, comprenant :
-      
-      1. Le processus d'arrêt de l'utilisation d'un modèle en cas de défaillance constatée.
-
-      1. Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l'utilisation d'un modèle.
+      - Le processus d'arrêt de l'utilisation d'un modèle en cas de défaillance constatée.
+      - Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l'utilisation d'un modèle.
 
   1. Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
 
@@ -110,4 +111,10 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
   1. Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
   
-  1. Un processus d'évaluation des externalités d'un modèle est mis en place.
+  1. Les externalités négatives liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées, prévenues et suivies.
+
+- **à catégoriser**
+
+  1. Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles.
+
+  1. Le "niveau d'interprétabilité" qu'il est possible d'obtenir avec un modèle donné (sur une échelle allant d'une preuve/vérité objective à une simple prédiction sans niveau de confiance) doit être explicités et intégrés aux "conditions de validité" ou au "contexte d'utilisation recommandée" d'un modèle.
