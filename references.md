@@ -6,8 +6,15 @@
 
     - [Building Fair and Transparent Machine Learning via Operationalized Risk Management](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf) de Quantum Black : approche analyse de risque très détaillée, à suivre courant 2020 si publication de leur plateforme de risques
 
+    - [Biased Algorithms are Easier to Fix than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
+
 - [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This
 is the problem of aligning an AI’s objective function with human preferences._"
+
+- Protection of data confidentiality:
+
+    - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+
 
 - Word Embedding and gender bias:
 
