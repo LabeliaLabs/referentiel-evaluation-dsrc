@@ -11,7 +11,8 @@
 
 `├── referentiel.md`
 - [Risques](./referentiel.md#risques)
-- [Propositions de thèmes, d'un canevas du référentiel](./referentiel.md#propositions-de-thèmes-dun-canevas-du-référentiel)
+- [Thèmes, canevas du référentiel](./referentiel.md#thèmes-canevas-du-référentiel)
+- [Bonnes pratiques et mesures de prévention des risques](./referentiel.md#bonnes-pratiques-et-mesures-de-prevention-des-risques)
 
 `├── methode.md`
 - [Approche](./methode.md#approche-et-méthode-de-consensus)
@@ -55,8 +56,10 @@ Les deux notions se recouvrent en partie. Il est cependant difficile de trouver 
 
 ### Un référentiel de bonnes pratiques
 
-- Référentiel de _bonnes pratiques_. Une bonne pratique est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici une mesure dans le domaine des systèmes d'information et de l'évaluation ISO 27001 :
-> _Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
+- Référentiel de _bonnes pratiques_. Une bonne pratique est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information et de l'évaluation ISO 27001 :
+> _A.8.3.1 Gestion des supports amovibles : Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
+
+> _A.14.2.7 Développement externalisé : L’organisation doit superviser et contrôler l’activité de développement du système externalisée._
 
 - Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation :
 
@@ -75,7 +78,7 @@ Les deux notions se recouvrent en partie. Il est cependant difficile de trouver 
 
 Nous proposons de travailler de manière ouverte et collaborative et organisons un cycle d'ateliers de co-construction :
 
-- Atelier #1 : mercredi 18 décembre 2019 à Paris
+- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop_notes.md)
 - Atelier #2 : jeudi 6 février 2020 à Paris
 - Atelier #3 : jeudi 2 avril 2020 à Paris
 - Atelier #4 : mardi 23 juin 2020
