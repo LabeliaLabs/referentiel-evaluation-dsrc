@@ -1,8 +1,10 @@
 # Data science responsable et de confiance - Référentiel (WIP)
 
+Le [référentiel](#référentiel-de-bonnes-pratiques-définissant-la-data-science-responsable-et-de-confiance) ci-dessous est en cours d'élaboration. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science. Il est structuré en plusieurs [thèmes](#thèmes-canevas-du-référentiel) complémentaires.
+
 ## Risques
 
-Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les lister, en les structurant par "risques chapeaux" (RC) :
+Quels sont les risques que l'on souhaite prévenir ? Dans le tableau ci-dessous ils sont regroupés par thèmes ("risques chapeaux" (RC)) :
 
 | # | Risques | Exemples réels |
 |:---:|:---|:---|
@@ -50,11 +52,14 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | T5 | **Garantir la chaîne de responsabilité des modèles** | Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont nécessaires sur **l'interprétation et l'explication** des choix réalisés à l'aide de ces systèmes. Il apparaît également indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle. |
 | T6 | **Anticiper, suivre et minimiser les externalités négatives de l'activité data science** | La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs. |
 
-## Bonnes pratiques et mesures de prévention des risques
+## Référentiel de bonnes pratiques définissant la data science responsable et de confiance
 
 - **T1 - Protéger les données personnelles ou confidentielles**
 
   1. **Gouvernance des données personnelles ou confidentielles** : Dans le cadre des projets de data science, une gouvernance des données personnelles ou confidentielles est mise en place, en organisant le stockage, l'accès, le transfert, la protection, la responsabilité.
+
+  1. **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles.
+  Un processus de veille réglementaire doit être mis en place et documenté.
 
   1. **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les PIA des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement.
 
@@ -62,14 +67,11 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
   1. **Les approches limitant l'accès aux données ou le transfert de données** (comme par exemple : _remote execution_, _secure multi-party computation_, etc.) sont prises en compte dans la conception de projets de data science.
 
-  1. **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles.
-  Un processus de veille réglementaire doit être mis en place et documenté.
-
 - **T2 - Prévenir les biais malencontreux**
 
   1. Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
 
-  1. Une ou plusieurs mesures d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
+  1. Une ou plusieurs mesures de justice et d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
 
   1. Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées.
 
@@ -77,11 +79,11 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
 - **T3 - Evaluer la performance de manière rigoureuse**
 
-  1. Protection des données de test pour garantir qu'elles sont isolées et n'ont pas contaminé l'apprentissage. (_À REDIGER_)
+  1. Les jeux de données utilisés pour le test de la performance d'un modèle doivent être isolés et protégés de manière à ne pas contaminer l'apprentissage.
 
-  1. Représentativité des données de test. (_À REDIGER_)
+  1. Prendre en compte l'origine, la distribution des données de test, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
 
-  1. Respect des bonnes pratiques statistiques de validation rigoureuse de la performance (par exemple définition de la métrique de performance en amont de l'apprentissage). (_À REDIGER_)
+  1. Les bonnes pratiques statistiques de validation rigoureuse de la performance d'un modèle (par exemple définition de la métrique de performance en amont de l'apprentissage), permettant d'éviter l'obtention de score de performance non significatif, doivent être connues et suivies.
 
   1. Dans les cas de figure d'apprentissage continu, un processus de vérification de la validation d'un modèle à intervalle régulier est mis en place afin d'éviter la dégénérescence d'un modèle.
 
@@ -109,9 +111,9 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
 - **T6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science**
 
-  1. Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
-  
   1. Les externalités négatives liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées, prévenues et suivies.
+
+  1. Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
 
 - **à catégoriser**
 
