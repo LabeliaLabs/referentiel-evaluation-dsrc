@@ -153,3 +153,20 @@ Si cette liste de mesures est surtout réalisée dans le cadre de projets "publi
 - Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
 
 - Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
+
+## Mesures extraites de [AI Now Report 2019](https://ainowinstitute.org/AI_Now_2019_Report.pdf) à évaluer
+
+Le Ai Now Report 2019 est rapport réalisé par le AI Now Institut, centre de recherche interdisciplinaires en charge d'évaluer les impacts sociaux de l'Intelligence Artificielle.
+Les recommandations présentées sont plutôt d'ordre gouvernementales et en lien avec la réglementation. Certaines idées méritent cependant d'être discutées.   
+
+- Les politiques de diversité mises en place au sein de l'organisation prennent en compte les spécificités de l'Intelligence Artificielle et les risques sur les algorithmes mis en place.
+
+- Les impacts environnementaux des projets de mise en place d'algorithme à grande échelle doivent être publiés auprès du grand public.
+
+- Les collaborateurs, avec ou sans l'aide de leur syndicat, doivent pouvoir contester l'utilisation d'un algorithme intrusif.
+
+- Les collaborateurs partie prenantes de la mise en place d'un algorithme doivent être au courant de la finalité de cette algorithme et décider de contester sa mise en place.
+
+- Le climat, la santé et les déplacements - *déportations* - géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
+
+- Les chercheurs en algorithme doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
