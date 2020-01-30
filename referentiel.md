@@ -34,10 +34,12 @@ Quels sont les risques que l'on souhaite prévenir pour pouvoir parler de data s
 | ESE-02 | ne pas anticiper les impacts sociaux de la mise en place d'un système automatique basé sur un modèle prédictif | cas à identifier |
 | ESE-03 | ne pas anticiper les effets négatifs/dangereux ou les usages malfaisants d'un modèle lors de la conception | mise en place de la reconnaissance faciale |
 |  |  |  |
+| **TR** | **Transverse** |  |
+| TR-01 | ne pas maîtriser les conséquences négatives de l'utilisation d'un modèle donné du fait du manque d'une "gouvernance globale" et de pertes de connaissances/contexte tout au long de la chaîne données, conception, entraînement, validation, exploitation |  |
+|  |  |  |
 |  | **divers - à catégoriser** |  |
 |  | se faire "voler" un modèle par multiples inférences (_model stealing_) |  |
 |  | se faire "voler" du temps de calcul par _adversarial reprogramming_ |  |
-|  | ne pas maîtriser les conséquences négatives de l'utilisation d'un modèle donné du fait du manque d'une "gouvernance globale" et de pertes de connaissances/contexte tout au long de la chaîne données, conception, entraînement, validation, exploitation |  |
 
 ## Thèmes, canevas du référentiel
 
