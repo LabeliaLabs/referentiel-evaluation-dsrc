@@ -11,7 +11,7 @@ Quels sont les risques que l'on souhaite prévenir ? Nous pouvons essayer de les
 | RC1-01 | des datasets contenant des données personnelles ou confidentielles sont exposés | [ré-identification de datasets anonymisés](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/) |
 | RC1-02 | l'exploitation malveillante d'un modèle prédictif expose des données personnelles ou confidentielles | [rétro-engineering des résultats d'un algorithme](https://www.abc.net.au/news/2019-03-01/abs-census-vulnerability/10857236) |
 | RC1-03 | un algorithme d'apprentissage machine est utilisé de manière malveillante pour extraire des données personnelles ou confidentielles | algorithmes malveillants |
-| RC1-04 | un changement de réglementation augmente le risque d'exposition de données personnelles ou confidentielles | Cloud Act |
+| RC1-04 | un changement de réglementation augmente le risque d'exposition de données personnelles ou confidentielles | Cloud Act ; [risques sur le Health Data Hub](https://www.cnb.avocat.fr/sites/default/files/11.cnb-mo2020-01-11_ldh_health_data_hubfinal-p.pdf) |
 |  |  |  |
 | **RC2** | **la prise de décisions inappropriées par des systèmes automatiques**, qui seraient préjudiciables à des personnes ou des organisations |  |
 | RC2-01 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dans les données d'entraînement | [cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) ; [algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
@@ -110,7 +110,7 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 - **T6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science**
 
   1. Une formation à l'éthique liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
-  
+
   1. Les externalités négatives liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées, prévenues et suivies.
 
 - **à catégoriser**
