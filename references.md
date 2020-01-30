@@ -1,6 +1,6 @@
-# Liste de lecture, références, travaux dans ce domaine
+# Références
 
-## Références
+## Liste de lecture
 
 - Fairness :
 
@@ -10,6 +10,10 @@
 
     - [Biased Algorithms are Easier to Fix than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
 
+    - Word Embedding and gender bias:
+        - [Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/pnas/115/16/E3635.full.pdf)
+        - [Christine Basta, Marta R. Costa-juss`a, Noe Casas. Evaluating the Underlying Gender Bias in Contextualized Word Embeddings, 2018](https://arxiv.org/pdf/1904.08783.pdf)
+
 - [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This
 is the problem of aligning an AI’s objective function with human preferences._"
 
@@ -17,21 +21,13 @@ is the problem of aligning an AI’s objective function with human preferences._
 
     - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
 
-
-- Word Embedding and gender bias:
-
-    - [Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/pnas/115/16/E3635.full.pdf)
-
-    - [Christine Basta, Marta R. Costa-juss`a, Noe Casas. Evaluating the Underlying Gender Bias in Contextualized Word Embeddings, 2018](https://arxiv.org/pdf/1904.08783.pdf)
-
-- Algorithmes publics :
-
-    - [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
-
-    - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
-
 ## Travaux dans ce domaine
 
+L'_Institute for Ethical AI & Machine Learning_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+
+### Guidelines, liste de principes ou de thèmes-clés
+
+- [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)
 - [EU Draft Ethics guidelines for trustworthy AI](https://ec.europa.eu/digital-single-market/en/news/draft-ethics-guidelines-trustworthy-ai) and [pilot assessment survey](https://ec.europa.eu/futurium/en/ethics-guidelines-trustworthy-ai/register-piloting-process-0)
 
     > 7 Key requirements:
@@ -75,18 +71,26 @@ is the problem of aligning an AI’s objective function with human preferences._
 
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
 - [Google recommended practices for AI: Fairness, Interpretability, Privacy, Security](https://ai.google/education/responsible-ai-practices)
+
+### Déclarations, chartes, serments
+
 - [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
 - [Serment d'Hippocrate pour data scientist](https://dataforgood.fr/projects/4_serment-hippocrate.html)
+
+### Autres
+
 - [Livre blanc Data Responsable](http://www.utopies.com/fr/initiatives/groupe-de-travail-data-responsable)
 - [Responsible AI Licenses](https://www.licenses.ai/)
-- [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)
 - [FAT ML](https://www.fatml.org/) : _semble inactif depuis fin 2018_
 - [AI for social good workshops](https://aiforsocialgood.github.io/neurips2019/) and research papers
 - [Building Fair and Transparent Machine Learning via Operationalized Risk
 Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf)
+- Algorithmes publics :
+    - [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
+    - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 
-Quelques observations :
+## Notes et observations
 
 - Beaucoup de travaux s'intéressent à l'éthique par les usages et par la non-reproduction de discrimination
 - Il y a cependant très peu de choses sur comment un modèle est élaboré (voir le [papier de Quantum Black](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf))
