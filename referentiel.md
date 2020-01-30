@@ -118,3 +118,38 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
   1. Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles.
 
   1. Le "niveau d'interprétabilité" qu'il est possible d'obtenir avec un modèle donné (sur une échelle allant d'une preuve/vérité objective à une simple prédiction sans niveau de confiance) doit être explicités et intégrés aux "conditions de validité" ou au "contexte d'utilisation recommandée" d'un modèle.
+
+## Mesures extraites de [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/) à évaluer
+
+Ethics and Algorithms toolkit est une boite à outils développée par la municipalité de San Francisco et différents organismes publics et privés.
+Cette boite à outils est en deux partie :
+- Une partie d'évaluation des Risques
+- Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie.
+Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général.
+
+- Un Comité de Révision Institutionnelle a été mis en place, en charge :
+  - d'examiner et approuver les projets de recherches;
+  - valider la mise en oeuvre d'un algorithmes.
+
+- Lorsque le projet a un impact social et public, un conseil consultatif est mis en place, comprenant les parties prenantes du projet ainsi que des représentants du grand public.
+
+- Lorsque le projet a un impact social et public, un dialogue est entretenu avec le grand public à travers différents canaux :
+  - Organisation d'enquête auprès du public;
+  - Mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public;
+  - Organisation de meeting / conférence pour présenter les données et usages utilisés;
+  - Ouverture des données utilisées en ligne;
+  - Ouverture d'un repo Github.
+
+- Lorsqu'un projet est controversé avant même son démarrage, un moratoire doit être mis en place afin d'indentifier de nouvelles sources de données.
+
+- Des outils de tests automatiques des algorithmes (exemple : matrice de confusion) doivent être mis en place pour évaluer la performance d'un algorithme tout au long de son existance.
+
+- Un mécanisme d'arbitrage humain doit être mis en place s'il permet d'améliorer la performance d'un algorithme.
+
+- Le transfert du suivi de la performance d'un algorithme à un organisme tier permet de retirer un degré de subjectivité.
+
+- Lorsqu'il y a absence de certaines données, ou qu'un échantillon de données est trop petit, des mécanismes de poids sont mis en place pour avoir une meilleure représentation de la population bénéficiaire de l'algorithme.
+
+- Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
+
+- Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
