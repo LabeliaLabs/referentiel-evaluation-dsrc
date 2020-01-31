@@ -90,6 +90,63 @@ Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.gi
     - [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
     - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 
+### En cours d'étude
+
+#### Extrait du rapport [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/) - Mesures à évaluer
+
+Ethics and Algorithms toolkit est une boite à outils développée par la municipalité de San Francisco et différents organismes publics et privés.
+Cette boite à outils est en deux partie :
+
+- Une partie d'évaluation des risques :
+
+    > - Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie. Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général.
+    > 
+    > - Un Comité de Révision Institutionnelle a été mis en place, en charge :
+    >
+    >   - d'examiner et approuver les projets de recherches;
+    >   - valider la mise en oeuvre d'un algorithmes.
+    > 
+    > - Lorsque le projet a un impact social et public, un conseil consultatif est mis en place, comprenant les parties prenantes du projet ainsi que des représentants du grand public.
+    > 
+    > - Lorsque le projet a un impact social et public, un dialogue est entretenu avec le grand public à travers différents canaux :
+    > 
+    >   - Organisation d'enquête auprès du public ;
+    >   - Mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public ;
+    >   - Organisation de meeting / conférence pour présenter les données et usages utilisés ;
+    >   - Ouverture des données utilisées en ligne ;
+    >   - Ouverture d'un repo Github.
+    > 
+    > - Lorsqu'un projet est controversé avant même son démarrage, un moratoire doit être mis en place afin d'indentifier de nouvelles sources de données.
+    > 
+    > - Des outils de tests automatiques des algorithmes (exemple : matrice de confusion) doivent être mis en place pour évaluer la performance d'un algorithme tout au long de son existance.
+    > 
+    > - Un mécanisme d'arbitrage humain doit être mis en place s'il permet d'améliorer la performance d'un algorithme.
+    > 
+    > - Le transfert du suivi de la performance d'un algorithme à un organisme tier permet de retirer un degré de subjectivité.
+    > 
+    > - Lorsqu'il y a absence de certaines données, ou qu'un échantillon de données est trop petit, des mécanismes de poids sont mis en place pour avoir une meilleure représentation de la population bénéficiaire de l'algorithme.
+    > 
+    > - Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
+    > 
+    > - Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
+
+#### Extrait du [AI Now Report 2019](https://ainowinstitute.org/AI_Now_2019_Report.pdf) - Mesures à évaluer
+
+Le AI Now Report 2019 est rapport réalisé par le AI Now Institut, centre de recherche interdisciplinaires en charge d'évaluer les impacts sociaux de l'Intelligence Artificielle.
+Les recommandations présentées sont plutôt d'ordre gouvernementales et en lien avec la réglementation. Certaines idées méritent cependant d'être discutées.   
+
+> - Les politiques de diversité mises en place au sein de l'organisation prennent en compte les spécificités de l'Intelligence Artificielle et les risques sur les algorithmes mis en place.
+> 
+> - Les impacts environnementaux des projets de mise en place d'algorithme à grande échelle doivent être publiés auprès du grand public.
+> 
+> - Les collaborateurs, avec ou sans l'aide de leur syndicat, doivent pouvoir contester l'utilisation d'un algorithme intrusif.
+> 
+> - Les collaborateurs partie prenantes de la mise en place d'un algorithme doivent être au courant de la finalité de cette algorithme et décider de contester sa mise en place.
+> 
+> - Le climat, la santé et les déplacements - *déportations* - géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
+> 
+> - Les chercheurs en algorithme doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
+
 ## Notes et observations
 
 - Beaucoup de travaux s'intéressent à l'éthique par les usages et par la non-reproduction de discrimination

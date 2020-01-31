@@ -13,7 +13,7 @@ Quels sont les risques que l'on souhaite prévenir pour pouvoir parler de data s
 | EDP-01 | des datasets contenant des données personnelles ou confidentielles sont exposés | [ré-identification de datasets anonymisés](https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/) |
 | EDP-02 | l'exploitation malveillante d'un modèle prédictif expose des données personnelles ou confidentielles | [rétro-engineering des résultats d'un algorithme](https://www.abc.net.au/news/2019-03-01/abs-census-vulnerability/10857236) |
 | EDP-03 | un algorithme d'apprentissage machine est utilisé de manière malveillante pour extraire des données personnelles ou confidentielles d'un dataset d'entraînement ou de test |  |
-| EDP-04 | un changement de réglementation augmente le risque d'exposition de données personnelles ou confidentielles | Cloud Act ; [CNB - "Risques sur le Health Data Hub"](https://www.cnb.avocat.fr/sites/default/files/11.cnb-mo2020-01-11_ldh_health_data_hubfinal-p.pdf) |
+| EDP-04 | un changement de réglementation augmente le risque d'exposition de données personnelles ou confidentielles | Cloud Act ; [CNB - Mise en garde HDH](https://www.cnb.avocat.fr/sites/default/files/11.cnb-mo2020-01-11_ldh_health_data_hubfinal-p.pdf) |
 |  |  |  |
 | **PDI** | **la Prise de Décisions Inappropriées par des systèmes automatiques**, qui seraient préjudiciables à des personnes ou des organisations |  |
 | PDI-01 | la prise de décisions infondées, injustes ou illégitimes du fait de biais discriminatoires dans les données d'entraînement | [cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) ; [algorithme RH d'Amazon](https://www.lefigaro.fr/social/2018/10/11/20011-20181011ARTFIG00096-le-logiciel-de-recrutement-d-amazon-n-aimait-pas-les-femmes.php) |
@@ -122,55 +122,3 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
   1. Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles.
 
   1. Le "niveau d'interprétabilité" qu'il est possible d'obtenir avec un modèle donné (sur une échelle allant d'une preuve/vérité objective à une simple prédiction sans niveau de confiance) doit être explicités et intégrés aux "conditions de validité" ou au "contexte d'utilisation recommandée" d'un modèle.
-
-## Mesures extraites de [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/) à évaluer
-
-Ethics and Algorithms toolkit est une boite à outils développée par la municipalité de San Francisco et différents organismes publics et privés.
-Cette boite à outils est en deux partie :
-- Une partie d'évaluation des Risques
-- Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie.
-Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général.
-
-- Un Comité de Révision Institutionnelle a été mis en place, en charge :
-  - d'examiner et approuver les projets de recherches;
-  - valider la mise en oeuvre d'un algorithmes.
-
-- Lorsque le projet a un impact social et public, un conseil consultatif est mis en place, comprenant les parties prenantes du projet ainsi que des représentants du grand public.
-
-- Lorsque le projet a un impact social et public, un dialogue est entretenu avec le grand public à travers différents canaux :
-  - Organisation d'enquête auprès du public;
-  - Mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public;
-  - Organisation de meeting / conférence pour présenter les données et usages utilisés;
-  - Ouverture des données utilisées en ligne;
-  - Ouverture d'un repo Github.
-
-- Lorsqu'un projet est controversé avant même son démarrage, un moratoire doit être mis en place afin d'indentifier de nouvelles sources de données.
-
-- Des outils de tests automatiques des algorithmes (exemple : matrice de confusion) doivent être mis en place pour évaluer la performance d'un algorithme tout au long de son existance.
-
-- Un mécanisme d'arbitrage humain doit être mis en place s'il permet d'améliorer la performance d'un algorithme.
-
-- Le transfert du suivi de la performance d'un algorithme à un organisme tier permet de retirer un degré de subjectivité.
-
-- Lorsqu'il y a absence de certaines données, ou qu'un échantillon de données est trop petit, des mécanismes de poids sont mis en place pour avoir une meilleure représentation de la population bénéficiaire de l'algorithme.
-
-- Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
-
-- Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
-
-## Mesures extraites de [AI Now Report 2019](https://ainowinstitute.org/AI_Now_2019_Report.pdf) à évaluer
-
-Le Ai Now Report 2019 est rapport réalisé par le AI Now Institut, centre de recherche interdisciplinaires en charge d'évaluer les impacts sociaux de l'Intelligence Artificielle.
-Les recommandations présentées sont plutôt d'ordre gouvernementales et en lien avec la réglementation. Certaines idées méritent cependant d'être discutées.   
-
-- Les politiques de diversité mises en place au sein de l'organisation prennent en compte les spécificités de l'Intelligence Artificielle et les risques sur les algorithmes mis en place.
-
-- Les impacts environnementaux des projets de mise en place d'algorithme à grande échelle doivent être publiés auprès du grand public.
-
-- Les collaborateurs, avec ou sans l'aide de leur syndicat, doivent pouvoir contester l'utilisation d'un algorithme intrusif.
-
-- Les collaborateurs partie prenantes de la mise en place d'un algorithme doivent être au courant de la finalité de cette algorithme et décider de contester sa mise en place.
-
-- Le climat, la santé et les déplacements - *déportations* - géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
-
-- Les chercheurs en algorithme doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
