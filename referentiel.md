@@ -6,6 +6,14 @@ Le [référentiel](#référentiel-de-bonnes-pratiques-définissant-la-data-scien
 
 Quels sont les risques que l'on souhaite prévenir pour pouvoir parler de data science _responsable et de confiance_ ?
 
+Découpage en thèmes :
+- EDP : l'Exposition de Données Personnelles ou confidentielles
+- PDI : la Prise de Décisions Inappropriées par des systèmes automatiques
+- RC : ne pas Rendre des Comptes de manière responsable à ses parties prenantes
+- ESE : avoir une Empreinte Sociale et Environnementale irresponsable
+- TR : transverses
+- _à catégoriser_
+
 | # | Risques | Exemples réels |
 |:---:|:---|:---|
 |  |  |  |
