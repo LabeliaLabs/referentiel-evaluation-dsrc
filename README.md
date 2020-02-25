@@ -63,7 +63,7 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 - [Annexe A ISO 27001](https://fr.wikipedia.org/wiki/ISO/CEI_27001) : 114 mesures de sécurité classées en 14 catégories, dans le domaine des systèmes d'information
 - [ITIL](https://fr.wikipedia.org/wiki/Information_Technology_Infrastructure_Library) : référentiel méthodologique sur l'organisation, l'efficacité, la réduction des risques, l'amélioration de la qualité des systèmes d'information
 - B-Corp '[B Impact Assessment](https://bimpactassessment.net/)' : questionnaire gratuit et confidentiel d'évaluation de l'impact social et environnemental d'une organisation
-- [Don en confiance](www.donenconfiance.org) : charte de déontologie et label dans le domaine du financement des associations et de l'appel public à la générosité
+- [Don en confiance](https://www.donenconfiance.org) : charte de déontologie et label dans le domaine du financement des associations et de l'appel public à la générosité
 
 ### Un référentiel de bonnes pratiques
 
