@@ -132,8 +132,11 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
       - Un processus de suspension ou de restriction de l'utilisation d'un modèle est documenté lorsqu'un biais dans les données, le modèle ou l'algorithme est détecté.
 
   1. **Responsabilité :** Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
+    - _A définir : indépendance ou non ? quel rôle précis ? Une personne par rôle (modèle, données, applications) ?_
 
   1. **Un processus de contournement** est mis en place permettant à un être humain opérateur, dans certaines conditions définies, d'aller contre une décision du modèle s'il soupçonne que le modèle commet une erreur.
+
+  1. **Sous-traitance :** les tâches sous-traitées auprès d'un organisme tier sont soumises aux mêmes exigences.
 
 - **T6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science**
 
