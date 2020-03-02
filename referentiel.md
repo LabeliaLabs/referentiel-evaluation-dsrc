@@ -59,90 +59,47 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 
 ## 3. Référentiel de la data science responsable et de confiance
 
-- **T1 - Protéger les données personnelles ou confidentielles**
-
-  1. **Gouvernance des données personnelles ou confidentielles** : Dans le cadre des projets de data science, une gouvernance des données personnelles ou confidentielles est mise en place, en organisant le stockage, l'accès, le transfert, la protection, la responsabilité.
-
-  1. **Collecte des données personnelles ou confidentielles** : Dans le cadre de projets de data science, le nombre et le type de données collectées sont minimisés aux usages identifiés. Les données personnelles ne sont collectées que par nécessité. Un principe de minimisation de la collecte est appliquée.   
-
-  1. **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles.
-  Un processus de veille réglementaire doit être mis en place et documenté.
-
-  1. **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les PIA des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement.
-
-  1. **Les approches limitant l'accès aux données ou le transfert de données, ainsi que les techniques de _privacy enhancement_** (comme par exemple : _remote execution_, _secure multi-party computation_, anonymisation, _differential privacy_, chiffrement homomorphe, etc.) sont prises en compte dans la conception de projets de data science, les choix de les utiliser ou non sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles conçus, entraînés, validés et exploités.
-
-  1. **Lien avec les autorités :** En cas d'attaques ou de mise en danger de données personnelles ou confidentielles, les autorités compétentes sont averties des failles et vulnérabilités rencontrées.   
-
-- **T2 - Prévenir les biais malencontreux**
-
-  1. **Analyse des données d'entrainement utilisées :** Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
-
-  1. **Mesures de Fairness :** Une ou plusieurs mesures de justice et d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
-
-  1. **Mesures de robustesse :** Une ou plusieurs mesures de robustesse (_robustness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles.  
-
-  1. **Identification des biais discriminatoires :** Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées.
-
-  1. **Utilisation de données synthétiques :** Les données synthétiques, les approches de _data augmentation_ ou _re-weighting_ doivent être documentés et intégrés à la "généalogie de bout-en-bout" des modèles.
-
-- **T3 - Evaluer la performance de manière rigoureuse**
-
-  1. **Séparation des jeux de test :** Les jeux de données utilisés pour le test de la performance d'un modèle doivent être isolés et protégés de manière à ne pas contaminer l'apprentissage.
-
-  1. **Contamination des données de test :** Un processus d'identification et de correction dont être mis en place en cas de contamination des données de test.  
-
-  1. **Analyse des données de test :** Prendre en compte l'origine, la distribution des données de test, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter.
-
-  1. **Validation des performances :** Les bonnes pratiques statistiques de validation rigoureuse de la performance d'un modèle (par exemple définition de la métrique de performance en amont de l'apprentissage), permettant d'éviter l'obtention de score de performance non significatif, doivent être connues et suivies.
-
-  1. **Persistance dans le temps :** Un processus de vérification de la validation d'un modèle à intervalle régulier est mis en place afin d'éviter la dégénérescence d'un modèle.
-
-  1. **Gestion des changements :** Un processus de vérification de la validation d'un modèle est mis en place à chaque changement significatif, et lors de toute nouvelle mise en production d'un modèle.
-
-  1. **Nouvelle application :** Un processus de vérification de la validation d'un modèle est mis en place à chaque nouvelle application différente du modèle.
-
-  1. **Contrôle aléatoire humain :** Un processus de contrôle aléatoire humain est mis en place pour s'assurer de la conformité du modèle et des résultats attendus.  
-
-  1. **Persistance des tests :** La pertinence des tests effectués sur les modèles et leurs applications est évaluée à intervalle régulier.
-
-  1. **Prédictions indéfinies :** Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles.
-
-- **T4 - Etablir et maintenir une généalogie des modèles**
-
-  1. **Une "généalogie de bout-en-bout" des modèles** alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation.
-
-  1. **Conditions d'utilisation d'un modèle :** Les "conditions de validité" ou le "contexte d'utilisation recommandée" d'un modèle conçu, entraîné et validé par l'organisation sont explicités et documentés.
-
-  1. **Limites d'utilisation d'un modèle :** Les "limites d'utilisation" d'un modèle conçu, entraîné et validé par l'organisation sont explicitées et documentées.
-
-  1. **Usage des modèles :** L'utilisation par l'organisation de modèles prédictifs s'effectue dans les conditions et pour les usages pour lesquels les modèles prédictifs en question ont été validés.
-
-  1. **Le "niveau d'interprétabilité"** qu'il est possible d'obtenir avec un modèle donné (sur une échelle allant d'une preuve/vérité objective à une simple prédiction sans niveau de confiance) doit être explicités et intégrés aux "conditions de validité" ou au "contexte d'utilisation recommandée" d'un modèle.
-
-  1. **Interprétabilité :** Des outils d'interprétabilité doivent être mis à disposition de toutes les parties prenantes, adaptés en sophistication en fonction de leur niveau de compréhension des algorithmes et modèles.
-
-- **T5 - Garantir la chaîne de responsabilité des modèles**
-
-  1. **La chaîne de responsabilités** entre le(s) fournisseur(s) de données, le responsable de la conception du modèle et l'exploitant du modèle est décrite et validée par l'ensemble des parties prenantes.
-
-  1. **Une politique de gestion des incidents** liés à un modèle est mise en place, comprenant :
-      - Une cartographie des modèles existant et de la criticité des processus afférents.
-      - Le processus d'arrêt de l'utilisation d'un modèle en cas de défaillance constatée.
-      - Le mode de fonctionnement des processus impactés en cas de nécessité d'arrêt de l'utilisation d'un modèle.
-      - Un processus de suspension ou de restriction de l'utilisation d'un modèle est documenté lorsqu'un biais dans les données, le modèle ou l'algorithme est détecté.
-
-  1. **Responsabilité :** Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle.
-    - _A définir : indépendance ou non ? quel rôle précis ? Une personne par rôle (modèle, données, applications) ?_
-
-  1. **Un processus de contournement** est mis en place permettant à un être humain opérateur, dans certaines conditions définies, d'aller contre une décision du modèle s'il soupçonne que le modèle commet une erreur.
-
-  1. **Sous-traitance :** les tâches sous-traitées auprès d'un organisme tier sont soumises aux mêmes exigences.
-
-- **T6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science**
-
-  1. **Les externalités négatives environnementales** liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées, prévenues et suivies.
-
-  1. **Les externalités négatives societales** (exemple : impact sur les emplois, ...) liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées, prévenues et suivies.
-
-  1. **Une formation à l'éthique** liée à l'utilisation de modèles est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles.
+| **T1 : DON** | **Protéger les DONnées personnelles ou confidentielles** | Précisions, commentaires, illustrations |
+|:---:|:---|:---|
+| DON-1 | **Gouvernance des données personnelles ou confidentielles** : Dans le cadre des projets de data science, une gouvernance des données personnelles ou confidentielles est mise en place, organisant notamment le stockage, l'accès, le transfert, la protection, la responsabilité. | |
+| DON-2 | **Collecte des données personnelles ou confidentielles** : Dans le cadre des projets de data science, le principe de minimisation guide la collecte et l'utilisation de données personnelles ou confidentielles. | |
+| DON-3 | **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles. Un processus de veille réglementaire doit être mis en place pour connaître les évolutions applicables et impactantes. |  |
+| DON-4 | **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les PIA des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement. | [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) |
+| DON-5 | **Les approches limitant l'accès aux données ou le transfert de données, ainsi que les techniques de _privacy enhancement_** (comme par exemple : _remote execution_, _secure multi-party computation_, anonymisation, _differential privacy_, chiffrement homomorphe, etc.) sont prises en compte dans la conception de projets de data science. Les choix de les utiliser ou non sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles conçus, entraînés, validés et exploités. | |
+| DON-6 | **Lien avec les autorités :** En cas d'attaques ou de fuite de données personnelles ou confidentielles, les autorités compétentes sont averties dans les conditions prévues par les réglementations en vigueur. | le RGPD prévoit ainsi une obligation de signalement aux autorités (e.g. ANSSI - **à préciser**_) |
+| | | |
+| **T2 : BIA** | **Prévenir les BIAis malencontreux** | |
+|  BIA-1 | **Analyse des données d'entrainement utilisées :** Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | |
+| BIA-2 | **Identification des biais discriminatoires :** Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées. | |
+| BIA-3 | **Mesures de fairness :** Une ou plusieurs mesures de justice et d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
+| BIA-4 | **Mesures de robustesse :** Une ou plusieurs mesures de robustesse (_robustness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
+| BIA-5 | **Utilisation de données synthétiques :** Le cas échéant, les données synthétiques, les approches de _data augmentation_ ou _re-weighting_ doivent être documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
+| | | |
+| **T3 : PERF** | **Evaluer la PERFormance de manière rigoureuse** | |
+| PERF-1 | **Séparation des jeux de données de test :** Les jeux de données utilisés pour le test de la performance d'un modèle doivent être isolés et protégés de manière à ne pas contaminer l'apprentissage. Ils peuvent être multiples afin d'avoir une sécurité en cas de plausible contamination de l'un d'entre eux. | Y compris dans les cas de figure d'apprentissage distribué, dans lesquels cela nécessite la mise en oeuvre de techniques spécifiques pour éviter qu'une donnée puisse être dans le testset du partenaire A et le trainset du partenaire B. |
+| PERF-2 | **Analyse des données de test :** Prendre en compte l'origine, la distribution des données de test, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | |
+| PERF-3 | **Validation des performances :** La méthode de validation de la performance d'un modèle s'appuie sur les bonnes pratiques statistiques (par exemple définition de la métrique de performance en amont de l'apprentissage), permettant d'éviter l'obtention de score de performance non significatif. Elle est documentée et intégrée à la "généalogie de bout-en-bout" des modèles. | p-hacking |
+| PERF-4 | **Suivi de la performance dans le temps :** La performance d'un modèle est testée à intervalle régulier, ainsi que lors de chaque mise à jour, évolution du contexte d'utilisation, ou transfert pour une nouvelle utilisation. | notion de [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html) ; même sur modèle stable, risque que les données d'entrée ne soient plus dans le domaine (population & distribution), exemple : variable plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI |
+| PERF-5 | **Contrôle aléatoire humain :** Un processus de contrôle aléatoire humain est mis en place pour s'assurer de la conformité des prédictions du modèles avec les résultats attendus. | |
+| PERF-6 | **Pertinence des tests de validation :** La pertinence des tests de validation effectués sur les modèles et leurs applications est évaluée à intervalle régulier. | |
+| PERF-7 | **Prédictions indéfinies :** Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles. | participe de la robustesse d'un modèle |
+| | | |
+| **T4 : GEN** | **Etablir et maintenir une GENéalogie des modèles** | |
+| GEN-1 | **Une "généalogie de bout-en-bout" des modèles** est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation. | |
+| GEN-2 | **Conditions et limites d'utilisation d'un modèle :** Les "conditions et limites de validité" (ou le "contexte d'utilisation recommandée") d'un modèle conçu, entraîné et validé par l'organisation sont explicités et documentés. | |
+| GEN-3 | **Usage des modèles :** L'utilisation par l'organisation de modèles prédictifs s'effectue dans les conditions et pour les usages pour lesquels les modèles prédictifs en question ont été validés. | |
+| GEN-4 | **Le niveau d'interprétabilité** qu'il est possible d'obtenir avec un modèle donné (sur une échelle allant d'une preuve/vérité objective à une simple prédiction sans niveau de confiance) est explicité et intégré aux "conditions et limites de validité" (ou "contexte d'utilisation recommandée") d'un modèle. | |
+| GEN-5 | **Interprétabilité :** Des outils d'interprétabilité sont mis à disposition de toutes les parties prenantes, adaptés en sophistication à leurs niveaux respectifs de compréhension des algorithmes et modèles. | |
+| | | |
+| **T5 : RESP** | **Garantir la chaîne de RESPonsabilité des modèles** | |
+| RESP-1 | **La chaîne de responsabilités** entre le(s) fournisseur(s) de données, le responsable de la conception du modèle et l'exploitant du modèle est décrite et validée par l'ensemble des parties prenantes. | |
+| RESP-2 | **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation et en évalue les risques afférents.| Analogie avec le registre des traitements de données personnelles du RGPD |
+| RESP-3 | **Une politique de gestion des incidents** en lien avec les modèles prédictifs est mise en place, comprenant : les processus de suspension ou de restriction de l'utilisation d'un modèle en cas d'identification d'une défaillance ou d'un biais ; un plan de continuité d'activité pour les processus impactés en cas d'arrêt de l'utilisation d'un modèle | |
+| RESP-4 | **Responsabilité :** Un responsable point de contact est défini et identifiable par les exploitants directs et indirects du modèle. | Analogie avec le DPO du RGPD |
+| RESP-5 | **Des processus de contournement** sont mis en place permettant à un être humain opérateur, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur. | |
+| RESP-6 | **Sous-traitance :** les activités sous-traitées auprès d'une organisation tiers sont soumises aux mêmes exigences. | |
+| | | |
+| **T6 : EXT** | **Anticiper, suivre et minimiser les EXTernalités de l'activité data science** | |
+| EXT-1 | **Les externalités environnementales** liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées et suivies. | [ML Impact Calculator](https://mlco2.github.io/impact/) |
+| EXT-2 | **Les externalités sociétales** (exemple : impact sur les emplois, ...) liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées et suivies. | |
+| EXT-3 | **Une formation à l'éthique** liée à l'utilisation de modèles prédictifs est dispensée à l'ensemble des parties prenantes de l'organisation liées à la conception et l'exploitation de modèles. | |
