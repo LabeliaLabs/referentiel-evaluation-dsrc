@@ -71,7 +71,7 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | **T2 : BIA** | **Prévenir les BIAis malencontreux** | |
 |  BIA-1 | **Analyse des données d'entrainement utilisées :** Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | |
 | BIA-2 | **Identification des biais discriminatoires :** Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles, et les variables (ou variables proxy) pouvant y conduire sont recherchées. | |
-| BIA-3 | **Mesures de fairness :** Une ou plusieurs mesures de justice et d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
+| BIA-3 | **Mesures de fairness :** Une ou plusieurs mesures de justice et d'équité (_fairness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | Voir l'_[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_ par exemple |
 | BIA-4 | **Mesures de robustesse :** Une ou plusieurs mesures de robustesse (_robustness metrics_) sont étudiées et évaluées. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
 | BIA-5 | **Utilisation de données synthétiques :** Le cas échéant, les données synthétiques, les approches de _data augmentation_ ou _re-weighting_ doivent être documentés et intégrés à la "généalogie de bout-en-bout" des modèles. | |
 | | | |
