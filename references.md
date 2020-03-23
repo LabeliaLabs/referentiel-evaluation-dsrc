@@ -15,8 +15,15 @@
     - [Christine Basta, Marta R. Costa-juss`a, Noe Casas. Evaluating the Underlying Gender Bias in Contextualized Word Embeddings, 2018](https://arxiv.org/pdf/1904.08783.pdf)
     - [Invisible Women: Exposing Data Bias in a World Designed for Men, Caroline Criado Perez](https://www.theguardian.com/books/2019/feb/28/invisible-women-by-caroline-criado-perez-review)
 
-- [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This
-is the problem of aligning an AI’s objective function with human preferences._"
+- AI safety:
+  
+  - [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This is the problem of aligning an AI’s objective function with human preferences._"
+
+  - [Concrete problems in AI safety](https://arxiv.org/abs/1606.06565). Abstract: _"[...] the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function ("avoiding side effects" and "avoiding reward hacking"), an objective function that is too expensive to evaluate frequently ("scalable supervision"), or undesirable behavior during the learning process ("safe exploration" and "distributional shift"). [...]"_
+
+- Trust in AI systems:
+
+  - [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/), blog Octo Technologies, octobre 2019
 
 - Protection of data confidentiality:
 
