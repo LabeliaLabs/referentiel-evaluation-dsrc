@@ -4,22 +4,26 @@
 
 `/`  
 [`├── README.md`](#contexte-motivations-et-ambition)
+
 - [Contexte, motivations et ambition](#contexte-motivations-et-ambition)
 - [Périmètre du référentiel](#périmètre-du-référentiel)
 - [Approche participative](#approche-participative)
 
 [`├── referentiel.md`](./referentiel.md)
+
 - [Risques](./referentiel.md#1-risques)
 - [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel)
 - [Référentiel de la data science responsable et de confiance](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)
 
 [`├── methode.md`](./methode.md)
+
 - [Approche](./methode.md#approche-et-méthode-de-consensus)
 - [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail)
 - [Travaux asynchrones](./methode.md#travaux-asynchrones)
 - [License](./methode.md#license)
 
 [`├── references.md`](./references.md)
+
 - [Liste de lectures](./references.md#liste-de-lecture)
 - [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)
 
@@ -70,7 +74,7 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 - Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
 
 > _A.8.3.1 Gestion des supports amovibles : Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
-
+>
 > _A.14.2.7 Développement externalisé : L’organisation doit superviser et contrôler l’activité de développement externalisée._
 
 - Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
@@ -91,9 +95,9 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 - Cible principale : **l'activité data science d'une organisation**
 - Hors-cible : un projet donné, un produit donné, un modèle prédictif donné
 - Pourquoi ?
-    - Les projets et produits peuvent prendre des formes extrêmement variées et il est donc très difficile d'être pertinent avec un référentiel générique
-    - L'effort pour s'évaluer selon un référentiel peut être trop élevé s'il doit être fait projet par projet
-    - Les mesures ou pratiques relatives aux collaborateurs (e.g. les formations) correspondent plus naturellement aux pratiques d'une organisation qu'à celle d'un projet donné
+  - Les projets et produits peuvent prendre des formes extrêmement variées et il est donc très difficile d'être pertinent avec un référentiel générique
+  - L'effort pour s'évaluer selon un référentiel peut être trop élevé s'il doit être fait projet par projet
+  - Les mesures ou pratiques relatives aux collaborateurs (e.g. les formations) correspondent plus naturellement aux pratiques d'une organisation qu'à celle d'un projet donné
 - Idées d'élargissements possibles : des mesures plus ciblées visant un projet en particulier pourraient être étudiées.
 
 ### Que désigne-t-on par _IA_ et _data science_ ?
