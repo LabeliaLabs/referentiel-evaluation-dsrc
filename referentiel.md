@@ -1,12 +1,13 @@
 # Data science responsable et de confiance - Référentiel (WIP)
 
-Le [référentiel](#référentiel-de-la-data-science-responsable-et-de-confiance) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#thèmes-canevas-du-référentiel) complémentaires (section 2 ci-dessous).
+Le [référentiel](#3-référentiel-de-la-data-science-responsable-et-de-confiance) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#1-risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#2-thèmes-et-canevas-du-référentiel) complémentaires (section 2 ci-dessous).
 
 ## 1. Risques
 
 Quels sont les risques que l'on souhaite prévenir pour pouvoir parler de data science _responsable_ et _de confiance_ ?
 
 Découpage en thèmes :
+
 - EDP : l'Exposition de Données Personnelles ou confidentielles
 - PDI : la Prise de Décisions Inappropriées par des systèmes automatiques
 - RC : ne pas Rendre des Comptes de manière responsable à ses parties prenantes
@@ -52,7 +53,7 @@ Découpage en thèmes :
 |  | se faire "voler" du temps de calcul par _adversarial reprogramming_ |  |
 |  |  | placement d'offres d'emploi sur les flux d'utilisateurs sélectionnés par un modèle prédictif : y a-t-il un sens à s'interroger sur un risque de discrimination, ou bien est-ce analogue à un chasseur de tête qui décide d'appeler les candidats qui l'intéressent de manière discrétionnaire ? |
 
-## 2. Thèmes - Canevas du référentiel
+## 2. Thèmes et canevas du référentiel
 
 Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques qui constituent le référentiel :
 

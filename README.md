@@ -9,9 +9,9 @@
 - [Approche participative](#approche-participative)
 
 [`├── referentiel.md`](./referentiel.md)
-- [Risques](./referentiel.md#risques)
-- [Thèmes, canevas du référentiel](./referentiel.md#thèmes-canevas-du-référentiel)
-- [Bonnes pratiques et mesures de prévention des risques](./referentiel.md#bonnes-pratiques-et-mesures-de-prevention-des-risques)
+- [Risques](./referentiel.md#1-risques)
+- [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel)
+- [Référentiel de la data science responsable et de confiance](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)
 
 [`├── methode.md`](./methode.md)
 - [Approche](./methode.md#approche-et-méthode-de-consensus)
