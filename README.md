@@ -4,11 +4,7 @@
 
 `/`  
 [`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel](#périmètre-du-référentiel) | [Approche participative](#approche-participative)  
-<<<<<<< HEAD
 [**`├── referentiel.md`**](./referentiel.md) : [Risques](./referentiel.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel) | [**Référentiel**](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)  
-=======
-[`├── referentiel.md`](./referentiel.md) : [Risques](./referentiel.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel) | [**Référentiel**](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)  
->>>>>>> c0ed94bda513344e29d61893d4c582f97bae97cd
 [`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
 [`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
