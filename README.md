@@ -3,29 +3,10 @@
 ## Navigation dans le repository
 
 `/`  
-[`├── README.md`](#contexte-motivations-et-ambition)
-
-- [Contexte, motivations et ambition](#contexte-motivations-et-ambition)
-- [Périmètre du référentiel](#périmètre-du-référentiel)
-- [Approche participative](#approche-participative)
-
-[`├── referentiel.md`](./referentiel.md)
-
-- [Risques](./referentiel.md#1-risques)
-- [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel)
-- [Référentiel de la data science responsable et de confiance](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)
-
-[`├── methode.md`](./methode.md)
-
-- [Approche](./methode.md#approche-et-méthode-de-consensus)
-- [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail)
-- [Travaux asynchrones](./methode.md#travaux-asynchrones)
-- [License](./methode.md#license)
-
-[`├── references.md`](./references.md)
-
-- [Liste de lectures](./references.md#liste-de-lecture)
-- [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)
+[`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel](#périmètre-du-référentiel) | [Approche participative](#approche-participative)  
+[**`├── referentiel.md`**](./referentiel.md) : [Risques](./referentiel.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel) | [**Référentiel**](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)  
+[`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
+[`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
 ## Contexte, motivations et ambition
 
