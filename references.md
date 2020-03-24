@@ -31,7 +31,7 @@
 
 ## Travaux dans ce domaine
 
-L'_Institute for Ethical AI & Machine Learning_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
 ### Guidelines, liste de principes ou de thèmes-clés
 
@@ -110,9 +110,11 @@ Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.gi
 Ethics and Algorithms toolkit est une boite à outils développée par la municipalité de San Francisco et différents organismes publics et privés.
 Cette boite à outils est en deux partie :
 
-- Une partie d'évaluation des risques :
+- Une partie d'évaluation des risques ;
+- Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie.
 
-> - Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie. Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général.
+Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général, par exemple :
+
 >
 > - Un Comité de Révision Institutionnelle a été mis en place, en charge :
 >   - d'examiner et approuver les projets de recherches;
@@ -154,9 +156,9 @@ Les recommandations présentées sont plutôt d'ordre gouvernementales et en lie
 >
 > - Les collaborateurs partie prenantes de la mise en place d'un algorithme doivent être au courant de la finalité de cette algorithme et décider de contester sa mise en place.
 >
-> - Le climat, la santé et les déplacements - *déportations* - géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
+> - Le climat, la santé et les déplacements géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
 >
-> - Les chercheurs en algorithme doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
+> - Les chercheurs en algorithmie doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
 
 ## Notes et observations
 
