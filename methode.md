@@ -9,7 +9,7 @@ Ce travail est élaboré sous la responsabilité éditoriale de l'association à
 
 Un processus de décision de ce qui rentre dans le référentiel doit être défini, transparent et inclusif.
 
-La plupart des décisions dans une communauté ouverte ne sont pas prises par un vote, mais par des personnes impliquées et bien informées qui sont responsables, après consultation des gens qui les entourent et souhaitent participer à l'effort collectif.
+La plupart des décisions dans une communauté ouverte ne sont pas prises par des votes, mais par des personnes impliquées et bien informées qui sont responsables, après consultation des gens qui les entourent et souhaitent participer à l'effort collectif.
 En effet, si le vote peut sembler la manière la plus simple et la plus rapide d'aboutir à une décision, celui-ci peut se relever excluant, frustrant et au final inopérant.
 
 C'est pour cela que nous lui préférons la méthode de consensus.
@@ -38,9 +38,9 @@ Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le
   - En contribuant à travers une _Pull Request_ : il s'agit d'une contribution "concrète" au référentiel, par la rédaction et la proposition d'une partie de celui-ci.
 
 - Substra Foundation supporte la responsabilité éditoriale de ce repository. Elle en est le _maintainer_ et se charge donc d'étudier et valider les contributions sous forme de _Pull Requests_ qui sont soumises.
-Substra présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
+Substra Foundation présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
 
-_Les termes ci-dessus ne vous sont pas familiers ? Vous désirez en savoir plus sur git et son fonctionnement ? Une introduction par vidéos (environs 30 minutes) est disponible sur [le site officiel](https://git-scm.com/videos)._
+_Les termes ci-dessus ne vous sont pas familiers ? Vous désirez en savoir plus sur git et son fonctionnement ? Une introduction vidéo (environ 20 minutes) est disponible sur [le site officiel](https://git-scm.com/videos)._
 
 ## License
 
