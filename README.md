@@ -27,7 +27,7 @@ Pourquoi cette initiative, dans un univers qui voit déjà émerger un certain n
 1. être fait **pour être utilisé comme un outil concret d'évaluation** de la maturité de l'organisation.
 
 Nous imaginons un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine (sur le modèle de l'annexe A de la [norme ISO 27001](https://fr.wikipedia.org/wiki/ISO/CEI_27001) ou du label [B-Corp](https://bimpactassessment.net/) par exemple).  
-Nous pensons que la communauté data science responsable et de confiance en France (et en Europe et au-delà) pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
+Nous pensons que la communauté data science responsable et de confiance en France et en Europe pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
 
 ### Pourquoi _responsable_ et _de confiance_, et pourquoi pas _éthique_ ?
 
@@ -52,13 +52,13 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 
 ### Un référentiel de bonnes pratiques
 
-- Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
+Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
 
 > _A.8.3.1 Gestion des supports amovibles : Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
 >
 > _A.14.2.7 Développement externalisé : L’organisation doit superviser et contrôler l’activité de développement externalisée._
 
-- Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
+Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
 
 | Niveau d'implémentation | Note de maturité | Point de vue processus |
 |---|:---:|---|
@@ -92,9 +92,9 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 
 Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela un cycle d'ateliers de co-construction :
 
-- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop_notes.md)
-- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris)
-- Atelier #3 : jeudi 2 avril 2020 à Paris
+- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
+- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshop-notes/2020.02.06_workshop-2_notes.md)
+- Atelier #3 : jeudi 2 avril 2020 par téléconférence
 - Atelier #4 : mardi 23 juin 2020
 - Atelier #5 : mardi 8 septembre 2020
 - Atelier #6 : mardi 10 novembre 2020
