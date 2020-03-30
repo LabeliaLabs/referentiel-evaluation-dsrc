@@ -3,31 +3,16 @@
 ## Navigation dans le repository
 
 `/`  
-[`├── README.md`](#contexte-motivations-et-ambition)
-- [Contexte, motivations et ambition](#contexte-motivations-et-ambition)
-- [Périmètre du référentiel](#périmètre-du-référentiel)
-- [Approche participative](#approche-participative)
-
-[`├── referentiel.md`](./referentiel.md)
-- [Risques](./referentiel.md#risques)
-- [Thèmes, canevas du référentiel](./referentiel.md#thèmes-canevas-du-référentiel)
-- [Bonnes pratiques et mesures de prévention des risques](./referentiel.md#bonnes-pratiques-et-mesures-de-prevention-des-risques)
-
-[`├── methode.md`](./methode.md)
-- [Approche](./methode.md#approche-et-méthode-de-consensus)
-- [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail)
-- [Travaux asynchrones](./methode.md#travaux-asynchrones)
-- [License](./methode.md#license)
-
-[`├── references.md`](./references.md)
-- [Liste de lectures](./references.md#liste-de-lecture)
-- [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)
+[`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel](#périmètre-du-référentiel) | [Approche participative](#approche-participative)  
+[**`├── referentiel.md`**](./referentiel.md) : [Risques](./referentiel.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel) | [**Référentiel**](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)  
+[`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
+[`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
 ## Contexte, motivations et ambition
 
 Un nouvel espace émerge au croisement entre expansion de l'IA dans les organisations et les systèmes automatiques, et inquiétudes du public sur les données privées, la transparence et la robustesse des algorithmes.
 
-Ce sont deux tendances puissantes qui commencent déjà à se percuter (voir par exemple [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474)). Comment les réconcilier, les conjuguer ensemble ? Des solutions techniques et organisationnelles nouvelles sont indispensables pour cela, pour accorder un cadre de confiance qui manque aujourd’hui, pour rendre possible des collaborations nouvelles, prometteuses et sûres entre les entreprises, les institutions publiques et les citoyens.
+Ce sont deux tendances puissantes qui commencent déjà à se percuter (voir par exemple [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) en novembre 2019 ou le formidable article du New York Times en février 2020, [An Algorithm that grants Freedom, or Takes it away](https://www.nytimes.com/2020/02/06/technology/predictive-algorithms-crime.html)). Comment les réconcilier, les conjuguer ensemble ? Des solutions techniques et organisationnelles nouvelles sont indispensables pour cela, pour accorder un cadre de confiance qui manque aujourd’hui, pour rendre possible des collaborations nouvelles, prometteuses et sûres entre les entreprises, les institutions publiques et les citoyens.
 
 De nombreux acteurs s'emparent du sujet et travaillent par exemple déjà à des cadres pour un usage à impact positif des technologies d'IA, à des outils pour apporter de la traçabilité aux travaux de data science, à des formations pour éviter la reproduction de biais discriminatoires, à des briques techniques pour permettre la mutualisation et renforcer la confidentialité des données, etc.
 
@@ -42,7 +27,7 @@ Pourquoi cette initiative, dans un univers qui voit déjà émerger un certain n
 1. être fait **pour être utilisé comme un outil concret d'évaluation** de la maturité de l'organisation.
 
 Nous imaginons un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine (sur le modèle de l'annexe A de la [norme ISO 27001](https://fr.wikipedia.org/wiki/ISO/CEI_27001) ou du label [B-Corp](https://bimpactassessment.net/) par exemple).  
-Nous pensons que la communauté data science responsable et de confiance en France (et en Europe et au-delà) pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
+Nous pensons que la communauté data science responsable et de confiance en France et en Europe pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
 
 ### Pourquoi _responsable_ et _de confiance_, et pourquoi pas _éthique_ ?
 
@@ -56,6 +41,8 @@ Les deux notions se recouvrent en partie. Il est cependant difficile de trouver 
 
 On considère ici la _data science_ comme une combinaison de techniques et d'outils. Dans ce contexte l'_éthique_ de la data science ou de l'intelligence artificielle ne nous semble pas être le meilleur angle pour aborder et étudier les questions et défis inhérents à la data science dans le but d'élaborer un référentiel opérationnel. L'angle éthique polarise la réflexion sur les usages de l'IA, et la fond dans celle de l'éthique de l'usage des technologies ou des capacités techniques de manière plus générale (voir par exemple [cet article de Tom Chatfield sur OneZero](https://onezero.medium.com/theres-no-such-thing-as-ethical-a-i-38891899261d)). Il s'agit cependant d'un excellent sujet de discussion et débat, la conversation est donc très ouverte en ce moment dans la communauté.
 
+Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance/issues/23) sur ce sujet pour prolonger la réflexion.
+
 ### Inspirations
 
 Voici quelques exemples connus de référentiels actionnables et servant d'outil d'évaluation de la maturité et/ou de la responsabilité d'une organisation dans d'autres domaines :
@@ -67,13 +54,13 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 
 ### Un référentiel de bonnes pratiques
 
-- Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
+Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
 
 > _A.8.3.1 Gestion des supports amovibles : Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
-
+>
 > _A.14.2.7 Développement externalisé : L’organisation doit superviser et contrôler l’activité de développement externalisée._
 
-- Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
+Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
 
 | Niveau d'implémentation | Note de maturité | Point de vue processus |
 |---|:---:|---|
@@ -91,9 +78,9 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 - Cible principale : **l'activité data science d'une organisation**
 - Hors-cible : un projet donné, un produit donné, un modèle prédictif donné
 - Pourquoi ?
-    - Les projets et produits peuvent prendre des formes extrêmement variées et il est donc très difficile d'être pertinent avec un référentiel générique
-    - L'effort pour s'évaluer selon un référentiel peut être trop élevé s'il doit être fait projet par projet
-    - Les mesures ou pratiques relatives aux collaborateurs (e.g. les formations) correspondent plus naturellement aux pratiques d'une organisation qu'à celle d'un projet donné
+  - Les projets et produits peuvent prendre des formes extrêmement variées et il est donc très difficile d'être pertinent avec un référentiel générique
+  - L'effort pour s'évaluer selon un référentiel peut être trop élevé s'il doit être fait projet par projet
+  - Les mesures ou pratiques relatives aux collaborateurs (e.g. les formations) correspondent plus naturellement aux pratiques d'une organisation qu'à celle d'un projet donné
 - Idées d'élargissements possibles : des mesures plus ciblées visant un projet en particulier pourraient être étudiées.
 
 ### Que désigne-t-on par _IA_ et _data science_ ?
@@ -107,9 +94,9 @@ Voici quelques exemples connus de référentiels actionnables et servant d'outil
 
 Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela un cycle d'ateliers de co-construction :
 
-- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop_notes.md)
-- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris)
-- Atelier #3 : jeudi 2 avril 2020 à Paris
+- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
+- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshop-notes/2020.02.06_workshop-2_notes.md)
+- Atelier #3 : jeudi 2 avril 2020 par téléconférence
 - Atelier #4 : mardi 23 juin 2020
 - Atelier #5 : mardi 8 septembre 2020
 - Atelier #6 : mardi 10 novembre 2020

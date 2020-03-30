@@ -4,27 +4,34 @@
 
 - Fairness :
 
-    - [Machine Learning in the wild](https://www.oreilly.com/radar/machine-learning-in-the-wild/) : en particulier sur le sujet _fairness_
+  - [Machine Learning in the wild](https://www.oreilly.com/radar/machine-learning-in-the-wild/) : en particulier sur le sujet _fairness_
 
-    - [Building Fair and Transparent Machine Learning via Operationalized Risk Management](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf) de Quantum Black : approche analyse de risque très détaillée, à suivre courant 2020 si publication de leur plateforme de risques
+  - [Building Fair and Transparent Machine Learning via Operationalized Risk Management](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf) de Quantum Black : approche analyse de risque très détaillée, à suivre courant 2020 si publication de leur plateforme de risques
 
-    - [Biased Algorithms are Easier to Fix than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
+  - [Biased Algorithms are Easier to Fix than Biased People](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
 
-    - Word Embedding and gender bias:
-        - [Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/pnas/115/16/E3635.full.pdf)
-        - [Christine Basta, Marta R. Costa-juss`a, Noe Casas. Evaluating the Underlying Gender Bias in Contextualized Word Embeddings, 2018](https://arxiv.org/pdf/1904.08783.pdf)
-        - [Invisible Women: Exposing Data Bias in a World Designed for Men, Caroline Criado Perez](https://www.theguardian.com/books/2019/feb/28/invisible-women-by-caroline-criado-perez-review)
+  - Word Embedding and gender bias:
+    - [Word embeddings quantify 100 years of gender and ethnic stereotypes](https://www.pnas.org/content/pnas/115/16/E3635.full.pdf)
+    - [Christine Basta, Marta R. Costa-juss`a, Noe Casas. Evaluating the Underlying Gender Bias in Contextualized Word Embeddings, 2018](https://arxiv.org/pdf/1904.08783.pdf)
+    - [Invisible Women: Exposing Data Bias in a World Designed for Men, Caroline Criado Perez](https://www.theguardian.com/books/2019/feb/28/invisible-women-by-caroline-criado-perez-review)
 
-- [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This
-is the problem of aligning an AI’s objective function with human preferences._"
+- AI safety:
+  
+  - [A Roadmap for Robust End-to-End Alignment](https://arxiv.org/pdf/1809.01036.pdf), Lê Nguyên Hoang, EPFL : "_AI alignment problem. This is the problem of aligning an AI’s objective function with human preferences._"
+
+  - [Concrete problems in AI safety](https://arxiv.org/abs/1606.06565). Abstract: _"[...] the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function ("avoiding side effects" and "avoiding reward hacking"), an objective function that is too expensive to evaluate frequently ("scalable supervision"), or undesirable behavior during the learning process ("safe exploration" and "distributional shift"). [...]"_
+
+- Trust in AI systems:
+
+  - [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/), blog Octo Technologies, octobre 2019
 
 - Protection of data confidentiality:
 
-    - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+  - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
 
 ## Travaux dans ce domaine
 
-L'_Institute for Ethical AI & Machine Learning_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
 ### Guidelines, liste de principes ou de thèmes-clés
 
@@ -32,43 +39,47 @@ L'_Institute for Ethical AI & Machine Learning_ maintient un panorama très comp
 - [EU Draft Ethics guidelines for trustworthy AI](https://ec.europa.eu/digital-single-market/en/news/draft-ethics-guidelines-trustworthy-ai) and [pilot assessment survey](https://ec.europa.eu/futurium/en/ethics-guidelines-trustworthy-ai/register-piloting-process-0)
 
     > 7 Key requirements:
-    > - Human agency and oversight
-    > - Technical robustness and safety
-    > - Privacy and data governance
-    > - Transparency
-    > - Diversity, non-discrimination and fairness
-    > - Societal and environmental well-being
-    > - Accountability
+    >
+    >   - Human agency and oversight
+    >   - Technical robustness and safety
+    >   - Privacy and data governance
+    >   - Transparency
+    >   - Diversity, non-discrimination and fairness
+    >   - Societal and environmental well-being
+    >   - Accountability
 
 - [OECD AI Principles](https://www.oecd.org/going-digital/ai/principles/) focused on 'Responsible stewardship of trustworthy AI'
 
     > The Recommendation identifies five complementary values-based principles for the responsible stewardship of trustworthy AI:
-    > - AI should benefit people and the planet by driving inclusive growth, sustainable development and well-being.
-    > - AI systems should be designed in a way that respects the rule of law, human rights, democratic values and diversity, and they should include appropriate safeguards – for example, enabling human intervention where necessary – to ensure a fair and just society.
-    > - There should be transparency and responsible disclosure around AI systems to ensure that people understand AI-based outcomes and can challenge them.
-    > - AI systems must function in a robust, secure and safe way throughout their life cycles and potential risks should be continually assessed and managed.
-    > - Organisations and individuals developing, deploying or operating AI systems should be held accountable for their proper functioning in line with the above principles.
+    >
+    >   - AI should benefit people and the planet by driving inclusive growth, sustainable development and well-being.
+    >   - AI systems should be designed in a way that respects the rule of law, human rights, democratic values and diversity, and they should include appropriate safeguards – for example, enabling human intervention where necessary – to ensure a fair and just society.
+    >   - There should be transparency and responsible disclosure around AI systems to ensure that people understand AI-based outcomes and can challenge them.
+    >   - AI systems must function in a robust, secure and safe way throughout their life cycles and potential risks should be continually assessed and managed.
+    >   - Organisations and individuals developing, deploying or operating AI systems should be held accountable for their proper functioning in line with the above principles.
 
--  The Institute for Ethical AI & Machine Learning: [Awesome AI guidelines](https://github.com/ethicalml/awesome-artificial-intelligence-guidelines) and [The Responsible ML Principles](https://ethical.institute/principles.html):
+- The Institute for Ethical AI & Machine Learning: [Awesome AI guidelines](https://github.com/ethicalml/awesome-artificial-intelligence-guidelines) and [The Responsible ML Principles](https://ethical.institute/principles.html):
 
     > The Responsible Machine Learning Principles:
-    > 1. **Human augmentation**: I commit to assess the impact of incorrect predictions and, when reasonable, design systems with human-in-the-loop review processes
-    > 1. **Bias evaluation**: I commit to continuously develop processes that allow me to understand, document and monitor bias in development and production.
-    > 1. **Explainability by justification**: I commit to develop tools and processes to continuously improve transparency and explainability of machine learning systems where reasonable.
-    > 1. **Reproducible operations**: I commit to develop the infrastructure required to enable for a reasonable level of reproducibility across the operations of ML systems.
-    > 1. **Displacement strategy**: I commit to identify and document relevant information so that business change processes can be developed to mitigate the impact towards workers being automated.
-    > 1. **Practical accuracy**: I commit to develop processes to ensure my accuracy and cost metric functions are aligned to the domain-specific applications.
-    > 1. **Trust by privacy**: I commit to build and communicate processes that protect and handle data with stakeholders that may interact with the system directly and/or indirectly.
-    > 1. **Data risk awareness**: I commit to develop and improve reasonable processes and infrastructure to ensure data and model security are being taken into consideration during the development of machine learning systems.
+    >
+    >   1. **Human augmentation**: I commit to assess the impact of incorrect predictions and, when reasonable, design systems with human-in-the-loop review processes
+    >   1. **Bias evaluation**: I commit to continuously develop processes that allow me to understand, document and monitor bias in development and production.
+    >   1. **Explainability by justification**: I commit to develop tools and processes to continuously improve transparency and explainability of machine learning systems where reasonable.
+    >   1. **Reproducible operations**: I commit to develop the infrastructure required to enable for a reasonable level of reproducibility across the operations of ML systems.
+    >   1. **Displacement strategy**: I commit to identify and document relevant information so that business change processes can be developed to mitigate the impact towards workers being automated.
+    >   1. **Practical accuracy**: I commit to develop processes to ensure my accuracy and cost metric functions are aligned to the domain-specific applications.
+    >   1. **Trust by privacy**: I commit to build and communicate processes that protect and handle data with stakeholders that may interact with the system directly and/or indirectly.
+    >   1. **Data risk awareness**: I commit to develop and improve reasonable processes and infrastructure to ensure data and model security are being taken into consideration during the development of machine learning systems.
 
 - [PWC IA responsable](https://www.pwc.fr/fr/vos-enjeux/data-intelligence/intelligence-artificielle/intelligence-artificielle-responsable.html):
 
     > 6 thèmes :
-    > - Renforcer la sécurité de l'IA avec validation, surveillance et vérification
-    > - Créer des modèles d'IA transparents, extensibles et prouvables
-    > - Créer des systèmes éthiques, compréhensibles, légaux
-    > - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
-    > - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
+    >
+    >   - Renforcer la sécurité de l'IA avec validation, surveillance et vérification
+    >   - Créer des modèles d'IA transparents, extensibles et prouvables
+    >   - Créer des systèmes éthiques, compréhensibles, légaux
+    >   - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
+    >   - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
 
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
 - [Google recommended practices for AI: Fairness, Interpretability, Privacy, Security](https://ai.google/education/responsible-ai-practices)
@@ -88,8 +99,8 @@ L'_Institute for Ethical AI & Machine Learning_ maintient un panorama très comp
 - [Building Fair and Transparent Machine Learning via Operationalized Risk
 Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf)
 - Algorithmes publics :
-    - [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
-    - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
+  - [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
+  - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 - [ISO](https://blog.iec.ch/2019/11/international-standards-committee-on-ai-ecosystem-achieves-milestone-and-launches-new-areas-of-study/) est en train de définir des normes dans le secteur de l'Intelligence Artificielle. Ces travaux devront être suivis.  
 
 ### En cours d'étude
@@ -99,43 +110,43 @@ Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.gi
 Ethics and Algorithms toolkit est une boite à outils développée par la municipalité de San Francisco et différents organismes publics et privés.
 Cette boite à outils est en deux partie :
 
-- Une partie d'évaluation des risques :
+- Une partie d'évaluation des risques ;
+- Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie.
 
-    > - Une liste de mesures pour atténuer les risques en fonction des réponses données lors de la première partie. Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général.
-    >
-    > - Un Comité de Révision Institutionnelle a été mis en place, en charge :
-    >
-    >   - d'examiner et approuver les projets de recherches;
-    >   - valider la mise en oeuvre d'un algorithmes.
-    >
-    > - Lorsque le projet a un impact social et public, un conseil consultatif est mis en place, comprenant les parties prenantes du projet ainsi que des représentants du grand public.
-    >
-    > - Lorsque le projet a un impact social et public, un dialogue est entretenu avec le grand public à travers différents canaux :
-    >
-    >   - Organisation d'enquête auprès du public ;
-    >   - Mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public ;
-    >   - Organisation de meeting / conférence pour présenter les données et usages utilisés ;
-    >   - Ouverture des données utilisées en ligne ;
-    >   - Ouverture d'un repo Github.
-    >
-    > - Lorsqu'un projet est controversé avant même son démarrage, un moratoire doit être mis en place afin d'indentifier de nouvelles sources de données.
-    >
-    > - Des outils de tests automatiques des algorithmes (exemple : matrice de confusion) doivent être mis en place pour évaluer la performance d'un algorithme tout au long de son existance.
-    >
-    > - Un mécanisme d'arbitrage humain doit être mis en place s'il permet d'améliorer la performance d'un algorithme.
-    >
-    > - Le transfert du suivi de la performance d'un algorithme à un organisme tier permet de retirer un degré de subjectivité.
-    >
-    > - Lorsqu'il y a absence de certaines données, ou qu'un échantillon de données est trop petit, des mécanismes de poids sont mis en place pour avoir une meilleure représentation de la population bénéficiaire de l'algorithme.
-    >
-    > - Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
-    >
-    > - Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
+Si cette liste de mesures est surtout réalisée dans le cadre de projets "publics" de mise en place d'algorithmes, certaines mesures peuvent être retenues dans un contexte plus général, par exemple :
+
+>
+> - Un Comité de Révision Institutionnelle a été mis en place, en charge :
+>   - d'examiner et approuver les projets de recherches;
+>   - valider la mise en oeuvre d'un algorithmes.
+>
+> - Lorsque le projet a un impact social et public, un conseil consultatif est mis en place, comprenant les parties prenantes du projet ainsi que des représentants du grand public.
+>
+> - Lorsque le projet a un impact social et public, un dialogue est entretenu avec le grand public à travers différents canaux :
+>   - Organisation d'enquête auprès du public ;
+>   - Mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public ;
+>   - Organisation de meeting / conférence pour présenter les données et usages utilisés ;
+>   - Ouverture des données utilisées en ligne ;
+>   - Ouverture d'un repo Github.
+>
+> - Lorsqu'un projet est controversé avant même son démarrage, un moratoire doit être mis en place afin d'indentifier de nouvelles sources de données.
+>
+> - Des outils de tests automatiques des algorithmes (exemple : matrice de confusion) doivent être mis en place pour évaluer la performance d'un algorithme tout au long de son existance.
+>
+> - Un mécanisme d'arbitrage humain doit être mis en place s'il permet d'améliorer la performance d'un algorithme.
+>
+> - Le transfert du suivi de la performance d'un algorithme à un organisme tier permet de retirer un degré de subjectivité.
+>
+> - Lorsqu'il y a absence de certaines données, ou qu'un échantillon de données est trop petit, des mécanismes de poids sont mis en place pour avoir une meilleure représentation de la population bénéficiaire de l'algorithme.
+>
+> - Des professionnels de la Data Science et du monde académique peuvent être engagés pour auditer un algorithme.
+>
+> - Les différentes parties prenantes d'un projet d'algorithme sont capables d'expliquer chaque risque identifié lié au projet de cet algorithme.  
 
 #### Extrait du [AI Now Report 2019](https://ainowinstitute.org/AI_Now_2019_Report.pdf) - Mesures à évaluer
 
 Le AI Now Report 2019 est rapport réalisé par le AI Now Institut, centre de recherche interdisciplinaires en charge d'évaluer les impacts sociaux de l'Intelligence Artificielle.
-Les recommandations présentées sont plutôt d'ordre gouvernementales et en lien avec la réglementation. Certaines idées méritent cependant d'être discutées.   
+Les recommandations présentées sont plutôt d'ordre gouvernementales et en lien avec la réglementation. Certaines idées méritent cependant d'être discutées.
 
 > - Les politiques de diversité mises en place au sein de l'organisation prennent en compte les spécificités de l'Intelligence Artificielle et les risques sur les algorithmes mis en place.
 >
@@ -145,9 +156,9 @@ Les recommandations présentées sont plutôt d'ordre gouvernementales et en lie
 >
 > - Les collaborateurs partie prenantes de la mise en place d'un algorithme doivent être au courant de la finalité de cette algorithme et décider de contester sa mise en place.
 >
-> - Le climat, la santé et les déplacements - *déportations* - géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
+> - Le climat, la santé et les déplacements géographiques doivent être pris en compte dans l'évaluation d'un algorithme.
 >
-> - Les chercheurs en algorithme doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
+> - Les chercheurs en algorithmie doivent être responsables des risques et menaces de leurs algorithmes et doivent mieux documenter les origines de leurs modèles et données utilisées.
 
 ## Notes et observations
 
