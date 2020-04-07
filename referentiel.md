@@ -112,3 +112,170 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | EXT-1 | **Les externalités environnementales** liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées et suivies. | Il est important de s'interroger et de conscientiser les coûts environnementaux. Référence(s) intéressante(s) : [ML Impact Calculator](https://mlco2.github.io/impact/). |
 | EXT-2 | **Les externalités sociétales** (exemple : impact sur les emplois, etc.) liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées et suivies. | Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela vaut tant pour l'aval (e.g. automatisation de certains emplois) que pour l'amont (e.g. tâches d'annotations de données parfois d'une très grande violance). |
 | EXT-3 | **Formation à l'éthique :** les parties prenantes de l'organisation en lien direct avec la conception, l'élaboration et l'exploitation de modèles prédictifs, reçoivent une formation à l'éthique. | Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel. |
+
+### Réflexions sur la clarification des rédactions des mesures
+
+#### T1 : DON | Protéger les DONnées personnelles ou confidentielles
+
+Contexte : Utilisation de données personnelles ou hautement confidentielles dans les projets de data science
+
+Dans l'ordre logique :
+
+DON-2 :
+
+- Gradation :
+  - Le réflexe "qui peut le plus peut le moins" existe ici et là au sein de notre organisation
+  - Le principe de minimisation est connu, parfois appliqué
+  - Le principe de minimisation est assimilé et poussé à son maximum sur chaque projet
+  - On fait en sorte de ne pas utiliseer de données personnelles ou confidentielles --> Pas concerné
+
+Si concerné :
+
+DON-3 :
+
+- Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur sont connues et documentées, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences
+- Veille réglementaire
+- Formation des collaborateurs ?
+
+DON-1 :
+
+- Contractualisé avec fournisseurs ?
+- PIA pour les traitements concernés ?
+- Mesures de protections (transfert, stockage, accès) ?
+- Documentation pour chaque projet ?
+
+DON-4 : Vulnérabilités ML
+
+- Niveau de connaissance : nul / basique / intermédiaire / avancé / expert
+- Veille, formation continue
+- Mise en oeuvre de techniques de réduction des risques de rétro-engineering et autre
+
+DON-5 : PETs
+
+- Niveau de connaissance : nul / basique / intermédiaire / avancé / expert
+- Veille, formation continue
+- Mise en oeuvre de techniques ?
+- Documentation des choix dans la généalogie
+
+DON-6 : Dans le cas de figure où un modèle que l'organisation a élaboré est accessible par une ou plusieurs partie(s) prenante(s) externes, et qu'une vulnérabilité nouvelle est publiée qui pourrait s'y appliquer :
+
+- Procédure ?
+- Quelle communication aux parties prenantes en question ?
+- Connaissance des autorités vers qui se tourner ?
+
+#### T2 : BIA | Prévenir les BIAis malencontreux
+
+BIA-1 :
+
+- Contexte : datasets de train
+- Réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement. Checklist ? Documentation ?
+
+BIA-2, BIA-3, BIA-5 :
+
+- Contexte : cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, orientation politique ou sexuelle, etc.) --> concerné / non concerné
+- Attention particulière portée aux variables protégées et à leurs proxys éventuels
+- Evaluation sur des données de test comprenant différentes sous-populations
+- Mesures de fairness : connues, prises en considération, choix documentés dans la G2B
+- Données synthétiques pour _data augmentation_ ou _re-weighting_ : doivent être documentés et intégrés à la G2B
+
+#### À cheval entre T2 et T3 : robustesse
+
+BIA-4 :
+
+- Contexte : projets de data science où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
+- La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle. Les choix desquelles utiliser sont documentés et intégrés à la G2B
+
+#### T3 : PERF | Evaluer la PERFormance de manière rigoureuse
+
+PERF-1 :
+
+- Isolation des testsets
+- Testsets multiples pour résilience
+- Si distributed learning privacy-preserving :
+  - Elaboration du testset de manière à ce qu'il ne puisse pas y avoir de contamination croisée
+
+PERF-2 :
+
+- Réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement. Checklist ? Documentation ?
+
+PERF-3 :
+
+- Choix d'une métrique de performance : en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
+- Documenté dans la G2B
+
+PERF-4 :
+
+- Contexte : modèles utilisés en inférence dans un système en production
+- Si le modèle est mis à jour régulièrement (voire en continue), si son contexte d'utilisation évolue : la performance est systématiquement ré-évaluée
+- Les données d'entrées pouvant évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI), la performance est ré-évaluée régulièrement sur des données de test actualisée
+- Contrôles aléatoires humains sur des prédictions
+
+PERF-5 :
+
+- Contexte : les frontières de décisions des classificateurs
+- Réflexion sur les frontières de décision les plus appropriées
+- Possibilité de maintenir des plages d'indécision, à inclure dans les confusion matrixes
+- Documentation dans la G2B
+
+GEN-4 et GEN-5 : **Interprétabilité**
+
+- Outiller l'interprétabilité des modèles élaborés par l'organisation
+
+#### T4 : GEN | Etablir et maintenir une GENéalogie des modèles
+
+GEN-1 : **Une "généalogie de bout-en-bout" des modèles**
+
+- Une G2B est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation.
+- Gradation :
+  - Ces informations existent et sont enregistrées afin de ne pas être perdues
+  - Elles sont versionnées
+  - Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
+
+GEN-2 : **Conditions et limites d'utilisation d'un modèle**
+
+- Les "conditions et limites de validité" (ou le "contexte d'utilisation recommandée") d'un modèle conçu, entraîné et validé par l'organisation sont explicités et documentés.
+
+#### T5 : RESP | Garantir la chaîne de RESPonsabilité des modèles
+
+RESP-1 :
+
+- Contexte : plusieurs acteurs parties prenantes tout au long de la chaîne de valeur et de responsabilités
+- Identification des risques et responsabilités de chacun
+- Contractualisation avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
+
+RESP-6 : **Sous-traitance :** Les activités sous-traitées auprès d'une organisation tiers sont soumises aux mêmes exigences.
+
+#### T. : ... | Utilisation de modèles prédictifs appris
+
+GEN-3 : **Usage des modèles dans les conditions pour lesquelles ils ont été élaborés**
+
+- Contexte : usage par l'organisation elle-même de modèles prédictifs
+- Etude de la G2B pour comprendre le modèle
+- Etude des conditions et limites d'utilisation, pour usage en adéquation
+
+RESP-2, RESP-3, RESP-4 :
+
+- Contexte : usage par l'organisation elle-même de modèles prédictifs
+- **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation. Il est maintenu à jour
+- Pour chaque modèle l'organisation dispose d'un responsable point de contact défini, identifiable et contactable simplement
+- Pour chaque modèle, évaluation des risques afférents en cas de défaillance, biais, incidents
+
+RESP-5 :
+
+- **Des processus de contournement** sont mis en place permettant à un être humain opérateur, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+
+#### T6 : EXT | Anticiper, suivre et minimiser les EXTernalités de l'activité data science
+
+EXT-1 : Impact CO2
+
+- Mesure de l'impact de l'activité data science de l'organisation, y a-t-il des indicateurs, est-ce suivi, y a-t-il des objectifs ?
+- Elaboration de modèles : mesure du coût CO2 de l'entraînement et de l'utilisation en inférence ? Inclusion de cette information dans la "carte d'identité" du modèle ?
+
+EXT-2 : Impact social
+
+- Réflexion systématique, dialogue avec les parties prenantes concernées amont et aval ?
+
+EXT-3 : Ethique, non-malfaisance
+
+- Formations des collaborateurs ?
+- L'organisation dispose-t-elle d'une politique en matière d'éthique ?
