@@ -113,184 +113,401 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | EXT-2 | **Les externalités sociétales** (exemple : impact sur les emplois, etc.) liées à l'usage d'un modèle prédictif ou d'un système automatique basé dessus doivent être évaluées et suivies. | Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela vaut tant pour l'aval (e.g. automatisation de certains emplois) que pour l'amont (e.g. tâches d'annotations de données parfois d'une très grande violence). |
 | EXT-3 | **Formation à l'éthique :** les parties prenantes de l'organisation en lien direct avec la conception, l'élaboration et l'exploitation de modèles prédictifs, reçoivent une formation à l'éthique. | Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel. |
 
+---
+---
+
 ### Réflexions sur la clarification et la restructuration des mesures
 
-On essaie ci-dessous de restructurer le référentiel, de manière à proposer un déroulé plus naturel, plus clair. L'enjeu est de faciliter l'exercice aux organisations souhaitant auto-évaluer le niveau de maturité de leur activité data science.
+On essaie ci-dessous de restructurer le référentiel, de manière à proposer un déroulé plus naturel, plus clair. L'enjeu est de faciliter l'exercice aux organisations souhaitant auto-évaluer le niveau de maturité de leur activité data science, par un meilleur guidage tout au long de l'évaluation.
 
-#### Section 1 - Protéger les DONnées personnelles ou confidentielles
+---
 
-L'utilisation de données personnelles ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. Elles doivent donc être protégées, les risques qu'elles fuitent ou soient exposées doivent être minimisés.
+#### Section 1 - Protéger les données personnelles ou confidentielles
 
-DON-3 :
+L'utilisation de données personnelles ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
 
-- En ce qui concerne les données personnelles et/ou confidentielles, toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur : connues < maîtrisées < documentées
-- L’approche adoptée par l’organisation pour satisfaire à ces exigences est explicitement définie, documentée pour chaque traitement de données personnelles ou confidentielles
-- Un processus de veille réglementaire doit être mis en place pour connaître les évolutions applicables et impactantes
-- Les collaborateurs sont formés aux dispositions réglementaires et aux approches adoptées par l'organisation sur le sujet des traitements de données personnelles
-- La conformité de l'organisation aux exigences en vigueur a été auditée et est reconnue
+---
 
-DON-2 :
+Q1.1 :  
+En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant notre organisation sont :
 
-- Dans le cadre des projets de data science, le principe de minimisation guide la collecte et l'utilisation de données personnelles ou confidentielles.
-- Gradation :
-  - On fait en sorte de n'utiliser aucune données personnelles ou confidentielles --> Pas concerné par cet univers de risques
-  - On a besoin d'en utiliser dans certains projets. Le principe de minimisation est assimilé et poussé à son maximum sur chaque projet
-  - Le principe de minimisation est connu et parfois appliqué
-  - Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
+R1.1 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] partiellement identifiées ou en cours d'identification
+- [ ] identifiées
+- [ ] identifiées et maîtrisées par les collaborateurs
+- [ ] identifiées, documentées et maîtrisées par les collaborateurs
+
+---
+
+Q1.2 :  
+Pour satisfaire à ces exigences, l’approche adoptée par l’organisation est :
+
+R1.2 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] informelle, basée sur la responsabilité et la compétence de chacun
+- [ ] formalisée et accessible à tous les collaborateurs
+- [ ] formalisée et maîtrisée par les collaborateurs
+- [ ] formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
+
+---
+
+Q1.3 :  
+Un processus de veille réglementaire est-il mis en place pour connaître les évolutions applicables et impactantes ?
+
+R1.3 : Oui ou Non
+
+---
+
+Q1.4 :  
+La conformité de l'organisation aux exigences en vigueur a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
+
+R1.4 : Oui ou Non
+
+---
+
+Q1.5 :  
+Dans le cadre des projets de data science, le principe de minimisation doit guider la collecte et l'utilisation de données personnelles ou confidentielles. Comment est-il mis en oeuvre au sein de votre organisation ?
+
+R1.5 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
+- [ ] Nous avons besoin d'en utiliser dans certains projets. Le principe de minimisation est assimilé et poussé à son maximum sur chaque projet
+- [ ] Le principe de minimisation est connu des collaborateurs et appliqué en général
+- [ ] Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
   
---> Si concerné :
+---
 
-DON-1 :
+_Les éléments suivants au sein de cette section ne s'appliquent qu'aux organisations n'ayant pas sélectionné la première réponse de R1.5. Les organisations non concernées sont donc invitées à passer à la [Section 2](#section-2-prévenir-les-biais-malencontreux)._
 
-- PIA pour les traitements concernés ?
-- Mesures de protections (transfert, stockage, accès) ?
-- Documentation pour chaque projet ?
-- Contractualisé avec fournisseurs ?
+---
 
-DON-4, DON-5 : Vulnérabilités ML et PETs
+Q1.6 :  
+Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science :
 
-- Niveau de connaissance : nul / basique / intermédiaire / avancé / expert
-- Veille, formation continue
-- Mise en oeuvre de techniques ?
-- Documentation des choix dans la Généalogie de Bout-en-Bout (G2B)
+R1.6 :
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-DON-6 : Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une(des) partie(s) prenante(s) externe(s), et qu'une vulnérabilité nouvelle est publiée et crée un risque d'exposition de données personnelles ou confidentielles :
+- [ ] un PIA est élaboré
+- [ ] des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées) sont mises en oeuvre
+- [ ] les PIA et mesures mises en oeuvre sont documentées et conservées au sein des projets
+- [ ] les relations avec les fournisseurs et les clients et les responsabilités qui en découlent sont contractualises
 
-- Procédure ?
-- Quelle communication aux parties prenantes en question ?
-- Connaissance des autorités vers qui se tourner ?
+---
 
-#### Section 2 - Prévenir les BIAis malencontreux
+Q1.7 :  
+La sécurité de l'apprentissage automatique (_ML security_) est un domaine en plein développement. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles. Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux _Privacy Enhancing Technologies (PETs)_, le niveau de connaissance générale des collaborateurs intervant sur les projets de data science est :
 
-L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productif lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
-Dans de nombreux cas, une spécification de l'équité recherchée entre populations doit également être définie. En effet, l'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
+R1.7 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-BIA-1 :
+- [ ] Débutant
+- [ ] Intermédiaire
+- [ ] Confirmé
+- [ ] Expert
 
-- Contexte : datasets de train
-- Réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement. Checklist ? Documentation ?
+---
 
-BIA-2, BIA-3, BIA-5 :
+Q1.8 :  
+Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _(PETs)_ :
 
-- Contexte : cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) --> concerné / non concerné
-- Si concerné :
-  - Attention particulière portée aux variables protégées et à leurs proxys éventuels
-  - Evaluation sur des données de test comprenant différentes sous-populations
-  - Mesures de fairness : connues, prises en considération, choix documentés dans la G2B
-  - Données synthétiques pour _data augmentation_ ou _re-weighting_ : doivent être documentés et intégrés à la G2B
+R1.8 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-#### Section 3 - Evaluer la PERFormance de manière rigoureuse
+- [ ] Une veille technique est mise en oeuvre
+- [ ] Les collaborateurs reçoivent régulièrement des informations / formations qui leur permettent de monter en compétences
+- [ ] Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
+- [ ] Sur chaque projet, les vulnérabilités qui s'y appliquent et les _PETs_ mises en oeuvre sont documentées dans la Généalogie de Bout-en-Bout (G2B) de chaque modèle
 
-Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur **l'interprétation et l'explication** des choix réalisés à l'aide de ces systèmes.
+---
 
-PERF-1 :
+Q1.9 :  
+Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une(des) partie(s) prenante(s) externe(s), et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
-- Isolation des testsets
-- Testsets multiples pour résilience
-- Si distributed learning privacy-preserving :
-  - Méthode d'élaboration des testsets de manière à ce qu'il n'y ait pas de contamination croisée
+R1.9 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-PERF-2 :
+- [ ] Nous avons une procédure décrivant la marche à suivre
+- [ ] Notre procédure inclut une communication aux parties prenantes en question
+- [ ] Notre procédure référence les autorités auxquelles nous devons faire un signalement
 
-- Réflexion et recherche dans les données de test de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement. Checklist ? Documentation ?
+---
+---
 
-PERF-3 :
+#### Section 2 - Prévenir les biais malencontreux
 
-- Choix d'une métrique de performance : en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
-- Documenté dans la G2B
+L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+Dans certains cas, une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
-BIA-4 :
+---
 
-- Contexte : projets de data science où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle. Les choix desquelles utiliser sont documentés et intégrés à la G2B
+Q2.1 :  
+Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour prévenir des biais malencontreux. Votre organisation :
 
-PERF-4 :
+R2.1 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- Contexte : modèles utilisés en inférence dans un système en production
-- Si le modèle est mis à jour régulièrement (voire en continue), si son contexte d'utilisation évolue : la performance est systématiquement ré-évaluée
-- Les données d'entrées pouvant évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI), la performance est ré-évaluée régulièrement sur des données de test actualisée
-- Contrôles aléatoires humains sur des prédictions
+- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 
-PERF-5 :
+---
 
-- Contexte : les frontières de décisions des classificateurs
-- Réflexion sur les frontières de décision les plus appropriées
-- Possibilité de maintenir des plages d'indécision, à inclure dans les confusion matrixes
-- Documentation dans la G2B
+Q2.2 :
+Votre organisation est-elle concernée par des cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) ?
 
-GEN-4 et GEN-5 : **Interprétabilité**
+R2.2 : Concerné ou Non concerné
 
-- Outiller l'interprétabilité des modèles élaborés par l'organisation
+---
 
-#### Section 4 - Etablir et maintenir une GENéalogie des modèles
+_Les éléments suivants au sein de cette section ne s'appliquent qu'aux organisations ayant sélectionné la réponse "Concerné" de R2.2. Les organisations non concernées sont donc invitées à passer à la [Section 3](#section-3-evaluer-la-performance-de-manière-rigoureuse)._
+
+---
+
+Q2.3 :  
+Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
+
+R2.3 :
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels
+- [ ] Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
+- [ ] Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
+- [ ] Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
+- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+
+---
+---
+
+#### Section 3 - Evaluer la performance de manière rigoureuse
+
+Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+
+---
+
+Q3.1 :  
+Au sein des projets de data science et lors de l'élaboration de jeux de données de test, il est capital d'assurer la non-contamination par des données d'entraînement. Votre organisation :
+
+R3.1 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
+- [ ] utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
+
+---
+
+Q3.2a:
+Votre organisation participe-t-elle à des projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres ?
+
+R3.2a: Oui ou Non
+
+_Dans le cas où la réponse à R3.2a est Oui :_
+
+Q3.2b:  
+Dans ces cas de figure de _privacy-preserving distributed learning_, votre organisation dispose-t-elle d'approches permettant d'élaborer des jeux de données de test manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires ?
+
+R3.2b: Oui ou Non
+
+---
+
+Q3.3 :  
+Au sein des projets de data science et lors de l'élaboration de jeux de données de test, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
+
+R3.3 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
+
+---
+
+Q3.4 :  
+Votre organisation met-elle en oeuvre les approches suivantes :
+
+R3.4 :
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Choix d'une métrique de performance en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
+- [ ] La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
+- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+
+---
+
+Q3.5 :  
+Dans les cas de figure où des modèles prédictifs élaborés par votre organisation sont utilisés dans des systèmes en production :
+
+R3.5 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Les modèles que nous élaborons ne sont pas utilisés actuellement | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
+- [ ] La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation évolue
+- [ ] La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
+- [ ] Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
+
+---
+
+Q3.6 : **Seuils de classification et plages d'indécision**  
+Lors de l'élaboration d'un modèle de classification, pour la définition des seuils de classification, votre organisation :
+
+R3.6 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
+- [ ] les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+
+---
+
+Q3.7 : **Explicabilité et interprétabilité**  
+Au sein des projets de data science qui visent à élaborer des modèles prédictifs en vue d'être utilisés en inférence :
+
+R3.7 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
+- [ ] Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes, mais nous ne mettons pas en oeuvre d'approche de ce type à ce stade
+- [ ] Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance dans les prédictions réalisées
+- [ ] Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
+
+---
+---
+
+#### Section 4 - Etablir et maintenir une généalogie des modèles
 
 Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle.
 
-GEN-1 : **Une "généalogie de bout-en-bout" des modèles**
+---
 
-- Une G2B est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation.
-- Gradation :
-  - Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée
-  - Elles sont versionnées
-  - Elles sont versionnées et rassemblées en un unique document qui accompagne systématiquement le modèle
+Q4.1 : **Une "généalogie de bout-en-bout" des modèles**  
+Une généalogie de bout-en-bout (G2B) des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation :
 
-GEN-2 : **Conditions et limites d'utilisation d'un modèle**
+R4.1 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- Les "conditions et limites de validité" (ou le "contexte d'utilisation recommandée") d'un modèle conçu, entraîné et validé par l'organisation sont explicités et documentés.
-- Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles
+- [ ] Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
+- [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
+- [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
 
-#### Section 5 - Garantir la chaîne de RESPonsabilité des modèles
+---
 
-Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
+Q4.2 : **Conditions et limites d'utilisation d'un modèle**  
+Les "conditions et limites de validité" (ou le "contexte d'utilisation recommandée") d'un modèle conçu, entraîné et validé par l'organisation :
 
-RESP-1 :
+R4.2 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- Contexte : plusieurs acteurs parties prenantes tout au long de la chaîne de valeur et de responsabilités
-- Identification des risques et responsabilités de chacun
-- Contractualisation avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
+- [ ] sont explicitées et documentées
+- [ ] sont versionnées
+- [ ] les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
-RESP-6 : **Sous-traitance :** Les activités sous-traitées auprès d'une organisation tiers sont soumises aux mêmes exigences.
+---
+---
+
+#### Section 5 - Garantir la chaîne de responsabilité des modèles
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
+
+---
+
+Q5.1 :  
+Dans le cas de figure des projets de data science où plusieurs acteurs sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
+
+R5.1 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Notre organisation réalise en interne toutes les activités de data science, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, elle est seule responsable  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes avec lesquelles nous collaborons
+- [ ] Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
+
+---
+
+Q5.2 : **Sous-traitance**  
+Les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
+
+R5.2 : Oui ou Non
+
+---
 
 #### Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
 
-RESP-2, RESP-3, RESP-4, GEN-3 :
+---
 
-- Contexte : **Usage des modèles dans les conditions pour lesquelles ils ont été élaborés**
-- **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation. Il est maintenu à jour
-- Pour chaque modèle l'organisation dispose d'un **responsable point de contact** défini, identifiable et contactable simplement
-- Pour chaque modèle, **évaluation des risques** afférents en cas de défaillance, biais, incidents
-- Pour chaque modèle, étude de la G2B et des conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser. **Usage en adéquation avec les conditions et limites d'utilisation** du modèle
+Q6.1 : **Usage des modèles dans les conditions pour lesquelles ils ont été élaborés**  
+Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
-RESP-5 : **Gestion des prédictions problématiques** / _Processus de contournement_ / _Human agency_
+R6.1 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%. Il est capital d'intégrer dans les systèmes automatiques les fonctionnalités permettant de gérer ces cas. Cela peut être fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable. Cela peut aussi être fait en partie _ex ante_, par exemple en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant.
-- Il est également intéressant de mettre en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+- [ ] Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
+- [ ] Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] Pour chaque modèle, nous étudions sa G2B et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
-#### Section 7 - Anticiper, suivre et minimiser les EXTernalités de l'activité data science
+---
+
+Q6.2 : **Gestion des prédictions problématiques** / _Processus de contournement_ / _Human agency_  
+Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
+
+R6.2 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
+- [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
+- [ ] Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+
+---
+
+#### Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science
 
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs.
 
-EXT-1 : Impact CO2
+---
 
-- Mesure de l'impact de l'activité data science de l'organisation. Gradation :
-  - y a-t-il des indicateurs permettant de savoir quoi mesurer ?
-  - sont-ils suivis ?
-  - y a-t-il des objectifs d'amélioration établis ?
-- Elaboration de modèles : mesure du coût CO2 de l'entraînement et de l'utilisation en inférence ? Inclusion de cette information dans la "carte d'identité" du modèle ?
+Q7.1 : **Impact CO2**  
+Au sujet de l'impact CO2 de son activité data science, au sein de votre organisation :
 
-EXT-2 : Impact social
+R7.1 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- Parties prenantes amont (par exemple annotation de données)
-- Parties prenantes aval (par exemple automatisation de certains postes)
-- Lors de chaque projet d'élaboration ou d'utilisation d'un modèle prédictif : (gradation)
-  - Dans certains cas on s'interroge sur l'impact social
-  - Ce travail de réflexion sur l'impact social est systématique à chaque projet
-  - Il est documenté dans la G2B
-- Réflexion systématique, dialogue avec les parties prenantes concernées amont et aval ?
+- [ ] À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
+- [ ] Nous avons défini des indicateurs pour savoir quoi mesurer précisément
+- [ ] Nous avons défini des indicateurs et nous incluons leurs mesures dans les G2B des modèles 
+- [ ] Nous avons défini des indicateurs et nous les suivons régulièrement
+- [ ] Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
 
-EXT-3 : Ethique, non-malfaisance
+---
 
-- Formations des collaborateurs ?
-- L'organisation dispose-t-elle d'une politique en matière d'éthique ?
+Q7.2 : **Impact social**  
+Dans certains cas, la mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle prédictif, votre organisation :
+
+R7.2 :  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] Dans certains cas nous nous interrogeons sur l'impact social
+- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet
+- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
+- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la G2B de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
+
+---
+
+Q7.3 : **Ethique et non-malfaisance**  
+Au sein de votre organisation :
+
+R7.3 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
+- [ ] Notre organisation s'est dotée d'une politique en matière d'éthique
+
+---
