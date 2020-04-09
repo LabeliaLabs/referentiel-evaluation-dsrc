@@ -528,12 +528,31 @@ Il est important de s'assurer que les organisations en amont et en aval de la ch
 
 ---
 
-Q5.2 : **Sous-traitance**  
-Les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
+Q5.2 : **Répartition de la création de valeur**  
+Dans les cas de figure des projets de data science où plusieurs partenaires concourent aux côtés de votre organisation à l'élaboration d'un modèle, et que celui-ci est ou sera l'objet d'une activité économique :
 
-R5.2 : Oui ou Non
+R5.2 :  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
+- [ ] Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
 
 Expl5.2 :  
+Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il est important que la répartition de valeur consécutives à une activité économique dans laquelle le modèle joue un rôle soit explicitée et contractualisée. Dans certains cas de figure cette question peut être complexe, par exemple lorsqu'un modèle est entraîné de manière distribuée sur plusieurs jeux de données.
+Référence intéressante :
+
+- [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity)
+
+---
+
+Q5.3 : **Sous-traitance**  
+Les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
+
+R5.3 : Oui ou Non
+
+Expl5.3 :  
 Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées.
 
 ---
