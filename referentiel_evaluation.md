@@ -1,6 +1,6 @@
-# Data science responsable et de confiance - Référentiel (WIP)
+# Data science responsable et de confiance - Référentiel d'évaluation
 
-Le [référentiel](#3-référentiel-de-la-data-science-responsable-et-de-confiance) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#1-risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#2-thèmes-et-canevas-du-référentiel) complémentaires (section 2 ci-dessous).
+Le [référentiel d'évaluation](#restructuration-en-un-référentiel-d-évaluation-de-la-maturité-d-une-organisation) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#1-risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#2-thèmes-et-canevas-du-référentiel) complémentaires (section 2 ci-dessous).
 
 ## 1. Risques
 
@@ -53,9 +53,9 @@ Découpage en thèmes :
 |  | se faire "voler" du temps de calcul par _adversarial reprogramming_ |  |
 |  |  | placement d'offres d'emploi sur les flux d'utilisateurs sélectionnés par un modèle prédictif : y a-t-il un sens à s'interroger sur un risque de discrimination, ou bien est-ce analogue à un chasseur de tête qui décide d'appeler les candidats qui l'intéressent de manière discrétionnaire ? |
 
-## 2. Thèmes et canevas du référentiel
+## 2. Thèmes et canevas du référentiel d'évaluation
 
-Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques qui constituent le référentiel :
+Propositions de thèmes pour structurer les bonnes pratiques et mesures de prévention des risques qui constituent le référentiel d'évaluation :
 
 | # | Thèmes | Descriptions |
 |:---:|:---|:---|
@@ -66,7 +66,7 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | T5 | **Garantir la chaîne de responsabilité des modèles** | Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont nécessaires sur **l'interprétation et l'explication** des choix réalisés à l'aide de ces systèmes. Il apparaît également indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle. |
 | T6 | **Anticiper, suivre et minimiser les externalités négatives de l'activité data science** | La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs. |
 
-## 3. Référentiel de la data science responsable et de confiance
+## 3. Référentiel d'évaluation de la data science responsable et de confiance
 
 | Réf. item | Mesure dans une forme rédigée | Précisions, commentaires, illustrations, références |
 |:---:|:---|:---|
@@ -116,9 +116,19 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 ---
 ---
 
-### Réflexions sur la clarification et la restructuration des mesures
+### Restructuration en un référentiel d'évaluation de la maturité d'une organisation
 
-On essaie ci-dessous de restructurer le référentiel, de manière à proposer un déroulé plus naturel, plus clair. L'enjeu est de faciliter l'exercice aux organisations souhaitant auto-évaluer le niveau de maturité de leur activité data science, par un meilleur guidage tout au long de l'évaluation.
+On essaie ci-dessous de restructurer le référentiel d'évaluation, de manière à proposer un déroulé plus naturel, plus clair. L'enjeu est de faciliter l'exercice aux organisations souhaitant auto-évaluer le niveau de maturité de leur activité data science, par un meilleur guidage tout au long de l'évaluation.
+
+L'évaluation est composée des 7 sections suivantes :
+
+- [Section 1 - Protéger les données personnelles ou confidentielles](#section-1-protéger-les-données-personnelles-ou-confidentielles)
+- [Section 2 - Prévenir les biais malencontreux](#section-2-prévenir-les-biais-malencontreux)
+- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3-evaluer-la-performance-de-manière-rigoureuse)
+- [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4-etablir-et-maintenir-une-généalogie-des-modèles)
+- [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5-garantir-la-chaîne-de-responsabilité-des-modèles)
+- [Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation](#section-6-utilisation-de-modèles-prédictifs-appris-au-sein-de-l-organisation)
+- [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7-anticiper-suivre-et-minimiser-les-externalités-de-l-activité-data-science)
 
 ---
 
