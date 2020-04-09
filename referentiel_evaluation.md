@@ -215,7 +215,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] nous élaborons un Privacy Impact Assessment (PIA)
 - [ ] nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
-- [ ] nous documentons les PIA et mesures mises en oeuvre nous les conservons au sein des projets
+- [ ] nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
 - [ ] nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
 
 ---
