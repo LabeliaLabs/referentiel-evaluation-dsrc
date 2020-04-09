@@ -147,6 +147,7 @@ En ce qui concerne les données personnelles et/ou confidentielles, les exigence
 R1.1 :  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
+- [ ] pas encore identifiées
 - [ ] partiellement identifiées ou en cours d'identification
 - [ ] identifiées
 - [ ] identifiées et maîtrisées par les collaborateurs
@@ -174,9 +175,14 @@ Il s'agit de s'interroger sur la gestion des données personnelles ou confidenti
 ---
 
 Q1.3 : **Veille réglementaire**  
-Un processus de veille réglementaire est-il mis en place pour connaître les évolutions applicables et impactantes ?
+Un processus de veille réglementaire est-il mis en place, en interne ou via un prestataire spécialisé, pour connaître les évolutions applicables et impactantes pour votre organisation ?
 
-R1.3 : Oui ou Non
+R1.3 :
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] nous ne faisons pas vraiment de veille réglementaire
+- [ ] nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
+- [ ] nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
 
 Expl1.3 :  
 Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
@@ -184,9 +190,12 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 ---
 
 Q1.4 :  
-La conformité de l'organisation aux exigences en vigueur a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
+La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
 
 R1.4 : Oui ou Non
+
+Expl1.4 :  
+Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification ou un audit spécialisé, l'obtention d'un label.
 
 ---
 
@@ -197,8 +206,8 @@ R1.5 :
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
 - [ ] Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
-- [ ] Nous avons besoin d'en utiliser dans certains projets. Le principe de minimisation est assimilé et poussé à son maximum sur chaque projet
-- [ ] Le principe de minimisation est connu des collaborateurs et appliqué en général
+- [ ] Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
+- [ ] Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
 - [ ] Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
   
 ---
@@ -260,7 +269,7 @@ Référence(s) intéressante(s) :
 - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
 
-Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
+Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de ["généalogie de bout-en-bout"](#section-4---etablir-et-maintenir-une-généalogie-des-modèles).
 
 ---
 
@@ -384,7 +393,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 
 Expl3.3 :  
-Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc.
+L'utilisation de modèles prédictifs testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
 
 ---
 
@@ -396,7 +405,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] Choix d'une métrique de performance en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
 - [ ] La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés
 
 Expl3.4 :  
 Références intéressantes :
@@ -414,7 +423,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] Les modèles que nous élaborons ne sont pas utilisés actuellement | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
 - [ ] La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
-- [ ] La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation évolue
+- [ ] La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
 - [ ] La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
 - [ ] Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
 
@@ -489,17 +498,18 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous
 ---
 
 Q4.2 : **Conditions et limites d'utilisation d'un modèle**  
-Les "conditions et limites de validité" (ou le "contexte d'utilisation recommandée") d'un modèle conçu, entraîné et validé par l'organisation :
+Dans le cadre des projets de data science, les "conditions et limites de validité" d'un modèle conçu, entraîné et validé par l'organisation :
 
 R4.2 :  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
+- [ ] ne sont pas documentées | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
 - [ ] sont explicitées et documentées
 - [ ] sont versionnées
 - [ ] les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
 Expl4.2 :  
-Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
+Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
 
 ---
 ---
@@ -514,13 +524,13 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 ---
 
 Q5.1 : **Chaîne de valeur et de responsabilités**  
-Dans le cas de figure des projets de data science où plusieurs acteurs sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
+Dans le cas de figure des projets de data science où plusieurs acteurs, y compris internes à l'organisation (équipes, départements, filiales), sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
 
 R5.1 :  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Notre organisation réalise en interne toutes les activités de data science, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, elle est seule responsable  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes avec lesquelles nous collaborons
+- [ ] Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
 - [ ] Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
 
 Expl5.1 :  
@@ -576,7 +586,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] Pour chaque modèle, nous étudions sa G2B et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 Expl6.1 :  
