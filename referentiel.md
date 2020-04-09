@@ -77,10 +77,10 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | DON-3 | **Identification de la législation et des exigences contractuelles applicables** : Toutes les exigences légales, statutaires, réglementaires et contractuelles en vigueur, ainsi que l’approche adoptée par l’organisation pour satisfaire à ces exigences, doivent être explicitement définies, documentées et mises à jour pour chaque traitement de données personnelles ou confidentielles. Un processus de veille réglementaire doit être mis en place pour connaître les évolutions applicables et impactantes. | Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).  |
 | DON-4 | **Les principales vulnérabilités et attaques de modèles prédictifs** au regard des données confidentielles sont connues, ainsi que les bonnes pratiques et mesures de réduction des risques. Une veille technique est organisée pour tenir à jour ces connaissances. Elles sont prises en compte dans les Privacy Impact Assessments (PIA) des traitements de données nécessaires aux projets de data science. Les collaborateurs intervenant sur des projets data science y sont formés régulièrement. | L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Référence(s) intéressante(s) : [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md). |
 | DON-5 | **Les approches limitant l'accès aux données ou le transfert de données, ainsi que les techniques de _privacy enhancement_** (comme par exemple : _remote execution_, _secure multi-party computation_, anonymisation, _differential privacy_, chiffrement homomorphe, etc.) sont considérés lors de la conception de projets de data science. Les choix de les utiliser ou non sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles conçus, entraînés, validés et exploités. | Selon les niveaux de risque et de sensibilité des projets, certaines approches seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout", cf. item GEN-1. |
-| DON-6 | **Lien avec les autorités :** En cas d'attaques ou de fuite de données personnelles ou confidentielles, les autorités compétentes sont averties dans les conditions prévues par les réglementations en vigueur. | le RGPD prévoit ainsi une obligation de signalement aux autorités (e.g. CNIL, ANSSI, ARS_). |
+| DON-6 | **Lien avec les autorités :** En cas d'attaques ou de fuite de données personnelles ou confidentielles, les autorités compétentes sont averties dans les conditions prévues par les réglementations en vigueur. | il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Référence intéressante : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL. |
 | | | |
 | **T2 : BIA** | **Prévenir les BIAis malencontreux** | |
-|  BIA-1 | **Analyse des données d'entrainement utilisées :** Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc. |
+|  BIA-1 | **Analyse des données d'entraînement utilisées :** Prendre en compte l'origine, la distribution des données d'entraînement, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc. |
 | BIA-2 | **Prévention des biais discriminatoires :** Les variables pouvant conduire à des discriminations (variables protégées ou leurs proxy) sont recherchées. Les risques de biais discriminatoires sont évalués sur des données de test comprenant différentes sous-populations cibles. | De même que pour l'item BIA-1 il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire. |
 | BIA-3 | **Mesures de fairness :** La mise en oeuvre de mesures de justice et d'équité (_fairness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles (cf. item GEN-1). | Références intéressantes : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_. |
 | BIA-4 | **Mesures de robustesse :** La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle. Les choix desquelles utiliser sont documentés et intégrés à la "généalogie de bout-en-bout" des modèles (cf. item GEN-1). | Références intéressantes : _[noise sensitivity score](https://arxiv.org/abs/1806.01477)_.|
@@ -91,7 +91,7 @@ Propositions de thèmes pour structurer les bonnes pratiques et mesures de prév
 | PERF-2 | **Analyse des données de test :** Prendre en compte l'origine, la distribution des données de test, et les phénomènes intempestifs, discriminatoires ou non-souhaitables qui s'y sont glissés du fait de l'époque, du contexte, des processus et outils mis en oeuvre pour les collecter. | Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc. |
 | PERF-3 | **Validation des performances :** La méthode de validation de la performance d'un modèle s'appuie sur les bonnes pratiques statistiques (par exemple définition de la métrique de performance en amont de l'apprentissage), permettant d'éviter l'obtention de score de performance non significatif. Elle est documentée et intégrée à la "généalogie de bout-en-bout" des modèles (cf. item GEN-1). | Exemples : choix d'une métrique pertinente, [p-hacking](https://fr.wikipedia.org/wiki/Data_dredging). |
 | PERF-4 | **Suivi de la performance dans le temps :** La performance d'un modèle utilisé en production est testée à intervalle régulier, ainsi que lors de chaque mise à jour, évolution du contexte d'utilisation, ou transfert pour une nouvelle utilisation. Des contrôles aléatoires humains sont mis en oeuvre pour vérifier la conformité des prédictions avec les résultats attendus. La pertinence des tests de validation effectués sur les modèles et leurs applications est évaluée à intervalle régulier. | Notion de [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html) ; même sur un modèle stable il existe un risque que les données d'entrée ne soient plus dans le domaine au bout d'un certain temps (population & distribution), exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI. Il est donc nécessaire de contrôler régulièrement la performance d'un modèle utilisé dans son contexte d'utilisation. |
-| PERF-5 | **Prédictions indéfinies :** Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles. | Participe de la robustesse d'un modèle |
+| PERF-5 | **Seuils de classification et plages d'indécision :** Aux frontières de décisions, un classificateur doit avoir une plage de prédiction "indéfinie". Les seuils définissant ces plages doivent être explicités et intégrés à la "généalogie de bout-en-bout" des modèles. | Participe de la robustesse d'un modèle |
 | | | |
 | **T4 : GEN** | **Etablir et maintenir une GENéalogie des modèles** | |
 | GEN-1 | **Une "généalogie de bout-en-bout" des modèles** est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation. | Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous la forme d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle, et de processus internes organisant cette activité. |
@@ -128,8 +128,8 @@ L'utilisation de données personnelles ou confidentielles fait porter le risque 
 
 ---
 
-Q1.1 :  
-En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant notre organisation sont :
+Q1.1 : **Législation et des exigences contractuelles applicables**  
+En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
@@ -139,10 +139,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] identifiées et maîtrisées par les collaborateurs
 - [ ] identifiées, documentées et maîtrisées par les collaborateurs
 
+Expl1.1 :  
+Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
 ---
 
 Q1.2 :  
-Pour satisfaire à ces exigences, l’approche adoptée par l’organisation est :
+Pour satisfaire à ces exigences, l’approche adoptée par votre organisation est :
 
 R1.2 :  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
@@ -152,12 +155,18 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] formalisée et maîtrisée par les collaborateurs
 - [ ] formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
 
+Expl1.2 :  
+Il s'agit de s'interroger sur la gestion des données personnelles ou confidentielles (stockage, accès, transfert, protection, responsabilités...), et de documenter les choix effectués.
+
 ---
 
-Q1.3 :  
+Q1.3 : **Veille réglementaire**  
 Un processus de veille réglementaire est-il mis en place pour connaître les évolutions applicables et impactantes ?
 
 R1.3 : Oui ou Non
+
+Expl1.3 :  
+Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
 
 ---
 
@@ -168,7 +177,7 @@ R1.4 : Oui ou Non
 
 ---
 
-Q1.5 :  
+Q1.5 : **Principe de minimisation**  
 Dans le cadre des projets de data science, le principe de minimisation doit guider la collecte et l'utilisation de données personnelles ou confidentielles. Comment est-il mis en oeuvre au sein de votre organisation ?
 
 R1.5 :  
@@ -186,19 +195,19 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 ---
 
 Q1.6 :  
-Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science :
+Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science, au sein de votre organisation :
 
 R1.6 :
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] un PIA est élaboré
-- [ ] des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées) sont mises en oeuvre
-- [ ] les PIA et mesures mises en oeuvre sont documentées et conservées au sein des projets
-- [ ] les relations avec les fournisseurs et les clients et les responsabilités qui en découlent sont contractualises
+- [ ] nous élaborons un PIA
+- [ ] nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
+- [ ] nous documentons les PIA et mesures mises en oeuvre nous les conservons au sein des projets
+- [ ] nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
 
 ---
 
-Q1.7 :  
+Q1.7 : **Sécurité de l'apprentissage automatique et _PETs_ - Niveau de connaissance**  
 La sécurité de l'apprentissage automatique (_ML security_) est un domaine en plein développement. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles. Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux _Privacy Enhancing Technologies (PETs)_, le niveau de connaissance générale des collaborateurs intervant sur les projets de data science est :
 
 R1.7 :  
@@ -209,9 +218,12 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Confirmé
 - [ ] Expert
 
+Expl1.7 :  
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Référence(s) intéressante(s) : [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md).
+
 ---
 
-Q1.8 :  
+Q1.8 : **Sécurité de l'apprentissage automatique et _PETs_ - Mise en oeuvre**  
 Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _(PETs)_ :
 
 R1.8 :  
@@ -222,9 +234,13 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
 - [ ] Sur chaque projet, les vulnérabilités qui s'y appliquent et les _PETs_ mises en oeuvre sont documentées dans la Généalogie de Bout-en-Bout (G2B) de chaque modèle
 
+Expl1.8 :  
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Référence(s) intéressante(s) : [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md).
+Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
+
 ---
 
-Q1.9 :  
+Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une(des) partie(s) prenante(s) externe(s), et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
 R1.9 :  
@@ -233,6 +249,9 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous avons une procédure décrivant la marche à suivre
 - [ ] Notre procédure inclut une communication aux parties prenantes en question
 - [ ] Notre procédure référence les autorités auxquelles nous devons faire un signalement
+
+Expl1.9 :  
+Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Référence intéressante : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
 
 ---
 ---
@@ -244,7 +263,7 @@ Dans certains cas, une spécification de l'équité recherchée entre population
 
 ---
 
-Q2.1 :  
+Q2.1 : **Analyse des données d'entraînement utilisées**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour prévenir des biais malencontreux. Votre organisation :
 
 R2.1 :  
@@ -252,6 +271,9 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 
 - [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
+
+Expl2.1 :  
+Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc.
 
 ---
 
@@ -266,7 +288,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q2.3 :  
+Q2.3 : **Prévention des biais discriminatoires**  
 Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
 R2.3 :
@@ -278,6 +300,13 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
 - [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
+Expl2.3 :  
+Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire.
+Compléments et références intéressantes :
+
+- _fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
+- utilisation de données synthétiques, _data augmentation_, _re-weighting_ : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
+
 ---
 ---
 
@@ -287,7 +316,7 @@ Le score de performance d'un modèle prédictif est déterminant pour son adopti
 
 ---
 
-Q3.1 :  
+Q3.1 : **Séparation des jeux de données de test**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données de test, il est capital d'assurer la non-contamination par des données d'entraînement. Votre organisation :
 
 R3.1 :  
@@ -300,21 +329,19 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 ---
 
-Q3.2a:
-Votre organisation participe-t-elle à des projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres ?
+Q3.2: **Projets d'apprentissage distribué préservant la confidentialité**  
+Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (_privacy-preserving_) :
 
-R3.2a: Oui ou Non
+R3.2:  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-_Dans le cas où la réponse à R3.2a est Oui :_
-
-Q3.2b:  
-Dans ces cas de figure de _privacy-preserving distributed learning_, votre organisation dispose-t-elle d'approches permettant d'élaborer des jeux de données de test manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires ?
-
-R3.2b: Oui ou Non
+- [ ] Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] Nous maîtrons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 
 ---
 
-Q3.3 :  
+Q3.3 : **Analyse des données de test**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données de test, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
 
 R3.3 :  
@@ -323,9 +350,12 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 
+Expl3.3 :  
+Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc.
+
 ---
 
-Q3.4 :  
+Q3.4 : **Validation des performances**  
 Votre organisation met-elle en oeuvre les approches suivantes :
 
 R3.4 :
@@ -335,9 +365,15 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
 - [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
+Expl3.4 :  
+Références intéressantes :
+
+- _[p-hacking, data dredging](https://fr.wikipedia.org/wiki/Data_dredging)_
+- _robustness metrics_ : _[noise sensitivity score](https://arxiv.org/abs/1806.01477)_.
+
 ---
 
-Q3.5 :  
+Q3.5 : **Suivi de la performance dans le temps**  
 Dans les cas de figure où des modèles prédictifs élaborés par votre organisation sont utilisés dans des systèmes en production :
 
 R3.5 :  
@@ -348,6 +384,12 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation évolue
 - [ ] La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
 - [ ] Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
+
+Expl3.5 :  
+Même sur un modèle stable il existe un risque que les données d'entrée ne soient plus dans le domaine au bout d'un certain temps (population & distribution), exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI. Il est donc nécessaire de contrôler régulièrement la performance d'un modèle utilisé dans son contexte d'utilisation.
+Référence intéressante :
+
+- [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)
 
 ---
 
@@ -361,6 +403,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
 - [ ] les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+
+Expl3.6 :  
+Référence intéressante :
+
+- [Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)
 
 ---
 
@@ -384,7 +431,7 @@ Un modèle prédictif est un objet informatique complexe qui peut évoluer au fi
 
 ---
 
-Q4.1 : **Une "généalogie de bout-en-bout" des modèles**  
+Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
 Une généalogie de bout-en-bout (G2B) des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation :
 
 R4.1 :  
@@ -393,6 +440,9 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
+
+Expl4.1 :  
+Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous la forme  par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle, et de processus internes organisant cette activité.
 
 ---
 
@@ -406,6 +456,9 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] sont versionnées
 - [ ] les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
+Expl4.2 :  
+Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
+
 ---
 ---
 
@@ -415,7 +468,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.1 :  
+Q5.1 : **Chaîne de valeur et de responsabilités**  
 Dans le cas de figure des projets de data science où plusieurs acteurs sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
 
 R5.1 :  
@@ -425,12 +478,18 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes avec lesquelles nous collaborons
 - [ ] Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
 
+Expl5.1 :  
+Il est important de s'assurer que les organisations en amont et en aval de la chaîne identifient et endossent bien leurs responsabilités sur leurs segments de la chaîne de valeur.
+
 ---
 
 Q5.2 : **Sous-traitance**  
 Les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
 
 R5.2 : Oui ou Non
+
+Expl5.2 :  
+Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées.
 
 ---
 
@@ -453,9 +512,12 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Pour chaque modèle, nous étudions sa G2B et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
+Expl6.1 :  
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important d'évaluer les conséquences et les réactions en cas d'incident. Par ailleurs il est important qu'une personne responsable soit clairement identifiée de manière à ne laisser aucune partie prenante démunie face à une conséquence inattendue ou inappropriée. Enfin il est important de s'interroger sur les "conditions et limites de validité" des modèles que l'on utilise afin de s'assurer que l'usage que l'on prévoit est bien en adéquation.
+
 ---
 
-Q6.2 : **Gestion des prédictions problématiques** / _Processus de contournement_ / _Human agency_  
+Q6.2 : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
 Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
 
 R6.2 :  
@@ -465,6 +527,9 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
 - [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
 - [ ] Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+
+Expl6.2 :  
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation.
 
 ---
 
@@ -482,9 +547,12 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 
 - [ ] À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
 - [ ] Nous avons défini des indicateurs pour savoir quoi mesurer précisément
-- [ ] Nous avons défini des indicateurs et nous incluons leurs mesures dans les G2B des modèles 
+- [ ] Nous avons défini des indicateurs et nous incluons leurs mesures dans les G2B des modèles
 - [ ] Nous avons défini des indicateurs et nous les suivons régulièrement
 - [ ] Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
+
+Expl7.1 :  
+Il est important de s'interroger et de conscientiser les coûts environnementaux. Référence(s) intéressante(s) : [ML Impact Calculator](https://mlco2.github.io/impact/).
 
 ---
 
@@ -499,6 +567,9 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la G2B de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
+Expl7.2 :  
+Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela vaut tant pour l'aval (e.g. automatisation de certains emplois) que pour l'amont (e.g. tâches d'annotations de données parfois d'une très grande violence).
+
 ---
 
 Q7.3 : **Ethique et non-malfaisance**  
@@ -509,5 +580,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
 - [ ] Notre organisation s'est dotée d'une politique en matière d'éthique
+
+Expl7.3 :  
+Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
 
 ---
