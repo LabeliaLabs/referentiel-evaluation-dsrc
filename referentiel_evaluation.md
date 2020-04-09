@@ -213,7 +213,7 @@ Pour chaque traitement de données personnelles ou confidentielles nécessaire d
 R1.6 :
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] nous élaborons un PIA
+- [ ] nous élaborons un Privacy Impact Assessment (PIA)
 - [ ] nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
 - [ ] nous documentons les PIA et mesures mises en oeuvre nous les conservons au sein des projets
 - [ ] nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
