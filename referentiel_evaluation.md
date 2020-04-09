@@ -1,6 +1,6 @@
 # Data science responsable et de confiance - Référentiel d'évaluation
 
-Le [référentiel d'évaluation](#restructuration-en-un-référentiel-d-évaluation-de-la-maturité-d-une-organisation) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#1-risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#2-thèmes-et-canevas-du-référentiel) complémentaires (section 2 ci-dessous).
+Le [référentiel d'évaluation](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est en cours d'élaboration (section 3 ci-dessous). Il procède de l'identification des [risques](#1-risques) que l'on cherche à prévenir dans la pratique responsable et de confiance de la data science (section 1 ci-dessous). Il est structuré en plusieurs [thèmes](#2-thèmes-et-canevas-du-référentiel-dévaluation) complémentaires (section 2 ci-dessous).
 
 ## 1. Risques
 
@@ -122,19 +122,22 @@ On essaie ci-dessous de restructurer le référentiel d'évaluation, de manière
 
 L'évaluation est composée des 7 sections suivantes :
 
-- [Section 1 - Protéger les données personnelles ou confidentielles](#section-1-protéger-les-données-personnelles-ou-confidentielles)
-- [Section 2 - Prévenir les biais malencontreux](#section-2-prévenir-les-biais-malencontreux)
-- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3-evaluer-la-performance-de-manière-rigoureuse)
-- [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4-etablir-et-maintenir-une-généalogie-des-modèles)
-- [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5-garantir-la-chaîne-de-responsabilité-des-modèles)
-- [Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation](#section-6-utilisation-de-modèles-prédictifs-appris-au-sein-de-l-organisation)
-- [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7-anticiper-suivre-et-minimiser-les-externalités-de-l-activité-data-science)
+- [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
+- [Section 2 - Prévenir les biais malencontreux](#section-2---prévenir-les-biais-malencontreux)
+- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
+- [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)
+- [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)
+- [Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)
+- [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
 
 #### Section 1 - Protéger les données personnelles ou confidentielles
 
 L'utilisation de données personnelles ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
+
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-2---prévenir-les-biais-malencontreux)_]
 
 ---
 
@@ -282,6 +285,9 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
 Dans certains cas, une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-3---evaluer-la-performance-de-manière-rigoureuse)_]
+
 ---
 
 Q2.1 : **Analyse des données d'entraînement utilisées**  
@@ -337,6 +343,9 @@ Compléments et références intéressantes :
 #### Section 3 - Evaluer la performance de manière rigoureuse
 
 Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)_]
 
 ---
 
@@ -458,6 +467,9 @@ Référence intéressante :
 
 Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle.
 
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)_]
+
 ---
 
 Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
@@ -495,6 +507,9 @@ Ce concept de "conditions et limites de validité" peut se décliner sous la for
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)_]
+
 ---
 
 Q5.1 : **Chaîne de valeur et de responsabilités**  
@@ -525,6 +540,9 @@ Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il es
 #### Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
+
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
 
 ---
 
@@ -565,6 +583,8 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 #### Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science
 
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs.
+
+[_[⇧ retour à la lise des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]
 
 ---
 
