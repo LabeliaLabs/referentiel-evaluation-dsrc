@@ -366,10 +366,10 @@ Q3.2: **Projets d'apprentissage distribué préservant la confidentialité**
 Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (_privacy-preserving_) :
 
 R3.2:  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
 - [ ] Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Nous maîtrons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 - [ ] À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 
 ---
@@ -478,6 +478,7 @@ Une généalogie de bout-en-bout (G2B) des modèles est alimentée et tenue à j
 R4.1 :  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
+- [ ] À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
 - [ ] Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
@@ -611,6 +612,7 @@ Dans certains cas, la mise en place d'un système automatique basé sur un modè
 R7.2 :  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
+- [ ] À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
 - [ ] Dans certains cas nous nous interrogeons sur l'impact social
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
