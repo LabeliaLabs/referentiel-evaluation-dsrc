@@ -153,8 +153,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] identifiées et maîtrisées par les collaborateurs
 - [ ] identifiées, documentées et maîtrisées par les collaborateurs
 
-Expl1.1 :  
+<details>
+<summary>Expl1.1 :  </summary>
 Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
 
 ---
 
@@ -169,8 +172,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] formalisée et maîtrisée par les collaborateurs
 - [ ] formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
 
-Expl1.2 :  
+<details>
+<summary>Expl1.2 :  </summary>
 Il s'agit de s'interroger sur la gestion des données personnelles ou confidentielles (stockage, accès, transfert, protection, responsabilités...), et de documenter les choix effectués.
+
+</details>
 
 ---
 
@@ -184,8 +190,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
 - [ ] nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
 
-Expl1.3 :  
+<details>
+<summary>Expl1.3 :  </summary>
 Mettre en place des processus pour connaître et suivre l'évolution des réglementations applicables (très spécifiques dans certains secteurs), ainsi que pour documenter les approches et choix retenus pour être en conformité à chaque projet de data science. Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
 
 ---
 
@@ -194,8 +203,11 @@ La conformité de l'organisation aux exigences relatives aux données personnell
 
 R1.4 : Oui ou Non
 
-Expl1.4 :  
+<details>
+<summary>Expl1.4 :  </summary>
 Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification ou un audit spécialisé, l'obtention d'un label.
+
+</details>
 
 ---
 
@@ -240,13 +252,16 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Confirmé
 - [ ] Expert
 
-Expl1.7 :  
+<details>
+<summary>Expl1.7 :  </summary>
 L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant.
 Référence(s) intéressante(s) :
 
 - [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
 - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+
+</details>
 
 ---
 
@@ -261,7 +276,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
 - [ ] Sur chaque projet, les vulnérabilités qui s'y appliquent et les _PETs_ mises en oeuvre sont documentées dans la Généalogie de Bout-en-Bout (G2B) de chaque modèle
 
-Expl1.8 :  
+<details>
+<summary>Expl1.8 :  </summary>
 L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant.
 Référence(s) intéressante(s) :
 
@@ -270,6 +286,8 @@ Référence(s) intéressante(s) :
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
 
 Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de ["généalogie de bout-en-bout"](#section-4---etablir-et-maintenir-une-généalogie-des-modèles).
+
+</details>
 
 ---
 
@@ -283,8 +301,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Notre procédure inclut une communication aux parties prenantes en question
 - [ ] Notre procédure référence les autorités auxquelles nous devons faire un signalement
 
-Expl1.9 :  
+<details>
+<summary>Expl1.9 :  </summary>
 Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Référence intéressante : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
+
+</details>
 
 ---
 ---
@@ -308,11 +329,14 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 
-Expl2.1 :  
+<details>
+<summary>Expl2.1 :  </summary>
 Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc.
 Référence intéressante :
 
 - [Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)
+
+</details>
 
 ---
 
@@ -339,12 +363,15 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
 - [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
-Expl2.3 :  
+<details>
+<summary>Expl2.3 :  </summary>
 Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire.
 Compléments et références intéressantes :
 
 - _fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
 - utilisation de données synthétiques, _data augmentation_, _re-weighting_ : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
+
+</details>
 
 ---
 ---
@@ -392,8 +419,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
 
-Expl3.3 :  
+<details>
+<summary>Expl3.3 :  </summary>
 L'utilisation de modèles prédictifs testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+
+</details>
 
 ---
 
@@ -407,11 +437,14 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
 - [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés
 
-Expl3.4 :  
+<details>
+<summary>Expl3.4 :  </summary>
 Références intéressantes :
 
 - _[p-hacking, data dredging](https://fr.wikipedia.org/wiki/Data_dredging)_
 - _robustness metrics_ : _[noise sensitivity score](https://arxiv.org/abs/1806.01477)_.
+
+</details>
 
 ---
 
@@ -427,11 +460,14 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
 - [ ] Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
 
-Expl3.5 :  
+<details>
+<summary>Expl3.5 :  </summary>
 Même sur un modèle stable il existe un risque que les données d'entrée ne soient plus dans le domaine au bout d'un certain temps (population & distribution), exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI. Il est donc nécessaire de contrôler régulièrement la performance d'un modèle utilisé dans son contexte d'utilisation.
 Référence intéressante :
 
 - [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)
+
+</details>
 
 ---
 
@@ -446,10 +482,13 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
 - [ ] les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
-Expl3.6 :  
+<details>
+<summary>Expl3.6 :  </summary>
 Référence intéressante :
 
 - [Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)
+
+</details>
 
 ---
 
@@ -464,10 +503,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance dans les prédictions réalisées
 - [ ] Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
-Expl3.7 :  
+<details>
+<summary>Expl3.7 :  </summary>
 Référence intéressante :
 
 - [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)
+
+</details>
 
 ---
 ---
@@ -492,8 +534,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
 - [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
 
-Expl4.1 :  
+<details>
+<summary>Expl4.1 :  </summary>
 Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous la forme  par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle, et de processus internes organisant cette activité.
+
+</details>
 
 ---
 
@@ -508,8 +553,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] sont versionnées
 - [ ] les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
-Expl4.2 :  
+<details>
+<summary>Expl4.2 :  </summary>
 Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
+
+</details>
 
 ---
 ---
@@ -533,8 +581,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
 - [ ] Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
 
-Expl5.1 :  
+<details>
+<summary>Expl5.1 :  </summary>
 Il est important de s'assurer que les organisations en amont et en aval de la chaîne identifient et endossent bien leurs responsabilités sur leurs segments de la chaîne de valeur.
+
+</details>
 
 ---
 
@@ -549,11 +600,14 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
 - [ ] Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
 
-Expl5.2 :  
+<details>
+<summary>Expl5.2 :  </summary>
 Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il est important que la répartition de valeur consécutives à une activité économique dans laquelle le modèle joue un rôle soit explicitée et contractualisée. Dans certains cas de figure cette question peut être complexe, par exemple lorsqu'un modèle est entraîné de manière distribuée sur plusieurs jeux de données.
 Référence intéressante :
 
 - [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity)
+
+</details>
 
 ---
 
@@ -562,8 +616,11 @@ Les activités sous-traitées auprès ou en partenariat avec une organisation ti
 
 R5.3 : Oui ou Non
 
-Expl5.3 :  
+<details>
+<summary>Expl5.3 :  </summary>
 Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées.
+
+</details>
 
 ---
 
@@ -590,8 +647,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
-Expl6.1 :  
+<details>
+<summary>Expl6.1 :  </summary>
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important d'évaluer les conséquences et les réactions en cas d'incident. Par ailleurs il est important qu'une personne responsable soit clairement identifiée de manière à ne laisser aucune partie prenante démunie face à une conséquence inattendue ou inappropriée. Enfin il est important de s'interroger sur les "conditions et limites de validité" des modèles que l'on utilise afin de s'assurer que l'usage que l'on prévoit est bien en adéquation.
+
+</details>
 
 ---
 
@@ -606,8 +666,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
 - [ ] Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
 
-Expl6.2 :  
+<details>
+<summary>Expl6.2 :  </summary>
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation.
+
+</details>
 
 ---
 
@@ -631,8 +694,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Nous avons défini des indicateurs et nous les suivons régulièrement
 - [ ] Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
 
-Expl7.1 :  
+<details>
+<summary>Expl7.1 :  </summary>
 Il est important de s'interroger et de conscientiser les coûts environnementaux. Référence(s) intéressante(s) : [ML Impact Calculator](https://mlco2.github.io/impact/).
+
+</details>
 
 ---
 
@@ -648,8 +714,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
 - [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la G2B de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
-Expl7.2 :  
+<details>
+<summary>Expl7.2 :  </summary>
 Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela vaut tant pour l'aval (e.g. automatisation de certains emplois) que pour l'amont (e.g. tâches d'annotations de données parfois d'une très grande violence).
+
+</details>
 
 ---
 
@@ -662,7 +731,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
 - [ ] Notre organisation s'est dotée d'une politique en matière d'éthique
 
-Expl7.3 :  
+<details>
+<summary>Expl7.3 :  </summary>
 Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
 Référence intéressante :
 
@@ -671,5 +741,7 @@ Référence intéressante :
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
 - [Serment d'Hippocrate pour data scientist](https://dataforgood.fr/projects/4_serment-hippocrate.html)
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
+
+</details>
 
 ---
