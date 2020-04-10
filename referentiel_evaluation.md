@@ -366,7 +366,7 @@ Référence intéressante :
 
 ---
 
-Q2.2 :
+Q2.2 :  
 Votre organisation est-elle concernée par des cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) ?
 
 R2.2 :  
@@ -433,10 +433,10 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 ---
 
-Q3.2: **Projets d'apprentissage distribué préservant la confidentialité**  
+Q3.2 : **Projets d'apprentissage distribué préservant la confidentialité**  
 Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (_privacy-preserving_) :
 
-R3.2:  
+R3.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
