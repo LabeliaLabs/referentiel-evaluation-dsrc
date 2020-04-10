@@ -148,11 +148,11 @@ R1.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] pas encore identifiées
-- [ ] partiellement identifiées ou en cours d'identification
-- [ ] identifiées
-- [ ] identifiées et maîtrisées par les collaborateurs
-- [ ] identifiées, documentées et maîtrisées par les collaborateurs
+- [ ] 1.1.a pas encore identifiées
+- [ ] 1.1.b partiellement identifiées ou en cours d'identification
+- [ ] 1.1.c identifiées
+- [ ] 1.1.d identifiées et maîtrisées par les collaborateurs
+- [ ] 1.1.e identifiées, documentées et maîtrisées par les collaborateurs
 
 <details>
 <summary>Expl1.1 :</summary>
@@ -170,10 +170,10 @@ R1.2 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] informelle, basée sur la responsabilité et la compétence de chacun
-- [ ] formalisée et accessible à tous les collaborateurs
-- [ ] formalisée et maîtrisée par les collaborateurs
-- [ ] formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
+- [ ] 1.2.a informelle, basée sur la responsabilité et la compétence de chacun
+- [ ] 1.2.b formalisée et accessible à tous les collaborateurs
+- [ ] 1.2.c formalisée et maîtrisée par les collaborateurs
+- [ ] 1.2.d formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
 
 <details>
 <summary>Expl1.2 :</summary>
@@ -191,9 +191,9 @@ R1.3 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] nous ne faisons pas vraiment de veille réglementaire
-- [ ] nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
-- [ ] nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
+- [ ] 1.3.a nous ne faisons pas vraiment de veille réglementaire
+- [ ] 1.3.b nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
+- [ ] 1.3.c nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
 
 <details>
 <summary>Expl1.3 :</summary>
@@ -211,8 +211,8 @@ R1.4 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Oui
-- [ ] Non
+- [ ] 1.4.a Oui
+- [ ] 1.4.b Non
 
 <details>
 <summary>Expl1.4 :</summary>
@@ -230,10 +230,10 @@ R1.5 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
-- [ ] Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
-- [ ] Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
-- [ ] Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
+- [ ] 1.5.a Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
+- [ ] 1.5.b Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
+- [ ] 1.5.c Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
+- [ ] 1.5.d Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
   
 ---
 
@@ -249,10 +249,10 @@ R1.6 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] nous élaborons un _Privacy Impact Assessment_ (PIA)
-- [ ] nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
-- [ ] nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
-- [ ] nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
+- [ ] 1.6.a nous élaborons un _Privacy Impact Assessment_ (PIA)
+- [ ] 1.6.b nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
+- [ ] 1.6.c nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
+- [ ] 1.6.d nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
 
 ---
 
@@ -264,10 +264,10 @@ R1.7 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Débutant
-- [ ] Intermédiaire
-- [ ] Confirmé
-- [ ] Expert
+- [ ] 1.7.a Débutant
+- [ ] 1.7.b Intermédiaire
+- [ ] 1.7.c Confirmé
+- [ ] 1.7.d Expert
 
 <details>
 <summary>Expl1.7 :</summary>
@@ -291,10 +291,10 @@ R1.8 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Une veille technique est mise en oeuvre
-- [ ] Les collaborateurs reçoivent régulièrement des informations / formations qui leur permettent de monter en compétences
-- [ ] Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
-- [ ] Sur chaque projet, les vulnérabilités qui s'y appliquent et les _PETs_ mises en oeuvre sont documentées dans la Généalogie de Bout-en-Bout (G2B) de chaque modèle
+- [ ] 1.8.a Une veille technique est mise en oeuvre
+- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations / formations qui leur permettent de monter en compétences
+- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
+- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les _PETs_ mises en oeuvre sont documentées dans la Généalogie de Bout-en-Bout (G2B) de chaque modèle
 
 <details>
 <summary>Expl1.8 :</summary>
@@ -320,9 +320,9 @@ R1.9 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Nous avons une procédure décrivant la marche à suivre
-- [ ] Notre procédure inclut une communication aux parties prenantes en question
-- [ ] Notre procédure référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question
+- [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
 
 <details>
 <summary>Expl1.9 :</summary>
@@ -351,8 +351,8 @@ R2.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 2.1.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 2.1.b dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl2.1 :</summary>
@@ -373,8 +373,8 @@ R2.2 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Concerné
-- [ ] Non concerné
+- [ ] 2.2.a Concerné
+- [ ] 2.2.b Non concerné
 
 ---
 
@@ -390,11 +390,11 @@ R2.3 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels
-- [ ] Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
-- [ ] Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
-- [ ] Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
-- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+- [ ] 2.3.a Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels
+- [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
+- [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
+- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
+- [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -426,10 +426,10 @@ R3.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
-- [ ] utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
+- [ ] 3.1.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.1.b dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
+- [ ] 3.1.c utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] 3.1.d prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
 
 ---
 
@@ -440,9 +440,9 @@ R3.2:
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
-- [ ] À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] 3.2.a Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 
 ---
 
@@ -453,8 +453,8 @@ R3.3 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.3.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.3.b dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl3.3 :</summary>
@@ -472,9 +472,9 @@ R3.4 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Choix d'une métrique de performance en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
-- [ ] La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés
+- [ ] 3.4.a Choix d'une métrique de performance en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
+- [ ] 3.4.b La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
+- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés
 
 <details>
 <summary>Expl3.4 :</summary>
@@ -495,11 +495,11 @@ R3.5 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] Les modèles que nous élaborons ne sont pas utilisés actuellement | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
-- [ ] La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
-- [ ] La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
-- [ ] Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
+- [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés actuellement | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
+- [ ] 3.5.c La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
+- [ ] 3.5.d La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
+- [ ] 3.5.e Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
 
 <details>
 <summary>Expl3.5 :</summary>
@@ -520,10 +520,10 @@ R3.6 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre
-- [ ] dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
-- [ ] les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+- [ ] 3.6.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.6.b dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.6.c dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
+- [ ] 3.6.d les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -543,10 +543,10 @@ R3.7 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
-- [ ] Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes, mais nous ne mettons pas en oeuvre d'approche de ce type à ce stade
-- [ ] Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance dans les prédictions réalisées
-- [ ] Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
+- [ ] 3.7.a Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
+- [ ] 3.7.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes, mais nous ne mettons pas en oeuvre d'approche de ce type à ce stade
+- [ ] 3.7.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance dans les prédictions réalisées
+- [ ] 3.7.d Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
 <summary>Expl3.7 :</summary>
@@ -576,10 +576,10 @@ R4.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
-- [ ] Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
-- [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
-- [ ] Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
+- [ ] 4.1.a À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
+- [ ] 4.1.b Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
+- [ ] 4.1.c Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
+- [ ] 4.1.d Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
 
 <details>
 <summary>Expl4.1 :</summary>
@@ -597,10 +597,10 @@ R4.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] ne sont pas documentées | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] sont explicitées et documentées
-- [ ] sont versionnées
-- [ ] les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
+- [ ] 4.2.a ne sont pas documentées | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 4.2.b sont explicitées et documentées
+- [ ] 4.2.c sont versionnées
+- [ ] 4.2.d les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
 <details>
 <summary>Expl4.2 :</summary>
@@ -628,9 +628,9 @@ R5.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
-- [ ] Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
+- [ ] 5.1.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 5.1.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
+- [ ] 5.1.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
 
 <details>
 <summary>Expl5.1 :</summary>
@@ -648,10 +648,10 @@ R5.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
-- [ ] Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
+- [ ] 5.2.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 5.2.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 5.2.c Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
+- [ ] 5.2.d Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
 
 <details>
 <summary>Expl5.2 :</summary>
@@ -672,8 +672,8 @@ R5.3 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] Oui
-- [ ] Non
+- [ ] 5.3.a Oui
+- [ ] 5.3.b Non
 
 <details>
 <summary>Expl5.3 :</summary>
@@ -700,13 +700,13 @@ R6.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
-- [ ] Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
-- [ ] Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
-- [ ] Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 6.1.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
+- [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] 6.1.e Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.1.f Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.1.g Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.1 :</summary>
@@ -724,10 +724,10 @@ R6.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
-- [ ] Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
-- [ ] Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+- [ ] 6.2.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 6.2.b Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
+- [ ] 6.2.c Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
+- [ ] 6.2.d Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
 
 <details>
 <summary>Expl6.2 :</summary>
@@ -753,11 +753,11 @@ R7.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
-- [ ] Nous avons défini des indicateurs pour savoir quoi mesurer précisément
-- [ ] Nous avons défini des indicateurs et nous incluons leurs mesures dans les G2B des modèles
-- [ ] Nous avons défini des indicateurs et nous les suivons régulièrement
-- [ ] Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
+- [ ] 7.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
+- [ ] 7.1.b Nous avons défini des indicateurs pour savoir quoi mesurer précisément
+- [ ] 7.1.c Nous avons défini des indicateurs et nous incluons leurs mesures dans les G2B des modèles
+- [ ] 7.1.d Nous avons défini des indicateurs et nous les suivons régulièrement
+- [ ] 7.1.e Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
 
 <details>
 <summary>Expl7.1 :</summary>
@@ -777,11 +777,11 @@ R7.2 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
-- [ ] Dans certains cas nous nous interrogeons sur l'impact social
-- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet
-- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
-- [ ] Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la G2B de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
+- [ ] 7.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
+- [ ] 7.2.b Dans certains cas nous nous interrogeons sur l'impact social
+- [ ] 7.2.c Nous menons ce travail de réflexion sur l'impact social à chaque projet
+- [ ] 7.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la G2B de chaque modèle
+- [ ] 7.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la G2B de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
 <details>
 <summary>Expl7.2 :</summary>
@@ -799,8 +799,8 @@ R7.3 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
-- [ ] Notre organisation s'est dotée d'une politique en matière d'éthique
+- [ ] 7.3.a Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
+- [ ] 7.3.b Notre organisation s'est dotée d'une politique en matière d'éthique
 
 <details>
 <summary>Expl7.3 :</summary>
