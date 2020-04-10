@@ -1,10 +1,10 @@
-# Comment définir la data science responsable et de confiance ?
+# Data science responsable et de confiance - Référentiel d'évaluation
 
 ## Navigation dans le repository
 
 `/`  
-[`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel](#périmètre-du-référentiel) | [Approche participative](#approche-participative)  
-[**`├── referentiel.md`**](./referentiel.md) : [Risques](./referentiel.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel.md#2-thèmes-et-canevas-du-référentiel) | [**Référentiel**](./referentiel.md#3-référentiel-de-la-data-science-responsable-et-de-confiance)  
+[`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel d'évaluation](#périmètre-du-référentiel-dévaluation) | [Approche participative](#approche-participative)  
+[**`├── referentiel_evaluation.md`**](./referentiel_evaluation.md) : [Risques](./referentiel_evaluation.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel_evaluation.md#2-thèmes-et-canevas-du-référentiel-dévaluation) | [**Référentiel d'évaluation**](./referentiel_evaluation.md#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)  
 [`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
 [`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
@@ -26,7 +26,7 @@ Pourquoi cette initiative, dans un univers qui voit déjà émerger un certain n
 
 1. être fait **pour être utilisé comme un outil concret d'évaluation** de la maturité de l'organisation.
 
-Nous imaginons un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine (sur le modèle de l'annexe A de la [norme ISO 27001](https://fr.wikipedia.org/wiki/ISO/CEI_27001) ou du label [B-Corp](https://bimpactassessment.net/) par exemple).  
+Nous imaginons un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine.  
 Nous pensons que la communauté data science responsable et de confiance en France et en Europe pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
 
 ### Pourquoi _responsable_ et _de confiance_, et pourquoi pas _éthique_ ?
@@ -43,37 +43,9 @@ On considère ici la _data science_ comme une combinaison de techniques et d'out
 
 Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance/issues/23) sur ce sujet pour prolonger la réflexion.
 
-### Inspirations
+## Périmètre du référentiel d'évaluation
 
-Voici quelques exemples connus de référentiels actionnables et servant d'outil d'évaluation de la maturité et/ou de la responsabilité d'une organisation dans d'autres domaines :
-
-- [Annexe A ISO 27001](https://fr.wikipedia.org/wiki/ISO/CEI_27001) : 114 mesures de sécurité classées en 14 catégories, dans le domaine des systèmes d'information
-- [ITIL](https://fr.wikipedia.org/wiki/Information_Technology_Infrastructure_Library) : référentiel méthodologique sur l'organisation, l'efficacité, la réduction des risques, l'amélioration de la qualité des systèmes d'information
-- B-Corp '[B Impact Assessment](https://bimpactassessment.net/)' : questionnaire gratuit et confidentiel d'évaluation de l'impact social et environnemental d'une organisation
-- [Don en confiance](https://www.donenconfiance.org) : charte de déontologie et label dans le domaine du financement des associations et de l'appel public à la générosité
-
-### Un référentiel de bonnes pratiques
-
-Une _bonne pratique_ est une pratique cible, une mesure qui peut ou non être mise en oeuvre. Par exemple voici des mesures dans le domaine des systèmes d'information, issues de l'évaluation ISO 27001 :
-
-> _A.8.3.1 Gestion des supports amovibles : Des procédures de gestion des supports amovibles doivent être mises en œuvre conformément au plan de classification adopté par l’organisation._
->
-> _A.14.2.7 Développement externalisé : L’organisation doit superviser et contrôler l’activité de développement externalisée._
-
-Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certain _niveau de maturité_, qui peut évoluer dans le temps au fur et à mesure des progrès de l'organisation. Une échelle type de niveaux de maturité est la suivante :
-
-| Niveau d'implémentation | Note de maturité | Point de vue processus |
-|---|:---:|---|
-| Mesure non implémentée | 0 | Pratique inexistante ou incomplète |
-| Mesure en cours d'implémentation | 1 | Pratique informelle |
-| Mesure implémentée nécessitant amélioration | 2 | Pratique répétable et suivie |
-| Mesure implémentée | 3 | Processus défini |
-| Mesure implémentée et contrôlée | 4 | Processus contrôlé |
-| Mesure implémentée, contrôlée et optimisée | 5 | Processus en amélioration continue |
-
-## Périmètre du référentiel
-
-### Un référentiel de pratiques qui s'adresse à qui ?
+### Un référentiel d'évaluation qui s'adresse à qui ?
 
 - Cible principale : **l'activité data science d'une organisation**
 - Hors-cible : un projet donné, un produit donné, un modèle prédictif donné
@@ -94,13 +66,15 @@ Chaque organisation met en oeuvre les mesures cibles à sa façon avec un certai
 
 Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela un cycle d'ateliers de co-construction :
 
-- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
-- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshop-notes/2020.02.06_workshop-2_notes.md)
-- Atelier #3 : jeudi 2 avril 2020 par téléconférence
-- Atelier #4 : mardi 23 juin 2020
-- Atelier #5 : mardi 8 septembre 2020
-- Atelier #6 : mardi 10 novembre 2020
-- Atelier #7 : mardi 15 décembre 2020
+- Ateliers passés :
+  - Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
+  - Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2020.02.06_workshop-2_notes.md)
+  - Atelier #3 : jeudi 2 avril 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.04.02_workshop-3_notes.md)
+- Ateliers à venir :
+  - Atelier #4 : mardi 23 juin 2020
+  - Atelier #5 : mardi 8 septembre 2020
+  - Atelier #6 : mardi 10 novembre 2020
+  - Atelier #7 : mardi 15 décembre 2020
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l’esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives, peut-être ne pas aboutir… avec la certitude en revanche de débattre et d’apprendre sur des sujets passionnants.
 
