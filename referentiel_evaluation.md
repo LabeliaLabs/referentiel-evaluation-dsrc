@@ -440,7 +440,7 @@ R3.2:
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 3.2.a Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 3.2.a Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 - [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 
@@ -495,7 +495,7 @@ R3.5 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés actuellement | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés actuellement | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
 - [ ] 3.5.c La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
 - [ ] 3.5.d La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
@@ -597,7 +597,7 @@ R4.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.2.a ne sont pas documentées | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 4.2.a ne sont pas documentées | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 4.2.b sont explicitées et documentées
 - [ ] 4.2.c sont versionnées
 - [ ] 4.2.d les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
@@ -628,7 +628,7 @@ R5.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 5.1.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 5.1.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 5.1.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
 - [ ] 5.1.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
 
@@ -648,8 +648,8 @@ R5.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 5.2.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée  | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
-- [ ] 5.2.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 5.2.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée  | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 5.2.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 5.2.c Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
 - [ ] 5.2.d Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
 
@@ -700,7 +700,7 @@ R6.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.1.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 6.1.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
@@ -724,7 +724,7 @@ R6.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.2.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _Dans le cas où cette réponse est sélectionnée, les autres réponses ne sont pas sélectionnables_
+- [ ] 6.2.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.2.b Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
 - [ ] 6.2.c Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
 - [ ] 6.2.d Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
