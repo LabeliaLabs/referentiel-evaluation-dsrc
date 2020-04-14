@@ -796,11 +796,12 @@ Q7.3 : **Ethique et non-malfaisance**
 Au sein de votre organisation :
 
 R7.3 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Type : combiné)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 7.3.a Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
-- [ ] 7.3.b Notre organisation s'est dotée d'une politique en matière d'éthique
+- [ ] 7.3.a À ce stade nous ne nous sommes pas encore penchés sur la dimension éthique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 7.3.b Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
+- [ ] 7.3.c Notre organisation s'est dotée d'une politique en matière d'éthique
 
 <details>
 <summary>Expl7.3 :</summary>
