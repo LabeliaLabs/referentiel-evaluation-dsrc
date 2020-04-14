@@ -630,7 +630,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] 5.1.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 5.1.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
-- [ ] 5.1.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. utilisateurs de modèles)
+- [ ] 5.1.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
 
 <details>
 <summary>Expl5.1 :</summary>
@@ -684,23 +684,23 @@ Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il es
 
 ---
 
-#### Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation
+#### Section 6 - Utilisation de modèles prédictifs appris
 
-Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
 
 [_[⇧ retour à la liste des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
 
 ---
 
-Q6.1 : **Usage des modèles dans les conditions pour lesquelles ils ont été élaborés**  
+Q6.1 :  
 Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
 R6.1 :  
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.1.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.1.a Notre organisation n'utilise pas de modèles prédictifs élaboré par apprentissage automatique pour son propre compte | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
@@ -717,20 +717,43 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
-Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
+Q6.2 :  
+Si votre organisation fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs :
 
 R6.2 :  
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.2.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
-- [ ] 6.2.b Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
-- [ ] 6.2.c Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
-- [ ] 6.2.d Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+- [ ] 6.2.a Notre organisation ne fournit pas à ses clients et n'opère pas pour le compte de ses clients d'application basée sur des modèles prédictifs élaboré par apprentissage automatique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de ses clients, nous le maintenons à jour
+- [ ] 6.2.c Pour chaque modèle ou application pour un client nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] 6.2.d Pour chaque modèle ou application pour un client, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] 6.2.e Pour chaque modèle ou application pour un client, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.2.f Nous fournissons à nos clients ou opérons pour leur compte nos modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.2 :</summary>
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important d'évaluer les conséquences et les réactions en cas d'incident. Par ailleurs il est important qu'une personne responsable soit clairement identifiée de manière à ne laisser aucune partie prenante démunie face à une conséquence inattendue ou inappropriée. Enfin il est important de s'interroger sur les "conditions et limites de validité" des modèles que l'on utilise afin de s'assurer que l'usage que l'on prévoit est bien en adéquation.
+
+</details>
+
+---
+
+Q6.3 : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
+Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production généralement pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
+
+R6.3 :  
+_(Type : combiné)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 6.3.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.3.b Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait selon une modalité de gestion d'incident, c'est-à-dire de correction _ex post_ du résultat non souhaitable
+- [ ] 6.3.c Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs appris les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Cela est fait _ex ante_, en sollicitant un opérateur humain dans un certain nombre de cas où l'intervalle de confiance pour la décision automatique n'est pas satisfaisant
+- [ ] 6.3.d Nous mettons en place des mécanismes permettant à un opérateur humain, dans certaines conditions définies, d'aller contre une décision d'un modèle s'il identifie que le modèle commet une erreur
+
+<details>
+<summary>Expl6.3 :</summary>
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation.
 
