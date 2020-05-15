@@ -28,6 +28,7 @@
 - Protection of data confidentiality:
 
   - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+  - [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)
 
 ## Travaux dans ce domaine
 
