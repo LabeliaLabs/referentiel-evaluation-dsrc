@@ -272,11 +272,16 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl1.7 :</summary>
 
-L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant.
-Référence(s) intéressante(s) :
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Le [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) est par exemple un point d'entrée intéressant.
+
+</details>
+
+<details>
+<summary>Ressources1.7 :</summary>
 
 - [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
 - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
 
 </details>
@@ -299,14 +304,19 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl1.8 :</summary>
 
-L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant.
-Référence(s) intéressante(s) :
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Le [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) est par exemple un point d'entrée intéressant.
+
+Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de ["généalogie de bout-en-bout"](#section-4---etablir-et-maintenir-une-généalogie-des-modèles).
+
+</details>
+
+<details>
+<summary>Ressources1.8 :</summary>
 
 - [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
 - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
-
-Selon les niveaux de risque et de sensibilité des projets, certaines approches _PETs_ seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de ["généalogie de bout-en-bout"](#section-4---etablir-et-maintenir-une-généalogie-des-modèles).
 
 </details>
 
@@ -327,7 +337,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl1.9 :</summary>
 
-Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Référence intéressante : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
+Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Un point d'entrée intéressant : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
 
 </details>
 
@@ -358,7 +368,11 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl2.1 :</summary>
 
 Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc.
-Référence intéressante :
+
+</details>
+
+<details>
+<summary>Ressources2.1 :</summary>
 
 - [Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)
 
@@ -400,10 +414,14 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <summary>Expl2.3 :</summary>
 
 Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire.
-Compléments et références intéressantes :
+Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
 
-- _fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
-- utilisation de données synthétiques, _data augmentation_, _re-weighting_ : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
+</details>
+
+<details>
+<summary>Ressources2.3 :</summary>
+
+- _Fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
 
 </details>
 
@@ -479,10 +497,14 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl3.4 :</summary>
 
-Références intéressantes :
+Voir par exemple le _[p-hacking / data dredging](https://fr.wikipedia.org/wiki/Data_dredging)_.
 
-- _[p-hacking, data dredging](https://fr.wikipedia.org/wiki/Data_dredging)_
-- _robustness metrics_ : _[noise sensitivity score](https://arxiv.org/abs/1806.01477)_.
+</details>
+
+<details>
+<summary>Ressources3.4 :</summary>
+
+- _Robustness metrics_ : _[noise sensitivity score](https://arxiv.org/abs/1806.01477)_.
 
 </details>
 
@@ -505,7 +527,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <summary>Expl3.5 :</summary>
 
 Même sur un modèle stable il existe un risque que les données d'entrée ne soient plus dans le domaine au bout d'un certain temps (population & distribution), exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI. Il est donc nécessaire de contrôler régulièrement la performance d'un modèle utilisé dans son contexte d'utilisation.
-Référence intéressante :
+
+</details>
+
+<details>
+<summary>Ressources3.5 :</summary>
 
 - [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)
 
@@ -526,11 +552,9 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.6.d les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
 <details>
-<summary>Expl3.6 :</summary>
+<summary>Ressources3.6 :</summary>
 
-Référence intéressante :
-
-- [Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)
+- [Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c).
 
 </details>
 
@@ -549,9 +573,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 3.7.d Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
-<summary>Expl3.7 :</summary>
-
-Référence intéressante :
+<summary>Ressources3.7 :</summary>
 
 - [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)
 
@@ -657,7 +679,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <summary>Expl5.2 :</summary>
 
 Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il est important que la répartition de valeur consécutives à une activité économique dans laquelle le modèle joue un rôle soit explicitée et contractualisée. Dans certains cas de figure cette question peut être complexe, par exemple lorsqu'un modèle est entraîné de manière distribuée sur plusieurs jeux de données.
-Référence intéressante :
+
+</details>
+
+<details>
+<summary>Ressource5.2 :</summary>
 
 - [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity)
 
@@ -785,7 +811,12 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl7.1 :</summary>
 
-Il est important de s'interroger et de conscientiser les coûts environnementaux. Référence(s) intéressante(s) :
+Il est important de s'interroger et de conscientiser les coûts environnementaux.
+
+</details>
+
+<details>
+<summary>Ressources7.1 :</summary>
 
 - [ML Impact Calculator](https://mlco2.github.io/impact/)
 
@@ -830,7 +861,11 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <summary>Expl7.3 :</summary>
 
 Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
-Référence intéressante :
+
+</details>
+
+<details>
+<summary>Ressources7.3 :</summary>
 
 - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 - [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
