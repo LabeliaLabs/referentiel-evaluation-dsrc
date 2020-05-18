@@ -283,6 +283,7 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
 - [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
 - [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
 
 </details>
 
@@ -374,7 +375,8 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 <details>
 <summary>Ressources2.1 :</summary>
 
-- [Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)
+- *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
+- *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 
 </details>
 
@@ -421,6 +423,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 <details>
 <summary>Ressources2.3 :</summary>
 
+- *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable from [PAIR](https://pair.withgoogle.com/)
 - _Fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
 
 </details>
@@ -492,7 +495,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] 3.4.a Choix d'une métrique de performance en amont de l'apprentissage machine, parmi les métriques les plus standards possibles
 - [ ] 3.4.b La mise en oeuvre de mesures de robustesse (_robustness metrics_) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et systématiquement mise en oeuvre au sein des projets où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés
+- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) des modèles concernés, y compris les métriques de performance
 
 <details>
 <summary>Expl3.4 :</summary>
@@ -534,6 +537,7 @@ Même sur un modèle stable il existe un risque que les données d'entrée ne so
 <summary>Ressources3.5 :</summary>
 
 - [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)
+- _[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)_, MIT Technology Review
 
 </details>
 
@@ -564,18 +568,21 @@ Q3.7 : **Explicabilité et interprétabilité**
 Au sein des projets de data science qui visent à élaborer des modèles prédictifs en vue d'être utilisés en inférence :
 
 R3.7 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Type : combiné)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
 - [ ] 3.7.a Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
-- [ ] 3.7.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes, mais nous ne mettons pas en oeuvre d'approche de ce type à ce stade
-- [ ] 3.7.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance dans les prédictions réalisées
-- [ ] 3.7.d Nous mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
+- [ ] 3.7.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes sur ce sujet
+- [ ] 3.7.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance avec chaque prédiction réalisée
+- [ ] 3.7.d Nous déterminons le meilleur compromis entre la performance et l'interprétabilité pour chaque modèle que nous élaborons, ce qui nous amène parfois à opter pour un modèle plus simple à expliquer aux personnes concernées (un modèle performant permettra de diminuer les risques d’erreur tandis qu’un modèle interprétable permettra de mieux justifier les résultats du modèle)
+- [ ] 3.7.e Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
 <summary>Ressources3.7 :</summary>
 
-- [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)
+- *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, octobre 2019
+- *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
+- Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624))
 
 </details>
 
@@ -870,8 +877,9 @@ Travailler sur de grands volumes de données dont certaines peuvent être sensib
 - Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 - [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
-- [Serment d'Hippocrate pour data scientist](https://dataforgood.fr/projects/4_serment-hippocrate.html)
+- [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
+- [Charte internationale pour une IA inclusive](https://charteia.arborus.org/)
 
 </details>
 
