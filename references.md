@@ -21,14 +21,21 @@
 
   - [Concrete problems in AI safety](https://arxiv.org/abs/1606.06565). Abstract: _"[...] the problem of accidents in machine learning systems, defined as unintended and harmful behavior that may emerge from poor design of real-world AI systems. We present a list of five practical research problems related to accident risk, categorized according to whether the problem originates from having the wrong objective function ("avoiding side effects" and "avoiding reward hacking"), an objective function that is too expensive to evaluate frequently ("scalable supervision"), or undesirable behavior during the learning process ("safe exploration" and "distributional shift"). [...]"_
 
-- Trust in AI systems:
+- Trust in AI systems, explicabilité et interprétabilité:
 
-  - [La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/), blog Octo Technologies, octobre 2019
+  - *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, blog Octo Technologies, octobre 2019
+
+  - *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
 
 - Protection of data confidentiality:
 
   - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+
   - [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). [A tool](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available.
+
+- "Performance is not outcome":
+
+  - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 
 ## Travaux dans ce domaine
 
@@ -82,14 +89,15 @@ L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ mai
     >   - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
     >   - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
 
-- [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
 - [Google recommended practices for AI: Fairness, Interpretability, Privacy, Security](https://ai.google/education/responsible-ai-practices)
 
 ### Déclarations, chartes, serments
 
 - [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
-- [Serment d'Hippocrate pour data scientist](https://dataforgood.fr/projects/4_serment-hippocrate.html)
+- [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)
+- [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
+- [Charte internationale pour une IA inclusive](https://charteia.arborus.org/)
 
 ### Autres
 
