@@ -4,7 +4,7 @@
 
 `/`  
 [`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel d'évaluation](#périmètre-du-référentiel-dévaluation) | [Approche participative](#approche-participative)  
-[**`├── referentiel_evaluation.md`**](./referentiel_evaluation.md) : [Risques](./referentiel_evaluation.md#1-risques) | [Thèmes et canevas du référentiel](./referentiel_evaluation.md#2-thèmes-et-canevas-du-référentiel-dévaluation) | [**Référentiel d'évaluation**](./referentiel_evaluation.md#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)  
+**[`├── referentiel_evaluation.md`](./referentiel_evaluation.md)** : **[Référentiel d'évaluation](./referentiel_evaluation.md#référentiel-dévaluation-de-la-maturité-dune-organisation)** | [Risques](./referentiel_evaluation.md#risques) | [Thèmes et canevas du référentiel](./referentiel_evaluation.md#thèmes-et-canevas-du-référentiel-dévaluation)  
 [`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
 [`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
