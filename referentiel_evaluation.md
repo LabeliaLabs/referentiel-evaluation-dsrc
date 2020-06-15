@@ -163,11 +163,12 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 <details>
 <summary>Ressources1.7 :</summary>
 
-- [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
-- [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
-- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
-- [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- [Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md), OWASP
+- *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017 and further analysis *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019. A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
+- *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
+- La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînements utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 
@@ -198,10 +199,12 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 <details>
 <summary>Ressources1.8 :</summary>
 
-- [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
-- [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
-- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
-- [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- [Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md), OWASP
+- *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017 and further analysis *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019. A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
+- *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
+- Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
+- La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînements utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 

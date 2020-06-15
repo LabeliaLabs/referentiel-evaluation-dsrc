@@ -29,9 +29,13 @@
 
 - Protection of data confidentiality:
 
-  - [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
+  - *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 
-  - [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). [A tool](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available.
+  - *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017 and further analysis *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019. A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
+
+  - Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
+
+  - La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînements utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 - "Performance is not outcome":
 
@@ -48,23 +52,23 @@ L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ mai
 
     > 7 Key requirements:
     >
-    >   - Human agency and oversight
-    >   - Technical robustness and safety
-    >   - Privacy and data governance
-    >   - Transparency
-    >   - Diversity, non-discrimination and fairness
-    >   - Societal and environmental well-being
-    >   - Accountability
+    > - Human agency and oversight
+    > - Technical robustness and safety
+    > - Privacy and data governance
+    > - Transparency
+    > - Diversity, non-discrimination and fairness
+    > - Societal and environmental well-being
+    > - Accountability
 
 - [OECD AI Principles](https://www.oecd.org/going-digital/ai/principles/) focused on 'Responsible stewardship of trustworthy AI'
 
     > The Recommendation identifies five complementary values-based principles for the responsible stewardship of trustworthy AI:
     >
-    >   - AI should benefit people and the planet by driving inclusive growth, sustainable development and well-being.
-    >   - AI systems should be designed in a way that respects the rule of law, human rights, democratic values and diversity, and they should include appropriate safeguards – for example, enabling human intervention where necessary – to ensure a fair and just society.
-    >   - There should be transparency and responsible disclosure around AI systems to ensure that people understand AI-based outcomes and can challenge them.
-    >   - AI systems must function in a robust, secure and safe way throughout their life cycles and potential risks should be continually assessed and managed.
-    >   - Organisations and individuals developing, deploying or operating AI systems should be held accountable for their proper functioning in line with the above principles.
+    > - AI should benefit people and the planet by driving inclusive growth, sustainable development and well-being.
+    > - AI systems should be designed in a way that respects the rule of law, human rights, democratic values and diversity, and they should include appropriate safeguards – for example, enabling human intervention where necessary – to ensure a fair and just society.
+    > - There should be transparency and responsible disclosure around AI systems to ensure that people understand AI-based outcomes and can challenge them.
+    > - AI systems must function in a robust, secure and safe way throughout their life cycles and potential risks should be continually assessed and managed.
+    > - Organisations and individuals developing, deploying or operating AI systems should be held accountable for their proper functioning in line with the above principles.
 
 - The Institute for Ethical AI & Machine Learning: [Awesome AI guidelines](https://github.com/ethicalml/awesome-artificial-intelligence-guidelines) and [The Responsible ML Principles](https://ethical.institute/principles.html):
 
@@ -83,11 +87,11 @@ L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ mai
 
     > 6 thèmes :
     >
-    >   - Renforcer la sécurité de l'IA avec validation, surveillance et vérification
-    >   - Créer des modèles d'IA transparents, extensibles et prouvables
-    >   - Créer des systèmes éthiques, compréhensibles, légaux
-    >   - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
-    >   - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
+    > - Renforcer la sécurité de l'IA avec validation, surveillance et vérification
+    > - Créer des modèles d'IA transparents, extensibles et prouvables
+    > - Créer des systèmes éthiques, compréhensibles, légaux
+    > - Améliorer la gouvernance avec des modèles d'exploitation et des processus de l'IA
+    > - Tester le biais dans les données, les modèles et l'utilisation d'algorithmes par l'homme
 
 - [Google recommended practices for AI: Fairness, Interpretability, Privacy, Security](https://ai.google/education/responsible-ai-practices)
 
