@@ -11,7 +11,7 @@ L'évaluation est composée des 7 sections suivantes :
 - [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
 - [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)
 - [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)
-- [Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)
+- [Section 6 - Utiliser des modèles prédictifs appris](#section-6---utiliser-des-modèles-prédictifs-appris)
 - [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
@@ -544,7 +544,7 @@ Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'ut
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
 [_[⇧ retour à la liste des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)_]
+[_[⇩ prochaine section](#section-6---utiliser-des-modèles-prédictifs-appris)_]
 
 ---
 
@@ -615,7 +615,7 @@ Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il es
 
 ---
 
-### Section 6 - Utilisation de modèles prédictifs appris
+### Section 6 - Utiliser des modèles prédictifs appris
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
 
@@ -649,7 +649,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 : **Utilisation de modèles prédictifs par des clients**  
+Q6.2 : **Utilisation de modèles prédictifs pour le compte de clients**  
 Si votre organisation fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs :
 
 R6.2 :  
@@ -697,6 +697,36 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 <summary>Ressources6.3 :</summary>
 
 - *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, ChristopherGS, March 2020
+
+</details>
+
+---
+
+Q6.4 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
+Si votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs, que met-elle en place pour en informer les utilisateurs ?
+
+R6.4 :  
+_(Type : combiné)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 6.4.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.4.b Les utilisateurs ne sont pas informés | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.4.c Une notice d'information est systématiquement mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
+- [ ] 6.4.d L'utilisation du système ou du service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
+- [ ] 6.4.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
+
+<details>
+<summary>Expl6.4 :</summary>
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations mais également le rapport des utilisateurs aux systèmes et services numériques. Dans la plupart des cas il est important d'informer les utilisateurs qu'ils ne font pas face à des règles de gestion classiques.
+
+</details>
+
+<details>
+<summary>Ressources6.4 :</summary>
+
+- *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
+- *[Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
 
 </details>
 
