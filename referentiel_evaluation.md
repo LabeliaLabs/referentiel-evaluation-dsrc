@@ -307,7 +307,8 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 <details>
 <summary>Ressources2.3 :</summary>
 
-- *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable from [PAIR](https://pair.withgoogle.com/)
+- *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
+- _[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models_, IBM
 - _Fairness metrics_ : _[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)_, _[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)_
 
 </details>
@@ -407,7 +408,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés actuellement | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
 - [ ] 3.5.c La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
-- [ ] 3.5.d La performance est ré-évaluée régulièrement sur des données de test actualisée, car les données d'entrées peuvent évoluer (exemple : une variable qui ne serait plus renseignée à la même fréquence qu'avant par les utilisateurs dans un SI)
+- [ ] 3.5.d La performance est ré-évaluée régulièrement sur des données de test actualisées, car les données d'entrées peuvent évoluer
 - [ ] 3.5.e Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
 
 <details>
@@ -421,6 +422,7 @@ Même sur un modèle stable il existe un risque que les données d'entrée ne so
 <summary>Ressources3.5 :</summary>
 
 - [Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)
+- [Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/), ChristopherGS, March 2020
 - _[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)_, MIT Technology Review
 
 </details>
@@ -442,7 +444,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Ressources3.6 :</summary>
 
-- [Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c).
+- *[Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)*, A. Saboni (Octo Technologies), April 2020
 
 </details>
 
@@ -466,7 +468,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, octobre 2019
 - *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
-- Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624))
+- Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
 
 </details>
 
@@ -497,7 +499,16 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl4.1 :</summary>
 
-Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous la forme  par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle, et de processus internes organisant cette activité.
+Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle, et de processus internes organisant cette activité.
+
+</details>
+
+<details>
+<summary>Ressources4.1 :</summary>
+
+- [Substra Framework](http://doc.substra.ai/): _an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations_ 
+- [MLflow](https://mlflow.org/): _an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry_
+- [DVC](https://dvc.org/) _an Open-source Version Control System for Machine Learning Projects_, and [DAGsHub](https://dagshub.com/docs/) _a platform for data version control and collaboration_
 
 </details>
 
@@ -576,7 +587,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 <details>
 <summary>Ressource5.2 :</summary>
 
-- [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity)
+- [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), an open source project animated by Substra Foundation
 
 </details>
 
@@ -676,6 +687,13 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 </details>
 
+<details>
+<summary>Ressources6.3 :</summary>
+
+- *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, ChristopherGS, March 2020
+
+</details>
+
 ---
 
 ### Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science
@@ -758,15 +776,16 @@ Travailler sur de grands volumes de données dont certaines peuvent être sensib
 <details>
 <summary>Ressources7.3 :</summary>
 
-- Rapport [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
-- [Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)
-- [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
-- [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)
-- [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
-- [Charte internationale pour une IA inclusive](https://charteia.arborus.org/)
+- Rapport *[Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf)*, Etalab / ENA, Janvier 2020
+- *[Déclaration de Montréal pour l'IA responsable](https://www.declarationmontreal-iaresponsable.com/la-declaration)*
+- *[Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)*
+- *[Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)*
+- *[Future of Life's AI principles](https://futureoflife.org/ai-principles/)*
+- *[Charte internationale pour une IA inclusive](https://charteia.arborus.org/)*, Arborus et Orange
 
 </details>
 
+---
 ---
 
 ## Risques
