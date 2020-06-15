@@ -509,7 +509,7 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous
 <details>
 <summary>Ressources4.1 :</summary>
 
-- [Substra Framework](http://doc.substra.ai/): _an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations_ 
+- [Substra Framework](http://doc.substra.ai/): _an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations_
 - [MLflow](https://mlflow.org/): _an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry_
 - [DVC](https://dvc.org/) _an Open-source Version Control System for Machine Learning Projects_, and [DAGsHub](https://dagshub.com/docs/) _a platform for data version control and collaboration_
 
@@ -635,9 +635,10 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.1.e Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 6.1.f Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
-- [ ] 6.1.g Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 6.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillances continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.1.g Pour chaque modèle, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.1 :</summary>
@@ -659,8 +660,10 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de ses clients, nous le maintenons à jour
 - [ ] 6.2.c Pour chaque modèle ou application pour un client nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.2.d Pour chaque modèle ou application pour un client, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.2.e Pour chaque modèle ou application pour un client, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 6.2.f Nous fournissons à nos clients ou opérons pour leur compte nos modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 6.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillances continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.2.fe Pour chaque modèle ou application pour un client, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.2.g Pour chaque modèle ou application pour un client, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.2 :</summary>
