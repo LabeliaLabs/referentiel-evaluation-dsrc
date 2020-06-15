@@ -25,7 +25,7 @@ L'utilisation de données personnelles ou confidentielles fait porter le risque 
 
 ---
 
-Q1.1 : **Législation et des exigences contractuelles applicables**  
+Q1.1 : **Législation et des exigences contractuelles applicables - Identification**  
 En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
@@ -47,7 +47,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.2 :  
+Q1.2 : **Législation et des exigences contractuelles applicables - Approche de mise en conformité**  
 Pour satisfaire à ces exigences, l’approche adoptée par votre organisation est :
 
 R1.2 :  
@@ -88,7 +88,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.4 :  
+Q1.4 : **Législation et des exigences contractuelles applicables - Audit et certification**  
 La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
 
 R1.4 :  
@@ -125,7 +125,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q1.6 :  
+Q1.6 : **Projet impliquant un nouveau traitement de données personnelles ou confidentielles**  
 _(Condition : R1.5 <> 1ère réponse)_  
 Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science, au sein de votre organisation :
 
