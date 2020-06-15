@@ -266,7 +266,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 :  
+Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
 Votre organisation est-elle concernée par des cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) ?
 
 R2.2 :  
@@ -621,7 +621,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.1 :  
+Q6.1 : **Utilisation de modèles prédictifs pour son propre compte**  
 Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
 R6.1 :  
@@ -645,7 +645,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 :  
+Q6.2 : **Utilisation de modèles prédictifs par des clients**  
 Si votre organisation fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs :
 
 R6.2 :  
