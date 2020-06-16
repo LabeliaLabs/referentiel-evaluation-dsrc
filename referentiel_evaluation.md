@@ -270,7 +270,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 ---
 
 Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
-Votre organisation est-elle concernée par des cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) ?
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ?
 
 R2.2 :  
 _(Type : réponse unique)_  
@@ -649,20 +649,20 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 : **Utilisation de modèles prédictifs pour le compte de clients**  
-Si votre organisation fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs :
+Q6.2 : **Utilisation de modèles prédictifs pour le compte de tiers**  
+Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
 
 R6.2 :  
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.2.a Notre organisation ne fournit pas à ses clients et n'opère pas pour le compte de ses clients d'application basée sur des modèles prédictifs élaboré par apprentissage automatique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
-- [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de ses clients, nous le maintenons à jour
-- [ ] 6.2.c Pour chaque modèle ou application pour un client nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
-- [ ] 6.2.d Pour chaque modèle ou application pour un client, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] 6.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaboré par apprentissage automatique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
+- [ ] 6.2.c Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] 6.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
 - [ ] 6.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillances continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
-- [ ] 6.2.fe Pour chaque modèle ou application pour un client, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 6.2.g Pour chaque modèle ou application pour un client, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.2.fe Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] 6.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
@@ -709,9 +709,9 @@ R6.4 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.4.a Notre organisation n'utilise pas de modèles prédicifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.4.a Notre organisation n'utilise pas de modèles prédicifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.4.b Les utilisateurs ne sont pas informés | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
-- [ ] 6.4.c Une notice d'information est systématiquement mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
+- [ ] 6.4.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
 - [ ] 6.4.d L'utilisation du système ou du service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
 - [ ] 6.4.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
 
