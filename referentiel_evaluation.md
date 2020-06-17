@@ -6,17 +6,13 @@ Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dun
 
 L'évaluation est composée des 7 sections suivantes :
 
-- [Data science responsable et de confiance - Référentiel d'évaluation](#data-science-responsable-et-de-confiance---référentiel-dévaluation)
-  - [Référentiel d'évaluation de la maturité d'une organisation](#référentiel-dévaluation-de-la-maturité-dune-organisation)
-    - [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
-    - [Section 2 - Prévenir les biais malencontreux](#section-2---prévenir-les-biais-malencontreux)
-    - [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
-    - [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)
-    - [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)
-    - [Section 6 - Utiliser des modèles prédictifs appris](#section-6---utiliser-des-modèles-prédictifs-appris)
-    - [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
-  - [Risques](#risques)
-  - [Thèmes et canevas du référentiel d'évaluation](#thèmes-et-canevas-du-référentiel-dévaluation)
+- [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
+- [Section 2 - Prévenir les biais malencontreux](#section-2---prévenir-les-biais-malencontreux)
+- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
+- [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)
+- [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)
+- [Section 6 - Utiliser des modèles prédictifs appris](#section-6---utiliser-des-modèles-prédictifs-appris)
+- [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
 
