@@ -25,7 +25,7 @@ L'utilisation de données personnelles ou confidentielles fait porter le risque 
 
 ---
 
-Q1.1 : **Législation et des exigences contractuelles applicables - Identification**  
+Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
 En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
