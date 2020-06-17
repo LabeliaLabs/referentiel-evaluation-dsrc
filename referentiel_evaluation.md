@@ -11,7 +11,7 @@ L'évaluation est composée des 7 sections suivantes :
 - [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
 - [Section 4 - Etablir et maintenir une généalogie des modèles](#section-4---etablir-et-maintenir-une-généalogie-des-modèles)
 - [Section 5 - Garantir la chaîne de responsabilité des modèles](#section-5---garantir-la-chaîne-de-responsabilité-des-modèles)
-- [Section 6 - Utilisation de modèles prédictifs appris au sein de l'organisation](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)
+- [Section 6 - Utiliser des modèles prédictifs appris](#section-6---utiliser-des-modèles-prédictifs-appris)
 - [Section 7 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-7---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
@@ -25,7 +25,7 @@ L'utilisation de données personnelles ou confidentielles fait porter le risque 
 
 ---
 
-Q1.1 : **Législation et des exigences contractuelles applicables**  
+Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
 En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
@@ -47,7 +47,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.2 :  
+Q1.2 : **Législation et exigences contractuelles applicables - Approche de mise en conformité**  
 Pour satisfaire à ces exigences, l’approche adoptée par votre organisation est :
 
 R1.2 :  
@@ -88,7 +88,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.4 :  
+Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
 La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
 
 R1.4 :  
@@ -125,7 +125,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q1.6 :  
+Q1.6 : **Projet impliquant un nouveau traitement de données personnelles ou confidentielles**  
 _(Condition : R1.5 <> 1ère réponse)_  
 Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science, au sein de votre organisation :
 
@@ -163,11 +163,12 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 <details>
 <summary>Ressources1.7 :</summary>
 
-- [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
-- [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
-- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
-- [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- [Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md), OWASP
+- *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017 and further analysis *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019. A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
+- *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
+- La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînements utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 
@@ -198,10 +199,12 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 <details>
 <summary>Ressources1.8 :</summary>
 
-- [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)
-- [The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)
-- [Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820) and further analysis [Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39). A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
-- [Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)
+- [Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md), OWASP
+- *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017 and further analysis *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019. A tool called [ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter) to quantify the privacy risks of machine learning models with respect to inference attacks is also available
+- *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
+- Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) and its Python wrapper [PyDP](https://github.com/OpenMined/PyDP) by OpenMined
+- La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînements utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 
@@ -266,8 +269,8 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 :  
-Votre organisation est-elle concernée par des cas de figure où les modèles prédictifs sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) ?
+Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ?
 
 R2.2 :  
 _(Type : réponse unique)_  
@@ -506,7 +509,7 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle peut se décliner sous
 <details>
 <summary>Ressources4.1 :</summary>
 
-- [Substra Framework](http://doc.substra.ai/): _an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations_ 
+- [Substra Framework](http://doc.substra.ai/): _an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations_
 - [MLflow](https://mlflow.org/): _an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry_
 - [DVC](https://dvc.org/) _an Open-source Version Control System for Machine Learning Projects_, and [DAGsHub](https://dagshub.com/docs/) _a platform for data version control and collaboration_
 
@@ -541,7 +544,7 @@ Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'ut
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
 [_[⇧ retour à la liste des sections](#restructuration-en-un-référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-6---utilisation-de-modèles-prédictifs-appris-au-sein-de-lorganisation)_]
+[_[⇩ prochaine section](#section-6---utiliser-des-modèles-prédictifs-appris)_]
 
 ---
 
@@ -612,7 +615,7 @@ Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il es
 
 ---
 
-### Section 6 - Utilisation de modèles prédictifs appris
+### Section 6 - Utiliser des modèles prédictifs appris
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation et ses parties prenantes.
 
@@ -621,7 +624,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.1 :  
+Q6.1 : **Utilisation de modèles prédictifs pour son propre compte**  
 Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
 R6.1 :  
@@ -632,9 +635,10 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.1.e Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 6.1.f Pour chaque modèle, nous étudions sa [G2B](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
-- [ ] 6.1.g Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 6.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.1.g Pour chaque modèle, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.1 :</summary>
@@ -645,19 +649,21 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 :  
-Si votre organisation fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs :
+Q6.2 : **Utilisation de modèles prédictifs pour le compte de tiers**  
+Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
 
 R6.2 :  
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.2.a Notre organisation ne fournit pas à ses clients et n'opère pas pour le compte de ses clients d'application basée sur des modèles prédictifs élaboré par apprentissage automatique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
-- [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de ses clients, nous le maintenons à jour
-- [ ] 6.2.c Pour chaque modèle ou application pour un client nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
-- [ ] 6.2.d Pour chaque modèle ou application pour un client, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.2.e Pour chaque modèle ou application pour un client, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 6.2.f Nous fournissons à nos clients ou opérons pour leur compte nos modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 6.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaboré par apprentissage automatique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
+- [ ] 6.2.c Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] 6.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] 6.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.2.fe Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 6.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 6.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 
 <details>
 <summary>Expl6.2 :</summary>
@@ -691,6 +697,36 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 <summary>Ressources6.3 :</summary>
 
 - *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, ChristopherGS, March 2020
+
+</details>
+
+---
+
+Q6.4 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
+Si votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs, que met-elle en place pour en informer les utilisateurs ?
+
+R6.4 :  
+_(Type : combiné)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 6.4.a Notre organisation n'utilise pas de modèles prédicifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.4.b Les utilisateurs ne sont pas informés | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 6.4.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
+- [ ] 6.4.d L'utilisation du système ou du service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
+- [ ] 6.4.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
+
+<details>
+<summary>Expl6.4 :</summary>
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations mais également le rapport des utilisateurs aux systèmes et services numériques. Dans la plupart des cas il est important d'informer les utilisateurs qu'ils ne font pas face à des règles de gestion classiques.
+
+</details>
+
+<details>
+<summary>Ressources6.4 :</summary>
+
+- *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
+- *[Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
 
 </details>
 
