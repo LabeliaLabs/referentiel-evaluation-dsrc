@@ -47,7 +47,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.2 : **Législation et des exigences contractuelles applicables - Approche de mise en conformité**  
+Q1.2 : **Législation et exigences contractuelles applicables - Approche de mise en conformité**  
 Pour satisfaire à ces exigences, l’approche adoptée par votre organisation est :
 
 R1.2 :  
@@ -88,7 +88,7 @@ Mettre en place des processus pour connaître et suivre l'évolution des réglem
 
 ---
 
-Q1.4 : **Législation et des exigences contractuelles applicables - Audit et certification**  
+Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
 La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
 
 R1.4 :  
@@ -635,7 +635,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 6.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillances continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 6.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 6.1.g Pour chaque modèle, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] 6.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
@@ -660,7 +660,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
 - [ ] 6.2.c Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 6.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 6.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillances continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 6.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 6.2.fe Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 6.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa [généalogie de bout-en-bout](#section-4---etablir-et-maintenir-une-généalogie-des-modèles) et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] 6.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
