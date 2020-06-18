@@ -726,7 +726,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 <summary>Ressources6.4 :</summary>
 
 - *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
-- *[Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
+- *[Interpretable Machine Learning - Counterfactual explanations](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
 
 </details>
 
