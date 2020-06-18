@@ -176,7 +176,7 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 
 Q1.8 : **Sécurité de l'apprentissage automatique et _PETs_ - Mise en oeuvre**  
 _(Condition : R1.5 <> 1ère réponse)_  
-Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _(PETs)_ :
+Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _PETs_ :
 
 R1.8 :  
 _(Type : réponses multiples possibles)_  
