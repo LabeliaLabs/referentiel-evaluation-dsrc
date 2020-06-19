@@ -432,8 +432,8 @@ Même sur un modèle stable il existe un risque que les données d'entrée ne so
 
 ---
 
-Q3.6 : **Seuils de classification et plages d'indécision**  
-Lors de l'élaboration d'un modèle de classification, pour la définition des seuils de classification, votre organisation :
+Q3.6 : **Seuils de décision et plages d'indécision**  
+Lors de l'élaboration d'un modèle de classification, pour la définition des seuils de décision, votre organisation :
 
 R3.6 :  
 _(Type : combiné)_  
