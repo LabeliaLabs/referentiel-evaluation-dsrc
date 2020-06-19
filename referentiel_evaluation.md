@@ -604,7 +604,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 ---
 
 Q5.3 : **Sous-traitance**  
-Les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
+Dans les travaux de data science, les activités sous-traitées auprès ou en partenariat avec une organisation tierce sont soumises aux mêmes exigences que celles que votre organisation s'applique :
 
 R5.3 :  
 _(Type : réponse unique)_  
@@ -616,7 +616,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl5.3 :</summary>
 
-Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées.
+Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées. Cela doit s'appliquer par exemple aux consultants, freelances qui viennent renforcer une équipe interne sur un projet de data science.
 
 </details>
 
