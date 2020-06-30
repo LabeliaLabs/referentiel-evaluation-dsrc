@@ -32,11 +32,11 @@ R1.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.1.a pas encore identifiées
-- [ ] 1.1.b partiellement identifiées ou en cours d'identification
-- [ ] 1.1.c identifiées
-- [ ] 1.1.d identifiées et maîtrisées par les collaborateurs
-- [ ] 1.1.e identifiées, documentées et maîtrisées par les collaborateurs
+- [ ] 1.1.a Pas encore identifiées
+- [ ] 1.1.b Partiellement identifiées ou en cours d'identification
+- [ ] 1.1.c Identifiées
+- [ ] 1.1.d Identifiées et maîtrisées par les collaborateurs
+- [ ] 1.1.e Identifiées, documentées et maîtrisées par les collaborateurs
 
 <details>
 <summary>Expl1.1 :</summary>
@@ -54,10 +54,10 @@ R1.2 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.2.a informelle, basée sur la responsabilité et la compétence de chacun
-- [ ] 1.2.b formalisée et accessible à tous les collaborateurs
-- [ ] 1.2.c formalisée et maîtrisée par les collaborateurs
-- [ ] 1.2.d formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
+- [ ] 1.2.a Informelle, basée sur la responsabilité et la compétence de chacun
+- [ ] 1.2.b Formalisée et accessible à tous les collaborateurs
+- [ ] 1.2.c Formalisée et maîtrisée par les collaborateurs
+- [ ] 1.2.d Formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
 
 <details>
 <summary>Expl1.2 :</summary>
@@ -75,9 +75,9 @@ R1.3 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.3.a nous ne faisons pas vraiment de veille réglementaire
-- [ ] 1.3.b nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
-- [ ] 1.3.c nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
+- [ ] 1.3.a Nous ne faisons pas vraiment de veille réglementaire
+- [ ] 1.3.b Nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
+- [ ] 1.3.c Nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
 
 <details>
 <summary>Expl1.3 :</summary>
@@ -133,10 +133,10 @@ R1.6 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.6.a nous élaborons un _Privacy Impact Assessment_ (PIA)
-- [ ] 1.6.b nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
-- [ ] 1.6.c nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
-- [ ] 1.6.d nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
+- [ ] 1.6.a Nous élaborons un _Privacy Impact Assessment_ (PIA)
+- [ ] 1.6.b Nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
+- [ ] 1.6.c Nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
+- [ ] 1.6.d Nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
 
 ---
 
@@ -249,8 +249,8 @@ R2.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 2.1.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 2.1.b dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 2.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 2.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl2.1 :</summary>
@@ -335,10 +335,10 @@ R3.1 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.1.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.1.b dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
-- [ ] 3.1.c utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
+- [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
+- [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
 
 ---
 
@@ -362,8 +362,8 @@ R3.3 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 3.3.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.3.b dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.3.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.3.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl3.3 :</summary>
@@ -439,10 +439,10 @@ R3.6 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.6.a fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.6.b dispose d'une approche documentée et systématiquement mise en oeuvre
-- [ ] 3.6.c dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
-- [ ] 3.6.d les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
+- [ ] 3.6.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.6.c Dispose d'une approche documentée et systématiquement mise en oeuvre, qui inclut la possibilité de maintenir des plages d'indécision
+- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la G2B des modèles concernés
 
 <details>
 <summary>Ressources3.6 :</summary>
@@ -524,10 +524,10 @@ R4.2 :
 _(Type : combiné)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.2.a ne sont pas documentées | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
-- [ ] 4.2.b sont explicitées et documentées
-- [ ] 4.2.c sont versionnées
-- [ ] 4.2.d les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
+- [ ] 4.2.a Ne sont pas documentées | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 4.2.b Sont explicitées et documentées
+- [ ] 4.2.c Sont versionnées
+- [ ] 4.2.d Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
 <details>
 <summary>Expl4.2 :</summary>
