@@ -809,6 +809,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 7.3.a À ce stade nous ne nous sommes pas encore penchés sur la dimension éthique | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 7.3.b Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
 - [ ] 7.3.c Notre organisation s'est dotée d'une politique en matière d'éthique
+- [ ] 7.3.d Sur les projets le justifiant, nous mettons en place un comité d'éthique indépendant ou nous sollicitons l'évaluation d'un organisme validant l'éthique des projets
 
 <details>
 <summary>Expl7.3 :</summary>
