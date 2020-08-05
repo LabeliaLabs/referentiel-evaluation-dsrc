@@ -656,7 +656,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 : **Développement de modèles prédictifs pour le compte de tiers**  
+Q6.2 : **Utilisation de modèles prédictifs pour le compte de tiers**  
 Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
 
 R6.2 :  
