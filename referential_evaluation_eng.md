@@ -18,7 +18,7 @@ The evaluation consists of the following 7 sections:
 
 ### Section 1 - Protecting personal or confidential data
 
-The use of personal or confidential data brings the risk of exposure of such data, which can have very hamrful consequences for the producers, users, or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
+The use of personal or confidential data brings the risk of exposure of such data, which can have very hamrful consequences for the producers, users, or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimized.
 
 [_[⇧ back to list of sections](#framework-for-assessing-the-maturity-of-an-organization)_]  
 [-[⇩ next section](#section-2---preventing-unintended-bias)_]
@@ -26,17 +26,17 @@ The use of personal or confidential data brings the risk of exposure of such dat
 ---
 
 Q1.1: **Applicable legislation and contractual requirements - Identification**.  
-With regard to personal and/or confidential data, the legal, statutory, regulatory and contractual requirements in force and concerning your organization are:
+With regard to personal and/or confidential data, the legal, statutory, regulatory and contractual requirements in force and effect, concerning your organization are:
 
 R1.1:  
 _(Type: single response)_  
 _(Select only one answer, best suited to the organization's level of maturity on this topic)_
 
-- [ ] 1.1.a not yet identified
-- [ ] 1.1.b partially identified or in the process of being identified
-- [ ] 1.1.c identified
-- [ ] 1.1.d identified and controlled by collaborators
-- [ ] 1.1.e identified, documented and mastered by collaborators
+- [ ] 1.1.a Not yet identified
+- [ ] 1.1.b Partially identified or in the process of being identified
+- [ ] 1.1.c Identified
+- [ ] 1.1.d Identified and mastered by collaborators
+- [ ] 1.1.e Identified, documented and mastered by collaborators
 
 <details>
 <summary>Expl1.1:</summary>
@@ -47,6 +47,10 @@ Set up processes to know and follow the evolution of applicable regulations (ver
 
 ---
 
+> Quelle définition de "maîtrisé" utilisez vous ? Y a t il la notion d'implémentation quand la mesure est pertinente ou c'est sur le plan théorique ?
+> J'ai pris l'option de remplacer "controlled" (under the control of someone or something.) par "mastered" (acquire complete knowledge or skill in (a subject, technique, or art).) 
+
+
 Q1.2: **Applicable legislation and contractual requirements - methodology**.    
 To meet these requirements, your organization's approach is:
 
@@ -54,22 +58,22 @@ R1.2:
 _(Type: single response)_  
 _(Select only one answer, best suited to the organization's level of maturity on this topic)_
 
-- [ ] 1.2.a informal, based on individual responsibility and competence
-- [ ] 1.2.b formalized and accessible to all collaborators
-- [ ] 1.2.c formalised and controlled by the collaborators
-- [ ] 1.2.d formalized, controlled by collaborators, documented for each processing of personal or confidential data
+- [ ] 1.2.a Informal, based on individual responsibility and competence
+- [ ] 1.2.b Formalized and accessible to all collaborators
+- [ ] 1.2.c Formalised and mastered by the collaborators
+- [ ] 1.2.d Formalized, mastered by collaborators, documented for each processing of personal or confidential data
 
 <details>
 <summary>Expl1.2:</summary>
 
-It is a question of questioning the management of personal or confidential data (storage, access, transfer, protection, responsibilities...), and documenting the choices made.
+This involves questioning the management of personal or confidential data (storage, access, transfer, protection, responsibilities...), and documenting the choices made.
 
 </details>
 
 ---
 
 Q1.3: **Regulatory watch**  
-Is a regulatory wattch monitoring process in place, either internally or through a specialised service provider, to find out about applicable changes that have an impact on your organisation?
+Is a regulatory watch monitoring process in place, either internally or through a specialised service provider, to find out about applicable changes that have an impact on your organisation?
 
 R1.3:  
 _(Type: single response)_  
@@ -82,12 +86,12 @@ _(Select only one answer, best suited to the organization's level of maturity on
 <details>
 <summary> Expl1.3: </summary>
 
-Set up processes to know and follow the evolution of applicable regulations (very specific in some sectors), as well as to document the approaches and choices made to comply with each data science project. Example(s) of interest: [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+Set up processes to know and follow the evolution of applicable regulations (which may be very specific in some sectors), as well as to document the approaches and choices made to comply with each data science project. Example(s) of interest: [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
 
 </details>
 
 Q1.4: **Applicable legislation and contractual requirements - Auditing and certification** 
-Has the organization's compliance with personal and confidential data requirements been audited and is it recognized by a certification, third party body or equivalent?
+Has the organization's compliance with personal and confidential data requirements been audited and is it acknowledged by a certification, third party body or equivalent?
 
 R1.4:  
 _(Type: single response)_  
@@ -99,7 +103,7 @@ _(Select only one answer, best suited to the organization's level of maturity on
 <details>
 <summary> Expl1.4: </summary>
 
-In many sectors there are specific compliance requirements. It is generally possible to formalise an organisation's compliance through certification or a specialised audit, or by obtaining a label.
+In many sectors there are specific compliance requirements. It is generally possible to formalize an organisation's compliance through certification or specialized audit, or by obtaining a label.
 
 </details>
 
@@ -131,10 +135,10 @@ R1.6:
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organization)_
 
-- [ ] 1.6.a we develop a _Privacy Impact Assessment_ (PIA)
-- [ ] 1.6.b we implement protection measures (in particular concerning the transfer, storage and access to the data concerned).
-- [ ] 1.6.c we document APIs and measures implemented and keep them within projects.
-- [ ] 1.6.d we contract the relationships with suppliers and customers and the responsibilities that arise from this.
+- [ ] 1.6.a We develop a _Privacy Impact Assessment_ (PIA)
+- [ ] 1.6.b We implement protection measures (in particular concerning the transfer, storage and access to the data concerned).
+- [ ] 1.6.c We document APIs and measures implemented and keep them within projects.
+- [ ] 1.6.d We contract the relationships with suppliers and customers and the resulting responsibilities.
 
 ---
 
@@ -187,7 +191,7 @@ _(Select all response items that correspond to practices in your organization)_
 
 <details>
 <summary>Expl1.8:</summary>
-
+> Doublon ligne 157
 The state of the art in ML security is constantly evolving. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch. The [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) is for example an interesting entry point.
 
 Depending on the level of risk and sensitivity of the projects, certain _PETs_ approaches will be selected and implemented. It is important to follow the evolution of the state of the art and practices, and to document the choices made. We introduce here the notion of ["end-to-end genealogy"] (#section-4---establishing-and-maintaining-a-model-genealogy).
@@ -210,7 +214,7 @@ Depending on the level of risk and sensitivity of the projects, certain _PETs_ a
 
 Q1.9: ** Notification of safety incidents to regulatory authorities**  
 _(Condition: R1.5 <> 1st answer)_  
-In the event that a model developed by the organization is used or accessible by an external stakeholder(s), and a new vulnerability is published, there is a risk that it may apply to the model and create a risk of exposure of personal or confidential data:
+Considering the event in which a model developed by the organization, used or accessible by an external stakeholder(s), is found to have a new vulnerability released, and there is a risk that it may apply to the model and create a risk of exposure of personal or confidential data:
 
 R1.9:  
 _(Type: multiple responses possible)_  
@@ -268,7 +272,7 @@ It is a question of forcing to ask oneself about these subjects and therefore to
 ---
 
 Q2.2: **Risks of discrimination against certain social groups**  
-Is your organisation concerned with cases where predictive models are used in thematic environments where there are risks of discrimination against certain social groups (gender, origin, age, etc.)?
+Is your organisation concerned by cases where predictive models are used in thematic environments where there are risks of discrimination against certain social groups (gender, origin, age, etc.)?
 
 R2.2:  
 _(Type: single response)_  
@@ -300,7 +304,7 @@ _(Select all response items that correspond to practices in your organization)_
 <details>
 <summary>Expl2.3:</summary>
 
-It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be at the origin of a risk of discriminatory bias.
+This involves systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be at the origin of a risk of discriminatory bias.
 Complement on the use of synthetic data and _data augmentation_, _re-weighting_ approaches: when such techniques are used it is important to make them explicit, otherwise we risk losing information on how a model was developed.
 
 </details>
@@ -333,10 +337,10 @@ R3.1:
 _(Type: combined)_  
 _(Select all response items that correspond to practices in your organization. Caution, some combinations would not be consistent)_
 
-- [ ] 3.1.a operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
-- [ ] 3.1.b has a documented and systematically implemented approach to test set isolation.
-- [ ] 3.1.c uses a versioning and traceability tool for the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later date.
-- [ ] 3.1.d systematically provides for the development of two or more testsets to increase resilience.
+- [ ] 3.1.a Operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
+- [ ] 3.1.b Has a documented and systematically implemented approach to test set isolation.
+- [ ] 3.1.c Uses a versioning and traceability tool for the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later date.
+- [ ] 3.1.d Systematically provides for the development of two or more testsets to increase resilience.
 
 ---
 
@@ -360,8 +364,8 @@ R3.3:
 _(Type: single response)_  
 _(Select one answer only, best suited to the organization's level of maturity on this topic)_
 
-- [ ] 3.3.a operates informally in this respect and relies on the competence and responsibility of the collaboroators involved.
-- [ ] 3.3.b has a documented approach that is systematically implemented.
+- [ ] 3.3.a Operates informally in this respect and relies on the competence and responsibility of the collaboroators involved.
+- [ ] 3.3.b Has a documented approach that is systematically implemented.
 
 <details>
 <summary>Expl3.3:</summary>
@@ -437,10 +441,10 @@ R3.6:
 _(Type: combined)_  
 _(Select all response items that correspond to practices in your organization. Caution, some combinations would not be consistent)_
 
-- [ ] 3.6.a operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
-- [ ] 3.6.b has a documented approach that is systematically implemented.
-- [ ] 3.6.c has a documented and systematically implemented approach, which includes the possibility of maintaining ranges of indecision.
-- [ ] 3.6.d the choices made for each model and implemented are duly documented in the G2B of the models concerned.
+- [ ] 3.6.a Operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
+- [ ] 3.6.b Has a documented approach that is systematically implemented.
+- [ ] 3.6.c Has a documented and systematically implemented approach, which includes the possibility of maintaining ranges of indecision.
+- [ ] 3.6.d The choices made for each model and implemented are duly documented in the G2B of the models concerned.
 
 <details>
 <summary>Resources3.6:</summary>
@@ -521,10 +525,10 @@ R4.2:
 _(Type: combined)_  
 _(Select all response items that correspond to practices in your organization. Caution, some combinations would not be consistent)_
 
-- [ ] 4.2.a are not documented | _(When this answer is selected, the others cannot be selected)_
-- [ ] 4.2.b are explained and documented
-- [ ] 4.2.c are versioned
-- [ ] 4.2.d documents presenting these "conditions and limits of validity" shall systematically accompany models throughout their life cycle.
+- [ ] 4.2.a Are not documented | _(When this answer is selected, the others cannot be selected)_
+- [ ] 4.2.b Are explained and documented
+- [ ] 4.2.c Are versioned
+- [ ] 4.2.d Documents presenting these "conditions and limits of validity" shall systematically accompany models throughout their life cycle.
 
 <details>
 <summary>Expl4.2:</summary>
