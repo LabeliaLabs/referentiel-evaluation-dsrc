@@ -535,7 +535,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 4.2.a Ne sont pas documentées | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 4.2.b Sont explicitées et documentées
 - [ ] 4.2.c Sont versionnées
-- [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "    conditions et limités de validité"
+- [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limités de validité"
 - [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
 <details>
