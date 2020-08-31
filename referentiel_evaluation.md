@@ -126,7 +126,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 ---
 
 Q1.6 : **Projet impliquant un nouveau traitement de données personnelles ou confidentielles**  
-_(Condition : R1.5 <> 1ère réponse)_  
+_(Condition : R1.5 <> 1.5.a)_  
 Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science, au sein de votre organisation :
 
 R1.6 :  
@@ -141,7 +141,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 ---
 
 Q1.7 : **Sécurité de l'apprentissage automatique et _PETs_ - Niveau de connaissance**  
-_(Condition : R1.5 <> 1ère réponse)_  
+_(Condition : R1.5 <> 1.5.a)_  
 La sécurité de l'apprentissage automatique (_ML security_) est un domaine en plein développement. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles. Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux _Privacy Enhancing Technologies (PETs)_, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
 R1.7 :  
@@ -178,7 +178,7 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 ---
 
 Q1.8 : **Sécurité de l'apprentissage automatique et _PETs_ - Mise en oeuvre**  
-_(Condition : R1.5 <> 1ère réponse)_  
+_(Condition : R1.5 <> 1.5.a)_  
 Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _PETs_ :
 
 R1.8 :  
@@ -217,7 +217,7 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 ---
 
 Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
-_(Condition : R1.5 <> 1ère réponse)_  
+_(Condition : R1.5 <> 1.5.a)_  
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une(des) partie(s) prenante(s) externe(s), et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
 R1.9 :  
@@ -292,7 +292,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 ---
 
 Q2.3 : **Prévention des biais discriminatoires**  
-_(Condition : R2.2 = Concerné)_  
+_(Condition : R2.2 <> 2.2.b)_  
 Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
 R2.3 :  
@@ -666,7 +666,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.2 : **Utilisation de modèles prédictifs pour le compte de tiers**  
+Q6.2 : **Développement de modèles prédictifs pour le compte de tiers**  
 Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
 
 R6.2 :  
