@@ -43,7 +43,7 @@
 
 - Various controversies:
 
-  - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society; David Dao
+  - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society, David Dao
   
   - [South Wales police lose landmark facial recognition case](https://www.theguardian.com/technology/2020/aug/11/south-wales-police-lose-landmark-facial-recognition-case)
 

@@ -571,9 +571,10 @@ Dans le cadre des projets de data science, lorsqu'un comportement inattendu d'un
 
 R4.3 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.3.a Nous analysons les incidents ou comportements inattendus rencontrés et les publions lorsque cela est pertinent (e.g. article, blog)
+- [ ] 4.3.a À ce stade nous ne faisons pas d'analyse des incidents ou comportements inattendus observés | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
+- [ ] 4.3.b Nous analysons les incidents ou comportements inattendus rencontrés et les publions lorsque cela est pertinent (e.g. article, blog)
 - [ ] 4.3.c Nous nous impliquons dans des clubs, cercles, ou associations professionnelles dans le domaine de la data science, et y faisons des retours d'expérience des incidents comportements inattendus que nous observons
 
 <details>
