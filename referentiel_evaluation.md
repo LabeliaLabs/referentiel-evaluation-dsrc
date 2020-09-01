@@ -176,10 +176,10 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
-- (Tool) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
+- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
 - (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
-- (Software) Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined, Facebook AI's [Opacus](https://github.com/pytorch/opacus) pour PyTorch
+- (Software & Tools) Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined, Facebook AI's [Opacus](https://github.com/pytorch/opacus) pour PyTorch
 - (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
@@ -215,10 +215,10 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
-- (Tool) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
+- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
 - (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
-- (Software) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
+- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
 - (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
@@ -328,7 +328,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), un registre des services ou projets d'IA inquiétants, David Dao
 - (Web article) *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
-- (Software) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
+- (Software & Tools) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 
@@ -528,10 +528,10 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle prédictif appris peut
 <details>
 <summary>Ressources4.1 :</summary>
 
-- (Software) [Substra Framework](http://doc.substra.ai/): *an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations*
-- (Software) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
-- (Software) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
-- (Tool) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
+- (Software & Tools) [Substra Framework](http://doc.substra.ai/): *an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations*
+- (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
+- (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
+- (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
 
 </details>
 
@@ -561,6 +561,35 @@ Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'ut
 <summary>Ressources4.2 :</summary>
 
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) de Google est un framework ouvert et évolutif, et propose 2 exemples : *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
+
+</details>
+
+---
+
+Q4.3 : **Analyse et partage d'incidents**  
+Dans le cadre des projets de data science, lorsqu'un comportement inattendu d'un modèle est observé :
+
+R4.3 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] 4.3.a Nous analysons les incidents ou comportements inattendus rencontrés et les publions lorsque cela est pertinent (e.g. article, blog)
+- [ ] 4.3.c Nous nous impliquons dans des clubs, cercles, ou associations professionnelles dans le domaine de la data science, et y faisons des retours d'expérience des incidents comportements inattendus que nous observons
+
+<details>
+<summary>Expl4.3 :</summary>
+
+La compréhension voire la maîtrise du comportement d'un modèle prédictif appris sont des défis complexes. De nombreuses recherches sont en cours pour développer des méthodes et des outils dans ce domaine, mais beaucoup reste à faire. Le partage par les praticiens des incidents et comportements inattendus qu'ils rencontrent contribue faire progresser la communauté.
+
+</details>
+
+<details>
+<summary>Ressources4.3 :</summary>
+
+- (Software & Tools) [AI Incident Registry](http://aiid.partnershiponai.org/), Partnership on AI
+- (Web article) [Specification gaming examples in AI](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml), Victoria Krakovna
+- (Web article) [Learning from Tay's introduction](https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/) : analyse d'incident relative au chatbot Tay ; Microsoft, 2016
+- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), Avril 2020
 
 </details>
 
@@ -823,7 +852,7 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 <details>
 <summary>Ressources7.1 :</summary>
 
-- (Tool) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
+- (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 
 </details>
 
