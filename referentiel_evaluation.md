@@ -793,21 +793,21 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q6.5 : **Audits par des tierces parties indépendantes**  
-Lorsque votre organisation communique sur les résultats ou la performance d'un système d'IA, et s'appuie sur de telles communications pour son développement :
+Q6.5 : **Audits par des tierces parties indépendantes et *verifiable claims***  
+Lorsque votre organisation communique sur les résultats ou la performance d'un système d'IA, et s'appuie sur de telles communications pour son développement et vis-à-vis de ses parties prenantes :
 
 R6.5 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.5.a Nous ne communiquons pas sur les résultats ou la performance d'un système d'IA et ne sommes pas concernés par cet élément d'évaluation
-- [ ] 6.5.b Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante
-- [ ] 6.5.b Nous faisons auditer nos travaux par une tierce partie indépendante avant de communiquer sur nos résultats et de nous appuyer dessus pour notre développement
+- [ ] 6.5.a Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation
+- [ ] 6.5.b Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
+- [ ] 6.5.d Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
 
 <details>
 <summary>Expl6.5 :</summary>
 
-L'élaboration d'un modèle prédictif, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats. Lorsque cela est possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...).
+L'élaboration d'un modèle prédictif, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats et de s'en prévaloir avec certitude. Et lorsque cela est toutefois possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans avoir à révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de faire procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...), afin de sécuriser les résultats dont l'organisation souhaite se prévaloir.
 
 </details>
 
