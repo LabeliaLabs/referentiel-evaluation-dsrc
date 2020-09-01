@@ -42,6 +42,8 @@
   - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 
 - Various controversies:
+
+  - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society; David Dao
   
   - [South Wales police lose landmark facial recognition case](https://www.theguardian.com/technology/2020/aug/11/south-wales-police-lose-landmark-facial-recognition-case)
 
