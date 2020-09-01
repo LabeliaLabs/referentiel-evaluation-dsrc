@@ -251,8 +251,8 @@ R2.1:
 _(Type: single response)_  
 _(Select one answer only, best suited to the organization's level of maturity on this topic)_
 
-- [ ] 2.1.a operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
-- [ ] 2.1.b has a documented approach that is systematically implemented.
+- [ ] 2.1.a Operates informally in this respect and relies on the competence and responsibility of the collaborators involved.
+- [ ] 2.1.b Has a documented approach that is systematically implemented.
 
 <details>
 <summary> Expl2.1: </summary>
@@ -617,7 +617,7 @@ As in the known frameworks of IS management (ISO 27001) or RGPD, it is important
 
 ### Section 6 - Using Learned Predictive Models
 
-Using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It is important to preserve the responsiveness and resilience of the user organization, particularly in dealing with situations where predictive models have led to an undesirable outcome for the organization and its stakeholders.
+Using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It is important to preserve the responsiveness and resilience of the using organization, particularly in dealing with situations where predictive models have led to an undesirable outcome for the organization and its stakeholders.
 
 [_[⇧ back to list of sections](#framework-for-assessing-the-maturity-of-an-organization)_]  
 [_[⇩ next section](#section-7---anticipate-monitoring-and-minimizing-the-externalities-of-data-science-activity)_]
@@ -689,7 +689,7 @@ _(Type: combined)_
 <details>
 <summary> Expl6.3: </summary>
 
-Using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It is important to preserve the responsiveness and resilience of the organization.
+Using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It is important to preserve the responsiveness and resilience of the using organization.
 
 </details>
 
@@ -836,7 +836,7 @@ Divided into themes:
 - RC: not accountable to its stakeholders in a responsible manner
 - SEA: having an irresponsible Social and Environmental Footprint
 - TR: transverse
-- to be categorized.
+- TBC: _to be categorized_.
 
 | # | Risks | Actual examples or comments |
 |:---:|:---|:---|
@@ -854,10 +854,10 @@ Divided into themes:
 | PDI-04 | inappropriate decision making due to discriminatory biases due to the architecture or design of the learning algorithm and/or model itself [word embedding templates](https://arxiv.org/abs/1607.06520), [doc2vec](https://www.pnas.org/content/115/16/E3635); use of directly protected variables |
 | PDI-05 | the use of predictive models in contexts for which they do not perform sufficiently well, are not relevant or even dangerous, are not predicted and validated (where their actual performance is insufficient compared to what is stated or expected) | [example of Google Flu Trends in health](https://science.sciencemag.org/content/343/6176/1203); [bias and limited performance of the COMPAS model for predicting recidivism](https://advances.sciencemag.org/content/4/1/eaao5580) |
 | PDI-06 | the use of models that have degenerated or _drifted_ over time (for example, in cases of continuous learning, when the new input data comes, even indirectly, from situations in which the model has been used) | cases to be identified (problems with measurement sensors in predictive maintenance, trading...) |
-| PDI-07 | Adversarial use of a predictive model in a manner detrimental to individuals or organizations | [Three Small Stickers in Intersection Can Cause Tesla Autopilot to Swerve Into Wrong Lane](https://spectrum.ieee.org/cars-that-think/transportation/self-driving/three-small-stickers-on-road-can-steer-tesla-autopilot-into-oncoming-lane) |
+| PDI-07 | Adversarial use of a predictive model in a detrimental manner to individuals or organizations | [Three Small Stickers in Intersection Can Cause Tesla Autopilot to Swerve Into Wrong Lane](https://spectrum.ieee.org/cars-that-think/transportation/self-driving/three-small-stickers-on-road-can-steer-tesla-autopilot-into-oncoming-lane) |
 | | | |
 | **RC** | **Does not Account responsibly to its stakeholders** for the consequences of using predictive models | |
-| RC-01 | in the case of an incident with or caused by a predictive model, not having an identified individual or legal entity to whom to hold accountable | [Steve Wozniak's case with the Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
+| RC-01 | in the case of an incident with or caused by a predictive model, not having an identified individual or legal entity to be held accountable | [Steve Wozniak's case with the Apple Card](https://twitter.com/stevewoz/status/1193330241478901760) |
 | RC-02 | in the case of an incident with or due to a predictive model: for the actor implementing and operating the model, not knowing how to react to a request to interpret and explain a challenged prediction | [Facebook's automatic censoring algorithms were less effective in the Christchurch attack than with the EI videos: what exactly do they detect](https://techcrunch.com/2019/03/21/facebooks-ai-couldnt-spot-mass-murder/); [An Algorithm that grants Freedom, or Takes it away](https://www.nytimes.com/2020/02/06/technology/predictive-algorithms-crime.html) |
 | RC-03 | in the case of an incident with or due to a predictive model: for the actor who implements and operates the model, no longer being able to provide a critical service | case to be identified |
 | RC-04 | within an organization that uses automatic systems based on predictive models, not knowing or not being able to easily identify who is responsible for these systems | |
@@ -872,9 +872,9 @@ Divided into themes:
 | TR-02 | not being able to control the consequences of using a model due to lack of knowledge of its genealogy and lack of control over its nominal conditions of use | models that become references and/or supplied by third parties | |
 | | | |
 | | **various - to be categorized** | |
-| | getting "stolen" a model by multiple inferences | |
-| | getting "stolen" from the computation time by _adversarial reprogramming_ | |
-| | | placement of job offers on the flows of users selected by a predictive model: does it make sense to ask about a risk of discrimination, or is it analogous to a headhunter who decides to call candidates who interest him in a discretionary way? |
+| TBC | getting "stolen" a model by multiple inferences | |
+| TBC | getting "stolen" from the computation time by _adversarial reprogramming_ | |
+| TBC | | placement of job offers on the flows of users selected by a predictive model: does it make sense to ask about a risk of discrimination, or is it analogous to a headhunter who decides to call candidates who interest him in a discretionary way? |
 
 ## Themes of the evaluation framework
 
