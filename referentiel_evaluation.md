@@ -590,7 +590,7 @@ La compréhension voire la maîtrise du comportement d'un modèle prédictif app
 - (Software & Tools) [AI Incident Registry](http://aiid.partnershiponai.org/), Partnership on AI
 - (Web article) [Specification gaming examples in AI](https://docs.google.com/spreadsheets/d/e/2PACX-1vRPiprOaC3HsCf5Tuum8bRfzYUiKLRqJmbOoC-32JorNdfyTiRRsR7Ea5eWtvsWzuxo8bjOxCG84dAg/pubhtml), Victoria Krakovna
 - (Web article) [Learning from Tay's introduction](https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/) : analyse d'incident relative au chatbot Tay, Microsoft, 2016
-- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), Avril 2020
+- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2.4 p.19, Avril 2020
 
 </details>
 
@@ -646,7 +646,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 </details>
 
 <details>
-<summary>Ressource5.2 :</summary>
+<summary>Ressources5.2 :</summary>
 
 - (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), un projet open source animé par Substra Foundation
 
@@ -801,9 +801,9 @@ R6.5 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.5.a Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation
+- [ ] 6.5.a Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.5.b Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
-- [ ] 6.5.d Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
+- [ ] 6.5.c Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
 
 <details>
 <summary>Expl6.5 :</summary>
@@ -815,7 +815,7 @@ L'élaboration d'un modèle prédictif, et la détermination d'une mesure de per
 <details>
 <summary>Ressources6.5 :</summary>
 
-- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), Avril 2020
+- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2 p.8-20, Avril 2020
 
 </details>
 
