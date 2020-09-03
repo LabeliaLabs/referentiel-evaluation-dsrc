@@ -773,9 +773,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 6.4.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.4.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif appris | _(Lorsque cette réponse est sélectionnée, les autres ne peuvent pas l'être)_
 - [ ] 6.4.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
-- [ ] 6.4.d L'utilisation du système ou du service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
+- [ ] 6.4.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
 - [ ] 6.4.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
-- [ ] 6.4.f Lorsque le système ou le service est conçu pour s'adapter au comportement de l'utilisateur et l'influencer (par exemple pour maximiser son temps d'utilisation ou les sommes qu'il dépense), et présente des risques non négligeables de manipulation ou d'addiction, l'utilisateur en est clairement informé
 
 <details>
 <summary>Expl6.4 :</summary>
@@ -896,7 +895,8 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl7.3 :</summary>
 
-Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun. Il est important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
+Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun, impose d'avoir une réflexion sur l'usage qui en est fait. Il est donc important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
+Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adapter au comportement des utilisateurs peuvent influencer ceux-ci (par exemple en cherchant à maximiser leurs temps d'utilisation ou les sommes qu'ils dépensent) et présenter des risques non négligeables de manipulation ou d'addiction.
 
 </details>
 
