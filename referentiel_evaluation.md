@@ -895,7 +895,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl7.3 :</summary>
 
-Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun, impose d'avoir une réflexion sur l'usage qui en est fait. Il est donc important que l'organisation s'assure que les enjeux éthiques ne sont pas inconnus de son personnel.
+Travailler sur de grands volumes de données dont certaines peuvent être sensibles, utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interrogent le fonctionnement des organisations et la responsabilité individuelle de chacun, impose d'avoir une réflexion sur l'usage qui en est fait. Il est donc important que l'organisation s'assure que les enjeux éthiques ne soient pas inconnus de son personnel.
 Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adapter au comportement des utilisateurs peuvent influencer ceux-ci (par exemple en cherchant à maximiser leurs temps d'utilisation ou les sommes qu'ils dépensent) et présenter des risques non négligeables de manipulation ou d'addiction.
 
 </details>
