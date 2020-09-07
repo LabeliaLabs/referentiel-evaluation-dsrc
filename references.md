@@ -41,13 +41,31 @@
 
   - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 
+- Various controversies:
+
+  - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society, David Dao
+  
+  - [South Wales police lose landmark facial recognition case](https://www.theguardian.com/technology/2020/aug/11/south-wales-police-lose-landmark-facial-recognition-case)
+
+  - [An AI hiring firm says it can predict job hopping based on your interviews](https://www.technologyreview.com/2020/07/24/1005602/ai-hiring-promises-bias-free-job-hopping-prediction/): *The idea of “bias-free” hiring, already highly misleading, is being used by companies to shirk greater scrutiny for their tools’ labor issues beyond discrimination*, MIT Technology Review, July 2020
+
 ## Travaux dans ce domaine
 
 L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
+### Méta-études
+
+- [Méta-étude 'The Ethics of AI Ethics: An Evaluation of Guidelines'](https://link.springer.com/content/pdf/10.1007/s11023-020-09517-8.pdf), T. Hagendorff, Octobre 2019
+
+- [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf), A. Jobin, M. Ienca, E. Vayena, Juin 2019
+
 ### Guidelines, liste de principes ou de thèmes-clés
 
-- [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)
+- [UNESCO - Recommendation on the ethics of artificial intelligence](https://unesdoc.unesco.org/ark:/48223/pf0000373434_fre):
+
+    > - *La  présente  Recommandation  a  pour  objet  de  formuler  des  valeurs  et  des  principes  éthiques ainsi que des recommandations concrètes concernant la recherche, la conception, le développement, le déploiement et l’utilisation de l’IA, en vue de mettre les systèmes d’IA au service de l’humanité, des individus, des sociétés et de l’environnement.*
+    > - Current status is draft, with an open public consultation in progress (as of August 2020)
+
 - [EU Draft Ethics guidelines for trustworthy AI](https://ec.europa.eu/digital-single-market/en/news/draft-ethics-guidelines-trustworthy-ai) and [pilot assessment survey](https://ec.europa.eu/futurium/en/ethics-guidelines-trustworthy-ai/register-piloting-process-0)
 
     > 7 Key requirements:
@@ -102,6 +120,11 @@ L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ mai
 - [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
 - [Charte internationale pour une IA inclusive](https://charteia.arborus.org/)
+
+### Assessments
+
+- [ADEL - Label éthique pour l'exploitation du big data](http://www.adel-label.com/)
+- [ALTAI - The Assessment List on Trustworthy Artificial Intelligence](https://altai.insight-centre.org/)
 
 ### Autres
 
