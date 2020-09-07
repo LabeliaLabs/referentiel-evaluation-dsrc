@@ -414,6 +414,7 @@ Voir par exemple le *[p-hacking / data dredging](https://fr.wikipedia.org/wiki/D
 <summary>Ressources3.4 :</summary>
 
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
+- (Web article) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter et A. Madry
 
 </details>
 
@@ -909,6 +910,7 @@ Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adap
 - (Public declaration) *[Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)*
 - (Public declaration) *[Future of Life's AI principles](https://futureoflife.org/ai-principles/)*
 - (Public declaration) *[Charte internationale pour une IA inclusive](https://charteia.arborus.org/)*, Arborus et Orange
+- (Course) *[Practical data ethics](https://ethics.fast.ai/)*, fast.ai : un excellent cours en ligne combinant listes de lectures et vidéos didactiques
 
 </details>
 
