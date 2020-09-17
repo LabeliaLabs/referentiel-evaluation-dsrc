@@ -127,6 +127,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 1.5.b Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
 - [ ] 1.5.c Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
 - [ ] 1.5.d Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
+
+<details>
+<summary>Expl1.5 :</summary>
+
+Le principe de minimisation est parfois aussi évoqué par l'expression *privacy by design*. Il est un des piliers du RGPD.
+
+</details>
   
 ---
 
@@ -142,10 +149,17 @@ R1.6 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.6.a Nous élaborons un _Privacy Impact Assessment_ (PIA)
+- [ ] 1.6.a Nous élaborons un *Privacy Impact Assessment* (PIA)
 - [ ] 1.6.b Nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
 - [ ] 1.6.c Nous documentons les PIA et mesures mises en oeuvre et nous les conservons au sein des projets
 - [ ] 1.6.d Nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
+
+<details>
+<summary>Expl1.6 :</summary>
+
+Le *Privacy Impact Assessment* (PIA) est une méthode d'évaluation de l'impact d'un traitement de données, proche des méthodes classiques d'évaluation des risques. Dans certains cas, par exemple lorsqu'un traitement présente des risques élevés pour les droits et libertés des personnes physiques, le RGPD rend obligatoire la réalisation d'un PIA avant la mise en oeuvre du traitement.
+
+</details>
 
 ---
 
@@ -357,18 +371,32 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
 - [ ] 3.1.d Prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
 
+<details>
+<summary>Expl3.1 :</summary>
+
+Assurer l'étanchéité des jeux de données d'entraînement et de test est un principe connu et maîtrisé par la plupart des organisations. Il peut se révéler délicats dans certaines configurations particulières (e.g. apprentissage continu, apprentissage distribué *privacy-preserving*...).
+
+</details>
+
 ---
 
 Q3.2 : **Projets d'apprentissage distribué préservant la confidentialité**  
-Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (_distributed learning_ ou _federated learning_) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (_privacy-preserving_) :
+Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (*distributed learning* ou *federated learning*) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (*privacy-preserving*) :
 
 R3.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 3.2.a Nous ne participons pas à des projets de _privacy-preserving distributed learning_ | _(Concerné / Non concerné)_
+- [ ] 3.2.a Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
 - [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 - [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+
+<details>
+<summary>Expl3.2 :</summary>
+
+Dans ce type de projet d'apprentissage distribué dans des conditions où les données sont maintenues confidentielles, se pose la question de comment composer un jeu de données de test en s'assurant que celles-ci ne figurent pas aussi dans le jeu de données d'entraînement (par exemple chez un autre partenaire).
+
+</details>
 
 ---
 
@@ -464,6 +492,13 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la généalogie de bout-en-bout des modèles concernés
 
 <details>
+<summary>Expl3.6 :</summary>
+
+
+
+</details>
+
+<details>
 <summary>Ressources3.6 :</summary>
 
 - (Web article) *[Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)*, A. Saboni (Octo Technologies), April 2020
@@ -513,10 +548,20 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.8.e Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
+<summary>Expl3.8 :</summary>
+
+L'explicabilité et l'interprétabilité sont des enjeux-clés, en lien avec les exigences croissantes de transparence, d'impartialité et de responsabilité. Dans certains cas, la réglementation impose même de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme.
+Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied dans le sujet (voir les ressources associées à cet élément d'évaluation).
+
+</details>
+
+<details>
 <summary>Ressources3.8 :</summary>
 
 - (Web article) *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, Octobre 2019
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
+- (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
+- (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*
 - (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
 
 </details>
