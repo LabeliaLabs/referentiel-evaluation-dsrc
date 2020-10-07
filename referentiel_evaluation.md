@@ -340,7 +340,9 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 <details>
 <summary>Ressources2.3 :</summary>
 
+- (Web article) *[Unfair biases in Machine Learning: what, why, where and how to obliterate them](https://www.mlsecurity.ai/post/unfair-biases-in-machine-learning-what-why-where-and-how-to-obliterate-them)*, blog ML Security, P. Irolla, Avril 2020
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), un registre des services ou projets d'IA inquiétants, David Dao
+- (Technical guide) *[A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)*, blog Towards Data Science, Z. Zhong, Octobre 2018
 - (Web article) *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
 - (Software & Tools) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
