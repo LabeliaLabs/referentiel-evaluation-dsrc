@@ -51,13 +51,15 @@
 
 ## Travaux dans ce domaine
 
-L'_[Institute for Ethical AI & Machine Learning](https://ethical.institute)_ maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
 ### Méta-études
 
-- [Méta-étude 'The Ethics of AI Ethics: An Evaluation of Guidelines'](https://link.springer.com/content/pdf/10.1007/s11023-020-09517-8.pdf), T. Hagendorff, Octobre 2019
+- Méta-étude *[The Ethics of AI Ethics: An Evaluation of Guidelines](https://link.springer.com/content/pdf/10.1007/s11023-020-09517-8.pdf)*, T. Hagendorff, Octobre 2019
 
-- [Méta-étude 'The global landscape of AI ethics guidelines'](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf), A. Jobin, M. Ienca, E. Vayena, Juin 2019
+- Méta-étude *[The global landscape of AI ethics guidelines](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)*, A. Jobin, M. Ienca, E. Vayena, Juin 2019
+
+- Méta-étude *[A Unified Framework of Five Principles for AI in Society](https://hdsr.mitpress.mit.edu/pub/l0jsh9d1/release/6)*, F. Floridi, J. Cowls, Juillet 2019
 
 ### Guidelines, liste de principes ou de thèmes-clés
 
