@@ -401,6 +401,13 @@ Dans ce type de projet d'apprentissage distribué dans des conditions où les do
 
 </details>
 
+<details>
+<summary>Ressources3.2 :</summary>
+
+- (Academic paper) [Stratified cross-validation for unbiased and privacy-preserving federated learning](https://arxiv.org/abs/2001.08090), R. Bey, R. Goussault, M. Benchoufi, R. Porcher, Janvier 2020
+
+</details>
+
 ---
 
 Q3.3 : **Analyse des données de test**  
