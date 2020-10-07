@@ -11,7 +11,7 @@ L'évaluation est composée des 6 sections suivantes :
 - [Section 3 - Evaluer la performance de manière rigoureuse et expliquer les prédictions](#section-3---evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)
 - [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
 - [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
-- [Section 6 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
+- [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
 
@@ -856,7 +856,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 ---
 ---
 
-### Section 6 - Anticiper, suivre et minimiser les externalités de l'activité data science
+### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
 
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs.
 
