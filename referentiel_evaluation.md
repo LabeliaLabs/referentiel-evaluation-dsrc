@@ -11,13 +11,13 @@ L'évaluation est composée des 6 sections suivantes :
 - [Section 3 - Evaluer la performance de manière rigoureuse et expliquer les prédictions](#section-3---evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)
 - [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
 - [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
-- [Section 6 - Anticiper, suivre et minimiser les externalités de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
+- [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
 
-### Section 1 - Protéger les données personnelles ou confidentielles
+### Section 1 - Protéger les données à caractère personnel ou confidentielles
 
-L'utilisation de données personnelles ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
+L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)_]
@@ -25,7 +25,7 @@ L'utilisation de données personnelles ou confidentielles fait porter le risque 
 ---
 
 Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
-En ce qui concerne les données personnelles et/ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
+En ce qui concerne les données à caractère personnel ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
 _(Type : réponse unique)_  
@@ -98,7 +98,7 @@ Au-delà de l'identification des réglementations et des approches de mise en co
 ---
 
 Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
-La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un organisme tiers ou équivalent ?
+La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un label ou équivalent ?
 
 R1.4 :  
 _(Type : réponse unique)_  
@@ -163,74 +163,75 @@ Le *Privacy Impact Assessment* (PIA) est une méthode d'évaluation de l'impact 
 
 ---
 
-Q1.7 : **Sécurité de l'apprentissage automatique et _PETs_ - Niveau de connaissance**  
+Q1.7 : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
 _(Condition : R1.5 <> 1.5.a)_  
-La sécurité de l'apprentissage automatique (_ML security_) est un domaine en plein développement. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles. Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux _Privacy Enhancing Technologies (PETs)_, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
+La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
 R1.7 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.7.a Débutant
-- [ ] 1.7.b Intermédiaire
+- [ ] 1.7.a Complètement débutant
+- [ ] 1.7.b Basique
 - [ ] 1.7.c Confirmé
 - [ ] 1.7.d Expert
 
 <details>
 <summary>Expl1.7 :</summary>
 
-L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et se tenir au courant. Le [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) est par exemple un point d'entrée intéressant.
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
 
 </details>
 
 <details>
 <summary>Ressources1.7 :</summary>
 
-- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
 - (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
-- (Software & Tools) Outils pour la *differential privacy* : Google [differential privacy library](https://github.com/google/differential-privacy) et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined, Facebook AI's [Opacus](https://github.com/pytorch/opacus) pour PyTorch
-- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
+- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
+- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
+- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 
 ---
 
-Q1.8 : **Sécurité de l'apprentissage automatique et _PETs_ - Mise en oeuvre**  
+Q1.8 : **Sécurité de l'apprentissage automatique - Mise en oeuvre**  
 _(Condition : R1.5 <> 1.5.a)_  
-Toujours au sujet des vulnérabilités liées aux modèles de ML et aux _PETs_ :
+Toujours au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir :
 
 R1.8 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.8.a Une veille technique est mise en oeuvre
-- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations / formations qui leur permettent de monter en compétences
-- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des _PETs_ permettant de réduire les risques liés aux modèles que nous élaborons
-- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les *PETs* mises en oeuvre sont documentées dans la généalogie de bout-en-bout de chaque modèle
+- [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
+- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de monter en compétences
+- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
+- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées dans la généalogie de bout-en-bout de chaque modèle
 
 <details>
 <summary>Expl1.8 :</summary>
 
-L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. Le [OWASP Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md) est par exemple un point d'entrée intéressant.
+L'état de l'art de la sécurité du ML est en constante évolution. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
 
-Selon les niveaux de risque et de sensibilité des projets, certaines approches *PETs* seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
+Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
 
 </details>
 
 <details>
 <summary>Ressources1.8 :</summary>
 
-- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
+
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
 - (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
+- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
 - (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
@@ -325,7 +326,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 2.3.a Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels
 - [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
 - [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
-- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_
+- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
 - [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
 
 <details>
@@ -339,7 +340,9 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 <details>
 <summary>Ressources2.3 :</summary>
 
+- (Web article) *[Unfair biases in Machine Learning: what, why, where and how to obliterate them](https://www.mlsecurity.ai/post/unfair-biases-in-machine-learning-what-why-where-and-how-to-obliterate-them)*, blog ML Security, P. Irolla, Avril 2020
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), un registre des services ou projets d'IA inquiétants, David Dao
+- (Technical guide) *[A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)*, blog Towards Data Science, Z. Zhong, Octobre 2018
 - (Web article) *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
 - (Software & Tools) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
@@ -352,7 +355,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 
 ### Section 3 - Evaluer la performance de manière rigoureuse et expliquer les prédictions
 
-Le score de performance d'un modèle prédictif est déterminant pour son adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)_]
@@ -395,6 +398,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl3.2 :</summary>
 
 Dans ce type de projet d'apprentissage distribué dans des conditions où les données sont maintenues confidentielles, se pose la question de comment composer un jeu de données de test en s'assurant que celles-ci ne figurent pas aussi dans le jeu de données d'entraînement (par exemple chez un autre partenaire).
+
+</details>
+
+<details>
+<summary>Ressources3.2 :</summary>
+
+- (Academic paper) [Stratified cross-validation for unbiased and privacy-preserving federated learning](https://arxiv.org/abs/2001.08090), R. Bey, R. Goussault, M. Benchoufi, R. Porcher, Janvier 2020
 
 </details>
 
@@ -632,6 +642,7 @@ Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'ut
 <details>
 <summary>Ressources4.2 :</summary>
 
+- (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, Janvier 2019
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) de Google est un framework ouvert et évolutif, et propose 2 exemples : *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
 
 </details>
@@ -856,7 +867,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 ---
 ---
 
-### Section 6 - Anticiper, suivre et minimiser les externalités de l'activité data science
+### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
 
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs.
 
