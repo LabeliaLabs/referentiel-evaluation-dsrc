@@ -882,7 +882,7 @@ R6.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos mod��les prédictifs
+- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
 - [ ] 6.1.b Nous avons défini des indicateurs pour savoir quoi mesurer précisément
 - [ ] 6.1.c Nous avons défini des indicateurs et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
 - [ ] 6.1.d Nous avons défini des indicateurs et nous les suivons régulièrement
