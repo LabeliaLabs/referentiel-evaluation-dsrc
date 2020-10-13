@@ -264,8 +264,8 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 
 ### Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires
 
-L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
-Dans certains cas, une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
+L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-3---evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)_]
@@ -273,7 +273,7 @@ Dans certains cas, une spécification de l'équité recherchée entre population
 ---
 
 Q2.1 : **Analyse des données d'entraînement utilisées**  
-Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour prévenir des biais portant atteinte au principe de non-discrimination, de diversité et d'équité. Votre organisation :
+Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour prévenir des biais portant atteinte au principe de non-discrimination, de diversité et d'équité. Votre organisation :
 
 R2.1 :  
 _(Type : réponse unique)_  
@@ -323,7 +323,7 @@ R2.3 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 2.3.a Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels
+- [ ] 2.3.a Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
 - [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
 - [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
 - [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
@@ -333,7 +333,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <summary>Expl2.3 :</summary>
 
 Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire.
-Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
+Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ dans le but de réduire les éventuels biais des jeux de données : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
 
 </details>
 
@@ -412,7 +412,7 @@ Dans ce type de projet d'apprentissage distribué dans des conditions où les do
 ---
 
 Q3.3 : **Analyse des données de test**  
-Au sein des projets de data science et lors de l'élaboration de jeux de données de test, un travail de réflexion et recherche de phénomènes intempestifs ou parasites du fait de l'époque, du contexte, des outils ou processus d'enregistrement peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
+Au sein des projets de data science et lors de l'élaboration de jeux de données de test, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
 
 R3.3 :  
 _(Type : réponse unique)_  
@@ -424,7 +424,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl3.3 :</summary>
 
-L'utilisation de modèles prédictifs testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
+L'utilisation de modèles prédictifs testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
 
 </details>
 
