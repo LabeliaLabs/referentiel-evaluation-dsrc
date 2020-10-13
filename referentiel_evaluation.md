@@ -8,7 +8,7 @@ L'évaluation est composée des 6 sections suivantes :
 
 - [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
 - [Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)
-- [Section 3 - Evaluer la performance de manière rigoureuse et expliquer les prédictions](#section-3---evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)
+- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
 - [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
 - [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
 - [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
@@ -268,7 +268,7 @@ L'utilisation de modèles prédictifs élaborés à partir de données historiqu
 Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-3---evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)_]
+[_[⇩ prochaine section](#section-3---evaluer-la-performance-de-manière-rigoureuse)_]
 
 ---
 
@@ -354,9 +354,9 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 ---
 ---
 
-### Section 3 - Evaluer la performance de manière rigoureuse et expliquer les prédictions
+### Section 3 - Evaluer la performance de manière rigoureuse
 
-Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse. Par ailleurs un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)_]
@@ -544,40 +544,6 @@ L'élaboration d'un modèle prédictif, et la détermination d'une mesure de per
 </details>
 
 ---
-
-Q3.8 : **Explicabilité et interprétabilité**  
-Au sein des projets de data science qui visent à élaborer des modèles prédictifs :
-
-R3.8 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
-
-- [ ] 3.8.a Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
-- [ ] 3.8.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes sur ce sujet
-- [ ] 3.8.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance avec chaque prédiction réalisée
-- [ ] 3.8.d Nous déterminons le meilleur compromis entre la performance et l'interprétabilité pour chaque modèle que nous élaborons, ce qui nous amène parfois à opter pour un modèle plus simple à expliquer aux personnes concernées (un modèle performant permettra de diminuer les risques d’erreur tandis qu’un modèle interprétable permettra de mieux justifier les résultats du modèle)
-- [ ] 3.8.e Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
-
-<details>
-<summary>Expl3.8 :</summary>
-
-L'explicabilité et l'interprétabilité sont des enjeux-clés, en lien avec les exigences croissantes de transparence, d'impartialité et de responsabilité. Dans certains cas, la réglementation impose même de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme.
-Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied dans le sujet (voir les ressources associées à cet élément d'évaluation).
-
-</details>
-
-<details>
-<summary>Ressources3.8 :</summary>
-
-- (Web article) *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, Octobre 2019
-- (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
-- (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
-- (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*
-- (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
-
-</details>
-
----
 ---
 
 ### Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité
@@ -751,7 +717,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 
 ### Section 5 - Utiliser des modèles en confiance et de manière responsable
 
-Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes.
+un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
@@ -837,28 +803,62 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.4 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
-Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs. Que met-elle en place pour en informer les utilisateurs ?
+Q5.4 : **Explicabilité et interprétabilité**  
+Au sein des projets de data science qui visent à élaborer des modèles prédictifs :
 
 R5.4 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 5.4.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
-- [ ] 5.4.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif appris
-- [ ] 5.4.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
-- [ ] 5.4.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
-- [ ] 5.4.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
+- [ ] 5.4.a Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
+- [ ] 5.4.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes sur ce sujet
+- [ ] 5.4.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance avec chaque prédiction réalisée
+- [ ] 5.4.d Nous déterminons le meilleur compromis entre la performance et l'interprétabilité pour chaque modèle que nous élaborons, ce qui nous amène parfois à opter pour un modèle plus simple à expliquer aux personnes concernées (un modèle performant permettra de diminuer les risques d’erreur tandis qu’un modèle interprétable permettra de mieux justifier les résultats du modèle)
+- [ ] 5.4.e Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
 <summary>Expl5.4 :</summary>
+
+L'explicabilité et l'interprétabilité sont des enjeux-clés, en lien avec les exigences croissantes de transparence, d'impartialité et de responsabilité. Dans certains cas, la réglementation impose même de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme.
+Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied dans le sujet (voir les ressources associées à cet élément d'évaluation).
+
+</details>
+
+<details>
+<summary>Ressources5.4 :</summary>
+
+- (Web article) *[La confiance des utilisateurs dans les systèmes impliquant de l’Intelligence Artificielle](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, Octobre 2019
+- (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
+- (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
+- (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*
+- (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
+
+</details>
+
+---
+
+Q5.5 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
+Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs. Que met-elle en place pour en informer les utilisateurs ?
+
+R5.5 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 5.5.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
+- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif appris
+- [ ] 5.5.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
+- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
+- [ ] 5.5.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
+
+<details>
+<summary>Expl5.5 :</summary>
 
 Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations mais également le rapport des utilisateurs aux systèmes et services numériques. Dans la plupart des cas il est important d'informer les utilisateurs qu'ils ne font pas face à des règles de gestion classiques.
 
 </details>
 
 <details>
-<summary>Ressources5.4 :</summary>
+<summary>Ressources5.5 :</summary>
 
 - (Academic paper) *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
 - (Technical guide) *[Interpretable Machine Learning - Counterfactual explanations](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
