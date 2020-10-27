@@ -962,6 +962,51 @@ Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adap
 </details>
 
 ---
+Q6.4 : **Projets public**  
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans le cadre de projets publics (au niveau d'une localité/mairie, d'un département, d'une région, projet d'Etat à destination du grand public) ?
+
+R6.4 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 6.4.a Concerné
+- [ ] 6.4.b Non concerné
+
+---
+
+_Les éléments suivants au sein de cette section ne s'appliquent qu'aux organisations ayant sélectionné la réponse "Concerné" de R6.4._
+
+---
+
+Q6.5 : **Consultation de toutes les parties prenantes**  
+_(Condition : R6.4 <> 6.4.b)_  
+Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des cadres de projets publics :
+
+R6.5 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] 6.5.a Nous mettons en place une enquête à destination des administrés concernés par le modèle prédictif;
+- [ ] 6.5.b Nous procédons à la mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public
+- [ ] 6.5.c Nous organisons des concertations et des réunions d'information pour présenter les données et usages utilisés
+- [ ] 6.5.d Nous procédons à l'ouverture des données en ligne lorsqu'elles ne sont pas confidentielles et/ou personnelles
+- [ ] 6.5.e Nous procédons à la mise en place d'un dépôt public permettant de consulter le code source
+
+<details>
+<summary>Expl6.5 :</summary>
+
+Il s'agit de s'assurer dans le cadre de projets à destination du grand public de la bonne compréhension et de l'adhésion au projet de la part des administrés concernés. Des contenus pédégogiques doivent être mis en place destinés à un public n'étant pas familié à la Data Science, afin de lever les différentes craintes. 
+
+</details>
+
+<details>
+<summary>Ressources6.5 :</summary>
+
+- [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/)
+
+</details>
+
+---
 ---
 
 ## Risques
