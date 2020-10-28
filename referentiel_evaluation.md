@@ -964,7 +964,7 @@ Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adap
 ---
 
 Q6.4 : **Projets publics**  
-Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans le cadre de projets publics (au niveau d'une localité/mairie, d'un département, d'une région, projet d'Etat à destination du grand public) ?
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans le cadre de projets des organisations qui relèvent du secteur public (collectivités territoriales, administrations, autorités administratives indépendantes, structures à missions de service publics...)
 
 R6.4 :  
 _(Type : réponse unique)_  
@@ -981,14 +981,14 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 Q6.5 : **Consultation de toutes les parties prenantes**  
 _(Condition : R6.4 <> 6.4.b)_  
-Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des cadres de projets publics :
+Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans le cadre de projets des organisations qui relèvent du secteur public (collectivités territoriales, administrations, autorités administratives indépendantes, structures à missions de service publics...) :
 
 R6.5 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.5.a Nous mettons en place une enquête à destination des administrés concernés par le modèle prédictif;
-- [ ] 6.5.b Nous procédons à la mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public
+- [ ] 6.5.a Nous mettons en place une enquête à destination du public concerné par le modèle prédictif;
+- [ ] 6.5.b Nous procédons à la mise en place d'un plan de communication et de l'envoi de mémo / newsletters auprès du public concerné 
 - [ ] 6.5.c Nous organisons des concertations et des réunions d'information pour présenter les données et usages utilisés
 - [ ] 6.5.d Nous procédons à l'ouverture des données en ligne lorsqu'elles ne sont pas confidentielles et/ou personnelles
 - [ ] 6.5.e Nous procédons à la mise en place d'un dépôt public permettant de consulter le code source
@@ -1003,7 +1003,9 @@ Il s'agit de s'assurer dans le cadre de projets à destination du grand public d
 <details>
 <summary>Ressources6.5 :</summary>
 
-- [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/)
+- (Tool) [Ethics and Algorithms toolkit](https://ethicstoolkit.ai/)
+- (Public declaration) [Guide des algorithmes publics à l'usage des administrations](https://guides.etalab.gouv.fr/algorithmes/guide/), Etalab
+- (Public declaration) [Éthique et responsabilité des algorithmes publics](https://www.etalab.gouv.fr/wp-content/uploads/2020/01/Rapport-ENA-Ethique-et-responsabilit%C3%A9-des-algorithmes-publics.pdf), Etalab / ENA, Janvier 2020
 
 </details>
 
