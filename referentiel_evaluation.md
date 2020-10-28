@@ -996,7 +996,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl6.5 :</summary>
 
-Il s'agit de s'assurer dans le cadre de projets à destination du grand public de la bonne compréhension et de l'adhésion au projet de la part des administrés concernés. Des contenus pédégogiques doivent être mis en place destinés à un public n'étant pas familié à la Data Science, afin de lever les différentes craintes. 
+Il s'agit de s'assurer dans le cadre de projets à destination du grand public de la bonne compréhension et de l'adhésion au projet de la part des administrés concernés. Des contenus pédagogiques doivent être mis en place, destinés à un public n'étant pas familier avec la Data Science, afin de lever les différentes craintes. 
 
 </details>
 
