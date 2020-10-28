@@ -962,7 +962,8 @@ Un exemple qui revient : certains systèmes ou services d'IA conçus pour s'adap
 </details>
 
 ---
-Q6.4 : **Projets public**  
+
+Q6.4 : **Projets publics**  
 Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans le cadre de projets publics (au niveau d'une localité/mairie, d'un département, d'une région, projet d'Etat à destination du grand public) ?
 
 R6.4 :  
