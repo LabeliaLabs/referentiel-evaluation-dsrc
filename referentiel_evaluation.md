@@ -721,7 +721,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 
 ### Section 5 - Utiliser des modèles en confiance et de manière responsable
 
-un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
@@ -739,7 +739,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 5.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 5.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 5.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
-- [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles prédictifs et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 5.1.g Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
 - [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
@@ -787,7 +787,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 
 - [ ] 5.3.a Notre organisation n'utilise pas de modèles prédictifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
 - [ ] 5.3.b Nous implémentons des modèles prédictifs élaborés par apprentissage automatique dans des systèmes automatiques intégrés, sans mécanismes permettant de pallier à ou d'éviter des résultats non souhaitables dûs aux prédictions des modèles
-- [ ] 5.3.c Nous intégrons dans les systèmes automatiques s'appuyant sur des modèles prédictifs les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Pour ces cas de figure, nous mettons en place des mécanismes permettant à un opérateur humain d'aller contre une décision automatique pour gérer de tels résultats non souhaitables ou incidents
+- [ ] 5.3.c Nous intégrons, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Pour ces cas de figure, nous mettons en place des mécanismes permettant à un opérateur humain d'aller contre une décision automatique pour gérer de tels résultats non souhaitables ou incidents
 - [ ] 5.3.d En complément des mécanismes de gestion d'incident, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, lorsque l'intervalle de confiance pour la décision automatique n'est pas satisfaisant un opérateur humain est sollicité
 - [ ] 5.3.e Nous appliquons systématiquement le principe de *human agency*, les sorties des modèles prédictifs que nous mettons en oeuvre sont utilisées par des opérateurs humains, et ne servent pas de déterminants à des décisions automatiques
 
@@ -849,10 +849,10 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
 - [ ] 5.5.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
-- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif appris
+- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif élaboré par apprentissage automatique
 - [ ] 5.5.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
-- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif appris est utilisé
-- [ ] 5.5.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'aurait fourni le système ou le service dans des cas de figure légèrement différents
+- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif est utilisé
+- [ ] 5.5.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'il aurait fourni dans des cas de figure légèrement différents (par exemple des "explications contrefactuelles" comme le plus petit changement dans les données d'entrée qui aurait permis d'arriver à une sortie donnée)
 
 <details>
 <summary>Expl5.5 :</summary>
@@ -874,7 +874,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
 
-La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, chercher à suivre et minimiser les différents impacts négatifs.
+La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, suivre et minimiser les différents impacts négatifs.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]
 
