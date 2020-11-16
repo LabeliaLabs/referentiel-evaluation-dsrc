@@ -301,7 +301,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 ---
 
 Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
-Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ?
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure)
 
 R2.2 :  
 _(Type : réponse unique)_  
@@ -324,7 +324,7 @@ R2.3 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 2.3.a Nous portons une attention particulière à l'identification de variables protégées et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
+- [ ] 2.3.a Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
 - [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
 - [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
 - [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
@@ -333,7 +333,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl2.3 :</summary>
 
-Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire.
+Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire. On parle d'attribut protégé (*protected attribute* ou *protected variable* en anglais) pour désigner les attributs dont les valeurs définissent des sous-populations à risque de discrimination.
 Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ dans le but de réduire les éventuels biais des jeux de données : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
 
 </details>
