@@ -301,7 +301,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 ---
 
 Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
-Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure)
+Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure) :
 
 R2.2 :  
 _(Type : réponse unique)_  
@@ -372,9 +372,9 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
 - [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des testsets
+- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
 - [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux testsets ou plus pour gagner en résilience
+- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -439,19 +439,22 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
 - [ ] 3.4.a Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
-- [ ] 3.4.b La mise en oeuvre de mesures de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
+- [ ] 3.4.b La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
+- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
 
 <details>
 <summary>Expl3.4 :</summary>
 
-Voir par exemple le *[p-hacking / data dredging](https://fr.wikipedia.org/wiki/Data_dredging)*.
+Sur le fait de choisir les métriques en amont, voir par exemple le risque de *[p-hacking / data dredging](https://fr.wikipedia.org/wiki/Data_dredging)*.
+Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsque sa performance est stable quand les données d'entrée reçoivent des perturbations. Pour plus d'informations voir les ressources techniques indiquées.
 
 </details>
 
 <details>
 <summary>Ressources3.4 :</summary>
 
+- (Web article) *[The Comprehensive Guide to Model Validation Framework: What is a Robust Machine Learning Model?](https://medium.com/@ODSC/the-comprehensive-guide-to-model-validation-framework-what-is-a-robust-machine-learning-model-7bdbc41c1702)*, Open Data Science, Mars 2020
+- (Web article) *[Testing Robustness Against Unforeseen Adversaries](https://openai.com/blog/testing-robustness/)*, Open AI, Août 2019
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter et A. Madry
 
@@ -492,7 +495,7 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 ---
 
 Q3.6 : **Seuils de décision et plages d'indécision**  
-Lors de l'élaboration d'un modèle de classification, pour la définition des seuils de décision, votre organisation :
+Pour la définition des seuils de décision des modèles ou des systèmes automatiques s'appuyant dessus, votre organisation :
 
 R3.6 :  
 _(Type : réponses multiples possibles)_  
@@ -501,7 +504,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.6.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 - [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
-- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont dûment documentées intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
 
 <details>
 <summary>Expl3.6 :</summary>
