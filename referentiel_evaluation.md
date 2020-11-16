@@ -243,7 +243,7 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 
 Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
 _(Condition : R1.5 <> 1.5.a)_  
-Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une(des) partie(s) prenante(s) externe(s), et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
+Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
 R1.9 :  
 _(Type : réponses multiples possibles)_  
