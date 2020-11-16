@@ -210,9 +210,9 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
 - [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
-- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de monter en compétences
+- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
 - [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
-- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées dans la généalogie de bout-en-bout de chaque modèle
+- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
 
 <details>
 <summary>Expl1.8 :</summary>
