@@ -881,16 +881,16 @@ La mise en place d'un système automatique basé sur un modèle prédictif peut 
 ---
 
 Q6.1 : **Impact CO2**  
-Au sujet de l'impact CO2 de son activité data science, au sein de votre organisation :
+Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
 
 R6.1 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
 - [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
-- [ ] 6.1.b Nous avons défini des indicateurs pour savoir quoi mesurer précisément
-- [ ] 6.1.c Nous avons défini des indicateurs et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
-- [ ] 6.1.d Nous avons défini des indicateurs et nous les suivons régulièrement
+- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
+- [ ] 6.1.c Nous avons élaboré des indicateurs et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
+- [ ] 6.1.d Nous avons défini des indicateurs et le fait de les suivre régulièrement est un processus formalisé et piloté
 - [ ] 6.1.e Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
 
 <details>
