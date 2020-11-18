@@ -153,6 +153,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 1.6.a Nous élaborons une analyse d'impact relative à la protection des données (AIPD ; en anglais *Privacy Impact Assessment*)
 - [ ] 1.6.b Nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
 - [ ] 1.6.c Nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
+- [ ] 1.6.d Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
 
 <details>
 <summary>Expl1.6 :</summary>
@@ -213,6 +214,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
 - [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
 - [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
+- [ ] 1.8.e Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
 
 <details>
 <summary>Expl1.8 :</summary>
@@ -252,6 +254,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
 - [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question
 - [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
 
 <details>
 <summary>Expl1.9 :</summary>
@@ -330,6 +333,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
 - [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
 - [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 2.3.f Nous n'avons pas encore mis en place de mesures de ce type
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -443,6 +447,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.4.a Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
 - [ ] 3.4.b La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
 - [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
+- [ ] 3.4.d Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl3.4 :</summary>
@@ -745,6 +750,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 5.1.g Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
 - [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 5.1.i Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl5.1 :</summary>
@@ -770,6 +776,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 5.2.f Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 5.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa généalogie de bout-en-bout et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] 5.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 5.2.i Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl5.2 :</summary>
