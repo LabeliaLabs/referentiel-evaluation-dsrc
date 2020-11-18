@@ -891,9 +891,8 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 
 - [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
 - [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
-- [ ] 6.1.c Nous avons élaboré des indicateurs et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
-- [ ] 6.1.d Nous avons défini des indicateurs et le fait de les suivre régulièrement est un processus formalisé et piloté
-- [ ] 6.1.e Nous avons défini des indicateurs, nous les suivons régulièrement, et nous nous sommes fixés des objectifs d'amélioration
+- [ ] 6.1.c Nous mesurons nos indicateurs régulièrement et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
+- [ ] 6.1.d Le fait de suivre nos indicateurs régulièrement est un processus formalisé et piloté, à partir duquel nous nous fixons des objectifs d'amélioration
 
 <details>
 <summary>Expl6.1 :</summary>
