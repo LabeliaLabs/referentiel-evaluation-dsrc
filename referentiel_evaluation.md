@@ -280,8 +280,9 @@ R2.1 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 2.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 2.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 2.1.a Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 2.1.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
+- [ ] 2.1.c Dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl2.1 :</summary>
