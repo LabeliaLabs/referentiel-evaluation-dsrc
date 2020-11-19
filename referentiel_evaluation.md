@@ -481,6 +481,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.5.c La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
 - [ ] 3.5.d La distribution des données d'entrée est monitorée, et la performance est ré-évaluée régulièrement sur des données de test actualisées
 - [ ] 3.5.e Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
+- [ ] 3.5.f Nous n'avons ne mettons pas systématiquement en place de mesure de ce type
 
 <details>
 <summary>Expl3.5 :</summary>
@@ -667,6 +668,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
 - [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
 - [ ] 4.4.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
+- [ ] 4.4.d Nous ne mettons pas systématiquement en place de mesure de ce type
 
 <details>
 <summary>Expl4.4 :</summary>
