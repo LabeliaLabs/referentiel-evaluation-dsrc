@@ -566,7 +566,7 @@ L'élaboration d'un modèle prédictif, et la détermination d'une mesure de per
 
 ### Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité
 
-**[Documentation du modèle]**
+**[Documentation des modèles]**
 
 Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
@@ -737,6 +737,8 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 ---
 
 ### Section 5 - Utiliser des modèles en confiance et de manière responsable
+
+**[Utilisation des modèles]**
 
 Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
