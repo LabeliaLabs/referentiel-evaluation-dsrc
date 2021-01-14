@@ -895,6 +895,8 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
 
+**[Externalités négatives]**
+
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, suivre et minimiser les différents impacts négatifs.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]
