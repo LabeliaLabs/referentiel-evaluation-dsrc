@@ -366,6 +366,8 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 
 ### Section 3 - Evaluer la performance de manière rigoureuse
 
+**[Evaluation des performances]**
+
 Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
