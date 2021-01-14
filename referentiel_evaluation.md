@@ -17,6 +17,8 @@ L'évaluation est composée des 6 sections suivantes :
 
 ### Section 1 - Protéger les données à caractère personnel ou confidentielles
 
+**[Protection des données]**
+
 L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
