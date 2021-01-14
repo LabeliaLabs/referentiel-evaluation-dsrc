@@ -270,6 +270,8 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 
 ### Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires
 
+**[Biais et discriminations]**
+
 L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
 Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
