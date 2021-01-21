@@ -17,6 +17,8 @@ L'évaluation est composée des 6 sections suivantes :
 
 ### Section 1 - Protéger les données à caractère personnel ou confidentielles
 
+**[Protection des données]**
+
 L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
@@ -268,6 +270,8 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 
 ### Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires
 
+**[Biais et discriminations]**
+
 L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
 Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
@@ -361,6 +365,8 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 ---
 
 ### Section 3 - Evaluer la performance de manière rigoureuse
+
+**[Evaluation des performances]**
 
 Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
 
@@ -560,6 +566,8 @@ L'élaboration d'un modèle prédictif, et la détermination d'une mesure de per
 
 ### Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité
 
+**[Documentation des modèles]**
+
 Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
@@ -730,6 +738,8 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 
 ### Section 5 - Utiliser des modèles en confiance et de manière responsable
 
+**[Utilisation des modèles]**
+
 Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
@@ -884,6 +894,8 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 ---
 
 ### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
+
+**[Externalités négatives]**
 
 La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, suivre et minimiser les différents impacts négatifs.
 
