@@ -24,7 +24,7 @@ The use of personal or confidential data carries the risk of exposure of such da
 
 ---
 
-Q1.1: **Applicable legislation and contractual requirements - Identification**  
+Q1.1 : **Applicable legislation and contractual requirements - Identification**  
 With regard to personal or confidential data, the legal, statutory, regulatory and contractual requirements in force and concerning your organisation are:
 
 R1.1 :  
@@ -57,7 +57,7 @@ It is crucial to put in place processes to know and follow the evolution of appl
 
 ---
 
-Q1.2: **Applicable legislation and contractual requirements - Compliance approach**  
+Q1.2 : **Applicable legislation and contractual requirements - Compliance approach**  
 In order to meet these requirements, the approach adopted by your organisation is:
 
 R1.2 :  
@@ -78,7 +78,7 @@ It is a question of questioning the management of personal or confidential data 
 
 ---
 
-Q1.3: **Applicable legislation and contractual requirements - Regulatory surveillance**  
+Q1.3 : **Applicable legislation and contractual requirements - Regulatory surveillance**  
 Is a regulatory surveillance process in place, either internally or via a specialised service provider, to find out about applicable changes that have an impact on your organisation?
 
 R1.3 :  
@@ -98,7 +98,7 @@ In addition to identifying regulations and compliance approaches, it is importan
 
 ---
 
-Q1.4: **Applicable legislation and contractual requirements - Auditing and certification**  
+Q1.4 : **Applicable legislation and contractual requirements - Auditing and certification**  
 Has the organisation's compliance with personal and confidential data requirements been audited and is it recognised by a certification, label or equivalent?
 
 R1.4 :  
@@ -117,7 +117,7 @@ In many sectors there are specific compliance requirements. It is generally poss
 
 ---
 
-Q1.5: **Data minimisation principle**  
+Q1.5 : **Data minimisation principle**  
 In data science projects, the data minimisation principle should guide the collection and use of personal or confidential data. How is it implemented in your organisation?
 
 R1.5 :  
@@ -142,7 +142,7 @@ _The following elements within this section apply only to organisations that did
 
 ---
 
-Q1.6: **Project involving new processing of personal or confidential data**  
+Q1.6 : **Project involving new processing of personal or confidential data**  
 _(Condition: R1.5 <> 1.5.a)_  
 For each processing of personal or confidential data required in the framework of a data science project within your organisation:
 
@@ -164,7 +164,7 @@ The *Privacy Impact Assessment* (PIA) is a method for assessing the impact of a 
 
 ---
 
-Q1.7: **Machine Learning security - Knowledge level**  
+Q1.7 : **Machine Learning security - Knowledge level**  
 _(Condition: R1.5 <> 1.5.a)_  
 Machine Learning security (_ML security_) is a constantly evolving field. In some cases, predictive models learned from confidential data may reveal elements of that confidential data (see articles cited in resources). Within your organisation, the general level of knowledge of collaborators working on data science projects about vulnerabilities related to ML models and the techniques to mitigate them is:
 
@@ -185,7 +185,7 @@ The state of the art in ML security is constantly evolving. While it is impossib
 </details>
 
 <details>
-<Summary>Ressources1.7 :</summary>
+<summary>Ressources1.7 :</summary>
 
 - (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](https://www.private-ai.ca/PETs_Decision_Tree.png)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
@@ -202,7 +202,7 @@ The state of the art in ML security is constantly evolving. While it is impossib
 
 ---
 
-Q1.8: **Machine Learning security - Implementation**  
+Q1.8 : **Machine Learning security - Implementation**  
 _(Condition: R1.5 <> 1.5.a)_  
 Still on the subject of vulnerabilities related to ML models and techniques to mitigate them:
 
@@ -243,7 +243,7 @@ Depending on the level of risk and sensitivity of the projects, certain technica
 
 ---
 
-Q1.9: **Notification of safety incidents to the regulatory authorities**  
+Q1.9 : **Notification of safety incidents to the regulatory authorities**  
 _(Condition: R1.5 <> 1.5.a)_  
 In the event that a model that the organisation has developed is used or accessible by one or more external stakeholders, and a new vulnerability is published, there is a risk that it may apply to them and thus create a risk of exposure of personal or confidential data:
 
@@ -276,7 +276,7 @@ Among other things, in some cases a specification of the equity sought between p
 
 ---
 
-Q2.1: **Analysis of the training data**  
+Q2.1 : **Analysis of the training data**  
 Within data science projects and when developing training datasets, reflection and research on problematic phenomena (e.g. quality of certain data points, data that are not comparable due to recording tools or processes, social phenomena that are undesirable due to time, context, etc.) can be crucial to prevent bias that undermines the principle of non-discrimination, diversity and equity. Your organisation:
 
 R2.1 :  
@@ -304,7 +304,7 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 ---
 
-Q2.2: **Risk of discrimination against certain social groups**  
+Q2.2 : **Risk of discrimination against certain social groups**  
 Is your organisation involved in cases where predictive models are used in thematic environments where there are risks of discrimination against certain social groups (gender, origin, age, etc.)? (The next assessment element is dedicated to these cases):
 
 R2.2 :  
@@ -344,7 +344,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 </details>
 
 <details>
-<Summary>Resources2.3 :/Summary>
+<summary>Resources2.3 :</summary>
 
 - (Web article) *[Unfair biases in Machine Learning: what, why, where and how to obliterate them](https://www.mlsecurity.ai/post/unfair-biases-in-machine-learning-what-why-where-and-how-to-obliterate-them)*, blog ML Security, P. Irolla, April 2020
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), a registry of worrying AI services or projects, David Dao
@@ -369,7 +369,7 @@ The performance of the models is crucial for their adoption in products, systems
 
 ---
 
-Q3.1: **Separation of test datasets**  
+Q3.1 : **Separation of test datasets**  
 In data science projects and when developing test datasets, it is of utmost importance to ensure non-contamination by training data. Your organisation:
 
 R3.1 :  
@@ -390,7 +390,7 @@ Ensuring that training and test datasets are kept separated is a principle known
 
 ---
 
-Q3.2: **Privacy-preserving distributed learning projects**  
+Q3.2 : **Privacy-preserving distributed learning projects**  
 In the case of data science projects based on distributed or federated learning on multiple datasets and whose confidentiality must be preserved:
 
 R3.2 :  
@@ -409,7 +409,7 @@ In this type of distributed learning project under conditions where the data is 
 </details>
 
 <details>
-<Summary>Resources3.2 :</summary>
+<summary>Resources3.2 :</summary>
 
 - (Academic paper) [Stratified cross-validation for unbiased and privacy-preserving federated learning](https://arxiv.org/abs/2001.08090), R. Bey, R. Goussault, M. Benchoufi, R. Porcher, January 2020
 
@@ -438,11 +438,11 @@ The use of predictive models that have been validated and tested on historical d
 ---
 
 
-Q3.4: **Performance validation**  
+Q3.4 : **Performance validation**  
 Does your organisation implement the following approaches:
 
 R3.4 :  
-_(Type: multiple responses possible)_
+_(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
 - [ ] 3.4.a When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
@@ -459,7 +459,7 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 </details>
 
 <details>
-<Summary>Resources3.4 :/Summary>
+<summary>Resources3.4 :</summary>
 
 - (Web article) *[The Comprehensive Guide to Model Validation Framework: What is a Robust Machine Learning Model?](https://medium.com/@ODSC/the-comprehensive-guide-to-model-validation-framework-what-is-a-robust-machine-learning-model-7bdbc41c1702)*, Open Data Science, March 2020
 - (Web article) *[Testing Robustness Against Unforeseen Adversaries](https://openai.com/blog/testing-robustness/)*, Open AI, August 2019
@@ -470,11 +470,11 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 
 ---
 
-Q3.5: **Monitoring model performance over time**  
+Q3.5 : **Monitoring model performance over time**  
 In cases where predictive models developed by your organisation are used in production systems:
 
 R3.5 :  
-_(Type: multiple responses possible)_
+_(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 3.5.a The models we develop are not used in production systems | _(Concerned / Not concerned)_
@@ -493,7 +493,7 @@ Monitoring the performance of models over time is also particularly important in
 </details>
 
 <details>
-<Summary>Resources3.5 :/Summary>
+<summary>Resources3.5 :</summary>
 
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, September 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
@@ -506,11 +506,11 @@ Monitoring the performance of models over time is also particularly important in
 
 ---
 
-Q3.6: **Decision making and ranges of indecision**  
+Q3.6 : **Decision making and ranges of indecision**  
 For the definition of decision thresholds for models or automatic systems based on them, your organisation:
 
 R3.6 :  
-_(Type: multiple responses possible)_
+_(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 3.6.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
@@ -526,7 +526,7 @@ The study and selection of relevant decision thresholds for a given data science
 </details>
 
 <details>
-<Summary>Resources3.6 :</summary>
+<summary>Resources3.6 :</summary>
 
 - (Web article) *[Opening the algorithm's black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)*, A. Saboni (Octo Technologies), April 2020
 
@@ -534,7 +534,7 @@ The study and selection of relevant decision thresholds for a given data science
 
 ---
 
-Q3.7: **Audits by independent third parties and *verifiable claims***
+Q3.7 : **Audits by independent third parties and *verifiable claims***
 When your organization communicates on the results or performance of an AI system, and relies on such communications for its development and to its stakeholders:
 
 R3.7 :  
@@ -553,7 +553,7 @@ Developing a predictive model, and determining a meaningful and reliable benchma
 </details>
 
 <details>
-<Summary>Resources3.7 :</summary>
+<summary>Resources3.7 :</summary>
 
 - (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2 p.8-20, April 2020
 
@@ -602,7 +602,7 @@ This concept of the "end-to-end genealogy" of a learned predictive model can tak
 
 ---
 
-Q4.2: **Conditions and limitations for using a model**  
+Q4.2 : **Conditions and limitations for using a model**  
 In the context of data science projects, the "conditions and limits of validity" of a model designed, trained and validated by the organisation:
 
 R4.2 :  
@@ -632,7 +632,7 @@ The aim is to make explicit and add to the model the description of the context 
 
 ---
 
-Q4.3: **Analysis and publications of incidents reports**  
+Q4.3 : **Analysis and publications of incidents reports**  
 In data science projects, when unexpected behaviour of a model is observed:
 
 R4.3 :  
@@ -662,7 +662,7 @@ Understanding or even mastering the behaviour of a learned predictive model is a
 
 ---
 
-Q4.4: **Value chain and chain of accountability**  
+Q4.4 : **Value chain and chain of accountability**  
 In the case of data science projects where several players, including internal to the organisation (teams, departments, subsidiaries), are involved throughout the value and accountability chains:
 
 R4.4 :  
@@ -683,7 +683,7 @@ It is important to ensure that organisations upstream and downstream the chain i
 
 ---
 
-Q4.5: **Subcontracting of all or part of the data science activities**  
+Q4.5 : **Subcontracting of all or part of the data science activities**  
 Data science activities subcontracted to a third party organisation(s) are subject to the same requirements your organisation applies to itself:
 
 R4.5 :  
@@ -703,7 +703,7 @@ As in the reference frameworks of IS management (ISO 27001) or GDPR in the Europ
 
 ---
 
-Q4.6: **Distribution of the value creation**  
+Q4.6 : **Distribution of the value creation**  
 In the case of data science projects where several partners work alongside your organisation to develop a model, and that model is or will be the subject of an economic activity:
 
 R4.6 :  
@@ -741,7 +741,7 @@ A predictive model can be used as an automatic system, whose rules or criteria a
 
 ---
 
-Q5.1: **Exploitation of predictive models for one's own account**  
+Q5.1 : **Exploitation of predictive models for one's own account**  
 If your organisation uses predictive models on its own behalf:
 
 R5.1 :  
@@ -767,7 +767,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 ---
 
-Q5.2: **Development of predictive models on behalf of third parties**  
+Q5.2 : **Development of predictive models on behalf of third parties**  
 If your organisation provides or operates predictive model-based applications to customers or third parties:
 
 R5.2 :  
@@ -793,7 +793,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 ---
 
-Q5.3: **Management of problematic predictions, bypass process, _human agency_**  
+Q5.3 : **Management of problematic predictions, bypass process, _human agency_**  
 Automatic systems, especially when based on learned predictive models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
 
 R5.3 :  
@@ -814,7 +814,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 </details>
 
 <details>
-<summary>Ressources5.3 :/Summary>
+<summary>Ressources5.3 :</summary>
 
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 
@@ -822,7 +822,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 ---
 
-Q5.4: **Explicability and interpretability**  
+Q5.4 : **Explicability and interpretability**  
 Within data science projects aiming at developing predictive models:
 
 R5.4 :  
@@ -844,7 +844,7 @@ Technical resources such as SHAP or LIME provide a first-hand introduction to th
 </details>
 
 <details>
-<summary>Ressources5.4 :/Summary>
+<summary>Ressources5.4 :</summary>
 
 - (Web article) *[User confidence in systems involving Artificial Intelligence](https://blog.octo.com/la-confiance-des-utilisateurs-dans-les-systemes-impliquant-de-lintelligence-artificielle/)*, Blog Octo Technologies, October 2019
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
@@ -861,7 +861,7 @@ Your organisation uses for its own account, provides to its customers or operate
 
 R5.5 :  
 _(Type: multiple responses possible)_  
-(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
+_(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 5.5.a Our organisation does not use predictive models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on predictive models | _(Concerned / Not concerned)_
 - [ ] 5.5.b Users are not informed that they are interacting with a predictive model developed with machine learning methods
@@ -877,7 +877,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 </details>
 
 <details>
-<summary>Ressources5.5 :/Summary>
+<summary>Ressources5.5 :</summary>
 
 - (Academic paper) *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
 - (Technical guide) *[Interpretable Machine Learning - Counterfactual explanations](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
@@ -923,7 +923,7 @@ It is important to question and raise awareness of environmental costs.
 
 ---
 
-Q6.2: **Social impact**
+Q6.2 : **Social impact**
 In some cases, the implementation of an automatic system based on a predictive model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use a predictive model, your organisation:
 
 R6.2 :  
@@ -950,7 +950,7 @@ Within your organisation :
 
 R6.3 :  
 _(Type: multiple responses possible)_  
-(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
+_(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects
 - [ ] 6.3.b Employees involved in data science activities receive training in ethics
