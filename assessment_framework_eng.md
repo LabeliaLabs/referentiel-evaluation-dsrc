@@ -16,6 +16,7 @@ The evaluation is composed of the following 6 sections:
 ---
 
 ### Section 1 - Protecting personal or confidential data
+**[Data privacy]**
 
 The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
 
@@ -267,6 +268,7 @@ In some sectors there are obligations to report safety incidents to the regulato
 ---
 
 ### Section 2 - Preventing bias, developing non-discriminatory models
+**[Biases and discrimination]**
 
 The use of predictive models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
 Among other things, in some cases a specification of the equity sought between populations must also be defined. The equity of a model can [be defined in several ways that may be inconsistent with each other](https://papers.nips.cc/paper/6995-counterfactual-fairness), and the interpretation of performance scores must therefore be made within the framework of one of these definitions.
@@ -361,6 +363,8 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 ---
 
 ### Section 3 - Assessing model performance rigorously
+
+**[Performance evaluation]**
 
 The performance of the models is crucial for their adoption in products, systems or processes. Performance evaluation must therefore be rigorous.
 
@@ -564,6 +568,8 @@ Developing a predictive model, and determining a meaningful and reliable benchma
 
 ### Section 4 - Ensuring model reproducibility and establishing the chain of accountability
 
+**[Model documentation]**
+
 A predictive model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genalogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
@@ -734,6 +740,8 @@ When several partners work together to develop a model, it is important that the
 
 ### Section 5 - Using models responsibly and in confidence
 
+**[Using the models]**
+
 A predictive model can be used as an automatic system, whose rules or criteria are not written _in extenso_ and are difficult to explain, discuss or adjust. Using automatic systems based on predictive models whose rules have been "learned" (and not defined and formalised) therefore questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those predictive models, particularly in dealing with situations where predictive models have led to an undesirable outcome for the organisation or its stakeholders. In addition, efforts are therefore needed on the interpretation and explanation of the choices made using these systems.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
@@ -888,6 +896,8 @@ Using automatic systems based on models whose rules have been "learned" (and not
 ---
 
 ### Section 6 - Anticipating, monitoring and minimising the negative externalities of data science activities
+
+**[Negative externalities]**
 
 The implementation of an automatic system based on a predictive model can generate negative social and environmental externalities. Awareness of this is essential, as well as anticipating, monitoring and minimising the various negative impacts.
 
