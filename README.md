@@ -1,5 +1,7 @@
 # Data science responsable et de confiance - Référentiel d'évaluation
 
+*Note: although kickstarted in French, this work has been translated in English and will be updated in both languages from January 2021 onwards. Follow [this link](./assessment_framework_eng.md) to access the assessment in English.*
+
 ## Navigation dans le repository
 
 `/`  
