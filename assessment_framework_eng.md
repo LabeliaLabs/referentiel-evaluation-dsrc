@@ -447,8 +447,8 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 - [ ] 3.4.a When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
 - [ ] 3.4.b The implementation of robustness metrics is considered and evaluated for each modelling project, and applied by default in cases where the input data may be subject to fine-grain alterations (e.g. images, sounds)
-- 3.4.c The above practices that we implement are documented and integrated into the end-to-end genealogy of the models concerned, including the performance metrics chosen
-- 3.4.d We have not yet introduced any such measures
+- [ ] 3.4.c The above practices that we implement are documented and integrated into the end-to-end genealogy of the models concerned, including the performance metrics chosen
+- [ ] 3.4.d We have not yet introduced any such measures
 
 <details>
 <summary>Expl3.4 :</summary>
@@ -543,7 +543,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 
 - [ ] 3.7.a We do not communicate or use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
 - [ ] 3.7.b We communicate on our results and rely on them for our development without first having our work audited by an independent third party, without making available any evidence
--[ ]  3.7.c We have our work audited by an independent third party, or we make evidence available, before communicating our results and using them to communicate and rely on with our stakeholders
+- [ ] 3.7.c We have our work audited by an independent third party, or we make evidence available, before communicating our results and using them to communicate and rely on with our stakeholders
 
 <details>
 <summary>Expl3.7 :</summary>
@@ -732,7 +732,7 @@ When several partners work together to develop a model, it is important that the
 ---
 ---
 
-## Section 5 - Using models responsibly and in confidence
+### Section 5 - Using models responsibly and in confidence
 
 A predictive model can be used as an automatic system, whose rules or criteria are not written _in extenso_ and are difficult to explain, discuss or adjust. Using automatic systems based on predictive models whose rules have been "learned" (and not defined and formalised) therefore questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those predictive models, particularly in dealing with situations where predictive models have led to an undesirable outcome for the organisation or its stakeholders. In addition, efforts are therefore needed on the interpretation and explanation of the choices made using these systems.
 
@@ -946,7 +946,7 @@ It is important for an organisation to question and exchange with its stakeholde
 ---
 
 Q6.3 : **Ethics and non-maleficence**  
-Within your organisation :
+Within your organisation:
 
 R6.3 :  
 _(Type: multiple responses possible)_  
