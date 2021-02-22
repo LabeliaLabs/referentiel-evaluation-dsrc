@@ -6,7 +6,7 @@
 
 `/`  
 [`├── README.md`](#contexte-motivations-et-ambition) : [Contexte, motivations et ambition](#contexte-motivations-et-ambition) | [Périmètre du référentiel d'évaluation](#périmètre-du-référentiel-dévaluation) | [Approche participative](#approche-participative)  
-**[`├── referentiel_evaluation.md`](./referentiel_evaluation.md)** : **[Référentiel d'évaluation](./referentiel_evaluation.md#référentiel-dévaluation-de-la-maturité-dune-organisation)** | [Risques](./referentiel_evaluation.md#risques) | [Thèmes et canevas du référentiel](./referentiel_evaluation.md#thèmes-et-canevas-du-référentiel-dévaluation)  
+**[`├── referentiel_evaluation.md`](./referentiel_evaluation.md)** : **[Référentiel d'évaluation](./referentiel_evaluation.md#référentiel-dévaluation-de-la-maturité-dune-organisation)** | [Risques](./referentiel_evaluation.md#risques)  
 [`├── methode.md`](./methode.md) : [Approche](./methode.md#approche-et-méthode-de-consensus) | [Consensus au sein du groupe de travail](./methode.md#consensus-au-sein-du-groupe-de-travail) | [Travaux asynchrones](./methode.md#travaux-asynchrones) | [License](./methode.md#license)  
 [`├── references.md`](./references.md) : [Liste de lectures](./references.md#liste-de-lecture) | [Travaux dans ce domaine](./references.md#travaux-dans-ce-domaine)  
 
@@ -64,19 +64,28 @@ Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/
 
 ## Approche participative
 
-### Cycle d'ateliers de co-construction
+### Cycle d'ateliers d'échange et de co-construction
 
-Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela un cycle d'ateliers de co-construction :
+Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela des ateliers d'échange et de co-construction :
 
-- Ateliers passés :
-  - Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
-  - Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2020.02.06_workshop-2_notes.md)
-  - Atelier #3 : jeudi 2 avril 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.04.02_workshop-3_notes.md)
-- Ateliers à venir :
-  - Atelier #4 : mardi 23 juin 2020
-  - Atelier #5 : mardi 8 septembre 2020
-  - Atelier #6 : mardi 10 novembre 2020
-  - Atelier #7 : mardi 15 décembre 2020
+#### Saison 1
+
+- Atelier #1 : mercredi 18 décembre 2019 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2019.12.18_workshop-1_notes.md)
+- Atelier #2 : jeudi 6 février 2020 à la Maison du Libre et des Communs (Paris) - [notes de l'atelier](./workshops-notes/2020.02.06_workshop-2_notes.md)
+- Atelier #3 : jeudi 2 avril 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.04.02_workshop-3_notes.md)
+- Atelier #4 : mardi 23 juin 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.06.23_workshop-4_notes.md)
+- Atelier #5 : mardi 8 septembre 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.09.08_workshop-5_notes.md)
+- Atelier #6 : mardi 10 novembre 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.11.10_workshop-6_notes.md)
+- Atelier #7 : mardi 15 décembre 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.12.16_workshop-7_notes.md)
+
+#### Saison 2
+
+- Atelier #1 : lundi 22 février 2021
+- Atelier #2 : lundi 26 avril 2021
+- Atelier #3 : lundi 21 juin 2021
+- Atelier #4 : lundi 20 septembre 2021
+- Atelier #5 : lundi 22 novembre 2021
+- Atelier #6, suivi d'un temps de convivialité : jeudi 9 décembre 2021
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l’esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives, peut-être ne pas aboutir… avec la certitude en revanche de débattre et d’apprendre sur des sujets passionnants.
 
@@ -84,7 +93,7 @@ Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes �
 
 Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Substra Foundation, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
 
-Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Substra Foundation sur Github, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il est donc également possible de participer de manière asynchrone.
+Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Substra Foundation sur GitHub, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il est donc également possible de participer de manière asynchrone.
 
 ### Nature évolutive
 
