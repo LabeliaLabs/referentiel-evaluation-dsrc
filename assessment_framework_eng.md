@@ -655,8 +655,9 @@ _(Type: multiple responses possible)_
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 4.3.a At this stage we do not analyse the incidents or unexpected behaviour observed
-- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
-- [ ] 4.3.c We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
+- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered, but don't publish or share it
+- [ ] 4.3.c We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
+- [ ] 4.3.d We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
 
 <details>
 <summary>Expl4.3 :</summary>
