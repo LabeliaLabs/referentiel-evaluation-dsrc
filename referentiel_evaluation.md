@@ -318,6 +318,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 2.2.a Concerné
 - [ ] 2.2.b Non concerné
 
+<details>
+<summary>Expl2.2 :</summary>
+
+Les cas de figure où il existe des risques de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière.
+
+</details>
+
 ---
 
 _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organisations ayant sélectionné la réponse "Concerné" de R2.2. Les organisations non concernées sont donc invitées à passer à la [Section 3](#section-3-evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)._

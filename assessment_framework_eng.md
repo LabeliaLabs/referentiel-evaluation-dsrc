@@ -318,6 +318,13 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 - [ ] 2.2.a Concerned
 - [ ] 2.2.b Not concerned
 
+<details>
+<summary>Expl2.2 :</summary>
+
+Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
+
+</details>
+
 ---
 
 _The following items within this section apply only to organisations that have selected the "Concerned" response in R2.2. Organisations not involved are therefore invited to move on to [Section 3](#section-3---assessing-model-performance-rigorously)._
