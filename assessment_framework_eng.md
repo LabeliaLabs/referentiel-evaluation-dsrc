@@ -16,6 +16,7 @@ The evaluation is composed of the following 6 sections:
 ---
 
 ### Section 1 - Protecting personal or confidential data
+
 **[Data privacy]**
 
 The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
@@ -268,6 +269,7 @@ In some sectors there are obligations to report safety incidents to the regulato
 ---
 
 ### Section 2 - Preventing bias, developing non-discriminatory models
+
 **[Biases and discrimination]**
 
 The use of predictive models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
