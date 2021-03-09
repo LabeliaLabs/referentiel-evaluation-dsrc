@@ -63,6 +63,8 @@ L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* mai
 
 - Méta-étude *[A Unified Framework of Five Principles for AI in Society](https://hdsr.mitpress.mit.edu/pub/l0jsh9d1/release/6)*, F. Floridi, J. Cowls, Juillet 2019
 
+- Méta-étude *[Principled Artificial Intelligence](https://cyber.harvard.edu/publication/2020/principled-ai)*, Berkman Klein Center, Février 2020 
+
 ### Guidelines, liste de principes ou de thèmes-clés
 
 - [UNESCO - Recommendation on the ethics of artificial intelligence](https://unesdoc.unesco.org/ark:/48223/pf0000373434_fre):
