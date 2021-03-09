@@ -365,6 +365,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Livre *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, Décembre 2019
+- (web article) *[L'équité (Fairness) dans le Machine Learning](https://www.substra.ai/fr/blog/fairness-dans-le-machine-learning)*, introduction aux Fairness Metrics sur le blog de Substra Foundation, Mickael Fine, 2020
 
 </details>
 
@@ -477,6 +478,7 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 - (Web article) *[Testing Robustness Against Unforeseen Adversaries](https://openai.com/blog/testing-robustness/)*, Open AI, Août 2019
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter et A. Madry
+- (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
 
 </details>
 
@@ -608,6 +610,7 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle prédictif appris peut
 - (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
+- (Software & Tools) [Modèle de généalogie de bout en bout](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer la généalogie de bout-en-bout d'un modèle*, 2020, Joséphine Lecoq-Vallon
 
 </details>
 
