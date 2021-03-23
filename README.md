@@ -100,6 +100,10 @@ Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Su
 Par nature cette démarche est en constante évolution. Il nous semble plus utile et plus transparent de mettre à disposition le référentiel dans son état du moment, plutôt que d'attendre le franchissement de jalons majeurs. Ainsi, chacun est en mesure d'en prendre connaissance et de participer par des questions ou des suggestions d'amélioration.
 Une logique de versions ou de jalons sera proposée afin de fournir un repère temporel aux organisations utilisatrices.
 
+### Processus de supervision et validation des mises à jour du référentiel cadre
+
+![Représentation schématique du processus de supervision et validation de mise à jour du référentiel cadre](./img/processus_mise_a_jour_referentiel_cadre_dsrc.png)
+
 ### Mise à disposition
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>.
