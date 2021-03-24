@@ -869,6 +869,7 @@ Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied d
 - (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
 - (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*
 - (Software & Tools) *[Shapash](https://github.com/MAIF/shapash): un projet open source de MAIF Datalab facilitant la prise en main et permettant de visualiser les analyses d'explicabilité et d'interprétabilité des modèles
+- (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: un projet open source du BCG Gamma, *FACET is an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models*
 - (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
 
 </details>
