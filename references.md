@@ -41,7 +41,7 @@
 
   - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 
-- Various controversies:
+- Various scandals and or controversies:
 
   - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society, David Dao
   
@@ -50,6 +50,10 @@
   - [An AI hiring firm says it can predict job hopping based on your interviews](https://www.technologyreview.com/2020/07/24/1005602/ai-hiring-promises-bias-free-job-hopping-prediction/): *The idea of “bias-free” hiring, already highly misleading, is being used by companies to shirk greater scrutiny for their tools’ labor issues beyond discrimination*, MIT Technology Review, July 2020
 
   - [Faulty Facial Recognition Led to His Arrest—Now He’s Suing](https://www.vice.com/en_us/article/bv8k8a/faulty-facial-recognition-led-to-his-arrestnow-hes-suing), Septembre 2020, vice.com
+
+  - [Argentina: Child Suspects’ Private Data Published Online](https://www.hrw.org/news/2020/10/09/argentina-child-suspects-private-data-published-online) - Facial Recognition System Uses Flawed Data, Poses Further Risks to Children
+
+  - [Minneapolis prohibits use of facial recognition software by its police department](https://www.theverge.com/2021/2/13/22281523/minneapolis-prohibits-facial-recognition-software-police-privacy)
 
 ## Travaux dans ce domaine
 
