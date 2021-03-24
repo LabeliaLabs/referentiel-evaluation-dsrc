@@ -517,6 +517,7 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, Septembre 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, Mars 2020
 - (Web article) *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
+- (Web article) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
 
 </details>
 
