@@ -938,6 +938,7 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
 
 </details>
 

@@ -942,6 +942,7 @@ It is important to question and raise awareness of environmental costs.
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: a Python library to estimate the amount of CO2 produced by computing resources used to execute code
 
 </details>
 
