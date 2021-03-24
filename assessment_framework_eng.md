@@ -646,6 +646,7 @@ The aim is to make explicit and add to the model the description of the context 
 
 - (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, January 2019
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) from Google is an open and scalable framework, and offers 2 examples: *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
+- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)*, an IBM Research project to foster trust in AI by increasing transparency and enabling governance: *Increased transparency provides information for AI consumers to better understand how the AI model or service was created. This allows a consumer of the model to determine if it is appropriate for their situation. AI Governance enables an enterprise to specify and enforce policies describing how an AI model or service should be constructed and deployed.*
 
 </details>
 
