@@ -12,13 +12,18 @@
 
 ## Contexte, motivations et ambition
 
+> *Pour des introductions à cette initiative sous d'autres formes, voir :*
+>
+> - *[Blog Substra Foundation - Article d'Eric Boniface, octobre 2020](https://www.substra.ai/fr/blog/evaluation-data-science-responsable)*
+> - *[Podcast C-Ways - Mars 2021](https://c-ways.com/datascience-responsable)*
+
 Un nouvel espace émerge au croisement entre expansion de l'IA dans les organisations et les systèmes automatiques, et inquiétudes du public sur les données privées, la transparence et la robustesse des algorithmes.
 
 Ce sont deux tendances puissantes qui commencent déjà à se percuter (voir par exemple [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) en novembre 2019 ou le formidable article du New York Times en février 2020, [An Algorithm that grants Freedom, or Takes it away](https://www.nytimes.com/2020/02/06/technology/predictive-algorithms-crime.html)). Comment les réconcilier, les conjuguer ensemble ? Des solutions techniques et organisationnelles nouvelles sont indispensables pour cela, pour accorder un cadre de confiance qui manque aujourd’hui, pour rendre possible des collaborations nouvelles, prometteuses et sûres entre les entreprises, les institutions publiques et les citoyens.
 
 De nombreux acteurs s'emparent du sujet et travaillent par exemple déjà à des cadres pour un usage à impact positif des technologies d'IA, à des outils pour apporter de la traçabilité aux travaux de data science, à des formations pour éviter la reproduction de biais discriminatoires, à des briques techniques pour permettre la mutualisation et renforcer la confidentialité des données, etc.
 
-En s'appuyant sur les travaux, cadres et corpus existants, **nous proposons de travailler de manière ouverte et collaborative** à la définition de ce que serait la **data science responsable et de confiance**. L'objectif ? **Établir ensemble un référentiel open source** de bonnes pratiques permettant aux organisations intéressées d'évaluer leur niveau de maturité.
+En s'appuyant sur les travaux, cadres et corpus existants, **nous travaillons de manière ouverte et collaborative** à la définition de la **data science responsable et de confiance** et à l'élaboration d'un **référentiel cadre commun open source** de bonnes pratiques permettant aux organisations intéressées d'évaluer leur niveau de maturité.
 
 ### Une initiative de plus ?
 
