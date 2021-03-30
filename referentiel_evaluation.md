@@ -124,7 +124,8 @@ Dans le cadre des projets de data science, le principe de minimisation doit guid
 
 R1.5 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : utilisation de données personnelles ou confidentielles)_
 
 - [ ] 1.5.a Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
 - [ ] 1.5.b Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
@@ -313,7 +314,8 @@ Votre organisation est-elle concernée par des cas de figure où des modèles pr
 
 R2.2 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
 - [ ] 2.2.a Concerné
 - [ ] 2.2.b Non concerné
@@ -401,7 +403,8 @@ Dans les cas de figure de projets de data science basé sur l'apprentissage dist
 
 R3.2 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : apprentissage distribué sur données sensibles)_
 
 - [ ] 3.2.a Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
 - [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
@@ -480,7 +483,8 @@ Dans les cas de figure où des modèles prédictifs élaborés par votre organis
 
 R3.5 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : utilisation de modèles prédictifs dans des systèmes en production)_
 
 - [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés dans des systèmes en production | _(Concerné / Non concerné)_
 - [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
@@ -541,7 +545,8 @@ Lorsque votre organisation communique sur les résultats ou la performance d'un 
 
 R3.7 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : utilisation de l'évaluation de la performance d'un système d'IA comme argument de communication et de marketing)_
 
 - [ ] 3.7.a Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Concerné / Non concerné)_
 - [ ] 3.7.b Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
@@ -671,7 +676,8 @@ Dans le cas de figure des projets de data science où plusieurs acteurs, y compr
 
 R4.4 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
 
 - [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
 - [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
@@ -692,7 +698,8 @@ Les activités data science sous-traitées à une ou des organisation(s) tierce(
 
 R4.5 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : sous-traitance d'activités de data science)_
 
 - [ ] 4.5.a Non concerné, nous ne sous-traitons pas ces activités | _(Concerné / Non concerné)_
 - [ ] 4.5.b Oui, nos réponses à cette évaluation tiennent compte des pratiques de nos sous-traitants
@@ -712,7 +719,8 @@ Dans les cas de figure des projets de data science où plusieurs partenaires con
 
 R4.6 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
 
 - [ ] 4.6.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée | _(Concerné / Non concerné)_
 - [ ] 4.6.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires
@@ -752,7 +760,8 @@ Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
 R5.1 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
 - [ ] 5.1.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte | _(Concerné / Non concerné)_
 - [ ] 5.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
@@ -778,7 +787,8 @@ Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le 
 
 R5.2 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
 - [ ] 5.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaborés par apprentissage automatique | _(Concerné / Non concerné)_
 - [ ] 5.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
@@ -804,7 +814,8 @@ Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèle
 
 R5.3 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
 - [ ] 5.3.a Notre organisation n'utilise pas de modèles prédictifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
 - [ ] 5.3.b Nous implémentons des modèles prédictifs élaborés par apprentissage automatique dans des systèmes automatiques intégrés, sans mécanismes permettant de pallier à ou d'éviter des résultats non souhaitables dûs aux prédictions des modèles
@@ -867,7 +878,8 @@ Votre organisation utilise pour son propre compte, fournit à ses clients ou op�
 
 R5.5 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
 - [ ] 5.5.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
 - [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif élaboré par apprentissage automatique
