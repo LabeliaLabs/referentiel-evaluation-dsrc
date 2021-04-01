@@ -85,7 +85,7 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 
 #### Saison 2
 
-- Atelier #1 : lundi 22 février 2021 par téléconférence - [notes de l'atelier](./workshops-notes\2021.02.22_workshop-s02e01_notes.md)
+- Atelier #1 : lundi 22 février 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.02.22_workshop-s02e01_notes.md)
 - Atelier #2 : lundi 26 avril 2021
 - Atelier #3 : lundi 21 juin 2021
 - Atelier #4 : lundi 20 septembre 2021
