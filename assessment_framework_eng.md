@@ -575,7 +575,7 @@ Developing a predictive model, and determining a meaningful and reliable benchma
 
 **[Model documentation]**
 
-A predictive model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genalogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
+A predictive model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genealogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 [_[⇩ next section](#section-5---using-models-responsibly-and-in-confidence)_]
@@ -583,7 +583,7 @@ A predictive model is a complex object that can evolve over time. Tracing the st
 ---
 
 Q4.1 : **"End-to-end genealogy" of ML models**  
-Ensuring the traceability of all steps of the development of a predictive model enables building up a form of **genalogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
+Ensuring the traceability of all steps of the development of a predictive model enables building up a form of **genealogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
 
 R4.1 :  
 _(Type: single answer)_  
