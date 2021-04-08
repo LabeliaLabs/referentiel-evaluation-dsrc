@@ -246,7 +246,7 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 
 ---
 
-Q1.9 (avancé) : **Notifications d’incidents de sécurité aux autorités de régulation**  
+Q1.9 (socle) : **Notifications d’incidents de sécurité aux autorités de régulation**  
 _(Condition : R1.5 <> 1.5.a)_  
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
@@ -254,10 +254,10 @@ R1.9 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.9.a (avancé) Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b (avancé) Notre procédure inclut une communication aux parties prenantes en question
-- [ ] 1.9.c (avancé) Notre procédure référence les autorités auxquelles nous devons faire un signalement
-- [ ] 1.9.d (avancé) Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.a (socle) Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.b (socle) Notre procédure inclut une communication aux parties prenantes en question
+- [ ] 1.9.c (socle) Notre procédure référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d (socle) Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
 
 <details>
 <summary>Expl1.9 :</summary>
