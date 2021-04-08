@@ -166,7 +166,7 @@ The *Privacy Impact Assessment* (PIA) is a method for assessing the impact of a 
 
 ---
 
-Q1.7 : **Machine Learning security - Knowledge level**  
+Q1.7 (advanced) : **Machine Learning security - Knowledge level**  
 _(Condition: R1.5 <> 1.5.a)_  
 Machine Learning security (_ML security_) is a constantly evolving field. In some cases, predictive models learned from confidential data may reveal elements of that confidential data (see articles cited in resources). Within your organisation, the general level of knowledge of collaborators working on data science projects about vulnerabilities related to ML models and the techniques to mitigate them is:
 
@@ -174,10 +174,10 @@ R1.7 :
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 1.7.a Complete beginner
-- [ ] 1.7.b Basic
-- [ ] 1.7.c Confirmed
-- [ ] 1.7.d Expert
+- [ ] 1.7.a (advanced) Complete beginner
+- [ ] 1.7.b (advanced) Basic
+- [ ] 1.7.c (advanced) Confirmed
+- [ ] 1.7.d (advanced) Expert
 
 <details>
 <summary>Expl1.7 :</summary>
@@ -204,7 +204,7 @@ The state of the art in ML security is constantly evolving. While it is impossib
 
 ---
 
-Q1.8 : **Machine Learning security - Implementation**  
+Q1.8 (advanced) : **Machine Learning security - Implementation**  
 _(Condition: R1.5 <> 1.5.a)_  
 Still on the subject of vulnerabilities related to ML models and techniques to mitigate them:
 
@@ -212,11 +212,11 @@ R1.8 :
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 1.8.a We keep a technical watch on the main attacks and measures to mitigate them
-- [ ] 1.8.b Employees receive regular information and training to help them develop their skills in this area
-- [ ] 1.8.c In some projects, we implement specific techniques to reduce the risks associated with the models we develop (for example: differential privacy, distillation, etc.)
-- [ ] 1.8.d On each project, the vulnerabilities that apply to it and the techniques implemented are documented (e.g. in the end-to-end genealogy of each model, see Section 4 and Element 4.1 for more information on this concept)
-- [ ] 1.8.e We have not yet set up an organised approach to these subjects
+- [ ] 1.8.a (advanced) We keep a technical watch on the main attacks and measures to mitigate them
+- [ ] 1.8.b (advanced) Employees receive regular information and training to help them develop their skills in this area
+- [ ] 1.8.c (advanced) In some projects, we implement specific techniques to reduce the risks associated with the models we develop (for example: differential privacy, distillation, etc.)
+- [ ] 1.8.d (advanced) On each project, the vulnerabilities that apply to it and the techniques implemented are documented (e.g. in the end-to-end genealogy of each model, see Section 4 and Element 4.1 for more information on this concept)
+- [ ] 1.8.e (advanced) We have not yet set up an organised approach to these subjects
 
 <details>
 <summary>Expl1.8 :</summary>
@@ -335,8 +335,8 @@ _(Select all the answer items that correspond to practices in your organisation)
 - [ ] 2.3.a (basic) We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
 - [ ] 2.3.b (basic) We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
 - [ ] 2.3.c (basic) We select and implement one or more justice and equity measure(s) (_fairness metrics_)
-- [ ] 2.3.d We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
-- [ ] 2.3.e The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
+- [ ] 2.3.d (advanced) We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
+- [ ] 2.3.e (advanced) The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
 - [ ] 2.3.f (basic) We have not yet put in place any such measures
 
 <details>
@@ -384,8 +384,8 @@ _(Select all response items that correspond to practices in your organisation. P
 
 - [ ] 3.1.a (basic) Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
 - [ ] 3.1.b (basic) Has a documented and systematically implemented approach to isolating test datasets
-- [ ] 3.1.c Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
-- [ ] 3.1.d Systematically plans two or more sets of test data to increase resilience
+- [ ] 3.1.c (advanced) Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
+- [ ] 3.1.d (advanced) Systematically plans two or more sets of test data to increase resilience
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -396,7 +396,7 @@ Ensuring that training and test datasets are kept separated is a principle known
 
 ---
 
-Q3.2 : **Privacy-preserving distributed learning projects**  
+Q3.2 (advanced) : **Privacy-preserving distributed learning projects**  
 In the case of data science projects based on distributed or federated learning on multiple datasets and whose confidentiality must be preserved:
 
 R3.2 :  
@@ -404,9 +404,9 @@ _(Type: single answer)_
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: federated leraning on sensitive data)_
 
-- [ ] 3.2.a We do not participate in *privacy-preserving* distributed learning projects | _(Concerned / Not concerned)_
-- [ ] 3.2.b We master and implement approaches to develop test datasets in such a way that there is no cross-contamination between training and test data from different partners
-- [ ] 3.2.c At this stage we do not master the methods for developing test datasets in such a way that there is no cross-contamination between training and test data from the different partners
+- [ ] 3.2.a (advanced) We do not participate in *privacy-preserving* distributed learning projects | _(Concerned / Not concerned)_
+- [ ] 3.2.b (advanced) We master and implement approaches to develop test datasets in such a way that there is no cross-contamination between training and test data from different partners
+- [ ] 3.2.c (advanced) At this stage we do not master the methods for developing test datasets in such a way that there is no cross-contamination between training and test data from the different partners
 
 <details>
 <summary>Expl3.2 :</summary>
@@ -453,7 +453,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 - [ ] 3.4.a (basic) When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
 - [ ] 3.4.b (basic) The implementation of robustness metrics is considered and evaluated for each modelling project, and applied by default in cases where the input data may be subject to fine-grain alterations (e.g. images, sounds)
-- [ ] 3.4.c The above practices that we implement are documented and integrated into the end-to-end genealogy of the models concerned, including the performance metrics chosen
+- [ ] 3.4.c (advanced) The above practices that we implement are documented and integrated into the end-to-end genealogy of the models concerned, including the performance metrics chosen
 - [ ] 3.4.d (basic) We have not yet introduced any such measures
 
 <details>
@@ -487,8 +487,8 @@ _(Specific risk domain: use of predictive models in production systems)_
 - [ ] 3.5.a (basic) The models we develop are not used in production systems | _(Concerned / Not concerned)_
 - [ ] 3.5.b (basic) Performance is systematically re-evaluated when the model is updated
 - [ ] 3.5.c (basic) Performance is systematically re-evaluated when the context in which the model is used evolves, which may create a risk on the performance of the model due to the evolution of the input data space
-- [ ] 3.5.d The distribution of input data is monitored, and performance is regularly re-evaluated on the basis of updated test data
-- [ ] 3.5.e Random checks are carried out on predictions to check their consistency
+- [ ] 3.5.d (advanced) The distribution of input data is monitored, and performance is regularly re-evaluated on the basis of updated test data
+- [ ] 3.5.e (advanced) Random checks are carried out on predictions to check their consistency
 - [ ] 3.5.f (basic) We do not systematically set up this type of measure
 
 <details>
@@ -510,17 +510,17 @@ Monitoring the performance of models over time is also particularly important in
 
 ---
 
-Q3.6 : **Decision making and ranges of indecision**  
+Q3.6 (advanced) : **Decision making and ranges of indecision**  
 For the definition of decision thresholds for models or automatic systems based on them, your organisation:
 
 R3.6 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 3.6.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
-- [ ] 3.6.b Has a documented approach that is systematically implemented
-- [ ] 3.6.c Takes into account the possibility of maintaining ranges of indecision in certain cases
-- [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.
+- [ ] 3.6.a (advanced) Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
+- [ ] 3.6.b (advanced) Has a documented approach that is systematically implemented
+- [ ] 3.6.c (advanced) Takes into account the possibility of maintaining ranges of indecision in certain cases
+- [ ] 3.6.d (advanced) The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -578,17 +578,17 @@ A predictive model is a complex object that can evolve over time. Tracing the st
 
 ---
 
-Q4.1 : **"End-to-end genealogy" of ML models**  
+Q4.1 (advanced) : **"End-to-end genealogy" of ML models**  
 Ensuring the traceability of all steps of the development of a predictive model enables building up a form of **genalogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
 
 R4.1 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 4.1.a At this stage we have not implemented any such approach
-- [ ] 4.1.b This information exists and is recorded so as not to be lost, but it may be scattered and it is not versioned
-- [ ] 4.1.c They are compiled in a single document which systematically accompanies the model
-- [ ] 4.1.d They are gathered in a single document that systematically accompanies the model and is versioned
+- [ ] 4.1.a (advanced) At this stage we have not implemented any such approach
+- [ ] 4.1.b (advanced) This information exists and is recorded so as not to be lost, but it may be scattered and it is not versioned
+- [ ] 4.1.c (advanced) They are compiled in a single document which systematically accompanies the model
+- [ ] 4.1.d (advanced) They are gathered in a single document that systematically accompanies the model and is versioned
 
 <details>
 <summary>Expl4.1 :</summary>
@@ -639,16 +639,16 @@ The aim is to make explicit and add to the model the description of the context 
 
 ---
 
-Q4.3 : **Analysis and publications of incidents reports**  
+Q4.3 (advanced) : **Analysis and publications of incidents reports**  
 In data science projects, when unexpected behaviour of a model is observed:
 
 R4.3 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 4.3.a At this stage we do not analyse the incidents or unexpected behaviour observed
-- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
-- [ ] 4.3.c We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
+- [ ] 4.3.a (advanced) At this stage we do not analyse the incidents or unexpected behaviour observed
+- [ ] 4.3.b (advanced) We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
+- [ ] 4.3.c (advanced) We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
 
 <details>
 <summary>Expl4.3 :</summary>
@@ -712,7 +712,7 @@ As in the reference frameworks of IS management (ISO 27001) or GDPR in the Europ
 
 ---
 
-Q4.6 : **Distribution of the value creation**  
+Q4.6 (advanced) : **Distribution of the value creation**  
 In the case of data science projects where several partners work alongside your organisation to develop a model, and that model is or will be the subject of an economic activity:
 
 R4.6 :  
@@ -720,10 +720,10 @@ _(Type: multiple responses possible)_
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_  
 _(Specific risk domain: roles and responsibilities in data science projects are divided up multiple actors)_
 
-- [ ] 4.6.a Our organisation carries out its data science activities autonomously, including the development of datasets and the exploitation of models for its own account. It is therefore not concerned | _(Concerned / Not concerned)_
-- [ ] 4.6.b At this stage we have not structured this aspect of multi-partner data science projects
-- [ ] 4.6.c In these cases, we contract the economic aspect of the relationship with the stakeholders involved upstream of the project
-- [ ] 4.6.d Our organisation has a policy that responsibly frames the sharing of value with the stakeholders involved
+- [ ] 4.6.a (advanced) Our organisation carries out its data science activities autonomously, including the development of datasets and the exploitation of models for its own account. It is therefore not concerned | _(Concerned / Not concerned)_
+- [ ] 4.6.b (advanced) At this stage we have not structured this aspect of multi-partner data science projects
+- [ ] 4.6.c (advanced) In these cases, we contract the economic aspect of the relationship with the stakeholders involved upstream of the project
+- [ ] 4.6.d (advanced) Our organisation has a policy that responsibly frames the sharing of value with the stakeholders involved
 
 <details>
 <summary>Expl4.6 :</summary>
@@ -765,9 +765,9 @@ _(Specific risk domain: use of predictive models, provision or operation of pred
 - [ ] 5.1.b (basic) **A predictive models register** identifies all the models used by the organisation and is kept up-to-date
 - [ ] 5.1.c (basic) For each model there is an **owner** defined, identifiable and easily contactable
 - [ ] 5.1.d (basic) For each model, we systematically carry out a **risk assessment** following any incidents, failures or biases
-- [ ] 5.1.e Monitoring tools are put in place to ensure continuous monitoring of systems based on predictive models and can trigger alerts directly to the team in charge
-- [ ] 5.1.f For each model, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
-- [ ] 5.1.g For each model, we study its entire genealogy (all the steps and choices that led to its development and evaluation), as well as its conditions and limits of validity, in order to understand the model before using it
+- [ ] 5.1.e (advanced) Monitoring tools are put in place to ensure continuous monitoring of systems based on predictive models and can trigger alerts directly to the team in charge
+- [ ] 5.1.f (advanced) For each model, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
+- [ ] 5.1.g (advanced) For each model, we study its entire genealogy (all the steps and choices that led to its development and evaluation), as well as its conditions and limits of validity, in order to understand the model before using it
 - [ ] 5.1.h (basic) We always use the models for **uses in accordance with their conditions and limits of validity**
 - [ ] 5.1.i (basic) We have not yet put in place such measures
 
@@ -792,9 +792,9 @@ _(Specific risk domain: use of predictive models, provision or operation of pred
 - [ ] 5.2.b (basic) **A predictive models register** identifies all models or applications used by its customers and/or by the organisation on behalf of third parties, and is kept up-to-date
 - [ ] 5.2.c (basic) For each model or application for a customer or a third party we have a defined, identifiable and easily reachable **owner**
 - [ ] 5.2.d (basic) For each model or application for a customer or a third party, we systematically carry out a **risk assessment** resulting from possible incidents, failures, biases, etc., in order to identify the risks involved
-- [ ] 5.2.e Monitoring tools are in place to ensure continuous monitoring of ML systems and can trigger alerts directly to the responsible team
-- [ ] 5.2.f For each model or application for a customer or a third party, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
-- [ ] 5.2.g For each model or application for a client or third party, we study its entire genealogy and its conditions and limits of validity to understand the model before using it
+- [ ] 5.2.e (advanced) Monitoring tools are in place to ensure continuous monitoring of ML systems and can trigger alerts directly to the responsible team
+- [ ] 5.2.f (advanced) For each model or application for a customer or a third party, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
+- [ ] 5.2.g (advanced) For each model or application for a client or third party, we study its entire genealogy and its conditions and limits of validity to understand the model before using it
 - [ ] 5.2.h (basic) We supply our customers or operate on their behalf with models or applications for **uses in accordance with their conditions and limits of validity**
 - [ ] 5.2.i (basic) We have not yet put in place such measures
 
@@ -883,7 +883,7 @@ _(Specific risk domain: use of predictive models, provision or operation of pred
 - [ ] 5.5.b (basic) Users are not informed that they are interacting with a predictive model developed with machine learning methods
 - [ ] 5.5.c (basic) An information notice is made available in the terms and conditions of the system or an equivalent document, freely accessible
 - [ ] 5.5.d (basic) The system or service is explicit to the user that a predictive model is being used
-- [ ] 5.5.e The system or service provides the user with additional information on the results it would have provided in slightly different scenarios (e.g. "counterfactual explanations" such as the smallest change in input data that would have resulted in a given different output)
+- [ ] 5.5.e (advanced) The system or service provides the user with additional information on the results it would have provided in slightly different scenarios (e.g. "counterfactual explanations" such as the smallest change in input data that would have resulted in a given different output)
 
 <details>
 <summary>Expl5.5 :</summary>
@@ -913,17 +913,17 @@ The implementation of an automatic system based on a predictive model can genera
 
 ---
 
-Q6.1 : **CO2 impact**  
+Q6.1 (advanced) : **CO2 impact**  
 About the CO2 impact of the data science activity in your organisation:
 
 R6.1 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our predictive models
-- [ ] 6.1.b We have developed indicators that define what we want to measure
-- [ ] 6.1.c We measure our indicators regularly and include their measurements in the end-to-end genealogies of the models
-- [ ] 6.1.d Monitoring our indicators on a regular basis is a formalised and controlled process, from which we set ourselves improvement objectives
+- [ ] 6.1.a (advanced) At this stage we have not looked at the CO2 impact of our data science activity or our predictive models
+- [ ] 6.1.b (advanced) We have developed indicators that define what we want to measure
+- [ ] 6.1.c (advanced) We measure our indicators regularly and include their measurements in the end-to-end genealogies of the models
+- [ ] 6.1.d (advanced) Monitoring our indicators on a regular basis is a formalised and controlled process, from which we set ourselves improvement objectives
 
 <details>
 <summary>Expl6.1 :</summary>
@@ -941,18 +941,18 @@ It is important to question and raise awareness of environmental costs.
 
 ---
 
-Q6.2 : **Social impact**
+Q6.2 (advanced) : **Social impact**
 In some cases, the implementation of an automatic system based on a predictive model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use a predictive model, your organisation:
 
 R6.2 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 6.2.a At this stage we are not looking at the social impact of our data science activity or our predictive models
-- [ ] 6.2.b In some cases we study the social impact
-- [ ] 6.2.c We study the social impact in each project
-- [ ] 6.2.d We study the social impact in each project and it is documented in the end-to-end genealogy of each model
-- [ ] 6.2.e We study the social impact in each project, it is documented in the end-to-end genealogy of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
+- [ ] 6.2.a (advanced) At this stage we are not looking at the social impact of our data science activity or our predictive models
+- [ ] 6.2.b (advanced) In some cases we study the social impact
+- [ ] 6.2.c (advanced) We study the social impact in each project
+- [ ] 6.2.d (advanced) We study the social impact in each project and it is documented in the end-to-end genealogy of each model
+- [ ] 6.2.e (advanced) We study the social impact in each project, it is documented in the end-to-end genealogy of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
 
 <details>
 <summary>Expl6.2 :</summary>
