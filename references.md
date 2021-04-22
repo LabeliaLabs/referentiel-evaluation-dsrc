@@ -37,11 +37,15 @@
 
   - La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
+- Cycle de vie complet :
+
+  - **[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+
 - "Performance is not outcome", erreurs, crises :
 
   - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 
-- Various controversies:
+- Various scandals and or controversies:
 
   - [Awful AI](https://github.com/daviddao/awful-ai): a curated list to track current scary usages of AI - hoping to raise awareness to its misuses in society, David Dao
   
@@ -50,6 +54,10 @@
   - [An AI hiring firm says it can predict job hopping based on your interviews](https://www.technologyreview.com/2020/07/24/1005602/ai-hiring-promises-bias-free-job-hopping-prediction/): *The idea of “bias-free” hiring, already highly misleading, is being used by companies to shirk greater scrutiny for their tools’ labor issues beyond discrimination*, MIT Technology Review, July 2020
 
   - [Faulty Facial Recognition Led to His Arrest—Now He’s Suing](https://www.vice.com/en_us/article/bv8k8a/faulty-facial-recognition-led-to-his-arrestnow-hes-suing), Septembre 2020, vice.com
+
+  - [Argentina: Child Suspects’ Private Data Published Online](https://www.hrw.org/news/2020/10/09/argentina-child-suspects-private-data-published-online) - Facial Recognition System Uses Flawed Data, Poses Further Risks to Children
+
+  - [Minneapolis prohibits use of facial recognition software by its police department](https://www.theverge.com/2021/2/13/22281523/minneapolis-prohibits-facial-recognition-software-police-privacy)
 
 ## Travaux dans ce domaine
 
@@ -62,6 +70,8 @@ L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* mai
 - Méta-étude *[The global landscape of AI ethics guidelines](https://arxiv.org/ftp/arxiv/papers/1906/1906.11668.pdf)*, A. Jobin, M. Ienca, E. Vayena, Juin 2019
 
 - Méta-étude *[A Unified Framework of Five Principles for AI in Society](https://hdsr.mitpress.mit.edu/pub/l0jsh9d1/release/6)*, F. Floridi, J. Cowls, Juillet 2019
+
+- Méta-étude *[Principled Artificial Intelligence](https://cyber.harvard.edu/publication/2020/principled-ai)*, Berkman Klein Center, Février 2020 
 
 ### Guidelines, liste de principes ou de thèmes-clés
 

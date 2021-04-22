@@ -18,6 +18,7 @@ The evaluation is composed of the following 6 sections:
 ---
 
 ### Section 1 - Protecting personal or confidential data
+
 **[Data privacy]**
 
 The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
@@ -191,7 +192,7 @@ The state of the art in ML security is constantly evolving. While it is impossib
 <details>
 <summary>Ressources1.7 :</summary>
 
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](https://www.private-ai.ca/PETs_Decision_Tree.png)*, Private AI, 2020
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*.
@@ -199,8 +200,11 @@ The state of the art in ML security is constantly evolving. While it is impossib
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Software & Tools) Tools for *differential privacy*: Google *[differential privacy library](https://github.com/google/differential-privacy)*, and the Python [PyDP](https://github.com/OpenMined/PyDP) wrapper from OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
+- (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, Substra Foundation blog post to introduce distillation approaches, Gijs Barmentlo, 2020
 
 </details>
 
@@ -232,7 +236,7 @@ Depending on the level of risk and sensitivity of the projects, certain technica
 <details>
 <summary>Resources1.8 :</summary>
 
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](https://www.private-ai.ca/PETs_Decision_Tree.png)*, Private AI, 2020
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*.
@@ -240,6 +244,8 @@ Depending on the level of risk and sensitivity of the projects, certain technica
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Software & Tools) Tools for *differential privacy*: Google *[differential privacy library](https://github.com/google/differential-privacy)*, and the Python [PyDP](https://github.com/OpenMined/PyDP) wrapper from OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
@@ -271,6 +277,7 @@ In some sectors there are obligations to report safety incidents to the regulato
 ---
 
 ### Section 2 - Preventing bias, developing non-discriminatory models
+
 **[Biases and discrimination]**
 
 The use of predictive models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
@@ -304,6 +311,7 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 - (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: *Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
 
 </details>
 
@@ -319,6 +327,13 @@ _(Specific risk domain: discrimination against certain social groups)_
 
 - [ ] 2.2.a Concerned
 - [ ] 2.2.b Not concerned
+
+<details>
+<summary>Expl2.2 :</summary>
+
+Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
+
+</details>
 
 ---
 
@@ -360,6 +375,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Book *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, December 2019
+- (Web article) *[Fairness in Machine Learning](https://www.substra.ai/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Substra Foundation's blog, Mickael Fine, 2020
 
 </details>
 
@@ -474,6 +490,7 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 - (Web article) *[Testing Robustness Against Unforeseen Adversaries](https://openai.com/blog/testing-robustness/)*, Open AI, August 2019
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter and A. Madry
+- (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
 
 </details>
 
@@ -610,6 +627,7 @@ This concept of the "end-to-end genealogy" of a learned predictive model can tak
 - (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC* *a platform for data version control and collaboration, based on DVC*
+- (Software & Tools) [End-to-end genealogy template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the genealogy from end to end of a model*, 2020, Joséphine Lecoq-Vallon
 
 </details>
 
@@ -640,6 +658,7 @@ The aim is to make explicit and add to the model the description of the context 
 
 - (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, January 2019
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) from Google is an open and scalable framework, and offers 2 examples: *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
+- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)*, an IBM Research project to foster trust in AI by increasing transparency and enabling governance: *Increased transparency provides information for AI consumers to better understand how the AI model or service was created. This allows a consumer of the model to determine if it is appropriate for their situation. AI Governance enables an enterprise to specify and enforce policies describing how an AI model or service should be constructed and deployed.*
 
 </details>
 
@@ -653,8 +672,9 @@ _(Type: multiple responses possible)_
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 4.3.a At this stage we do not analyse the incidents or unexpected behaviour observed
-- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
-- [ ] 4.3.c We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
+- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered, but don't publish or share it
+- [ ] 4.3.c We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
+- [ ] 4.3.d We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
 
 <details>
 <summary>Expl4.3 :</summary>
@@ -871,6 +891,8 @@ Technical resources such as SHAP or LIME provide a first-hand introduction to th
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
 - (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
 - (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*.
+- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash): a MAIF Datalab project which aims to make machine learning interpretable and understandable by everyone. It provides several types of visualization that display explicit labels that everyone can understand
+- (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: a BCG Gamma project of an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models
 - (Web article) In some cases, regulations impose being able to explain how an automated system came to a certain outcome (see for example [article 22 of the GDPR in the European Union](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [article 10 of the "Informatique & Libertés" law in France](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cited in particular in the [Hippocratic Oath for data scientist](https://hippocrate.tech/).
 
 </details>
@@ -942,6 +964,7 @@ It is important to question and raise awareness of environmental costs.
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: a Python library to estimate the amount of CO2 produced by computing resources used to execute code
 
 </details>
 
