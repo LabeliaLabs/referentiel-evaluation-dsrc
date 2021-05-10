@@ -380,6 +380,43 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 </details>
 
 ---
+
+Q2.4 : **Links between modelisation choices and bias**  
+_(Condition : R2.2 <> 2.2.b)_  
+Recent work has shown the role that modeling and learning choices can play in the formation of discriminatory bias. Differential privacy, compression, the choice of the learning rate, early stopping mechanisms for example can have disproportionate impacts on certain subgroups. Within your organisation, the general level of knowledge of collaborators working on data science projects on this topic is:
+
+R2.4 :  
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+
+- [ ] 2.4.a Complete beginner
+- [ ] 2.4.b Basic
+- [ ] 2.4.c Confirmed
+- [ ] 2.4.d Expert
+
+<details>
+<summary>Expl2.4 :</summary>
+
+If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work show that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
+
+> - *A key reason why model design choices amplify algorithmic bias is because notions of fairness often coincide with how underrepresented protected features are treated by the model*
+> - [...] *design choices to optimize for either privacy guarantees or compression amplify the disparate impact between minority and majority data subgroups*
+> - [...] *the impact of popular compression techniques like quantization and pruning on low-frequency protected attributes such as gender and age and finds that these subgroups are systematically and disproportionately impacted in order to preserve performance on the most frequent features*
+> - [...] *learning rate and length of training can also disproportionately impact error rates on the long-tail of the dataset. Work on memorization properties of deep neural networks shows that challenging and underrepresented features are learnt later in the training process and that the learning rate impacts what is learnt. Thus, early stopping and similar hyper-parameter choices disproportionately and systematically impact a subset of the data distribution.*
+
+These topics require a strong expertise and few practitioners are familiar with them yet. In the context of this evaluation element, the recommendation is to learn about them and become aware of the complex trade-offs it implies, consider them during concrete projects rather than hiding them away, and follow how the state-of-the-art evolves and what best practices emerge.
+
+</details>
+
+<details>
+<summary>Resources2.4 :</summary>
+
+- (Academic paper) *[Moving beyond “algorithmic bias is a data problem”](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1)*, Sara Hooker, Opinion, April 2021
+- (Academic paper) *[Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)*, T. Bolukbasi, K.-W. Chang, J. Zou, V. Saligrama, A. Kalai, 2016
+
+</details>
+
+---
 ---
 
 ### Section 3 - Assessing model performance rigorously
