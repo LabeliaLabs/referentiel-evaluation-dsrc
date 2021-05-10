@@ -110,7 +110,8 @@ _(Type: single answer)_
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
 - [ ] 1.4.a Yes
-- [ ] 1.4.b No
+- [ ] 1.4.b We are currently preparing an upcoming audit or certification of our organisation's compliance with personal and confidential data requirements
+- [ ] 1.4.c No
 
 <details>
 <summary>Expl1.4 :</summary>
