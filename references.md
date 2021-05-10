@@ -61,7 +61,7 @@
 
 ## Travaux dans ce domaine
 
-L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* maintient un panorama très complet des initiatives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
 ### Méta-études
 

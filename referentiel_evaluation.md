@@ -1,6 +1,6 @@
 # Data science responsable et de confiance - Référentiel d'évaluation
 
-Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit travail participatif initié au printemps 2019 par Substra Foundation et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
+Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit du travail participatif initié au printemps 2019 par Substra Foundation et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
 
 Dernière mise à jour : 1er semestre 2021.
 
