@@ -105,6 +105,18 @@ Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Su
 Par nature cette démarche est en constante évolution. Il nous semble plus utile et plus transparent de mettre à disposition le référentiel dans son état du moment, plutôt que d'attendre le franchissement de jalons majeurs. Ainsi, chacun est en mesure d'en prendre connaissance et de participer par des questions ou des suggestions d'amélioration.
 Une logique de versions ou de jalons sera proposée afin de fournir un repère temporel aux organisations utilisatrices.
 
+### Processus de supervision et validation des mises à jour du référentiel cadre
+
+Afin d'assurer la transparence et la sincérité de l'élaboration participative du référentiel cadre de la data science responsable et de confiance, le processus décrit sur le schéma ci-dessous est mis en place.
+
+Le travail itératif pour améliorer le référentiel se déroule tout au long de l'année, mais les mises à jour officielles du référentiel ne sont entérinées qu'une fois par semestre. Pour celles-ci, la version candidate pour mise à jour, composée de toutes les contributions des premiers mois du semestre, sont transmises pro-activement à la communauté (suiveurs de ce repository, inscrits au Meetup, abonnés au Slack, inscrits à la mailing liste). Toutes les questions, remarques, propositions et objections sont traitées en toute transparence via les issues et PRs sur ce repository. Le comité de gouvernance s'en assure en observant les interactions sur les issues et PRs. La version candidate pour mise à jour est ainsi affinée pour faire consensus, et entérinée une fois tous les retours traités.
+
+![Représentation schématique du processus de supervision et validation de mise à jour du référentiel cadre](./img/processus_mise_a_jour_referentiel_cadre_dsrc.png)
+
+Le comité de gouvernance est composé de professionnels de la data science et du numérique, avec une diversité d'expériences et de savoir-faire (public et privé, spécialistes techniques et responsables de projets, industrie et recherche). Il est composé de 7 à 10 membres y siégeant à titre individuel, et sera renouvelé annuellement.
+
+![Composition du comité de gouvernance](./img/composition_comite_gouvernance.png)
+
 ### Mise à disposition
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Ce(tte) œuvre est mise à disposition selon les termes de la <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licence Creative Commons Attribution - Pas d&#39;Utilisation Commerciale - Pas de Modification 4.0 International</a>.
