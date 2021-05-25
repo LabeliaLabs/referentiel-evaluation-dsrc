@@ -194,6 +194,7 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 <details>
 <summary>Ressources1.7 :</summary>
 
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
 - (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
@@ -239,6 +240,7 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 <details>
 <summary>Ressources1.8 :</summary>
 
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
 - (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
