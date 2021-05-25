@@ -953,6 +953,7 @@ _(Specific risk domain: use of predictive models, provision or operation of pred
 - [ ] 5.5.c An information notice is made available in the terms and conditions of the system or an equivalent document, freely accessible
 - [ ] 5.5.d The system or service is explicit to the user that a predictive model is being used
 - [ ] 5.5.e The system or service provides the user with additional information on the results it would have provided in slightly different scenarios (e.g. "counterfactual explanations" such as the smallest change in input data that would have resulted in a given different output)
+- [ ] 5.5.f We are pionneers in using public AI registers, enabling us to provide transparency to our stakeholders and to capture user feedbacks
 
 <details>
 <summary>Expl5.5 :</summary>
@@ -966,6 +967,8 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 - (Academic paper) *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
 - (Technical guide) *[Interpretable Machine Learning - Counterfactual explanations](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
+- (Web article) *[AI registers: finally, a tool to increase transparency in AI/ML](https://towardsdatascience.com/ai-registers-finally-a-tool-to-increase-transparency-in-ai-ml-f5694b1e317d)*, Natalia Modjeska, December 2020
+- (Whitepaper) *[Public AI Registers: Realising AI transparency and civic participation in government use of AI](https://uploads-ssl.webflow.com/5c8abedb10ed656ecfb65fd9/5f6f334b49d5444079726a79_AI%20Registers%20-%20White%20paper%201.0.pdf)*, Saidot, Septembre 2020
 
 </details>
 
