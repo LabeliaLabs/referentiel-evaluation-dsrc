@@ -133,6 +133,7 @@ _(Specific risk domain: use of personal or confidential data)_
 - [ ] 1.5.b We need to use personal or confidential data in certain projects and the data minimisation principle is then systematically applied
 - [ ] 1.5.c Employees are aware of the data minimisation principle and generally apply it
 - [ ] 1.5.d The "who can do the most can do the least" reflex with regard to data still exists here and there within our organisation. In some projects, we keep datasets that are much richer in personal and confidential data than what is strictly useful to the project
+- [ ] 1.5.e Employees are aware of the data minimisation principle, but it is not applied as a general standard. However, we give a particular attention to implementing personal data-related risk mitigation measures (i.e. pseudonymising some features by identifiers with a separate correspondence table, split datasets in multiple tables kept apart)
 
 <details>
 <summary>Expl1.5 :</summary>

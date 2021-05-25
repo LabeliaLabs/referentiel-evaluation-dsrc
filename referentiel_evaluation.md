@@ -133,6 +133,7 @@ _(Domaine de risque spécifique : utilisation de données personnelles ou confid
 - [ ] 1.5.b Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
 - [ ] 1.5.c Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
 - [ ] 1.5.d Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
+- [ ] 1.5.e Le principe de minimisation est connu des collaborateurs, mais son application n'est pas la norme. En revanche, nous apportons une attention particulière à mettre en oeuvre des mesures de limitation des risques pour les données à caractère personnel (par exemple : pseudonymiser certaines features par des identifiants avec une table de correspondance séparée, éclater les données en plusieurs bases ou tables réparties)
 
 <details>
 <summary>Expl1.5 :</summary>
