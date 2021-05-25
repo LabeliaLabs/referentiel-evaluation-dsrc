@@ -207,6 +207,7 @@ The state of the art in ML security is constantly evolving. While it is impossib
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 - (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, Substra Foundation blog post to introduce distillation approaches, Gijs Barmentlo, 2020
+- (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, March 2021: exposition of a vulnerability of ML models using pickle for objects storage
 
 </details>
 
