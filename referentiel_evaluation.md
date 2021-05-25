@@ -111,11 +111,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 
 - [ ] 1.4.a Oui
 - [ ] 1.4.b Non
+- [ ] 1.4.c Pas encore, nous préparons actuellement l'audit ou la certification de la conformité de notre organisation aux exigences relatives aux données personnelles et confidentielles
+- [ ] 1.4.d Pas au niveau de l'organisation, mais c'est en revanche le cas pour un projet au moins
 
 <details>
 <summary>Expl1.4 :</summary>
 
-Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification ou un audit spécialisé, l'obtention d'un label.
+Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification, un audit spécialisé ou l'obtention d'un label.
 
 </details>
 

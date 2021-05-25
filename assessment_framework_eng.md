@@ -111,6 +111,8 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 
 - [ ] 1.4.a Yes
 - [ ] 1.4.b No
+- [ ] 1.4.c We are currently preparing an upcoming audit or certification of our organisation's compliance with personal and confidential data requirements
+- [ ] 1.4.d Not the the organization level, but it is the case for at least one project
 
 <details>
 <summary>Expl1.4 :</summary>
