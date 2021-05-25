@@ -110,8 +110,9 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
 - [ ] 1.4.a Oui
-- [ ] 1.4.b Nous préparons actuellement l'audit ou la certification de la conformité de notre organisation aux exigences relatives aux données personnelles et confidentielles
-- [ ] 1.4.c Non
+- [ ] 1.4.b Non
+- [ ] 1.4.c Pas encore, nous préparons actuellement l'audit ou la certification de la conformité de notre organisation aux exigences relatives aux données personnelles et confidentielles
+- [ ] 1.4.d Pas au niveau de l'organisation, mais c'est en revanche le cas pour un projet au moins
 
 <details>
 <summary>Expl1.4 :</summary>
