@@ -135,6 +135,7 @@ _(Specific risk domain: use of personal or confidential data)_
 - [ ] 1.5.b We need to use personal or confidential data in certain projects and the data minimisation principle is then systematically applied
 - [ ] 1.5.c Employees are aware of the data minimisation principle and generally apply it
 - [ ] 1.5.d The "who can do the most can do the least" reflex with regard to data still exists here and there within our organisation. In some projects, we keep datasets that are much richer in personal and confidential data than what is strictly useful to the project
+- [ ] 1.5.e Employees are aware of the data minimisation principle, but it is not applied as a general standard. However, we give a particular attention to implementing personal data-related risk mitigation measures (i.e. pseudonymising some features by identifiers with a separate correspondence table, split datasets in multiple tables kept apart)
 
 <details>
 <summary>Expl1.5 :</summary>
@@ -187,7 +188,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl1.7 :</summary>
 
-The state of the art in ML security is constantly evolving. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
+The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
 </details>
 
@@ -229,7 +230,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 <details>
 <summary>Expl1.8 :</summary>
 
-The state of the art in ML security is constantly evolving. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
+TThe state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
 Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made. The notion of "end-to-end genealogy" is introduced here.
 

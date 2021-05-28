@@ -61,7 +61,7 @@
 
 ## Travaux dans ce domaine
 
-L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* maintient un panorama très complet des inititives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
+L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* maintient un panorama très complet des initiatives réglementaires, rapports, guidelines, frameworks divers et variés en lien avec la pratique et l'usage de l'IA et la data science : voir leur repository [Awesome AI Guidelines](https://github.com/EthicalML/awesome-artificial-intelligence-guidelines#online-courses-and-learning-resources) sur Github.
 
 ### Méta-études
 
@@ -158,6 +158,6 @@ Management: Towards an Open-Access Standard Protocol](https://aiforsocialgood.gi
 ## Notes et observations
 
 - Beaucoup de travaux s'intéressent à l'éthique par les usages et par la non-reproduction de discrimination
-- Il y a cependant très peu de choses sur comment un modèle est élaboré (voir le [papier de Quantum Black](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf))
+- On trouve en revanche peu de choses sur le cycle de vie de l'élaboration d'un modèle (voir par exemple le [papier de Quantum Black](https://aiforsocialgood.github.io/icml2019/accepted/track2/pdfs/32_aisg_icml2019.pdf))
 - Le plus complet est peut-être le questionnaire d'évaluation de l'UE, mais il est loin d'être actionnable, opérationnel (63 questions dont de nombreuses sont des questions très ouvertes), et son processus d'élaboration et d'évolution est relativement fermé
 - Des référentiels de la sécurité des systèmes d'information, bien plus généraux, pourraient être utilisés comme références pour éviter d'être redondant sur certains points. Par exemple le [guide de la sécurité des données personnelles](https://www.cnil.fr/fr/principes-cles/guide-de-la-securite-des-donnees-personnelles) de la CNIL.

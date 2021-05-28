@@ -2,6 +2,10 @@
 
 *Note: although kickstarted in French, this work has been translated in English and will be updated in both languages from January 2021 onwards. Follow [this link](./assessment_framework_eng.md) to access the assessment in English.*
 
+## Résumé rapide
+
+Ce dépôt de fichiers héberge le référentiel cadre de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Substra Foundation en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Substra Foundation et Dataforgood.
+
 ## Navigation dans le repository
 
 `/`  
@@ -27,9 +31,9 @@ En s'appuyant sur les travaux, cadres et corpus existants, **nous travaillons de
 
 ### Une initiative de plus ?
 
-Pourquoi cette initiative, dans un univers qui voit déjà émerger un certain nombre de travaux ? Nous tenons à jour [la liste des travaux](./references.md#travaux-dans-ce-domaine) que nous avons identifiés. Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles prédictifs, plateforme d'analyse de risque... Mais à ce stade aucun ne nous a semblé couvrir complètement les points suivants :
+Pourquoi cette initiative, dans un univers qui voyait déjà en 2019, et voit encore plus aujourd'hui, émerger un certain nombre de travaux ? Nous tenons à jour [une liste de travaux](./references.md#travaux-dans-ce-domaine) que nous avons identifiés. Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des chartes, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles prédictifs, plateforme d'analyse de risque... Mais à ce stade aucun ne nous a semblé répondre aux deux exigences suivantes :
 
-1. s'intéresser à **l'activité data science d'une organisation** (comme ensemble de pratiques, de processus, de méthodes...), au cycle de vie complet d'un modèle ;
+1. porter sur toute **l'activité data science d'une organisation** (comme ensemble de pratiques, de processus, de méthodes...), par opposition à porter sur l'élaboration d'un modèle/système d'IA ou le pilotage d'un projet ;
 
 1. être fait **pour être utilisé comme un outil concret d'évaluation** de la maturité de l'organisation.
 
