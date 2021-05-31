@@ -26,18 +26,18 @@ L'utilisation de données à caractère personnel ou confidentielles fait porter
 
 ---
 
-Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
+Q1.1 (socle) : **Législation et exigences contractuelles applicables - Identification**  
 En ce qui concerne les données à caractère personnel ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.1.a Pas encore identifiées
-- [ ] 1.1.b Partiellement identifiées ou en cours d'identification
-- [ ] 1.1.c Identifiées
-- [ ] 1.1.d Identifiées et maîtrisées par les collaborateurs
-- [ ] 1.1.e Identifiées, documentées et maîtrisées par les collaborateurs
+- [ ] 1.1.a (socle) Pas encore identifiées
+- [ ] 1.1.b (socle) Partiellement identifiées ou en cours d'identification
+- [ ] 1.1.c (socle) Identifiées
+- [ ] 1.1.d (socle) Identifiées et maîtrisées par les collaborateurs
+- [ ] 1.1.e (socle) Identifiées, documentées et maîtrisées par les collaborateurs
 
 <details>
 <summary>Expl1.1 :</summary>
@@ -59,17 +59,17 @@ Il est crucial de mettre en place des processus pour connaître et suivre l'évo
 
 ---
 
-Q1.2 : **Législation et exigences contractuelles applicables - Approche de mise en conformité**  
+Q1.2 (socle) : **Législation et exigences contractuelles applicables - Approche de mise en conformité**  
 Pour satisfaire à ces exigences, l’approche adoptée par votre organisation est :
 
 R1.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.2.a Informelle, basée sur la responsabilité et la compétence de chacun
-- [ ] 1.2.b Formalisée et accessible à tous les collaborateurs
-- [ ] 1.2.c Formalisée et maîtrisée par les collaborateurs
-- [ ] 1.2.d Formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
+- [ ] 1.2.a (socle) Informelle, basée sur la responsabilité et la compétence de chacun
+- [ ] 1.2.b (socle) Formalisée et accessible à tous les collaborateurs
+- [ ] 1.2.c (socle) Formalisée et maîtrisée par les collaborateurs
+- [ ] 1.2.d (socle) Formalisée, maîtrisée par les collaborateurs, documentée pour chaque traitement de données personnelles ou confidentielles
 
 <details>
 <summary>Expl1.2 :</summary>
@@ -80,16 +80,16 @@ Il s'agit de s'interroger sur la gestion des données personnelles ou confidenti
 
 ---
 
-Q1.3 : **Veille réglementaire**  
+Q1.3 (socle) : **Veille réglementaire**  
 Un processus de veille réglementaire est-il mis en place, en interne ou via un prestataire spécialisé, pour connaître les évolutions applicables et impactantes pour votre organisation ?
 
 R1.3 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.3.a Nous ne faisons pas vraiment de veille réglementaire
-- [ ] 1.3.b Nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
-- [ ] 1.3.c Nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
+- [ ] 1.3.a (socle) Nous ne faisons pas vraiment de veille réglementaire
+- [ ] 1.3.b (socle) Nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
+- [ ] 1.3.c (socle) Nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
 
 <details>
 <summary>Expl1.3 :</summary>
@@ -100,15 +100,15 @@ Au-delà de l'identification des réglementations et des approches de mise en co
 
 ---
 
-Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
+Q1.4 (avancé) : **Législation et exigences contractuelles applicables - Audit et certification**  
 La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un label ou équivalent ?
 
 R1.4 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.4.a Oui
-- [ ] 1.4.b Non
+- [ ] 1.4.a (avancé) Oui
+- [ ] 1.4.b (avancé) Non
 
 <details>
 <summary>Expl1.4 :</summary>
@@ -119,7 +119,7 @@ Dans de nombreux secteurs il existe des exigences de conformité spécifiques. I
 
 ---
 
-Q1.5 : **Principe de minimisation**  
+Q1.5 (socle) : **Principe de minimisation**  
 Dans le cadre des projets de data science, le principe de minimisation doit guider la collecte et l'utilisation de données personnelles ou confidentielles. Comment est-il mis en oeuvre au sein de votre organisation ?
 
 R1.5 :  
@@ -127,10 +127,10 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : utilisation de données personnelles ou confidentielles)_
 
-- [ ] 1.5.a Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
-- [ ] 1.5.b Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
-- [ ] 1.5.c Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
-- [ ] 1.5.d Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
+- [ ] 1.5.a (socle) Nous faisons en sorte de n'utiliser aucune données personnelles ou confidentielles. Nous ne sommes pas concernés par cet univers de risque
+- [ ] 1.5.b (socle) Nous avons besoin d'en utiliser dans certains projets et le principe de minimisation est alors systématiquement appliqué
+- [ ] 1.5.c (socle) Le principe de minimisation est connu des collaborateurs, qui l'appliquent en général
+- [ ] 1.5.d (socle) Le réflexe "qui peut le plus peut le moins" vis-à-vis des données existe encore ici et là au sein de notre organisation. Dans certains projets, nous conservons des jeux de données beaucoup plus riches en données personnelles et confidentielles que ce qui est strictement utile au projet
 
 <details>
 <summary>Expl1.5 :</summary>
@@ -145,7 +145,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q1.6 : **Projet impliquant un nouveau traitement de données personnelles ou confidentielles**  
+Q1.6 (socle) : **Projet impliquant un nouveau traitement de données personnelles ou confidentielles**  
 _(Condition : R1.5 <> 1.5.a)_  
 Pour chaque traitement de données personnelles ou confidentielles nécessaire dans le cadre d'un projet de data science, au sein de votre organisation :
 
@@ -153,10 +153,10 @@ R1.6 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.6.a Nous élaborons une analyse d'impact relative à la protection des données (AIPD ; en anglais *Privacy Impact Assessment*)
-- [ ] 1.6.b Nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
-- [ ] 1.6.c Nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
-- [ ] 1.6.d Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
+- [ ] 1.6.a (socle) Nous élaborons une analyse d'impact relative à la protection des données (AIPD ; en anglais *Privacy Impact Assessment*)
+- [ ] 1.6.b (socle) Nous mettons en oeuvre des mesures de protections (concernant notamment le transfert, le stockage, et l'accès aux données concernées)
+- [ ] 1.6.c (socle) Nous contractualisons les relations avec les fournisseurs et les clients et les responsabilités qui en découlent
+- [ ] 1.6.d (socle) Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
 
 <details>
 <summary>Expl1.6 :</summary>
@@ -167,7 +167,7 @@ Le *Privacy Impact Assessment* (PIA) est une méthode d'évaluation de l'impact 
 
 ---
 
-Q1.7 : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
+Q1.7 (avancé) : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
 _(Condition : R1.5 <> 1.5.a)_  
 La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
@@ -175,10 +175,10 @@ R1.7 :
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.7.a Complètement débutant
-- [ ] 1.7.b Basique
-- [ ] 1.7.c Confirmé
-- [ ] 1.7.d Expert
+- [ ] 1.7.a (avancé) Complètement débutant
+- [ ] 1.7.b (avancé) Basique
+- [ ] 1.7.c (avancé) Confirmé
+- [ ] 1.7.d (avancé) Expert
 
 <details>
 <summary>Expl1.7 :</summary>
@@ -205,7 +205,7 @@ L'état de l'art de la sécurité du ML est en constante évolution. S'il est im
 
 ---
 
-Q1.8 : **Sécurité de l'apprentissage automatique - Mise en oeuvre**  
+Q1.8 (avancé) : **Sécurité de l'apprentissage automatique - Mise en oeuvre**  
 _(Condition : R1.5 <> 1.5.a)_  
 Toujours au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir :
 
@@ -213,11 +213,11 @@ R1.8 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
-- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
-- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
-- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
-- [ ] 1.8.e Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
+- [ ] 1.8.a (avancé) Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
+- [ ] 1.8.b (avancé) Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
+- [ ] 1.8.c (avancé) Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
+- [ ] 1.8.d (avancé) Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
+- [ ] 1.8.e (avancé) Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
 
 <details>
 <summary>Expl1.8 :</summary>
@@ -246,7 +246,7 @@ Selon les niveaux de risque et de sensibilité des projets, certaines approches 
 
 ---
 
-Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
+Q1.9 (socle) : **Notifications d’incidents de sécurité aux autorités de régulation**  
 _(Condition : R1.5 <> 1.5.a)_  
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
@@ -254,10 +254,10 @@ R1.9 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question
-- [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
-- [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.a (socle) Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.b (socle) Notre procédure inclut une communication aux parties prenantes en question
+- [ ] 1.9.c (socle) Notre procédure référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d (socle) Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
 
 <details>
 <summary>Expl1.9 :</summary>
@@ -281,16 +281,16 @@ Entre autres, dans certains cas une spécification de l'équité recherchée ent
 
 ---
 
-Q2.1 : **Analyse des données d'entraînement utilisées**  
+Q2.1 (socle) : **Analyse des données d'entraînement utilisées**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour prévenir des biais portant atteinte au principe de non-discrimination, de diversité et d'équité. Votre organisation :
 
 R2.1 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 2.1.a Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
-- [ ] 2.1.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
-- [ ] 2.1.c Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 2.1.a (socle) Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 2.1.b (socle) Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
+- [ ] 2.1.c (socle) Dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl2.1 :</summary>
@@ -309,7 +309,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
+Q2.2 (socle) : **Risques de discrimination à l'encontre de certains groupes sociaux**  
 Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure) :
 
 R2.2 :  
@@ -317,8 +317,8 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.2.a Concerné
-- [ ] 2.2.b Non concerné
+- [ ] 2.2.a (socle) Concerné
+- [ ] 2.2.b (socle) Non concerné
 
 ---
 
@@ -326,7 +326,7 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q2.3 : **Prévention des biais discriminatoires**  
+Q2.3 (socle) : **Prévention des biais discriminatoires**  
 _(Condition : R2.2 <> 2.2.b)_  
 Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
@@ -334,12 +334,12 @@ R2.3 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 2.3.a Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
-- [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
-- [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
-- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
-- [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
-- [ ] 2.3.f Nous n'avons pas encore mis en place de mesures de ce type
+- [ ] 2.3.a (socle) Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
+- [ ] 2.3.b (socle) Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
+- [ ] 2.3.c (socle) Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
+- [ ] 2.3.d (avancé) Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
+- [ ] 2.3.e (avancé) Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 2.3.f (socle) Nous n'avons pas encore mis en place de mesures de ce type
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -377,17 +377,17 @@ Les performances des modèles sont déterminantes pour leur adoption dans des pr
 
 ---
 
-Q3.1 : **Séparation des jeux de données de test**  
+Q3.1 (socle) : **Séparation des jeux de données de test**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données de test, il est capital d'assurer la non-contamination par des données d'entraînement. Votre organisation :
 
 R3.1 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
-- [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
+- [ ] 3.1.a (socle) Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.1.b (socle) Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
+- [ ] 3.1.c (avancé) Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] 3.1.d (avancé) Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -398,7 +398,7 @@ Assurer l'étanchéité des jeux de données d'entraînement et de test est un p
 
 ---
 
-Q3.2 : **Projets d'apprentissage distribué préservant la confidentialité**  
+Q3.2 (avancé) : **Projets d'apprentissage distribué préservant la confidentialité**  
 Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (*distributed learning* ou *federated learning*) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (*privacy-preserving*) :
 
 R3.2 :  
@@ -406,9 +406,9 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : apprentissage distribué sur données sensibles)_
 
-- [ ] 3.2.a Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
-- [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
-- [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] 3.2.a (avancé) Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
+- [ ] 3.2.b (avancé) Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] 3.2.c (avancé) À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
 
 <details>
 <summary>Expl3.2 :</summary>
@@ -426,16 +426,16 @@ Dans ce type de projet d'apprentissage distribué dans des conditions où les do
 
 ---
 
-Q3.3 : **Analyse des données de validation et de test**  
+Q3.3 (socle) : **Analyse des données de validation et de test**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données de validation ou de test, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
 
 R3.3 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 3.3.a Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
-- [ ] 3.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
-- [ ] 3.3.c Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.3.a (socle) Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 3.3.b (socle) Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
+- [ ] 3.3.c (socle) Dispose d'une approche documentée et systématiquement mise en oeuvre
 
 <details>
 <summary>Expl3.3 :</summary>
@@ -446,17 +446,17 @@ L'utilisation de modèles prédictifs validés et testés sur des données histo
 
 ---
 
-Q3.4 : **Validation des performances**  
+Q3.4 (socle) : **Validation des performances**  
 Votre organisation met-elle en oeuvre les approches suivantes :
 
 R3.4 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 3.4.a Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
-- [ ] 3.4.b La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
-- [ ] 3.4.d Nous n'avons pas encore mis en place de mesure de ce type
+- [ ] 3.4.a (socle) Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
+- [ ] 3.4.b (socle) La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
+- [ ] 3.4.c (avancé) Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
+- [ ] 3.4.d (socle) Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl3.4 :</summary>
@@ -478,7 +478,7 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 
 ---
 
-Q3.5 : **Suivi de la performance dans le temps**  
+Q3.5 (socle) : **Suivi de la performance dans le temps**  
 Dans les cas de figure où des modèles prédictifs élaborés par votre organisation sont utilisés dans des systèmes en production :
 
 R3.5 :  
@@ -486,12 +486,12 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : utilisation de modèles prédictifs dans des systèmes en production)_
 
-- [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés dans des systèmes en production | _(Concerné / Non concerné)_
-- [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
-- [ ] 3.5.c La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
-- [ ] 3.5.d La distribution des données d'entrée est monitorée, et la performance est ré-évaluée régulièrement sur des données de test actualisées
-- [ ] 3.5.e Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
-- [ ] 3.5.f Nous ne mettons pas systématiquement en place de mesure de ce type
+- [ ] 3.5.a (socle) Les modèles que nous élaborons ne sont pas utilisés dans des systèmes en production | _(Concerné / Non concerné)_
+- [ ] 3.5.b (socle) La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
+- [ ] 3.5.c (socle) La performance est systématiquement ré-évaluée lorsque le contexte d'utilisation du modèle évolue, ce qui peut créer un risque sur la performance du modèle du fait de l'évolution de l'espace des données d'entrée
+- [ ] 3.5.d (avancé) La distribution des données d'entrée est monitorée, et la performance est ré-évaluée régulièrement sur des données de test actualisées
+- [ ] 3.5.e (avancé) Des contrôles aléatoires sont réalisés sur des prédictions afin d'en contrôler la cohérence
+- [ ] 3.5.f (socle) Nous ne mettons pas systématiquement en place de mesure de ce type
 
 <details>
 <summary>Expl3.5 :</summary>
@@ -512,17 +512,17 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 
 ---
 
-Q3.6 : **Seuils de décision et plages d'indécision**  
+Q3.6 (avancé) : **Seuils de décision et plages d'indécision**  
 Pour la définition des seuils de décision des modèles ou des systèmes automatiques s'appuyant dessus, votre organisation :
 
 R3.6 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.6.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
-- [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
-- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
+- [ ] 3.6.a (avancé) Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.6.b (avancé) Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.6.c (avancé) Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
+- [ ] 3.6.d (avancé) Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -540,7 +540,7 @@ L'étude et à la sélection de seuils de décisions pertinents pour un problèm
 
 ---
 
-Q3.7 : **Audits par des tierces parties indépendantes et *verifiable claims***  
+Q3.7 (socle) : **Audits par des tierces parties indépendantes et *verifiable claims***  
 Lorsque votre organisation communique sur les résultats ou la performance d'un système d'IA, et s'appuie sur de telles communications pour son développement et vis-à-vis de ses parties prenantes :
 
 R3.7 :  
@@ -548,9 +548,9 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : utilisation de l'évaluation de la performance d'un système d'IA comme argument de communication et de marketing)_
 
-- [ ] 3.7.a Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Concerné / Non concerné)_
-- [ ] 3.7.b Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
-- [ ] 3.7.c Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
+- [ ] 3.7.a (socle) Nous ne communiquons pas et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Concerné / Non concerné)_
+- [ ] 3.7.b (socle) Nous communiquons sur nos résultats et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
+- [ ] 3.7.c (socle) Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
 
 <details>
 <summary>Expl3.7 :</summary>
@@ -580,17 +580,17 @@ Un modèle prédictif est un objet informatique complexe qui peut évoluer au fi
 
 ---
 
-Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
+Q4.1 (avancé) : **"Généalogie de bout-en-bout" des modèles**  
 Tracer les étapes de l'élaboration d'un modèle permet d'en constituer une forme de **généalogie**. Au sein de votre organisation, une généalogie de bout-en-bout des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
 
 R4.1 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 4.1.a À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
-- [ ] 4.1.b Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
-- [ ] 4.1.c Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
-- [ ] 4.1.d Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
+- [ ] 4.1.a (avancé) À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
+- [ ] 4.1.b (avancé) Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
+- [ ] 4.1.c (avancé) Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
+- [ ] 4.1.d (avancé) Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
 
 <details>
 <summary>Expl4.1 :</summary>
@@ -611,18 +611,18 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle prédictif appris peut
 
 ---
 
-Q4.2 : **Conditions et limites d'utilisation d'un modèle**  
+Q4.2 (socle) : **Conditions et limites d'utilisation d'un modèle**  
 Dans le cadre des projets de data science, les "conditions et limites de validité" d'un modèle conçu, entraîné et validé par l'organisation :
 
 R4.2 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.2.a Ne sont pas documentées
-- [ ] 4.2.b Sont explicitées et documentées
-- [ ] 4.2.c Sont versionnées
-- [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
-- [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
+- [ ] 4.2.a (socle) Ne sont pas documentées
+- [ ] 4.2.b (socle) Sont explicitées et documentées
+- [ ] 4.2.c (socle) Sont versionnées
+- [ ] 4.2.d (socle) Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
+- [ ] 4.2.e (socle) Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
 
 <details>
 <summary>Expl4.2 :</summary>
@@ -641,16 +641,16 @@ Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'ut
 
 ---
 
-Q4.3 : **Analyse et partage d'incidents**  
+Q4.3 (avancé) : **Analyse et partage d'incidents**  
 Dans le cadre des projets de data science, lorsqu'un comportement inattendu d'un modèle est observé :
 
 R4.3 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.3.a À ce stade nous ne faisons pas d'analyse des incidents ou comportements inattendus observés
-- [ ] 4.3.b Nous analysons les incidents ou comportements inattendus rencontrés et les publions lorsque cela est pertinent (e.g. article, blog)
-- [ ] 4.3.c Nous nous impliquons dans des clubs, cercles, ou associations professionnelles dans le domaine de la data science, et y faisons des retours d'expérience des incidents comportements inattendus que nous observons
+- [ ] 4.3.a (avancé) À ce stade nous ne faisons pas d'analyse des incidents ou comportements inattendus observés
+- [ ] 4.3.b (avancé) Nous analysons les incidents ou comportements inattendus rencontrés et les publions lorsque cela est pertinent (e.g. article, blog)
+- [ ] 4.3.c (avancé) Nous nous impliquons dans des clubs, cercles, ou associations professionnelles dans le domaine de la data science, et y faisons des retours d'expérience des incidents comportements inattendus que nous observons
 
 <details>
 <summary>Expl4.3 :</summary>
@@ -671,7 +671,7 @@ La compréhension voire la maîtrise du comportement d'un modèle prédictif app
 
 ---
 
-Q4.4 : **Chaîne de valeur et de responsabilités**  
+Q4.4 (socle) : **Chaîne de valeur et de responsabilités**  
 Dans le cas de figure des projets de data science où plusieurs acteurs, y compris internes à l'organisation (équipes, départements, filiales), sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
 
 R4.4 :  
@@ -679,10 +679,10 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
 
-- [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
-- [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
-- [ ] 4.4.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
-- [ ] 4.4.d Nous ne mettons pas systématiquement en place de mesure de ce type
+- [ ] 4.4.a (socle) Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
+- [ ] 4.4.b (socle) Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
+- [ ] 4.4.c (socle) Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
+- [ ] 4.4.d (socle) Nous ne mettons pas systématiquement en place de mesure de ce type
 
 <details>
 <summary>Expl4.4 :</summary>
@@ -693,7 +693,7 @@ Il est important de s'assurer que les organisations en amont et en aval de la ch
 
 ---
 
-Q4.5 : **Sous-traitance de tout ou partie des activités data science**  
+Q4.5 (socle) : **Sous-traitance de tout ou partie des activités data science**  
 Les activités data science sous-traitées à une ou des organisation(s) tierce(s) sont soumises aux mêmes exigences que celles que votre organisation s'applique à elle-même :
 
 R4.5 :  
@@ -701,9 +701,9 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : sous-traitance d'activités de data science)_
 
-- [ ] 4.5.a Non concerné, nous ne sous-traitons pas ces activités | _(Concerné / Non concerné)_
-- [ ] 4.5.b Oui, nos réponses à cette évaluation tiennent compte des pratiques de nos sous-traitants
-- [ ] 4.5.c Non, nos réponses à cette évaluation ne s'appliquent pas à nos sous-traitants et sur certains points il est possible qu'ils soient moins avancés que nous
+- [ ] 4.5.a (socle) Non concerné, nous ne sous-traitons pas ces activités | _(Concerné / Non concerné)_
+- [ ] 4.5.b (socle) Oui, nos réponses à cette évaluation tiennent compte des pratiques de nos sous-traitants
+- [ ] 4.5.c (socle) Non, nos réponses à cette évaluation ne s'appliquent pas à nos sous-traitants et sur certains points il est possible qu'ils soient moins avancés que nous
 
 <details>
 <summary>Expl4.5 :</summary>
@@ -714,7 +714,7 @@ Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il es
 
 ---
 
-Q4.6 : **Répartition de la création de valeur**  
+Q4.6 (avancé) : **Répartition de la création de valeur**  
 Dans les cas de figure des projets de data science où plusieurs partenaires concourent aux côtés de votre organisation à l'élaboration d'un modèle, et que celui-ci est ou sera l'objet d'une activité économique :
 
 R4.6 :  
@@ -722,10 +722,10 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
 
-- [ ] 4.6.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée | _(Concerné / Non concerné)_
-- [ ] 4.6.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires
-- [ ] 4.6.c Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
-- [ ] 4.6.d Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
+- [ ] 4.6.a (avancé) Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée | _(Concerné / Non concerné)_
+- [ ] 4.6.b (avancé) À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires
+- [ ] 4.6.c (avancé) Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
+- [ ] 4.6.d (avancé) Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
 
 <details>
 <summary>Expl4.6 :</summary>
@@ -755,7 +755,7 @@ Un modèle prédictif peut-être utilisé comme un système automatique, dont le
 
 ---
 
-Q5.1 : **Utilisation de modèles prédictifs pour son propre compte**  
+Q5.1 (socle) : **Utilisation de modèles prédictifs pour son propre compte**  
 Si votre organisation utilise pour son propre compte des modèles prédictifs :
 
 R5.1 :  
@@ -763,15 +763,15 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
-- [ ] 5.1.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte | _(Concerné / Non concerné)_
-- [ ] 5.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
-- [ ] 5.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
-- [ ] 5.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
-- [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles prédictifs et peuvent déclencher des alertes directement auprès de l'équipe responsable
-- [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 5.1.g Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
-- [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
-- [ ] 5.1.i Nous n'avons pas encore mis en place de mesure de ce type
+- [ ] 5.1.a (socle) Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte | _(Concerné / Non concerné)_
+- [ ] 5.1.b (socle) **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
+- [ ] 5.1.c (socle) Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
+- [ ] 5.1.d (socle) Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
+- [ ] 5.1.e (avancé) Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles prédictifs et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 5.1.f (avancé) Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 5.1.g (avancé) Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
+- [ ] 5.1.h (socle) Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 5.1.i (socle) Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl5.1 :</summary>
@@ -782,7 +782,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.2 : **Développement de modèles prédictifs pour le compte de tiers**  
+Q5.2 (socle) : **Développement de modèles prédictifs pour le compte de tiers**  
 Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
 
 R5.2 :  
@@ -790,15 +790,15 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
-- [ ] 5.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaborés par apprentissage automatique | _(Concerné / Non concerné)_
-- [ ] 5.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
-- [ ] 5.2.c Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et joignable simplement
-- [ ] 5.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
-- [ ] 5.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
-- [ ] 5.2.f Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 5.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa généalogie de bout-en-bout et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
-- [ ] 5.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
-- [ ] 5.2.i Nous n'avons pas encore mis en place de mesure de ce type
+- [ ] 5.2.a (socle) Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaborés par apprentissage automatique | _(Concerné / Non concerné)_
+- [ ] 5.2.b (socle) **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
+- [ ] 5.2.c (socle) Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et joignable simplement
+- [ ] 5.2.d (socle) Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
+- [ ] 5.2.e (avancé) Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 5.2.f (avancé) Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
+- [ ] 5.2.g (avancé) Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa généalogie de bout-en-bout et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 5.2.h (socle) Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
+- [ ] 5.2.i (socle) Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
 <summary>Expl5.2 :</summary>
@@ -809,7 +809,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.3 : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
+Q5.3 (socle) : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
 Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles prédictifs appris, sont utilisés en production généralement pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
 
 R5.3 :  
@@ -817,11 +817,11 @@ _(Type : réponse unique)_
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
-- [ ] 5.3.a Notre organisation n'utilise pas de modèles prédictifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
-- [ ] 5.3.b Nous implémentons des modèles prédictifs élaborés par apprentissage automatique dans des systèmes automatiques intégrés, sans mécanismes permettant de pallier à ou d'éviter des résultats non souhaitables dûs aux prédictions des modèles
-- [ ] 5.3.c Nous intégrons, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Pour ces cas de figure, nous mettons en place des mécanismes permettant à un opérateur humain d'aller contre une décision automatique pour gérer de tels résultats non souhaitables ou incidents
-- [ ] 5.3.d En complément des mécanismes de gestion d'incident, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, lorsque l'intervalle de confiance pour la décision automatique n'est pas satisfaisant un opérateur humain est sollicité
-- [ ] 5.3.e Nous appliquons systématiquement le principe de *human agency*, les sorties des modèles prédictifs que nous mettons en oeuvre sont utilisées par des opérateurs humains, et ne servent pas de déterminants à des décisions automatiques
+- [ ] 5.3.a (socle) Notre organisation n'utilise pas de modèles prédictifs élaboré par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
+- [ ] 5.3.b (socle) Nous implémentons des modèles prédictifs élaborés par apprentissage automatique dans des systèmes automatiques intégrés, sans mécanismes permettant de pallier à ou d'éviter des résultats non souhaitables dûs aux prédictions des modèles
+- [ ] 5.3.c (socle) Nous intégrons, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, les fonctionnalités permettant de gérer ces cas de résultats non souhaitables. Pour ces cas de figure, nous mettons en place des mécanismes permettant à un opérateur humain d'aller contre une décision automatique pour gérer de tels résultats non souhaitables ou incidents
+- [ ] 5.3.d (socle) En complément des mécanismes de gestion d'incident, dans les systèmes automatiques s'appuyant sur des modèles prédictifs, lorsque l'intervalle de confiance pour la décision automatique n'est pas satisfaisant un opérateur humain est sollicité
+- [ ] 5.3.e (socle) Nous appliquons systématiquement le principe de *human agency*, les sorties des modèles prédictifs que nous mettons en oeuvre sont utilisées par des opérateurs humains, et ne servent pas de déterminants à des décisions automatiques
 
 <details>
 <summary>Expl5.3 :</summary>
@@ -839,18 +839,18 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.4 : **Explicabilité et interprétabilité**  
+Q5.4 (socle) : **Explicabilité et interprétabilité**  
 Au sein des projets de data science qui visent à élaborer des modèles prédictifs :
 
 R5.4 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 5.4.a Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
-- [ ] 5.4.b Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes sur ce sujet
-- [ ] 5.4.c Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance avec chaque prédiction réalisée
-- [ ] 5.4.d Nous déterminons le meilleur compromis entre la performance et l'interprétabilité pour chaque modèle que nous élaborons, ce qui nous amène parfois à opter pour un modèle plus simple à expliquer aux personnes concernées (un modèle performant permettra de diminuer les risques d’erreur tandis qu’un modèle interprétable permettra de mieux justifier les résultats du modèle)
-- [ ] 5.4.e Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
+- [ ] 5.4.a (socle) Notre organisation n'est pour l'instant pas familière avec les méthodes et outils d'explicabilité et d'interprétabilité des modèles
+- [ ] 5.4.b (socle) Nous nous intéressons au sujet de l'explicabilité et l'interprétabilité des modèles et dialoguons avec nos parties prenantes sur ce sujet
+- [ ] 5.4.c (socle) Nous faisons en sorte que les modèles que nous élaborons fournissent lorsque cela est pertinent a minima un niveau de confiance avec chaque prédiction réalisée
+- [ ] 5.4.d (socle) Nous déterminons le meilleur compromis entre la performance et l'interprétabilité pour chaque modèle que nous élaborons, ce qui nous amène parfois à opter pour un modèle plus simple à expliquer aux personnes concernées (un modèle performant permettra de diminuer les risques d’erreur tandis qu’un modèle interprétable permettra de mieux justifier les résultats du modèle)
+- [ ] 5.4.e (socle) Nous maîtrisons et mettons en oeuvre des approches avancées pour l'explicabilité et l'interprétabilité des modèles
 
 <details>
 <summary>Expl5.4 :</summary>
@@ -873,7 +873,7 @@ Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied d
 
 ---
 
-Q5.5 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
+Q5.5 (socle) : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
 Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs. Que met-elle en place pour en informer les utilisateurs ?
 
 R5.5 :  
@@ -881,11 +881,11 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
 _(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
 
-- [ ] 5.5.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
-- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif élaboré par apprentissage automatique
-- [ ] 5.5.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
-- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif est utilisé
-- [ ] 5.5.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'il aurait fourni dans des cas de figure légèrement différents (par exemple des "explications contrefactuelles" comme le plus petit changement dans les données d'entrée qui aurait permis d'arriver à une sortie donnée)
+- [ ] 5.5.a (socle) Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
+- [ ] 5.5.b (socle) Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif élaboré par apprentissage automatique
+- [ ] 5.5.c (socle) Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
+- [ ] 5.5.d (socle) Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif est utilisé
+- [ ] 5.5.e (avancé) Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'il aurait fourni dans des cas de figure légèrement différents (par exemple des "explications contrefactuelles" comme le plus petit changement dans les données d'entrée qui aurait permis d'arriver à une sortie donnée)
 
 <details>
 <summary>Expl5.5 :</summary>
@@ -915,17 +915,17 @@ La mise en place d'un système automatique basé sur un modèle prédictif peut 
 
 ---
 
-Q6.1 : **Impact CO2**  
+Q6.1 (avancé) : **Impact CO2**  
 Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
 
 R6.1 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
-- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
-- [ ] 6.1.c Nous mesurons nos indicateurs régulièrement et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
-- [ ] 6.1.d Le fait de suivre nos indicateurs régulièrement est un processus formalisé et piloté, à partir duquel nous nous fixons des objectifs d'amélioration
+- [ ] 6.1.a (avancé) À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
+- [ ] 6.1.b (avancé) Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
+- [ ] 6.1.c (avancé) Nous mesurons nos indicateurs régulièrement et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
+- [ ] 6.1.d (avancé) Le fait de suivre nos indicateurs régulièrement est un processus formalisé et piloté, à partir duquel nous nous fixons des objectifs d'amélioration
 
 <details>
 <summary>Expl6.1 :</summary>
@@ -943,18 +943,18 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 
 ---
 
-Q6.2 : **Impact social**  
+Q6.2 (avancé) : **Impact social**  
 Dans certains cas, la mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle prédictif, votre organisation :
 
 R6.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
-- [ ] 6.2.b Dans certains cas nous nous interrogeons sur l'impact social
-- [ ] 6.2.c Nous menons ce travail de réflexion sur l'impact social à chaque projet
-- [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle
-- [ ] 6.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
+- [ ] 6.2.a (avancé) À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
+- [ ] 6.2.b (avancé) Dans certains cas nous nous interrogeons sur l'impact social
+- [ ] 6.2.c (avancé) Nous menons ce travail de réflexion sur l'impact social à chaque projet
+- [ ] 6.2.d (avancé) Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle
+- [ ] 6.2.e (avancé) Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
 <details>
 <summary>Expl6.2 :</summary>
@@ -965,17 +965,17 @@ Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela
 
 ---
 
-Q6.3 : **Ethique et non-malfaisance**  
+Q6.3 (socle) : **Ethique et non-malfaisance**  
 Au sein de votre organisation :
 
 R6.3 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 6.3.a À ce stade nous ne nous sommes pas encore penchés sur la dimension éthique
-- [ ] 6.3.b Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
-- [ ] 6.3.c Notre organisation s'est dotée d'une politique en matière d'éthique
-- [ ] 6.3.d Sur les projets le justifiant, nous mettons en place un comité d'éthique indépendant ou nous sollicitons l'évaluation d'un organisme validant l'éthique des projets
+- [ ] 6.3.a (socle) À ce stade nous ne nous sommes pas encore penchés sur la dimension éthique
+- [ ] 6.3.b (socle) Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
+- [ ] 6.3.c (socle) Notre organisation s'est dotée d'une politique en matière d'éthique
+- [ ] 6.3.d (socle) Sur les projets le justifiant, nous mettons en place un comité d'éthique indépendant ou nous sollicitons l'évaluation d'un organisme validant l'éthique des projets
 
 <details>
 <summary>Expl6.3 :</summary>
