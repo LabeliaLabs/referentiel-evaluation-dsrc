@@ -418,6 +418,7 @@ These topics require a strong expertise and few practitioners are familiar with 
 <summary>Resources2.4 :</summary>
 
 - (Academic paper) *[Moving beyond “algorithmic bias is a data problem”](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1)*, Sara Hooker, Opinion, April 2021
+- (Academic paper) *[Algorithmic Factors Influencing Bias in Machine Learning](https://arxiv.org/abs/2104.14014)*, W. Blanzeisky, P. Cunningham, April 2021: The authors defines 4 types of algorithmic choices : Data description (for the first version on the model, and feature engineering), Irreductible Errors, Impact of regularization (present in DL or more classical ML), Impact of class & feature imbalance. Those 4 types of choices will generate what they call underestimation bias, opposed to negative latency, bias due to data (that can be due to an under-representative dataset, or other reasons). They also propose some mitigation process.
 - (Academic paper) *[Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)*, T. Bolukbasi, K.-W. Chang, J. Zou, V. Saligrama, A. Kalai, 2016
 
 </details>
