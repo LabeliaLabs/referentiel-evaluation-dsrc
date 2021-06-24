@@ -506,7 +506,6 @@ The use of predictive models that have been validated and tested on historical d
 
 ---
 
-
 Q3.4 : **Performance validation**  
 Does your organisation implement the following approaches:
 
@@ -569,11 +568,9 @@ Monitoring the performance of models over time is also particularly important in
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, September 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 - (Web article) *[Google's medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
+- (Web article) (In French) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
 
 </details>
-
----
-
 
 ---
 
