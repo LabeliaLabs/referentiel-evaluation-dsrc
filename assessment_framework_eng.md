@@ -2,7 +2,7 @@
 
 The [evaluation framework](#evaluation-framework-to-assess-the-maturity-of-an-organisation) below is the result of the participatory work initiated in the spring of 2019 by Substra Foundation and ongoing since then. It is based on the identification of the risks that we are trying to prevent by aiming for a responsible and trustworthy practice of data science, and best practices to mitigate them. It also brings together for each topic technical resources that can be good entry points for interested organisations.
 
-Last update: 1st semester 2021.
+Last update: 2nd semester 2021.
 
 ## Evaluation framework to assess the maturity of an organisation
 
