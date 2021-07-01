@@ -403,7 +403,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl2.4 :</summary>
 
-If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work show that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
+If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work shows that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
 
 > - *A key reason why model design choices amplify algorithmic bias is because notions of fairness often coincide with how underrepresented protected features are treated by the model*
 > - [...] *design choices to optimize for either privacy guarantees or compression amplify the disparate impact between minority and majority data subgroups*
