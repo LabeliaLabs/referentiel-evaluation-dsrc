@@ -2,6 +2,8 @@
 
 The [evaluation framework](#evaluation-framework-to-assess-the-maturity-of-an-organisation) below is the result of the participatory work initiated in the spring of 2019 by Substra Foundation and ongoing since then. It is based on the identification of the risks that we are trying to prevent by aiming for a responsible and trustworthy practice of data science, and best practices to mitigate them. It also brings together for each topic technical resources that can be good entry points for interested organisations.
 
+Last update: 1st semester 2021.
+
 ## Evaluation framework to assess the maturity of an organisation
 
 The evaluation is composed of the following 6 sections:
@@ -16,6 +18,7 @@ The evaluation is composed of the following 6 sections:
 ---
 
 ### Section 1 - Protecting personal or confidential data
+
 **[Data privacy]**
 
 The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
@@ -108,6 +111,8 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 
 - [ ] 1.4.a Yes
 - [ ] 1.4.b No
+- [ ] 1.4.c We are currently preparing an upcoming audit or certification of our organisation's compliance with personal and confidential data requirements
+- [ ] 1.4.d Not at the organization level, but it is the case for at least one project
 
 <details>
 <summary>Expl1.4 :</summary>
@@ -130,6 +135,7 @@ _(Specific risk domain: use of personal or confidential data)_
 - [ ] 1.5.b We need to use personal or confidential data in certain projects and the data minimisation principle is then systematically applied
 - [ ] 1.5.c Employees are aware of the data minimisation principle and generally apply it
 - [ ] 1.5.d The "who can do the most can do the least" reflex with regard to data still exists here and there within our organisation. In some projects, we keep datasets that are much richer in personal and confidential data than what is strictly useful to the project
+- [ ] 1.5.e Employees are aware of the data minimisation principle, but it is not applied as a general standard. However, we give a particular attention to implementing personal data-related risk mitigation measures (i.e. pseudonymising some features by identifiers with a separate correspondence table, split datasets in multiple tables kept apart)
 
 <details>
 <summary>Expl1.5 :</summary>
@@ -182,14 +188,15 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl1.7 :</summary>
 
-The state of the art in ML security is constantly evolving. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
+The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
 </details>
 
 <details>
 <summary>Ressources1.7 :</summary>
 
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](https://www.private-ai.ca/PETs_Decision_Tree.png)*, Private AI, 2020
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, May 2021 : Counterfit is an open source tool enabling testing different attacks on ML models to identify their vulnerabilities. [Link](https://github.com/Azure/counterfit/) to GitHub repo
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*.
@@ -197,8 +204,12 @@ The state of the art in ML security is constantly evolving. While it is impossib
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Software & Tools) Tools for *differential privacy*: Google *[differential privacy library](https://github.com/google/differential-privacy)*, and the Python [PyDP](https://github.com/OpenMined/PyDP) wrapper from OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
+- (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, Substra Foundation blog post to introduce distillation approaches, Gijs Barmentlo, 2020
+- (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, March 2021: exposition of a vulnerability of ML models using pickle for objects storage
 
 </details>
 
@@ -221,7 +232,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 <details>
 <summary>Expl1.8 :</summary>
 
-The state of the art in ML security is constantly evolving. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
+The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
 Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made. The notion of "end-to-end genealogy" is introduced here.
 
@@ -230,7 +241,8 @@ Depending on the level of risk and sensitivity of the projects, certain technica
 <details>
 <summary>Resources1.8 :</summary>
 
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](https://www.private-ai.ca/PETs_Decision_Tree.png)*, Private AI, 2020
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, May 2021 : Counterfit is an open source tool enabling testing different attacks on ML models to identify their vulnerabilities. [Link](https://github.com/Azure/counterfit/) to GitHub repo
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
 - (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
 - (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
 - (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*.
@@ -238,6 +250,8 @@ Depending on the level of risk and sensitivity of the projects, certain technica
 - (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
 - (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
 - (Software & Tools) Tools for *differential privacy*: Google *[differential privacy library](https://github.com/google/differential-privacy)*, and the Python [PyDP](https://github.com/OpenMined/PyDP) wrapper from OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
@@ -269,6 +283,7 @@ In some sectors there are obligations to report safety incidents to the regulato
 ---
 
 ### Section 2 - Preventing bias, developing non-discriminatory models
+
 **[Biases and discrimination]**
 
 The use of predictive models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
@@ -302,6 +317,7 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 - (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
 
 </details>
 
@@ -317,6 +333,13 @@ _(Specific risk domain: discrimination against certain social groups)_
 
 - [ ] 2.2.a Concerned
 - [ ] 2.2.b Not concerned
+
+<details>
+<summary>Expl2.2 :</summary>
+
+Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
+
+</details>
 
 ---
 
@@ -358,6 +381,45 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Book *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, December 2019
+- (Web article) *[Fairness in Machine Learning](https://www.substra.ai/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Substra Foundation's blog, Mickael Fine, 2020
+
+</details>
+
+---
+
+Q2.4 : **Links between modelisation choices and bias**  
+_(Condition : R2.2 <> 2.2.b)_  
+Recent work has shown the role that modeling and learning choices can play in the formation of discriminatory bias. Differential privacy, compression, the choice of the learning rate, early stopping mechanisms for example can have disproportionate impacts on certain subgroups. Within your organisation, the general level of knowledge of collaborators working on data science projects on this topic is:
+
+R2.4 :  
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+
+- [ ] 2.4.a Complete beginner
+- [ ] 2.4.b Basic
+- [ ] 2.4.c Confirmed
+- [ ] 2.4.d Expert
+
+<details>
+<summary>Expl2.4 :</summary>
+
+If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work shows that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
+
+> - *A key reason why model design choices amplify algorithmic bias is because notions of fairness often coincide with how underrepresented protected features are treated by the model*
+> - [...] *design choices to optimize for either privacy guarantees or compression amplify the disparate impact between minority and majority data subgroups*
+> - [...] *the impact of popular compression techniques like quantization and pruning on low-frequency protected attributes such as gender and age and finds that these subgroups are systematically and disproportionately impacted in order to preserve performance on the most frequent features*
+> - [...] *learning rate and length of training can also disproportionately impact error rates on the long-tail of the dataset. Work on memorization properties of deep neural networks shows that challenging and underrepresented features are learnt later in the training process and that the learning rate impacts what is learnt. Thus, early stopping and similar hyper-parameter choices disproportionately and systematically impact a subset of the data distribution.*
+
+These topics require a strong expertise and few practitioners are familiar with them yet. In the context of this evaluation element, the recommendation is to learn about them and become aware of the complex trade-offs it implies, consider them during concrete projects rather than hiding them away, and follow how the state-of-the-art evolves and what best practices emerge.
+
+</details>
+
+<details>
+<summary>Resources2.4 :</summary>
+
+- (Academic paper) *[Moving beyond “algorithmic bias is a data problem”](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1)*, Sara Hooker, Opinion, April 2021
+- (Academic paper) *[Algorithmic Factors Influencing Bias in Machine Learning](https://arxiv.org/abs/2104.14014)*, W. Blanzeisky, P. Cunningham, April 2021: The authors defines 4 types of algorithmic choices : Data description (for the first version on the model, and feature engineering), Irreductible Errors, Impact of regularization (present in DL or more classical ML), Impact of class & feature imbalance. Those 4 types of choices will generate what they call underestimation bias, opposed to negative latency, bias due to data (that can be due to an under-representative dataset, or other reasons). They also propose some mitigation process.
+- (Academic paper) *[Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings](https://arxiv.org/abs/1607.06520)*, T. Bolukbasi, K.-W. Chang, J. Zou, V. Saligrama, A. Kalai, 2016
 
 </details>
 
@@ -444,7 +506,6 @@ The use of predictive models that have been validated and tested on historical d
 
 ---
 
-
 Q3.4 : **Performance validation**  
 Does your organisation implement the following approaches:
 
@@ -472,6 +533,7 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 - (Web article) *[Testing Robustness Against Unforeseen Adversaries](https://openai.com/blog/testing-robustness/)*, Open AI, August 2019
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter and A. Madry
+- (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
 
 </details>
 
@@ -506,11 +568,9 @@ Monitoring the performance of models over time is also particularly important in
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, September 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 - (Web article) *[Google's medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
+- (Web article) (In French) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
 
 </details>
-
----
-
 
 ---
 
@@ -608,6 +668,7 @@ This concept of the "end-to-end genealogy" of a learned predictive model can tak
 - (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC* *a platform for data version control and collaboration, based on DVC*
+- (Software & Tools) [End-to-end genealogy template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the genealogy from end to end of a model*, 2020, Joséphine Lecoq-Vallon
 
 </details>
 
@@ -638,6 +699,8 @@ The aim is to make explicit and add to the model the description of the context 
 
 - (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, January 2019
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) from Google is an open and scalable framework, and offers 2 examples: *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
+- (Web article) *[Model Cards for AI Model Transparency](https://blog.einstein.ai/model-cards-for-ai-model-transparency/)*, Salesforce: examples of *Model Cards* used and published by Salesforce
+- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)*, an IBM Research project to foster trust in AI by increasing transparency and enabling governance: *Increased transparency provides information for AI consumers to better understand how the AI model or service was created. This allows a consumer of the model to determine if it is appropriate for their situation. AI Governance enables an enterprise to specify and enforce policies describing how an AI model or service should be constructed and deployed.*
 
 </details>
 
@@ -651,8 +714,9 @@ _(Type: multiple responses possible)_
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 4.3.a At this stage we do not analyse the incidents or unexpected behaviour observed
-- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
-- [ ] 4.3.c We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
+- [ ] 4.3.b We analyse incidents or unexpected behaviour encountered, but don't publish or share it
+- [ ] 4.3.c We analyse incidents or unexpected behaviour encountered and publish them when relevant (e.g. article, blog)
+- [ ] 4.3.d We get involved in clubs, networks or professional associations in the field of data science, and give feedback on incidents of unexpected behaviour that we observe
 
 <details>
 <summary>Expl4.3 :</summary>
@@ -869,6 +933,8 @@ Technical resources such as SHAP or LIME provide a first-hand introduction to th
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
 - (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
 - (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*.
+- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash)*: a MAIF Datalab project which aims to make machine learning interpretable and understandable by everyone. It provides several types of visualization that display explicit labels that everyone can understand
+- (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: a BCG Gamma project of an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models
 - (Web article) In some cases, regulations impose being able to explain how an automated system came to a certain outcome (see for example [article 22 of the GDPR in the European Union](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [article 10 of the "Informatique & Libertés" law in France](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cited in particular in the [Hippocratic Oath for data scientist](https://hippocrate.tech/).
 
 </details>
@@ -888,6 +954,7 @@ _(Specific risk domain: use of predictive models, provision or operation of pred
 - [ ] 5.5.c An information notice is made available in the terms and conditions of the system or an equivalent document, freely accessible
 - [ ] 5.5.d The system or service is explicit to the user that a predictive model is being used
 - [ ] 5.5.e The system or service provides the user with additional information on the results it would have provided in slightly different scenarios (e.g. "counterfactual explanations" such as the smallest change in input data that would have resulted in a given different output)
+- [ ] 5.5.f We are pionneers in using public AI registers, enabling us to provide transparency to our stakeholders and to capture user feedbacks
 
 <details>
 <summary>Expl5.5 :</summary>
@@ -901,6 +968,8 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 - (Academic paper) *[Counterfactual Explanations without Opening the Black Box: Automated Decisions and the GDPR](https://arxiv.org/abs/1711.00399)*, S. Wachter, B. Mittelstadt, C. Russell, 2018
 - (Technical guide) *[Interpretable Machine Learning - Counterfactual explanations](https://christophm.github.io/interpretable-ml-book/counterfactual.html)*, C. Molnar, 2020
+- (Web article) *[AI registers: finally, a tool to increase transparency in AI/ML](https://towardsdatascience.com/ai-registers-finally-a-tool-to-increase-transparency-in-ai-ml-f5694b1e317d)*, Natalia Modjeska, December 2020
+- (Whitepaper) *[Public AI Registers: Realising AI transparency and civic participation in government use of AI](https://uploads-ssl.webflow.com/5c8abedb10ed656ecfb65fd9/5f6f334b49d5444079726a79_AI%20Registers%20-%20White%20paper%201.0.pdf)*, Saidot, Septembre 2020
 
 </details>
 
@@ -940,6 +1009,7 @@ It is important to question and raise awareness of environmental costs.
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: a Python library to estimate the amount of CO2 produced by computing resources used to execute code
 
 </details>
 
