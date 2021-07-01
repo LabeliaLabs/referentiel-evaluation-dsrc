@@ -39,7 +39,7 @@
 
 - Cycle de vie complet :
 
-  - **[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+  - *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
 
 - "Performance is not outcome", erreurs, crises :
 
