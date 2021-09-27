@@ -4,7 +4,7 @@
 
 ## Résumé rapide
 
-Ce dépôt de fichiers héberge le référentiel cadre de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Substra Foundation en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Substra Foundation et Dataforgood.
+Ce dépôt de fichiers héberge le référentiel cadre de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Labelia Labs (ex- Substra Foundation) en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Labelia Labs (ex- Substra Foundation) et Dataforgood.
 
 ## Navigation dans le repository
 
@@ -18,7 +18,7 @@ Ce dépôt de fichiers héberge le référentiel cadre de la data science respon
 
 > *Pour des introductions à cette initiative sous d'autres formes, voir :*
 >
-> - *[Blog Substra Foundation - Article d'Eric Boniface, octobre 2020](https://www.substra.ai/fr/blog/evaluation-data-science-responsable)*
+> - *[Blog Labelia Labs (ex- Substra Foundation) - Article d'Eric Boniface, octobre 2020](https://www.substra.ai/fr/blog/evaluation-data-science-responsable)*
 > - *[Podcast C-Ways - Mars 2021](https://c-ways.com/datascience-responsable)*
 
 Un nouvel espace émerge au croisement entre expansion de l'IA dans les organisations et les systèmes automatiques, et inquiétudes du public sur les données privées, la transparence et la robustesse des algorithmes.
@@ -100,9 +100,9 @@ Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes �
 
 ### Responsabilité éditoriale, disponibilité en ligne des travaux et participation asynchrone
 
-Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Substra Foundation, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
+Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Labelia Labs (ex- Substra Foundation), qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
 
-Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Substra Foundation sur GitHub, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il est donc également possible de participer de manière asynchrone.
+Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Labelia Labs (ex- Substra Foundation) sur GitHub, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il est donc également possible de participer de manière asynchrone.
 
 ### Nature évolutive
 
