@@ -68,7 +68,7 @@ Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/
 
 ### Que désigne-t-on par _IA_ et _data science_ ?
 
-- Cible : **les modèles prédictifs et les systèmes automatiques résultant de l'utilisation de techniques algorithmiques sur des données**. On prend ici une acception large des termes _IA_ et _data science_ (e.g on y inclut les systèmes experts).
+- Cible : **les modèles prédictifs et les systèmes automatiques résultant de l'utilisation de techniques algorithmiques sur des données**. On prend ici une acception large des termes _IA_ et _data science_ (e.g. on y inclut les systèmes experts).
 - Hors cible : les systèmes informatiques, la sécurité informatique, la gestion des bases de données en général (même si toutefois, en se concentrant sur l'activité data science d'une organisation, des sujets de sécurité et de gestion des données émergeront naturellement).
 
 ## Approche participative
@@ -89,14 +89,14 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 
 #### Saison 2
 
-- Atelier #1 : lundi 22 février 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.02.22_workshop-s02e01_notes.md)
-- Atelier #2 : lundi 26 avril 2021
-- Atelier #3 : lundi 21 juin 2021
-- Atelier #4 : lundi 20 septembre 2021
-- Atelier #5 : lundi 22 novembre 2021
-- Atelier #6, suivi d'un temps de convivialité : jeudi 9 décembre 2021
+- Atelier/Meetup #1 : lundi 22 février 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.02.22_workshop-s02e01_notes.md)
+- Atelier/Meetup #2 : lundi 26 avril 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.04.26_workshop-s02e02_notes.md)
+- Atelier/Meetup #3 : lundi 21 juin 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.06.21_workshop-s02e03_notes.md)
+- Atelier/Meetup #4 : lundi 20 septembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.09.20_workshop-s02e04_notes.md)
+- Atelier/Meetup #5 : lundi 22 novembre 2021
+- Atelier/Meetup #6, suivi d'un temps de convivialité : jeudi 9 décembre 2021
 
-Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l’esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives, peut-être ne pas aboutir… avec la certitude en revanche de débattre et d’apprendre sur des sujets passionnants.
+Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
 ### Responsabilité éditoriale, disponibilité en ligne des travaux et participation asynchrone
 
@@ -107,19 +107,25 @@ Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par La
 ### Nature évolutive
 
 Par nature cette démarche est en constante évolution. Il nous semble plus utile et plus transparent de mettre à disposition le référentiel dans son état du moment, plutôt que d'attendre le franchissement de jalons majeurs. Ainsi, chacun est en mesure d'en prendre connaissance et de participer par des questions ou des suggestions d'amélioration.
-Une logique de versions ou de jalons sera proposée afin de fournir un repère temporel aux organisations utilisatrices.
+Un versionnage officiel est proposé en complément afin de fournir un repère temporel aux organisations utilisatrices.
 
 ### Processus de supervision et validation des mises à jour du référentiel cadre
 
 Afin d'assurer la transparence et la sincérité de l'élaboration participative du référentiel cadre de la data science responsable et de confiance, le processus décrit sur le schéma ci-dessous est mis en place.
 
-Le travail itératif pour améliorer le référentiel se déroule tout au long de l'année, mais les mises à jour officielles du référentiel ne sont entérinées qu'une fois par semestre. Pour celles-ci, la version candidate pour mise à jour, composée de toutes les contributions des premiers mois du semestre, sont transmises pro-activement à la communauté (suiveurs de ce repository, inscrits au Meetup, abonnés au Slack, inscrits à la mailing liste). Toutes les questions, remarques, propositions et objections sont traitées en toute transparence via les issues et PRs sur ce repository. Le comité de gouvernance s'en assure en observant les interactions sur les issues et PRs. La version candidate pour mise à jour est ainsi affinée pour faire consensus, et entérinée une fois tous les retours traités.
+Le travail itératif pour améliorer le référentiel se déroule tout au long de l'année, mais les mises à jour officielles du référentiel ne sont entérinées qu'une fois par semestre. Pour celles-ci, la version candidate pour mise à jour, composée de toutes les contributions des premiers mois du semestre, sont transmises pro-activement à la communauté (suiveurs de ce repository, inscrits au Meetup, abonnés au Slack, inscrits à la mailing list). Toutes les questions, remarques, propositions et objections sont traitées en toute transparence via les issues et PRs sur ce repository. Le comité de gouvernance s'en assure en observant les interactions sur les issues et PRs. La version candidate pour mise à jour est ainsi affinée pour faire consensus, et entérinée une fois tous les retours traités et le consensus assuré.
 
 ![Représentation schématique du processus de supervision et validation de mise à jour du référentiel cadre](./img/processus_mise_a_jour_referentiel_cadre_dsrc.png)
 
 Le comité de gouvernance est composé de professionnels de la data science et du numérique, avec une diversité d'expériences et de savoir-faire (public et privé, spécialistes techniques et responsables de projets, industrie et recherche). Il est composé de 7 à 10 membres y siégeant à titre individuel, et sera renouvelé annuellement.
 
 ![Composition du comité de gouvernance](./img/composition_comite_gouvernance.png)
+
+### Elaboration participative, contributions et retours - Remerciements
+
+Nous remercions tous les contributeurs de près ou de loin à ce commun numérique, qui, par leurs questions lors des ateliers, par les articles ou outils qu'ils ont suggérés, par les critiques et suggestions qu'ils ont faites à partir de l'assessment, par leurs contributions directes à la rédaction de certains points, ont façonné et façonnent encore le référentiel cadre de la data science responsable et de confiance.
+
+![Représentation schématique de la diversité des organisations dont sont issus les contributeurs au référentiel](./img/diversite_contributeurs.png)
 
 ### Mise à disposition
 
