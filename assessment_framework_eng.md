@@ -208,7 +208,7 @@ The state of the art in ML security is constantly evolving. If data scientists a
 - (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
-- (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, Labelia Labs (ex- Substra Foundation) blog post to introduce distillation approaches, Gijs Barmentlo, 2020
+- (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, Labelia Labs (ex- Substra Foundation) blog post to introduce distillation approaches, Gijs Barmentlo, 2020
 - (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, March 2021: exposition of a vulnerability of ML models using pickle for objects storage
 
 </details>
@@ -381,7 +381,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Book *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, December 2019
-- (Web article) *[Fairness in Machine Learning](https://www.substra.ai/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Labelia Labs (ex- Substra Foundation)'s blog, Mickael Fine, 2020
+- (Web article) *[Fairness in Machine Learning](https://www.labelia.org/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Labelia Labs (ex- Substra Foundation)'s blog, Mickael Fine, 2020
 
 </details>
 
@@ -803,7 +803,7 @@ When several partners work together to develop a model, it is important that the
 <details>
 <summary>Ressources4.6 :</summary>
 
-- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), an open source project led by [ Labelia Labs (ex- Substra Foundation)](https://www.substra.ai/)
+- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), an open source project led by [ Labelia Labs (ex- Substra Foundation)](https://www.labelia.org/)
 
 </details>
 
