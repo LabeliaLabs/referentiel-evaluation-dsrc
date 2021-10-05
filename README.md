@@ -4,7 +4,11 @@
 
 ## Résumé rapide
 
-Ce dépôt de fichiers héberge le référentiel cadre de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Labelia Labs (ex- Substra Foundation) en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Labelia Labs (ex- Substra Foundation) et Dataforgood.
+Ce dépôt de fichiers héberge le [référentiel cadre](./referentiel_evaluation.md) de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Labelia Labs (ex- Substra Foundation) en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Labelia Labs (ex- Substra Foundation) et Dataforgood.
+
+Le référentiel est mis à jour officiellement chaque semestre avec une nouvelle version. Les travaux aboutissant à ces mises à jour sont ouverts à tous, ils peuvent être consultés via les *issues* et *PRs* de ce dépôt.
+
+![Partenaires et soutiens](./img/partenaires_soutiens.png)
 
 ## Navigation dans le repository
 
