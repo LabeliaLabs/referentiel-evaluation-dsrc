@@ -1012,15 +1012,14 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
 - (Web article) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut et Grégoire Martinon, Mai 2021
-- (Academic paper) *[The role of artificial intelligence in achieving the Sustainable Development Goals](https://www.nature.com/articles/s41467-019-14108-y)*, S. Vinuesa et al. 2020
+- (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
+- (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
 - (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
 - (Academic paper) *[Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)*, E. Strubell et al. 2019
-- (Official report) *[Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206)*, European Commission, 2021
 - (Public declaration) *[DÉPLOYER LA SOBRIÉTÉ NUMÉRIQUE](https://theshiftproject.org/article/deployer-la-sobriete-numerique-rapport-shift/)*, The Shift Project, 2020
 - (Web article) *[How to stop data centres from gobbling up the world’s electricity](https://www.nature.com/articles/d41586-018-06610-y)*, Nicolas Jones, 2018
-- (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
 - (Web article) *[AI and Climate Change: How they’re connected, and what we can do about it](https://medium.com/@AINowInstitute/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it-6aa8d0f5b32c)*, AI Now Institute, 2019
-- (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
+- (Academic paper) *[The role of artificial intelligence in achieving the Sustainable Development Goals](https://www.nature.com/articles/s41467-019-14108-y)*, S. Vinuesa et al. 2020
 
 </details>
 
