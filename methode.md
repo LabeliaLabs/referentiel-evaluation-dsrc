@@ -3,7 +3,7 @@
 ## Approche et méthode de consensus
 
 Nous avons voulu travailler de manière ouverte et collaborative à la définition de ce que serait la data science responsable et de confiance. Notre conviction est que seule l'ouverture, la transparence, et la possibilité pour chacun de contribuer et faire valoir son point de vue, permettront d'élaborer un référentiel à la fois complet, de qualité, proche des problématiques terrain, et actionnable. C'est une démarche qui s'inscrit dans un temps long, tout en visant à proposer rapidement une première base de travail utile aux organisations intéressées.
-Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Substra Foundation, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
+Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Labelia Labs (ex- Substra Foundation), qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
 
 ### Méthode de consensus
 
@@ -37,8 +37,8 @@ Le point reste alors ouvert tant qu'il n'y a pas convergence, jusqu'à ce que le
   - En créant une _issue_ : ceci correspond à une suggestion, une idée, une question, un commentaire, une demande de correction...
   - En contribuant à travers une _Pull Request_ : il s'agit d'une contribution "concrète" au référentiel, par la rédaction et la proposition d'une partie de celui-ci.
 
-- Substra Foundation supporte la responsabilité éditoriale de ce repository. Elle en est le _maintainer_ et se charge donc d'étudier et valider les contributions sous forme de _Pull Requests_ qui sont soumises.
-Substra Foundation présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
+- Labelia Labs (ex- Substra Foundation) supporte la responsabilité éditoriale de ce repository. Elle en est le _maintainer_ et se charge donc d'étudier et valider les contributions sous forme de _Pull Requests_ qui sont soumises.
+ Labelia Labs (ex- Substra Foundation) présentera lors des différents ateliers les contributions et issues qui ont été soumises afin de les valider collectivement ou de remettre en question certains points.
 
 _Les termes ci-dessus ne vous sont pas familiers ? Vous désirez en savoir plus sur git et son fonctionnement ? Une introduction vidéo (environ 20 minutes) est disponible sur [le site officiel](https://git-scm.com/videos)._
 

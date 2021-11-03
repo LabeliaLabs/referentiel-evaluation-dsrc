@@ -1,6 +1,6 @@
 # Responsible and Trustworthy Data Science - Evaluation framework
 
-The [evaluation framework](#evaluation-framework-to-assess-the-maturity-of-an-organisation) below is the result of the participatory work initiated in the spring of 2019 by Substra Foundation and ongoing since then. It is based on the identification of the risks that we are trying to prevent by aiming for a responsible and trustworthy practice of data science, and best practices to mitigate them. It also brings together for each topic technical resources that can be good entry points for interested organisations.
+The [evaluation framework](#evaluation-framework-to-assess-the-maturity-of-an-organisation) below is the result of the participatory work initiated in the spring of 2019 by Labelia Labs (ex- Substra Foundation) and ongoing since then. It is based on the identification of the risks that we are trying to prevent by aiming for a responsible and trustworthy practice of data science, and best practices to mitigate them. It also brings together for each topic technical resources that can be good entry points for interested organisations.
 
 Last update: 2nd semester 2021.
 
@@ -208,7 +208,7 @@ The state of the art in ML security is constantly evolving. If data scientists a
 - (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) The *distillation* of a model, in addition to the compression it provides, can be used as a measure to protect the model and the training data used, see for example *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019.
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
-- (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, Substra Foundation blog post to introduce distillation approaches, Gijs Barmentlo, 2020
+- (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, Labelia Labs (ex- Substra Foundation) blog post to introduce distillation approaches, Gijs Barmentlo, 2020
 - (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, March 2021: exposition of a vulnerability of ML models using pickle for objects storage
 
 </details>
@@ -232,7 +232,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 <details>
 <summary>Expl1.8 :</summary>
 
-TThe state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
+The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
 Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made. The notion of "end-to-end genealogy" is introduced here.
 
@@ -317,7 +317,7 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 - (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
-- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: *Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
 
 </details>
 
@@ -381,7 +381,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Book *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, December 2019
-- (Web article) *[Fairness in Machine Learning](https://www.substra.ai/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Substra Foundation's blog, Mickael Fine, 2020
+- (Web article) *[Fairness in Machine Learning](https://www.labelia.org/en/blog/fairness-in-machine-learning)*, introduction to Fairness metrics on Labelia Labs (ex- Substra Foundation)'s blog, Mickael Fine, 2020
 
 </details>
 
@@ -403,7 +403,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl2.4 :</summary>
 
-If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work show that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
+If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work shows that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
 
 > - *A key reason why model design choices amplify algorithmic bias is because notions of fairness often coincide with how underrepresented protected features are treated by the model*
 > - [...] *design choices to optimize for either privacy guarantees or compression amplify the disparate impact between minority and majority data subgroups*
@@ -803,7 +803,7 @@ When several partners work together to develop a model, it is important that the
 <details>
 <summary>Ressources4.6 :</summary>
 
-- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), an open source project led by [Substra Foundation](https://www.substra.ai/)
+- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), an open source project led by [ Labelia Labs (ex- Substra Foundation)](https://www.labelia.org/)
 
 </details>
 
@@ -933,7 +933,7 @@ Technical resources such as SHAP or LIME provide a first-hand introduction to th
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
 - (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
 - (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*.
-- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash): a MAIF Datalab project which aims to make machine learning interpretable and understandable by everyone. It provides several types of visualization that display explicit labels that everyone can understand
+- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash)*: a MAIF Datalab project which aims to make machine learning interpretable and understandable by everyone. It provides several types of visualization that display explicit labels that everyone can understand
 - (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: a BCG Gamma project of an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models
 - (Web article) In some cases, regulations impose being able to explain how an automated system came to a certain outcome (see for example [article 22 of the GDPR in the European Union](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [article 10 of the "Informatique & Libertés" law in France](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cited in particular in the [Hippocratic Oath for data scientist](https://hippocrate.tech/).
 

@@ -1,6 +1,6 @@
 # Data science responsable et de confiance - Référentiel d'évaluation
 
-Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit du travail participatif initié au printemps 2019 par Substra Foundation et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
+Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit du travail participatif initié au printemps 2019 par Labelia Labs (ex- Substra Foundation) et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
 
 Dernière mise à jour : 2nd semestre 2021.
 
@@ -208,7 +208,7 @@ L'état de l'art de la sécurité du ML est en constante évolution, et si la *m
 - (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
 - (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
-- (Web article) *[Model distillation and privacy](https://www.substra.ai/en/blog/model-distillation)*, article de blog Substra Foundation pour présenter les approches de distillation, Gijs Barmentlo, 2020
+- (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, article de blog Labelia Labs (ex- Substra Foundation) pour présenter les approches de distillation, Gijs Barmentlo, 2020
 - (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, Mars 2021 : exposition d'une vulnérabilité des modèles de ML utilisant *pickle* pour le stockage d'objets
 
 </details>
@@ -317,7 +317,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 - (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
-- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: *Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis*
 
 </details>
 
@@ -381,7 +381,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Livre *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, Décembre 2019
-- (web article) *[L'équité (Fairness) dans le Machine Learning](https://www.substra.ai/fr/blog/fairness-dans-le-machine-learning)*, introduction aux Fairness Metrics sur le blog de Substra Foundation, Mickael Fine, 2020
+- (web article) *[L'équité (Fairness) dans le Machine Learning](https://www.labelia.org/fr/blog/fairness-dans-le-machine-learning)*, introduction aux Fairness Metrics sur le blog de Labelia Labs (ex- Substra Foundation), Mickael Fine, 2020
 
 </details>
 
@@ -803,7 +803,7 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 <details>
 <summary>Ressources4.6 :</summary>
 
-- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), un projet open source animé par [Substra Foundation](https://www.substra.ai/)
+- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), un projet open source animé par [ Labelia Labs (ex- Substra Foundation)](https://www.labelia.org/)
 
 </details>
 
@@ -933,7 +933,7 @@ Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied d
 - (Technical guide) *[Interpretable Machine Learning, A Guide for Making Black Box Models Explainable](https://christophm.github.io/interpretable-ml-book/)*, Christoph Molnar
 - (Web article) *[Understanding model predictions with LIME](https://towardsdatascience.com/understanding-model-predictions-with-lime-a582fdff3a3b)*, blog L. Hulstaert, 2018
 - (Software & Tools) *[SHAP](https://github.com/slundberg/shap): A game theoretic approach to explain the output of any machine learning model*
-- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash): un projet open source de MAIF Datalab facilitant la prise en main et permettant de visualiser les analyses d'explicabilité et d'interprétabilité des modèles
+- (Software & Tools) *[Shapash](https://github.com/MAIF/shapash)*: un projet open source de MAIF Datalab facilitant la prise en main et permettant de visualiser les analyses d'explicabilité et d'interprétabilité des modèles
 - (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: un projet open source du BCG Gamma, *FACET is an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models*
 - (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
 
@@ -996,18 +996,29 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
 - [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
 - [ ] 6.1.c Nous mesurons nos indicateurs régulièrement et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
-- [ ] 6.1.d Le fait de suivre nos indicateurs régulièrement est un processus formalisé et piloté, à partir duquel nous nous fixons des objectifs d'amélioration
+- [ ] 6.1.d Le fait de suivre nos indicateurs régulièrement est un processus formalisé, piloté, transparent pour le grand public, à partir duquel nous nous fixons des objectifs d'amélioration
+
 
 <details>
 <summary>Expl6.1 :</summary>
 
-Il est important de s'interroger et de conscientiser les coûts environnementaux.
+Il est important de s'interroger et de conscientiser les coûts environnementaux. En particulier, on peut (i) mesurer l'impact environnemental des projets data science, (ii) publier de manière transparente leur impact environnemental en séparant phase d'entraînement et de déploiement, (iii) piloter et diminuer ces indicateurs en actionnant différents leviers (infrastructure, typologie de modèle, recyclage et apprentissage par transfert).
 
 </details>
 
 <details>
 <summary>Ressources6.1 :</summary>
 
+- (Web article) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut et Grégoire Martinon, Mai 2021
+- (Academic paper) *[The role of artificial intelligence in achieving the Sustainable Development Goals](https://www.nature.com/articles/s41467-019-14108-y)*, S. Vinuesa et al. 2020
+- (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
+- (Academic paper) *[Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)*, E. Strubell et al. 2019
+- (Official report) *[Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL LAYING DOWN HARMONISED RULES ON ARTIFICIAL INTELLIGENCE (ARTIFICIAL INTELLIGENCE ACT) AND AMENDING CERTAIN UNION LEGISLATIVE ACTS](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52021PC0206)*, European Commission, 2021
+- (Public declaration) *[DÉPLOYER LA SOBRIÉTÉ NUMÉRIQUE](https://theshiftproject.org/article/deployer-la-sobriete-numerique-rapport-shift/)*, The Shift Project, 2020
+- (Web article) *[How to stop data centres from gobbling up the world’s electricity](https://www.nature.com/articles/d41586-018-06610-y)*, Nicolas Jones, 2018
+- (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
+- (Web article) *[AI and Climate Change: How they’re connected, and what we can do about it](https://medium.com/@AINowInstitute/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it-6aa8d0f5b32c)*, AI Now Institute, 2019
+- (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
 
