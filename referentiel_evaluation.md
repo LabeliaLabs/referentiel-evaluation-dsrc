@@ -990,14 +990,14 @@ Q6.1 : **Impact CO2**
 Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
 
 R6.1 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
-- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer
-- [ ] 6.1.c Nous mesurons nos indicateurs régulièrement et nous incluons leurs mesures dans les généalogies de bout-en-bout des modèles
-- [ ] 6.1.d Le fait de suivre nos indicateurs régulièrement est un processus formalisé, piloté, transparent pour le grand public, à partir duquel nous nous fixons des objectifs d'amélioration
-
+- [ ] 6.1.a Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de l'impact CO2 de notre activité data science ou de nos modèles
+- [ ] 6.1.b Nous mesurons nos indicateurs régulièrement
+- [ ] 6.1.c Nous incluons leurs mesures dans les cartes d'identité des modèles
+- [ ] 6.1.d La mesure de ces indicateurs et un processus formalisé dans le cadre duquel nous fixons et pilotons des objectifs d'amélioration
+- [ ] 6.1.e L'impact CO2 de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
 
 <details>
 <summary>Expl6.1 :</summary>
