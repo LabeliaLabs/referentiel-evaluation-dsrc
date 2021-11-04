@@ -876,18 +876,18 @@ Using automatic systems based on models whose rules have been "learned" (and not
 ---
 
 Q5.3 : **Management of problematic predictions, bypass process, _human agency_**  
-Automatic systems, especially when based on learned predictive models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
+Automatic systems, especially when based on AI models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
 
 R5.3 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
 
-- [ ] 5.3.a Our organisation does not use predictive models developed by machine learning on its own behalf or on behalf of its clients, and does not provide its clients with applications based on predictive models | _(Concerned / Not concerned)_
-- [ ] 5.3.b We implement ML models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
-- [ ] 5.3.c We integrate, in automatic systems based on predictive models, the functionalities to manage these cases of undesirable results. For such cases, we set up mechanisms allowing a human operator to go against an automatic decision to manage such undesirable results or incidents
-- [ ] 5.3.d In addition to incident management mechanisms, in automatic systems based on predictive models, when the confidence interval for the automatic decision is not satisfactory a human operator is called upon
-- [ ] 5.3.e We systematically apply the principle of "human agency", the outputs of the predictive models that we implement are used by human operators, and do not serve as determinants for automatic decisions
+- [ ] 5.3.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.3.b We implement AI models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
+- [ ] 5.3.c We integrate, in automatic systems based on AI models, the functionalities to manage these cases of undesirable results. For such cases, we set up mechanisms allowing a human operator to go against an automatic decision to manage such undesirable results or incidents
+- [ ] 5.3.d In addition to incident management mechanisms, in automatic systems based on AI models, when the confidence interval for the automatic decision is not satisfactory a human operator is called upon
+- [ ] 5.3.e We systematically apply the principle of "human agency", the outputs of the AI models that we implement are used by human operators, and do not serve as determinants for automatic decisions
 
 <details>
 <summary>Expl5.3 :</summary>
