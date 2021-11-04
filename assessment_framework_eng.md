@@ -993,11 +993,12 @@ R6.1 :
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 6.1.a We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
-- [ ] 6.1.b We measure our indicators regularly
-- [ ] 6.1.c We include their measurements in the model identity cards
-- [ ] 6.1.d Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
-- [ ] 6.1.e The CO2 impact of our data science activity or our models is made transparent to our counterparts and the general public
+- [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our predictive models
+- [ ] 6.1.b We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
+- [ ] 6.1.c We measure our indicators regularly
+- [ ] 6.1.d We include their measurements in the model identity cards
+- [ ] 6.1.e Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
+- [ ] 6.1.f The CO2 impact of our data science activity or our models is made transparent to our counterparts and the general public
 
 <details>
 <summary>Expl6.1 :</summary>
