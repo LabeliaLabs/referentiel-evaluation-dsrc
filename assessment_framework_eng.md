@@ -581,7 +581,7 @@ R3.6 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 3.6.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
+- [ ] 3.6.a Operates informally on this subject, depending upon the collaborators involved
 - [ ] 3.6.b Has a documented approach that is systematically implemented
 - [ ] 3.6.c Takes into account the possibility of maintaining ranges of indecision in certain cases
 - [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.

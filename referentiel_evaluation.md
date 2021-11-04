@@ -581,7 +581,7 @@ R3.6 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 3.6.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.6.a Fonctionne de manière informelle à ce sujet, selon les collaborateurs impliquées
 - [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 - [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
 - [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
