@@ -1056,9 +1056,10 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
 - [ ] 6.3.a À ce stade nous ne nous sommes pas encore penchés sur la dimension éthique
-- [ ] 6.3.b Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
-- [ ] 6.3.c Notre organisation s'est dotée d'une politique en matière d'éthique
-- [ ] 6.3.d Sur les projets le justifiant, nous mettons en place un comité d'éthique indépendant ou nous sollicitons l'évaluation d'un organisme validant l'éthique des projets
+- [ ] 6.3.b Nous avons démarré des travaux sur la dimension éthique, qui n'ont pas encore abouti sur des livrables (e.g. une politique, des formations, etc.)
+- [ ] 6.3.c Les collaborateurs concernés par les activités data science reçoivent une formation à l'éthique
+- [ ] 6.3.d Notre organisation s'est dotée d'une politique en matière d'éthique
+- [ ] 6.3.e Sur les projets le justifiant, nous mettons en place un comité d'éthique indépendant ou nous sollicitons l'évaluation d'un organisme validant l'éthique des projets
 
 <details>
 <summary>Expl6.3 :</summary>

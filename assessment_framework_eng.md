@@ -1044,10 +1044,11 @@ R6.3 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects
-- [ ] 6.3.b Employees involved in data science activities receive training in ethics
-- [ ] 6.3.c Our organisation has adopted an ethics policy
-- [ ] 6.3.d For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
+- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects and activities
+- [ ] 6.3.b We are studying the ethical dimension of our data science projects and activities, it is work in progress
+- [ ] 6.3.c Employees involved in data science activities receive training in ethics
+- [ ] 6.3.d Our organisation has adopted an ethics policy
+- [ ] 6.3.e For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
 
 <details>
 <summary>Expl6.3 :</summary>
