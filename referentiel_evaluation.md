@@ -323,19 +323,40 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
-Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure) :
+Q2.2 : **Evaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
+Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Avant de chercher à prévenir ce risque, il s'agit d'évaluer si le projet en question comporte ce risque ou non. Sur ce sujet, votre organisation :
 
 R2.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.2.a Concerné
-- [ ] 2.2.b Non concerné
+- [ ] 2.2.a Fonctionne de manière informelle pour évaluer s'il y a ou non un risque de discrimination et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 2.2.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés sur le sujet
+- [ ] 2.2.c Dispose d'une approche documentée et systématiquement mise en oeuvre pour évaluer ce risque
 
 <details>
 <summary>Expl2.2 :</summary>
+
+Dans certains cas de figure la présence ou non de ce risque est évidente (e.g. projets sur des données comportementales sur une population de clients particuliers, projets sur des données océaniques ou astronomiques par exemple), dans d'autres cas cela peut-être moins évident (e.g. projet de rédaction automatique de réponses à des messages de clients). Il est donc important de s'interroger si un projet donné est concerné ou non.
+
+</details>
+
+---
+
+Q2.3 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
+Votre organisation est-elle concernée dans certains projets par des cas de figure où des modèles d'IA sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (Les éléments d'évaluation suivants sont dédiés à ces cas de figure) :
+
+R2.3 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
+
+- [ ] 2.3.a Concerné
+- [ ] 2.3.b Non concerné
+
+<details>
+<summary>Expl2.3 :</summary>
 
 Les cas de figure où il existe des risques de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière.
 
@@ -347,23 +368,23 @@ _Les éléments suivants au sein de cette section ne s'appliquent qu'aux organis
 
 ---
 
-Q2.3 : **Prévention des biais discriminatoires**  
-_(Condition : R2.2 <> 2.2.b)_  
+Q2.4 : **Prévention des biais discriminatoires**  
+_(Condition : R2.3 <> 2.3.b)_  
 Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
-R2.3 :  
+R2.4 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 2.3.a Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
-- [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
-- [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
-- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
-- [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
-- [ ] 2.3.f Nous n'avons pas encore mis en place de mesures de ce type
+- [ ] 2.4.a Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
+- [ ] 2.4.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
+- [ ] 2.4.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
+- [ ] 2.4.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
+- [ ] 2.4.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 2.4.f Nous n'avons pas encore mis en place de mesures de ce type
 
 <details>
-<summary>Expl2.3 :</summary>
+<summary>Expl2.4 :</summary>
 
 Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire. On parle d'attribut protégé (*protected attribute* ou *protected variable* en anglais) pour désigner les attributs dont les valeurs définissent des sous-populations à risque de discrimination.
 Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ dans le but de réduire les éventuels biais des jeux de données : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
@@ -371,7 +392,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 </details>
 
 <details>
-<summary>Ressources2.3 :</summary>
+<summary>Ressources2.4 :</summary>
 
 - (Web article) *[Unfair biases in Machine Learning: what, why, where and how to obliterate them](https://www.mlsecurity.ai/post/unfair-biases-in-machine-learning-what-why-where-and-how-to-obliterate-them)*, blog ML Security, P. Irolla, Avril 2020
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), un registre des services ou projets d'IA inquiétants, David Dao
@@ -387,21 +408,21 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 
 ---
 
-Q2.4 : **Liens entre les choix de modélisation et les biais**  
-_(Condition : R2.2 <> 2.2.b)_  
+Q2.5 : **Liens entre les choix de modélisation et les biais**  
+_(Condition : R2.3 <> 2.3.b)_  
 Des travaux récents mettent en évidence le rôle que peuvent jouer les choix de modélisation et d'apprentissage dans la formation de biais discriminatoires. Les techniques de renforcement de la confidentialité, la compression, le choix du *learning rate* ou les mécanismes d'*early stopping* par exemple peuvent contribuer à défavoriser certains sous-groupes de manière disproportionnée. Prévenir ces derniers n'est donc pas qu'une question de jeu de données. Au sein de votre organisation, sur ce sujet le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
-R2.4 :  
+R2.5 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 2.4.a Complètement débutant
-- [ ] 2.4.b Basique
-- [ ] 2.4.c Confirmé
-- [ ] 2.4.d Expert
+- [ ] 2.5.a Complètement débutant
+- [ ] 2.5.b Basique
+- [ ] 2.5.c Confirmé
+- [ ] 2.5.d Expert
 
 <details>
-<summary>Expl2.4 :</summary>
+<summary>Expl2.5 :</summary>
 
 Si les jeux de données utilisés pour entraîner et évaluer un modèle requièrent une réflexion particulière pour prévenir les biais discriminatoires, des travaux récents montrent qu'il en va de même pour les choix de modélisation. Comme le synthétise très bien l'article *Moving beyond “algorithmic bias is a data problem”* proposé dans les ressources, les paramètres de l'algorithme d'apprentissage, la structure du modèle, l'adjonction ou non de confidentialité différentielle, la compression éventuelle, etc. peuvent avoir des conséquences sur la *fairness* d'un modèle. Extraits :
 
@@ -415,7 +436,7 @@ Ces sujets étant très techniques, encore peu diffusés et connus des praticien
 </details>
 
 <details>
-<summary>Ressources2.4 :</summary>
+<summary>Ressources2.5 :</summary>
 
 - (Academic paper) *[Moving beyond “algorithmic bias is a data problem”](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1)*, Sara Hooker, Opinion, Avril 2021
 - (Academic paper) *[Algorithmic Factors Influencing Bias in Machine Learning](https://arxiv.org/abs/2104.14014)*, W. Blanzeisky, P. Cunningham, April 2021: les auteurs définissent 4 types de choix algorithmiques pouvant être à l'origine de biais : *Data description (for the first version on the model, and feature engineering), Irreductible Errors, Impact of regularization (present in DL or more classical ML), Impact of class & feature imbalance*. Ces 4 types de choix peuvent générer ce qu'ils appellent un biais de sous-estimation (*underestimation bias*), qu'ils opposent à la *negative latency*, biais dûs aux données. Ils proposent des mesures de mitigation.
