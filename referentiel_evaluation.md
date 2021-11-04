@@ -268,7 +268,7 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
 - [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question
+- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question dont nous disposons des coordonnées
 - [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
 - [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
 

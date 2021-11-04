@@ -268,7 +268,7 @@ _(Type: multiple responses possible)_
 _(Select all the answer items that correspond to practices in your organisation)_
 
 - [ ] 1.9.a We have a process describing the course of action in such cases
-- [ ] 1.9.b Our process includes communication to the stakeholders in question
+- [ ] 1.9.b Our process includes communication to the stakeholders in question of whom we have contact details
 - [ ] 1.9.c Our process references the authorities to whom we must report
 - [ ] 1.9.d We have not yet put in place a procedure for such cases
 
