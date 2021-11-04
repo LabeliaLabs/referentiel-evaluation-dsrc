@@ -117,7 +117,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl1.4 :</summary>
 
-In many sectors there are specific compliance requirements. It is generally possible to formalise an organisation's compliance through certification or a specialised audit, or by obtaining a label.
+In many sectors there are specific compliance requirements. It is generally possible to formalise an organisation's compliance through certification or a specialised audit, or by obtaining a label (e.g. AFAQ "Protection des données personnelles", ISO 27701).
 
 </details>
 
