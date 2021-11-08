@@ -323,44 +323,45 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 ---
 
-Q2.2 : **Risk of discrimination against certain social groups**  
-Is your organisation involved in cases where predictive models are used in thematic environments where there are risks of discrimination against certain social groups (gender, origin, age, etc.)? (The next assessment element is dedicated to these cases):
+Q2.2 : **Evaluation of the risk of discrimination against certain social groups**  
+In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
 
 R2.2 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.2.a Concerned
-- [ ] 2.2.b Not concerned
+- [ ] 2.2.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
+- [ ] 2.2.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.2.c Has a documented approach that is systematically implemented to evaluate this type of risk
+
 
 <details>
 <summary>Expl2.2 :</summary>
 
 Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
+In certain cases it is obvious if this risk has to be considered or not (e.g. projects on behavioral data on a population of users or customers, vs. projects on oceanographic or astronomical data), whereas in some cases it might be less obvious. It is therefore important to consider the question for each project.
 
 </details>
 
 ---
 
-_The following items within this section apply only to organisations that have selected the "Concerned" response in R2.2. Organisations not involved are therefore invited to move on to [Section 3](#section-3---assessing-model-performance-rigorously)._
-
----
-
 Q2.3 : **Preventing discriminatory bias**  
 _(Condition: R2.2 <> 2.2.b)_  
-In cases where the predictive models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
+In cases where the AI models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
 
 R2.3 :  
 _(Type: multiple responses possible)_  
-_(Select all the answer items that correspond to practices in your organisation)_
+_(Select all the answer items that correspond to practices in your organisation)_  
+_(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.3.a We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
-- [ ] 2.3.b We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
-- [ ] 2.3.c We select and implement one or more justice and equity measure(s) (_fairness metrics_)
-- [ ] 2.3.d We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
-- [ ] 2.3.e The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
-- [ ] 2.3.f We have not yet put in place any such measures
+- [ ] 2.3.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.3.b We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
+- [ ] 2.3.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
+- [ ] 2.3.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
+- [ ] 2.3.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
+- [ ] 2.3.f The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
+- [ ] 2.3.g We have not yet put in place any such measures
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -393,12 +394,14 @@ Recent work has shown the role that modeling and learning choices can play in th
 
 R2.4 :  
 _(Type: single answer)_  
-_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
+_(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.4.a Complete beginner
-- [ ] 2.4.b Basic
-- [ ] 2.4.c Confirmed
-- [ ] 2.4.d Expert
+- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.4.b Complete beginner
+- [ ] 2.4.c Basic
+- [ ] 2.4.d Confirmed
+- [ ] 2.4.e Expert
 
 <details>
 <summary>Expl2.4 :</summary>
