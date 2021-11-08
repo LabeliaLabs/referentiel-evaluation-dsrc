@@ -610,8 +610,8 @@ _(Type: single answer)_
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: external communication on the performance of AI systems)_
 
-- [ ] 3.7.a We do not communicate or do not need to communicate, or do not use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
-- [ ] 3.7.b We communicate on our results and rely on them for our development without first having our work audited by an independent third party, without making evidence available
+- [ ] 3.7.a We do not communicate or do not need to communicate on the results or the performance of our AI systems, or do not use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
+- [ ] 3.7.b We communicate on the results or the performance of our AI systems and rely on them for our development without first having our work audited by an independent third party, without making evidence available
 - [ ] 3.7.c We have our work audited by an independent third party, or we make evidence available, before communicating our results and using them to communicate and rely on with our stakeholders
 
 <details>
