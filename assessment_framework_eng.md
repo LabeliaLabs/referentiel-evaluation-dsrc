@@ -584,7 +584,7 @@ R3.6 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 3.6.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
+- [ ] 3.6.a Operates informally on this subject, depending upon the collaborators involved
 - [ ] 3.6.b Has a documented approach that is systematically implemented
 - [ ] 3.6.c Takes into account the possibility of maintaining ranges of indecision in certain cases
 - [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.
@@ -613,8 +613,8 @@ _(Type: single answer)_
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: external communication on the performance of AI systems)_
 
-- [ ] 3.7.a We do not communicate or use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
-- [ ] 3.7.b We communicate on our results and rely on them for our development without first having our work audited by an independent third party, without making evidence available
+- [ ] 3.7.a We do not communicate or do not need to communicate on the results or the performance of our AI systems, or do not use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
+- [ ] 3.7.b We communicate on the results or the performance of our AI systems and rely on them for our development without first having our work audited by an independent third party, without making evidence available
 - [ ] 3.7.c We have our work audited by an independent third party, or we make evidence available, before communicating our results and using them to communicate and rely on with our stakeholders
 
 <details>
@@ -879,15 +879,15 @@ Using automatic systems based on models whose rules have been "learned" (and not
 ---
 
 Q5.3 : **Management of problematic predictions, bypass process, _human agency_**  
-Automatic systems, especially when based on learned AI models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
+Automatic systems, especially when based on AI models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
 
 R5.3 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
 
-- [ ] 5.3.a Our organisation does not use AI models developed by machine learning on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
-- [ ] 5.3.b We implement ML models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
+- [ ] 5.3.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.3.b We implement AI models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
 - [ ] 5.3.c We integrate, in automatic systems based on AI models, the functionalities to manage these cases of undesirable results. For such cases, we set up mechanisms allowing a human operator to go against an automatic decision to manage such undesirable results or incidents
 - [ ] 5.3.d In addition to incident management mechanisms, in automatic systems based on AI models, when the confidence interval for the automatic decision is not satisfactory a human operator is called upon
 - [ ] 5.3.e We systematically apply the principle of "human agency", the outputs of the AI models that we implement are used by human operators, and do not serve as determinants for automatic decisions
@@ -993,18 +993,20 @@ Q6.1 : **CO2 impact**
 About the CO2 impact of the data science activity in your organisation:
 
 R6.1 :  
-_(Type: single answer)_  
-_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Type: multiple responses possible)_  
+_(Select all the answer items that correspond to practices in your organisation)_
 
 - [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our AI models
-- [ ] 6.1.b We have developed indicators that define what we want to measure
-- [ ] 6.1.c We measure our indicators regularly and include their measurements in the end-to-end genealogies of the models
-- [ ] 6.1.d Monitoring our indicators on a regular basis is a formalised and controlled process, from which we set ourselves improvement objectives
+- [ ] 6.1.b We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
+- [ ] 6.1.c We measure our indicators regularly
+- [ ] 6.1.d We include their measurements in the model identity cards
+- [ ] 6.1.e Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
+- [ ] 6.1.f The CO2 impact of our data science activity or our models is made transparent to our counterparts and the general public
 
 <details>
 <summary>Expl6.1 :</summary>
 
-It is important to question and raise awareness of environmental costs.
+It is important to question and raise awareness of environmental costs. In particular one can: (i) measure the environmental cost of data science projects, (ii) publish transparently their environmental impact, expliciting the split between train and production phases, (iii) improve on these indicators by working on different levers (e.g. infrastructure, model architecture, transfer learning, etc.).
 
 </details>
 
@@ -1012,7 +1014,16 @@ It is important to question and raise awareness of environmental costs.
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
-- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: a Python library to estimate the amount of CO2 produced by computing resources used to execute code
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: python library for evaluation the carbon cost of executing a script
+- (Web article) (In French) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut and Grégoire Martinon, May 2021
+- (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
+- (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
+- (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
+- (Academic paper) *[Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)*, E. Strubell et al. 2019
+- (Public declaration) (In French) *[DÉPLOYER LA SOBRIÉTÉ NUMÉRIQUE](https://theshiftproject.org/article/deployer-la-sobriete-numerique-rapport-shift/)*, The Shift Project, 2020
+- (Web article) *[How to stop data centres from gobbling up the world’s electricity](https://www.nature.com/articles/d41586-018-06610-y)*, Nicolas Jones, 2018
+- (Web article) *[AI and Climate Change: How they’re connected, and what we can do about it](https://medium.com/@AINowInstitute/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it-6aa8d0f5b32c)*, AI Now Institute, 2019
+- (Academic paper) *[The role of artificial intelligence in achieving the Sustainable Development Goals](https://www.nature.com/articles/s41467-019-14108-y)*, S. Vinuesa et al. 2020
 
 </details>
 
@@ -1047,10 +1058,11 @@ R6.3 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects
-- [ ] 6.3.b Employees involved in data science activities receive training in ethics
-- [ ] 6.3.c Our organisation has adopted an ethics policy
-- [ ] 6.3.d For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
+- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects and activities
+- [ ] 6.3.b We are studying the ethical dimension of our data science projects and activities, it is work in progress
+- [ ] 6.3.c Employees involved in data science activities receive training in ethics
+- [ ] 6.3.d Our organisation has adopted an ethics policy
+- [ ] 6.3.e For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
 
 <details>
 <summary>Expl6.3 :</summary>
