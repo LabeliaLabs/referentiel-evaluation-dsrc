@@ -264,13 +264,13 @@ _(Condition: R1.5 <> 1.5.a)_
 In the event that a model that the organisation has developed is used or accessible by one or more external stakeholders, and a new vulnerability is published, there is a risk that it may apply to them and thus create a risk of exposure of personal or confidential data:
 
 R1.9 :  
-_(Type: multiple responses possible)_  
-_(Select all the answer items that correspond to practices in your organisation)_
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 1.9.a We have a process describing the course of action in such cases
-- [ ] 1.9.b Our process includes communication to the stakeholders in question of whom we have contact details
-- [ ] 1.9.c Our process references the authorities to whom we must report
-- [ ] 1.9.d We have not yet put in place a procedure for such cases
+- [ ] 1.9.a We have not yet put in place a procedure for such cases
+- [ ] 1.9.b We have a process describing the course of action in such cases
+- [ ] 1.9.c We have a process describing the course of action in such cases, which references the authorities to whom we must report
+- [ ] 1.9.d We have a process describing the course of action in such cases, which references the authorities to whom we must report, and which includes communication to the stakeholders of whom we have contact details
 
 <details>
 <summary>Expl1.9 :</summary>
@@ -684,8 +684,8 @@ R4.2 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 4.2.a Are not documented
-- [ ] 4.2.b Are explicited and documented
+- [ ] 4.2.a Are not documented systematically, it relies on the practices of each collaborator involved
+- [ ] 4.2.b Are systematically explicited and documented
 - [ ] 4.2.c Are versioned
 - [ ] 4.2.d Contain a description of the risks involved in using the model outside its "conditions and limits of validity"
 - [ ] 4.2.e The documents presenting these "conditions and limits of validity" systematically accompany the models throughout their life cycle

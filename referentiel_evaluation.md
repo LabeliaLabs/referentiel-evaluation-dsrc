@@ -10,7 +10,7 @@ L'évaluation est composée des 6 sections suivantes :
 
 - [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
 - [Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)
-- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
+- [Section 3 - Évaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
 - [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
 - [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
 - [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
@@ -264,13 +264,13 @@ _(Condition : R1.5 <> 1.5.a)_
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
 R1.9 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question dont nous disposons des coordonnées
-- [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
-- [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.a Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.b Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.c Nous avons une procédure décrivant la marche à suivre, et celle-ci référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d Nous avons une procédure décrivant la marche à suivre, qui référence les autorités auxquelles nous devons faire un signalement, et qui inclut une communication aux parties prenantes dont nous disposons des coordonnées
 
 <details>
 <summary>Expl1.9 :</summary>
@@ -323,7 +323,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 : **Evaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
+Q2.2 : **Évaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
 Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
 
 R2.2 :  
@@ -425,9 +425,9 @@ Ces sujets étant très techniques, encore peu diffusés et connus des praticien
 ---
 ---
 
-### Section 3 - Evaluer la performance de manière rigoureuse
+### Section 3 - Évaluer la performance de manière rigoureuse
 
-**[Evaluation des performances]**
+**[Évaluation des performances]**
 
 Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
 
@@ -680,8 +680,8 @@ R4.2 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.2.a Ne sont pas documentées
-- [ ] 4.2.b Sont explicitées et documentées
+- [ ] 4.2.a Ne sont pas documentées systématiquement, cela dépend de la pratique de chaque collaborateur impliqué
+- [ ] 4.2.b Sont explicitées et documentées systématiquement
 - [ ] 4.2.c Sont versionnées
 - [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
 - [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
@@ -1047,7 +1047,7 @@ Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela
 
 ---
 
-Q6.3 : **Ethique et non-malfaisance**  
+Q6.3 : **Éthique et non-malfaisance**  
 Au sein de votre organisation :
 
 R6.3 :  
