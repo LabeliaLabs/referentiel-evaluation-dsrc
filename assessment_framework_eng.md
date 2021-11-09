@@ -264,13 +264,13 @@ _(Condition: R1.5 <> 1.5.a)_
 In the event that a model that the organisation has developed is used or accessible by one or more external stakeholders, and a new vulnerability is published, there is a risk that it may apply to them and thus create a risk of exposure of personal or confidential data:
 
 R1.9 :  
-_(Type: multiple responses possible)_  
-_(Select all the answer items that correspond to practices in your organisation)_
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 1.9.a We have a process describing the course of action in such cases
-- [ ] 1.9.b Our process includes communication to the stakeholders in question of whom we have contact details
-- [ ] 1.9.c Our process references the authorities to whom we must report
-- [ ] 1.9.d We have not yet put in place a procedure for such cases
+- [ ] 1.9.a We have not yet put in place a procedure for such cases
+- [ ] 1.9.b We have a process describing the course of action in such cases
+- [ ] 1.9.c We have a process describing the course of action in such cases, which references the authorities to whom we must report
+- [ ] 1.9.d We have a process describing the course of action in such cases, which references the authorities to whom we must report, and which includes communication to the stakeholders of whom we have contact details
 
 <details>
 <summary>Expl1.9 :</summary>

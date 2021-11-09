@@ -264,13 +264,13 @@ _(Condition : R1.5 <> 1.5.a)_
 Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
 
 R1.9 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question dont nous disposons des coordonnées
-- [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
-- [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.a Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.b Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.c Nous avons une procédure décrivant la marche à suivre, et celle-ci référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d Nous avons une procédure décrivant la marche à suivre, qui référence les autorités auxquelles nous devons faire un signalement, et qui inclut une communication aux parties prenantes dont nous disposons des coordonnées
 
 <details>
 <summary>Expl1.9 :</summary>
