@@ -10,7 +10,7 @@ L'évaluation est composée des 6 sections suivantes :
 
 - [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
 - [Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)
-- [Section 3 - Evaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
+- [Section 3 - Évaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
 - [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
 - [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
 - [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
@@ -323,7 +323,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 : **Evaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
+Q2.2 : **Évaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
 Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
 
 R2.2 :  
@@ -425,9 +425,9 @@ Ces sujets étant très techniques, encore peu diffusés et connus des praticien
 ---
 ---
 
-### Section 3 - Evaluer la performance de manière rigoureuse
+### Section 3 - Évaluer la performance de manière rigoureuse
 
-**[Evaluation des performances]**
+**[Évaluation des performances]**
 
 Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
 
@@ -1047,7 +1047,7 @@ Il est important de s'interroger et d'échanger avec ses parties prenantes. Cela
 
 ---
 
-Q6.3 : **Ethique et non-malfaisance**  
+Q6.3 : **Éthique et non-malfaisance**  
 Au sein de votre organisation :
 
 R6.3 :  
