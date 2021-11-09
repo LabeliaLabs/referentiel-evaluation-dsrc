@@ -581,7 +581,7 @@ R3.6 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 3.6.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
+- [ ] 3.6.a Operates informally on this subject, depending upon the collaborators involved
 - [ ] 3.6.b Has a documented approach that is systematically implemented
 - [ ] 3.6.c Takes into account the possibility of maintaining ranges of indecision in certain cases
 - [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.
@@ -610,8 +610,8 @@ _(Type: single answer)_
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: external communication on the performance of AI systems)_
 
-- [ ] 3.7.a We do not communicate or use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
-- [ ] 3.7.b We communicate on our results and rely on them for our development without first having our work audited by an independent third party, without making evidence available
+- [ ] 3.7.a We do not communicate or do not need to communicate on the results or the performance of our AI systems, or do not use the results or performance of our AI systems as an argument to our stakeholders, we are not concerned by this assessment element | _(Concerned / Not concerned)_
+- [ ] 3.7.b We communicate on the results or the performance of our AI systems and rely on them for our development without first having our work audited by an independent third party, without making evidence available
 - [ ] 3.7.c We have our work audited by an independent third party, or we make evidence available, before communicating our results and using them to communicate and rely on with our stakeholders
 
 <details>
@@ -876,18 +876,18 @@ Using automatic systems based on models whose rules have been "learned" (and not
 ---
 
 Q5.3 : **Management of problematic predictions, bypass process, _human agency_**  
-Automatic systems, especially when based on learned predictive models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
+Automatic systems, especially when based on AI models, are used in production generally to gain efficiency. By nature, they occasionally generate undesirable results for the organisation and its stakeholders (e.g. wrong prediction), as they will never achieve 100% performance.
 
 R5.3 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
 
-- [ ] 5.3.a Our organisation does not use predictive models developed by machine learning on its own behalf or on behalf of its clients, and does not provide its clients with applications based on predictive models | _(Concerned / Not concerned)_
-- [ ] 5.3.b We implement ML models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
-- [ ] 5.3.c We integrate, in automatic systems based on predictive models, the functionalities to manage these cases of undesirable results. For such cases, we set up mechanisms allowing a human operator to go against an automatic decision to manage such undesirable results or incidents
-- [ ] 5.3.d In addition to incident management mechanisms, in automatic systems based on predictive models, when the confidence interval for the automatic decision is not satisfactory a human operator is called upon
-- [ ] 5.3.e We systematically apply the principle of "human agency", the outputs of the predictive models that we implement are used by human operators, and do not serve as determinants for automatic decisions
+- [ ] 5.3.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.3.b We implement AI models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
+- [ ] 5.3.c We integrate, in automatic systems based on AI models, the functionalities to manage these cases of undesirable results. For such cases, we set up mechanisms allowing a human operator to go against an automatic decision to manage such undesirable results or incidents
+- [ ] 5.3.d In addition to incident management mechanisms, in automatic systems based on AI models, when the confidence interval for the automatic decision is not satisfactory a human operator is called upon
+- [ ] 5.3.e We systematically apply the principle of "human agency", the outputs of the AI models that we implement are used by human operators, and do not serve as determinants for automatic decisions
 
 <details>
 <summary>Expl5.3 :</summary>
@@ -1055,10 +1055,11 @@ R6.3 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects
-- [ ] 6.3.b Employees involved in data science activities receive training in ethics
-- [ ] 6.3.c Our organisation has adopted an ethics policy
-- [ ] 6.3.d For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
+- [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects and activities
+- [ ] 6.3.b We are studying the ethical dimension of our data science projects and activities, it is work in progress
+- [ ] 6.3.c Employees involved in data science activities receive training in ethics
+- [ ] 6.3.d Our organisation has adopted an ethics policy
+- [ ] 6.3.e For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
 
 <details>
 <summary>Expl6.3 :</summary>
