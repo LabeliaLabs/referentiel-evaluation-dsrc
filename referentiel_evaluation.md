@@ -117,7 +117,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl1.4 :</summary>
 
-Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification, un audit spécialisé ou l'obtention d'un label.
+Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification, un audit spécialisé ou l'obtention d'un label (par exemple : AFAQ Protection des données personnelles, ISO 27701).
 
 </details>
 
@@ -174,7 +174,7 @@ Le *Privacy Impact Assessment* (PIA) est une méthode d'évaluation de l'impact 
 
 Q1.7 : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
 _(Condition : R1.5 <> 1.5.a)_  
-La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèles prédictifs appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
+La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèle d'IA appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
 R1.7 :  
 _(Type : réponse unique)_  
@@ -268,7 +268,7 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
 - [ ] 1.9.a Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question
+- [ ] 1.9.b Notre procédure inclut une communication aux parties prenantes en question dont nous disposons des coordonnées
 - [ ] 1.9.c Notre procédure référence les autorités auxquelles nous devons faire un signalement
 - [ ] 1.9.d Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
 
@@ -286,7 +286,7 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 
 **[Biais et discriminations]**
 
-L'utilisation de modèles prédictifs élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+L'utilisation de modèles d'IA élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
 Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
@@ -323,44 +323,42 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.2 : **Risques de discrimination à l'encontre de certains groupes sociaux**  
-Votre organisation est-elle concernée par des cas de figure où des modèles prédictifs sont utilisés dans des environnements thématiques pour lesquels des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) existent ? (L'élément d'évaluation suivant est dédié à ces cas de figure) :
+Q2.2 : **Evaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
+Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
 
 R2.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.2.a Concerné
-- [ ] 2.2.b Non concerné
+- [ ] 2.2.a Fonctionne de manière informelle pour évaluer s'il y a ou non un risque de discrimination et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 2.2.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés sur le sujet
+- [ ] 2.2.c Dispose d'une approche documentée et systématiquement mise en oeuvre pour évaluer ce risque
 
 <details>
 <summary>Expl2.2 :</summary>
 
-Les cas de figure où il existe des risques de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière.
+Les cas de figure où il existe des risques de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière. Parfois la présence ou l'absence de ce risque est évidente (e.g. projets sur des données comportementales sur une population de clients particuliers, vs. projets sur des données océaniques ou astronomiques par exemple), dans d'autres cas cela peut-être moins évident (e.g. projet de rédaction automatique de réponses à des messages de clients). Il est donc important de s'interroger pour chaque projet s'il est concerné ou non par ce risque.
 
 </details>
 
 ---
 
-_Les éléments suivants au sein de cette section ne s'appliquent qu'aux organisations ayant sélectionné la réponse "Concerné" de R2.2. Les organisations non concernées sont donc invitées à passer à la [Section 3](#section-3-evaluer-la-performance-de-manière-rigoureuse-et-expliquer-les-prédictions)._
-
----
-
 Q2.3 : **Prévention des biais discriminatoires**  
-_(Condition : R2.2 <> 2.2.b)_  
-Dans les cas de figure où les modèles prédictifs que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
+Dans les cas de figure où les modèles d'IA que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
 R2.3 :  
 _(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_  
+_(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.3.a Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
-- [ ] 2.3.b Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
-- [ ] 2.3.c Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
-- [ ] 2.3.d Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
-- [ ] 2.3.e Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
-- [ ] 2.3.f Nous n'avons pas encore mis en place de mesures de ce type
+- [ ] 2.3.a Nous ne traitons pas de thématique ou ne portons pas de projet correspondant à des cas de figure avec des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) | _(Concerné / Non concerné)_
+- [ ] 2.3.b Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
+- [ ] 2.3.c Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
+- [ ] 2.3.d Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
+- [ ] 2.3.e Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
+- [ ] 2.3.f Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 2.3.g Nous n'avons pas encore mis en place de mesures de ce type
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -388,17 +386,18 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 ---
 
 Q2.4 : **Liens entre les choix de modélisation et les biais**  
-_(Condition : R2.2 <> 2.2.b)_  
 Des travaux récents mettent en évidence le rôle que peuvent jouer les choix de modélisation et d'apprentissage dans la formation de biais discriminatoires. Les techniques de renforcement de la confidentialité, la compression, le choix du *learning rate* ou les mécanismes d'*early stopping* par exemple peuvent contribuer à défavoriser certains sous-groupes de manière disproportionnée. Prévenir ces derniers n'est donc pas qu'une question de jeu de données. Au sein de votre organisation, sur ce sujet le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
 R2.4 :  
 _(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.4.a Complètement débutant
-- [ ] 2.4.b Basique
-- [ ] 2.4.c Confirmé
-- [ ] 2.4.d Expert
+- [ ] 2.4.a Nous ne traitons pas de thématique ou ne portons pas de projet correspondant à des cas de figure avec des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.)  | _(Concerné / Non concerné)_
+- [ ] 2.4.b Complètement débutant
+- [ ] 2.4.c Basique
+- [ ] 2.4.d Confirmé
+- [ ] 2.4.e Expert
 
 <details>
 <summary>Expl2.4 :</summary>
@@ -500,7 +499,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl3.3 :</summary>
 
-L'utilisation de modèles prédictifs validés et testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
+L'utilisation de modèles d'IA validés et testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
 
 </details>
 
@@ -540,12 +539,12 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 ---
 
 Q3.5 : **Suivi de la performance dans le temps**  
-Dans les cas de figure où des modèles prédictifs élaborés par votre organisation sont utilisés dans des systèmes en production :
+Dans les cas de figure où des modèles d'IA élaborés par votre organisation sont utilisés dans des systèmes en production :
 
 R3.5 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : utilisation de modèles prédictifs dans des systèmes en production)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA dans des systèmes en production)_
 
 - [ ] 3.5.a Les modèles que nous élaborons ne sont pas utilisés dans des systèmes en production | _(Concerné / Non concerné)_
 - [ ] 3.5.b La performance est systématiquement ré-évaluée lorsque le modèle est mis à jour
@@ -617,7 +616,7 @@ _(Domaine de risque spécifique : utilisation de l'évaluation de la performance
 <details>
 <summary>Expl3.7 :</summary>
 
-L'élaboration d'un modèle prédictif, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats et de s'en prévaloir avec certitude. Et lorsque cela est toutefois possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans avoir à révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de faire procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...), afin de sécuriser les résultats dont l'organisation souhaite se prévaloir.
+L'élaboration d'un modèle d'IA, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats et de s'en prévaloir avec certitude. Et lorsque cela est toutefois possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans avoir à révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de faire procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...), afin de sécuriser les résultats dont l'organisation souhaite se prévaloir.
 
 </details>
 
@@ -635,7 +634,7 @@ L'élaboration d'un modèle prédictif, et la détermination d'une mesure de per
 
 **[Documentation des modèles]**
 
-Un modèle prédictif est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
+Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)_]
@@ -657,7 +656,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl4.1 :</summary>
 
-Ce concept de "généalogie de bout-en-bout" d'un modèle prédictif appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
+Ce concept de "généalogie de bout-en-bout" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
 
 </details>
 
@@ -721,7 +720,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl4.3 :</summary>
 
-La compréhension voire la maîtrise du comportement d'un modèle prédictif appris sont des défis complexes. De nombreuses recherches sont en cours pour développer des méthodes et des outils dans ce domaine, mais beaucoup reste à faire. Le partage par les praticiens des incidents et comportements inattendus qu'ils rencontrent contribue faire progresser la communauté.
+La compréhension voire la maîtrise du comportement d'un modèle d'IA appris sont des défis complexes. De nombreuses recherches sont en cours pour développer des méthodes et des outils dans ce domaine, mais beaucoup reste à faire. Le partage par les praticiens des incidents et comportements inattendus qu'ils rencontrent contribue faire progresser la communauté.
 
 </details>
 
@@ -814,26 +813,26 @@ Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il e
 
 **[Utilisation des modèles]**
 
-Un modèle prédictif peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles prédictifs auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+Un modèle d'IA peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
 
 ---
 
-Q5.1 : **Utilisation de modèles prédictifs pour son propre compte**  
-Si votre organisation utilise pour son propre compte des modèles prédictifs :
+Q5.1 : **Utilisation de modèles d'IA pour son propre compte**  
+Si votre organisation utilise pour son propre compte des modèles d'IA :
 
 R5.1 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
 
-- [ ] 5.1.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte | _(Concerné / Non concerné)_
-- [ ] 5.1.b **Un registre des modèles prédictifs** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
+- [ ] 5.1.a Notre organisation n'utilise pas de modèles d'IA élaborés par apprentissage automatique pour son propre compte | _(Concerné / Non concerné)_
+- [ ] 5.1.b **Un registre des modèles d'IA** identifie tous les modèles utilisés par l'organisation, nous le maintenons à jour
 - [ ] 5.1.c Pour chaque modèle nous disposons d'un **responsable point de contact** défini, identifiable et contactable simplement
 - [ ] 5.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
-- [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles prédictifs et peuvent déclencher des alertes directement auprès de l'équipe responsable
+- [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles d'IA et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
 - [ ] 5.1.g Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
 - [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
@@ -848,16 +847,16 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 ---
 
-Q5.2 : **Développement de modèles prédictifs pour le compte de tiers**  
-Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles prédictifs :
+Q5.2 : **Développement de modèles d'IA pour le compte de tiers**  
+Si votre organisation fournit à ses clients ou à des tiers, ou opère pour le compte de tiers des applications basées sur des modèles d'IA :
 
 R5.2 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
 
-- [ ] 5.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles prédictifs élaborés par apprentissage automatique | _(Concerné / Non concerné)_
-- [ ] 5.2.b **Un registre des modèles prédictifs** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
+- [ ] 5.2.a Notre organisation ne fournit pas à ses clients ou des tiers, et n'opère pas pour le compte de tiers d'application basée sur des modèles d'IA élaborés par apprentissage automatique | _(Concerné / Non concerné)_
+- [ ] 5.2.b **Un registre des modèles d'IA** identifie tous les modèles ou applications utilisés par ses clients et/ou par l'organisation pour le compte de tiers, nous le maintenons à jour
 - [ ] 5.2.c Pour chaque modèle ou application pour un client ou un tiers nous disposons d'un **responsable point de contact** défini, identifiable et joignable simplement
 - [ ] 5.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
 - [ ] 5.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
@@ -876,12 +875,12 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 ---
 
 Q5.3 : **Gestion des prédictions problématiques, processus de contournement, _human agency_**  
-Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles élaborés par apprentissage automatique, sont utilisés en production généralement pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
+Les systèmes automatiques, en particulier lorsqu'ils s'appuient sur des modèles d'IA, sont utilisés en production généralement pour gagner en efficacité. Il se trouve que par nature, ils génèrent de temps en temps des résultats non souhaitables pour l'organisation et ses parties prenantes (e.g. prédiction erronée), puisqu'ils ne généraliseront jamais une performance de 100%.
 
 R5.3 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
-_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
 
 - [ ] 5.3.a Notre organisation n'utilise pas de modèles d'IA pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles d'IA | _(Concerné / Non concerné)_
 - [ ] 5.3.b Nous implémentons des modèles d'IA dans des systèmes automatiques intégrés, sans mécanismes permettant de pallier à ou d'éviter des résultats non souhaitables dûs aux prédictions des modèles
@@ -906,7 +905,7 @@ Utiliser des systèmes automatiques basés entre autres sur des modèles dont le
 ---
 
 Q5.4 : **Explicabilité et interprétabilité**  
-Au sein des projets de data science qui visent à élaborer des modèles prédictifs :
+Au sein des projets de data science qui visent à élaborer des modèles d'IA :
 
 R5.4 :  
 _(Type : réponses multiples possibles)_  
@@ -941,18 +940,18 @@ Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied d
 
 ---
 
-Q5.5 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle prédictif appris**  
-Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles prédictifs, avec lesquels sont à même d'interagir des utilisateurs. Que met-elle en place pour en informer les utilisateurs ?
+Q5.5 : **Transparence vis-à-vis des parties prenantes interagissant avec un modèle d'IA appris**  
+Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles d'IA, avec lesquels sont à même d'interagir des utilisateurs. Que met-elle en place pour en informer les utilisateurs ?
 
 R5.5 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : utilisation de modèles prédictifs pour son propre compte, fourniture et opération de modèles prédictifs à ses clients ou à des tiers)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
 
-- [ ] 5.5.a Notre organisation n'utilise pas de modèles prédictifs élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles prédictifs | _(Concerné / Non concerné)_
-- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle prédictif élaboré par apprentissage automatique
+- [ ] 5.5.a Notre organisation n'utilise pas de modèles d'IA élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles d'IA | _(Concerné / Non concerné)_
+- [ ] 5.5.b Les utilisateurs ne sont pas informés qu'ils interagissent avec un modèle d'IA élaboré par apprentissage automatique
 - [ ] 5.5.c Une notice d'information est mise à disposition dans les conditions générales d'utilisation du système ou un document équivalent, en libre accès
-- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle prédictif est utilisé
+- [ ] 5.5.d Le système ou le service est explicite vis-à-vis de l'utilisateur quant au fait qu'un modèle d'IA est utilisé
 - [ ] 5.5.e Le système ou le service propose à l'utilisateur des informations supplémentaires sur les résultats qu'il aurait fourni dans des cas de figure légèrement différents (par exemple des "explications contrefactuelles" comme le plus petit changement dans les données d'entrée qui aurait permis d'arriver à une sortie donnée)
 - [ ] 5.5.f Nous sommes pionniers dans l'utilisation de registres publics pour les modèles d'IA, qui nous permettent de fournir de la transparence à nos parties prenantes et également de capter des retours utilisateurs
 
@@ -980,7 +979,7 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 
 **[Externalités négatives]**
 
-La mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, suivre et minimiser les différents impacts négatifs.
+La mise en place d'un système automatique basé sur un modèle d'IA peut générer des externalités négatives sociales et environnementales. En prendre conscience est indispensable, ainsi qu'anticiper, suivre et minimiser les différents impacts négatifs.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]
 
@@ -993,7 +992,7 @@ R6.1 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles prédictifs
+- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles d'IA
 - [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de l'impact CO2 de notre activité data science ou de nos modèles
 - [ ] 6.1.c Nous mesurons nos indicateurs régulièrement
 - [ ] 6.1.d Nous incluons leurs mesures dans les cartes d'identité des modèles
@@ -1027,13 +1026,13 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 ---
 
 Q6.2 : **Impact social**  
-Dans certains cas, la mise en place d'un système automatique basé sur un modèle prédictif peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle prédictif, votre organisation :
+Dans certains cas, la mise en place d'un système automatique basé sur un modèle d'IA peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle d'IA, votre organisation :
 
 R6.2 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 6.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles prédictifs
+- [ ] 6.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles d'IA
 - [ ] 6.2.b Dans certains cas nous nous interrogeons sur l'impact social
 - [ ] 6.2.c Nous menons ce travail de réflexion sur l'impact social à chaque projet
 - [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle
