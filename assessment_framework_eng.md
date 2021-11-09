@@ -117,7 +117,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl1.4 :</summary>
 
-In many sectors there are specific compliance requirements. It is generally possible to formalise an organisation's compliance through certification or a specialised audit, or by obtaining a label.
+In many sectors there are specific compliance requirements. It is generally possible to formalise an organisation's compliance through certification or a specialised audit, or by obtaining a label (e.g. AFAQ "Protection des données personnelles", ISO 27701).
 
 </details>
 
@@ -174,7 +174,7 @@ The *Privacy Impact Assessment* (PIA) is a method for assessing the impact of a 
 
 Q1.7 : **Machine Learning security - Knowledge level**  
 _(Condition: R1.5 <> 1.5.a)_  
-Machine Learning security (_ML security_) is a constantly evolving field. In some cases, predictive models learned from confidential data may reveal elements of that confidential data (see articles cited in resources). Within your organisation, the general level of knowledge of collaborators working on data science projects about vulnerabilities related to ML models and the techniques to mitigate them is:
+Machine Learning security (_ML security_) is a constantly evolving field. In some cases, AI models learned from confidential data may reveal elements of that confidential data (see articles cited in resources). Within your organisation, the general level of knowledge of collaborators working on data science projects about vulnerabilities related to ML models and the techniques to mitigate them is:
 
 R1.7 :  
 _(Type: single answer)_  
@@ -268,7 +268,7 @@ _(Type: multiple responses possible)_
 _(Select all the answer items that correspond to practices in your organisation)_
 
 - [ ] 1.9.a We have a process describing the course of action in such cases
-- [ ] 1.9.b Our process includes communication to the stakeholders in question
+- [ ] 1.9.b Our process includes communication to the stakeholders in question of whom we have contact details
 - [ ] 1.9.c Our process references the authorities to whom we must report
 - [ ] 1.9.d We have not yet put in place a procedure for such cases
 
@@ -286,7 +286,7 @@ In some sectors there are obligations to report safety incidents to the regulato
 
 **[Biases and discrimination]**
 
-The use of predictive models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
+The use of AI models learned from historical data can be counterproductive when historical data are contaminated by problematic phenomena (e.g. quality of certain data points, non-comparable data, social phenomena undesirable due to the time period, etc.). A key challenge for responsible and trustworthy data science is to respect the principle of diversity, non-discrimination and equity (described for example in section 1.5 of the EU [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419)). It is therefore essential to question this risk and to study the nature of the data used, the conditions under which they were produced and collected, and what they represent.
 Among other things, in some cases a specification of the equity sought between populations must also be defined. The equity of a model can [be defined in several ways that may be inconsistent with each other](https://papers.nips.cc/paper/6995-counterfactual-fairness), and the interpretation of performance scores must therefore be made within the framework of one of these definitions.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
@@ -323,44 +323,45 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 ---
 
-Q2.2 : **Risk of discrimination against certain social groups**  
-Is your organisation involved in cases where predictive models are used in thematic environments where there are risks of discrimination against certain social groups (gender, origin, age, etc.)? (The next assessment element is dedicated to these cases):
+Q2.2 : **Evaluation of the risk of discrimination against certain social groups**  
+In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
 
 R2.2 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.2.a Concerned
-- [ ] 2.2.b Not concerned
+- [ ] 2.2.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
+- [ ] 2.2.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.2.c Has a documented approach that is systematically implemented to evaluate this type of risk
+
 
 <details>
 <summary>Expl2.2 :</summary>
 
 Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
+In certain cases it is obvious if this risk has to be considered or not (e.g. projects on behavioral data on a population of users or customers, vs. projects on oceanographic or astronomical data), whereas in some cases it might be less obvious. It is therefore important to consider the question for each project.
 
 </details>
 
 ---
 
-_The following items within this section apply only to organisations that have selected the "Concerned" response in R2.2. Organisations not involved are therefore invited to move on to [Section 3](#section-3---assessing-model-performance-rigorously)._
-
----
-
 Q2.3 : **Preventing discriminatory bias**  
 _(Condition: R2.2 <> 2.2.b)_  
-In cases where the predictive models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
+In cases where the AI models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
 
 R2.3 :  
 _(Type: multiple responses possible)_  
-_(Select all the answer items that correspond to practices in your organisation)_
+_(Select all the answer items that correspond to practices in your organisation)_  
+_(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.3.a We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
-- [ ] 2.3.b We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
-- [ ] 2.3.c We select and implement one or more justice and equity measure(s) (_fairness metrics_)
-- [ ] 2.3.d We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
-- [ ] 2.3.e The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
-- [ ] 2.3.f We have not yet put in place any such measures
+- [ ] 2.3.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.3.b We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
+- [ ] 2.3.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
+- [ ] 2.3.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
+- [ ] 2.3.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
+- [ ] 2.3.f The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
+- [ ] 2.3.g We have not yet put in place any such measures
 
 <details>
 <summary>Expl2.3 :</summary>
@@ -393,12 +394,14 @@ Recent work has shown the role that modeling and learning choices can play in th
 
 R2.4 :  
 _(Type: single answer)_  
-_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
+_(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.4.a Complete beginner
-- [ ] 2.4.b Basic
-- [ ] 2.4.c Confirmed
-- [ ] 2.4.d Expert
+- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.4.b Complete beginner
+- [ ] 2.4.c Basic
+- [ ] 2.4.d Confirmed
+- [ ] 2.4.e Expert
 
 <details>
 <summary>Expl2.4 :</summary>
@@ -500,7 +503,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl3.3 :</summary>
 
-The use of predictive models that have been validated and tested on historical data can be counterproductive when the historical data in question is contaminated by problematic phenomena. It seems essential to question this risk and to study the nature of the data used, the conditions under which they were produced and assembled, and what they represent.
+The use of AI models that have been validated and tested on historical data can be counterproductive when the historical data in question is contaminated by problematic phenomena. It seems essential to question this risk and to study the nature of the data used, the conditions under which they were produced and assembled, and what they represent.
 
 </details>
 
@@ -540,12 +543,12 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 ---
 
 Q3.5 : **Monitoring model performance over time**  
-In cases where predictive models developed by your organisation are used in production systems:
+In cases where AI models developed by your organisation are used in production systems:
 
 R3.5 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_  
-_(Specific risk domain: use of predictive models in production systems)_
+_(Specific risk domain: use of AI models in production systems)_
 
 - [ ] 3.5.a The models we develop are not used in production systems | _(Concerned / Not concerned)_
 - [ ] 3.5.b Performance is systematically re-evaluated when the model is updated
@@ -617,7 +620,7 @@ _(Specific risk domain: external communication on the performance of AI systems)
 <details>
 <summary>Expl3.7 :</summary>
 
-Developing a predictive model, and determining a meaningful and reliable benchmark performance measure, is a complex challenge. It is therefore often difficult for an organisation to assert that it has achieved excellent results and to claim them with certainty. Where possible, however, it may be even more difficult to make evidence publicly available without revealing valuable information about the organisation's intellectual property and the value of the work carried out. In such cases, it is recommended to have an audit carried out by an independent third party (e.g. security, privacy, fairness, reliability...), in order to secure the results the organisation wishes to claim.
+Developing an AI model, and determining a meaningful and reliable benchmark performance measure, is a complex challenge. It is therefore often difficult for an organisation to assert that it has achieved excellent results and to claim them with certainty. Where possible, however, it may be even more difficult to make evidence publicly available without revealing valuable information about the organisation's intellectual property and the value of the work carried out. In such cases, it is recommended to have an audit carried out by an independent third party (e.g. security, privacy, fairness, reliability...), in order to secure the results the organisation wishes to claim.
 
 </details>
 
@@ -635,7 +638,7 @@ Developing a predictive model, and determining a meaningful and reliable benchma
 
 **[Model documentation]**
 
-A predictive model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genealogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
+An AI model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genealogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 [_[⇩ next section](#section-5---using-models-responsibly-and-in-confidence)_]
@@ -643,7 +646,7 @@ A predictive model is a complex object that can evolve over time. Tracing the st
 ---
 
 Q4.1 : **"End-to-end genealogy" of ML models**  
-Ensuring the traceability of all steps of the development of a predictive model enables building up a form of **genealogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
+Ensuring the traceability of all steps of the development of an AI model enables building up a form of **genealogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
 
 R4.1 :  
 _(Type: single answer)_  
@@ -657,7 +660,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl4.1 :</summary>
 
-This concept of the "end-to-end genealogy" of a learned predictive model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
+This concept of the "end-to-end genealogy" of a learned AI model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
 
 </details>
 
@@ -700,7 +703,7 @@ The aim is to make explicit and add to the model the description of the context 
 - (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, January 2019
 - (Web article) [Model Cards](https://modelcards.withgoogle.com/about) from Google is an open and scalable framework, and offers 2 examples: *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
 - (Web article) *[Model Cards for AI Model Transparency](https://blog.einstein.ai/model-cards-for-ai-model-transparency/)*, Salesforce: examples of *Model Cards* used and published by Salesforce
-- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)*, an IBM Research project to foster trust in AI by increasing transparency and enabling governance: *Increased transparency provides information for AI consumers to better understand how the AI model or service was created. This allows a consumer of the model to determine if it is appropriate for their situation. AI Governance enables an enterprise to specify and enforce policies describing how an AI model or service should be constructed and deployed.*
+- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)*, an IBM Research project to foster trust in AI by increasing transparency and enabling governance: *Increased transparency provides information for AI consumers to better understand how an AI model or service was created. This allows a consumer of the model to determine if it is appropriate for their situation. AI Governance enables an enterprise to specify and enforce policies describing how an AI model or service should be constructed and deployed.*
 
 </details>
 
@@ -721,7 +724,7 @@ _(Select all response items that correspond to practices in your organisation. P
 <details>
 <summary>Expl4.3 :</summary>
 
-Understanding or even mastering the behaviour of a learned predictive model is a complex challenge. Lots of research is being done to develop methods and tools in this area, but much remains to be done. The sharing by practitioners of the unexpected incidents and behaviours they encounter contributes to the progress of the community.
+Understanding or even mastering the behaviour of a learned AI model is a complex challenge. Lots of research is being done to develop methods and tools in this area, but much remains to be done. The sharing by practitioners of the unexpected incidents and behaviours they encounter contributes to the progress of the community.
 
 </details>
 
@@ -814,26 +817,26 @@ When several partners work together to develop a model, it is important that the
 
 **[Using the models]**
 
-A predictive model can be used as an automatic system, whose rules or criteria are not written _in extenso_ and are difficult to explain, discuss or adjust. Using automatic systems based on predictive models whose rules have been "learned" (and not defined and formalised) therefore questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those predictive models, particularly in dealing with situations where predictive models have led to an undesirable outcome for the organisation or its stakeholders. In addition, efforts are therefore needed on the interpretation and explanation of the choices made using these systems.
+An AI model can be used as an automatic system, whose rules or criteria are not written _in extenso_ and are difficult to explain, discuss or adjust. Using automatic systems based on AI models whose rules have been "learned" (and not defined and formalised) therefore questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those AI models, particularly in dealing with situations where AI models have led to an undesirable outcome for the organisation or its stakeholders. In addition, efforts are therefore needed on the interpretation and explanation of the choices made using these systems.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 [_[⇩ next section](#section-6---anticipating-monitoring-and-minimising-the-negative-externalities-of-data-science-activities)_]
 
 ---
 
-Q5.1 : **Exploitation of predictive models for one's own account**  
-If your organisation uses predictive models on its own behalf:
+Q5.1 : **Exploitation of AI models for one's own account**  
+If your organisation uses AI models on its own behalf:
 
 R5.1 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_  
-_(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
 
 - [ ] 5.1.a Our organisation does not use ML models on its own behalf | _(Concerned / Not concerned)_
-- [ ] 5.1.b **A predictive models register** identifies all the models used by the organisation and is kept up-to-date
+- [ ] 5.1.b **An AI models register** identifies all the models used by the organisation and is kept up-to-date
 - [ ] 5.1.c For each model there is an **owner** defined, identifiable and easily contactable
 - [ ] 5.1.d For each model, we systematically carry out a **risk assessment** following any incidents, failures or biases
-- [ ] 5.1.e Monitoring tools are put in place to ensure continuous monitoring of systems based on predictive models and can trigger alerts directly to the team in charge
+- [ ] 5.1.e Monitoring tools are put in place to ensure continuous monitoring of systems based on AI models and can trigger alerts directly to the team in charge
 - [ ] 5.1.f For each model, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
 - [ ] 5.1.g For each model, we study its entire genealogy (all the steps and choices that led to its development and evaluation), as well as its conditions and limits of validity, in order to understand the model before using it
 - [ ] 5.1.h We always use the models for **uses in accordance with their conditions and limits of validity**
@@ -848,16 +851,16 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 ---
 
-Q5.2 : **Development of predictive models on behalf of third parties**  
-If your organisation provides or operates predictive model-based applications to customers or third parties:
+Q5.2 : **Development of AI models on behalf of third parties**  
+If your organisation provides or operates AI model-based applications to customers or third parties:
 
 R5.2 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_  
-_(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
 
 - [ ] 5.2.a Our organisation does not provide its customers or third parties, nor does it operates on behalf of third parties, with applications based on ML models | _(Concerned / Not concerned)_
-- [ ] 5.2.b **A predictive models register** identifies all models or applications used by its customers and/or by the organisation on behalf of third parties, and is kept up-to-date
+- [ ] 5.2.b **An AI models register** identifies all models or applications used by its customers and/or by the organisation on behalf of third parties, and is kept up-to-date
 - [ ] 5.2.c For each model or application for a customer or a third party we have a defined, identifiable and easily reachable **owner**
 - [ ] 5.2.d For each model or application for a customer or a third party, we systematically carry out a **risk assessment** resulting from possible incidents, failures, biases, etc., in order to identify the risks involved
 - [ ] 5.2.e Monitoring tools are in place to ensure continuous monitoring of ML systems and can trigger alerts directly to the responsible team
@@ -881,7 +884,7 @@ Automatic systems, especially when based on AI models, are used in production ge
 R5.3 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
-_(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
 
 - [ ] 5.3.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
 - [ ] 5.3.b We implement AI models in integrated automatic systems, without mechanisms to overcome or avoid undesirable results due to model predictions
@@ -906,14 +909,14 @@ Using automatic systems based on models whose rules have been "learned" (and not
 ---
 
 Q5.4 : **Explicability and interpretability**  
-Within data science projects aiming at developing predictive models:
+Within data science projects aiming at developing AI models:
 
 R5.4 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 5.4.a Our organisation is not yet familiar with the methods and tools for explaining and interpreting predictive models
-- [ ] 5.4.b We are interested in the explicability and interpretability of predictive models and are in dialogue with our stakeholders on this subject
+- [ ] 5.4.a Our organisation is not yet familiar with the methods and tools for explaining and interpreting AI models
+- [ ] 5.4.b We are interested in the explicability and interpretability of AI models and are in dialogue with our stakeholders on this subject
 - [ ] 5.4.c We ensure that the models we develop provide, when relevant, at least a level of confidence together with each prediction made
 - [ ] 5.4.d We determine the best compromises between performance and interpretability for each model we develop, which sometimes leads us to opt for a model that is simpler to explain to the stakeholders
 - [ ] 5.4.e We master and implement advanced approaches for the explicability and interpretability of models
@@ -941,18 +944,18 @@ Technical resources such as SHAP or LIME provide a first-hand introduction to th
 
 ---
 
-Q5.5 : **Transparency towards stakeholders interacting with a predictive model**  
-Your organisation uses for its own account, provides to its customers or operates on behalf of its customers applications based on predictive models with which users can interact. What measure does it implement to inform users?
+Q5.5 : **Transparency towards stakeholders interacting with an AI model**  
+Your organisation uses for its own account, provides to its customers or operates on behalf of its customers applications based on AI models with which users can interact. What measure does it implement to inform users?
 
 R5.5 :  
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_  
-_(Specific risk domain: use of predictive models, provision or operation of predictive model-based applications for customers or third parties)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
 
-- [ ] 5.5.a Our organisation does not use predictive models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on predictive models | _(Concerned / Not concerned)_
-- [ ] 5.5.b Users are not informed that they are interacting with a predictive model developed with machine learning methods
+- [ ] 5.5.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.5.b Users are not informed that they are interacting with an AI model developed with machine learning methods
 - [ ] 5.5.c An information notice is made available in the terms and conditions of the system or an equivalent document, freely accessible
-- [ ] 5.5.d The system or service is explicit to the user that a predictive model is being used
+- [ ] 5.5.d The system or service is explicit to the user that an AI model is being used
 - [ ] 5.5.e The system or service provides the user with additional information on the results it would have provided in slightly different scenarios (e.g. "counterfactual explanations" such as the smallest change in input data that would have resulted in a given different output)
 - [ ] 5.5.f We are pionneers in using public AI registers, enabling us to provide transparency to our stakeholders and to capture user feedbacks
 
@@ -980,7 +983,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 
 **[Negative externalities]**
 
-The implementation of an automatic system based on a predictive model can generate negative social and environmental externalities. Awareness of this is essential, as well as anticipating, monitoring and minimising the various negative impacts.
+The implementation of an automatic system based on an AI model can generate negative social and environmental externalities. Awareness of this is essential, as well as anticipating, monitoring and minimising the various negative impacts.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 
@@ -993,7 +996,7 @@ R6.1 :
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our predictive models
+- [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our AI models
 - [ ] 6.1.b We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
 - [ ] 6.1.c We measure our indicators regularly
 - [ ] 6.1.d We include their measurements in the model identity cards
@@ -1027,13 +1030,13 @@ It is important to question and raise awareness of environmental costs. In parti
 ---
 
 Q6.2 : **Social impact**
-In some cases, the implementation of an automatic system based on a predictive model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use a predictive model, your organisation:
+In some cases, the implementation of an automatic system based on an AI model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use an AI model, your organisation:
 
 R6.2 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
 
-- [ ] 6.2.a At this stage we are not looking at the social impact of our data science activity or our predictive models
+- [ ] 6.2.a At this stage we are not looking at the social impact of our data science activity or our AI models
 - [ ] 6.2.b In some cases we study the social impact
 - [ ] 6.2.c We study the social impact in each project
 - [ ] 6.2.d We study the social impact in each project and it is documented in the end-to-end genealogy of each model
