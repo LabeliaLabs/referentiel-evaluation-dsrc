@@ -680,8 +680,8 @@ R4.2 :
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
 
-- [ ] 4.2.a Ne sont pas documentées
-- [ ] 4.2.b Sont explicitées et documentées
+- [ ] 4.2.a Ne sont pas documentées systématiquement, cela dépend de la pratique de chaque collaborateur impliqué
+- [ ] 4.2.b Sont explicitées et documentées systématiquement
 - [ ] 4.2.c Sont versionnées
 - [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
 - [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie

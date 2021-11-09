@@ -684,8 +684,8 @@ R4.2 :
 _(Type: multiple responses possible)_  
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
-- [ ] 4.2.a Are not documented
-- [ ] 4.2.b Are explicited and documented
+- [ ] 4.2.a Are not documented systematically, it relies on the practices of each collaborator involved
+- [ ] 4.2.b Are systematically explicited and documented
 - [ ] 4.2.c Are versioned
 - [ ] 4.2.d Contain a description of the risks involved in using the model outside its "conditions and limits of validity"
 - [ ] 4.2.e The documents presenting these "conditions and limits of validity" systematically accompany the models throughout their life cycle
