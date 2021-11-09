@@ -990,18 +990,20 @@ Q6.1 : **CO2 impact**
 About the CO2 impact of the data science activity in your organisation:
 
 R6.1 :  
-_(Type: single answer)_  
-_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Type: multiple responses possible)_  
+_(Select all the answer items that correspond to practices in your organisation)_
 
 - [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our predictive models
-- [ ] 6.1.b We have developed indicators that define what we want to measure
-- [ ] 6.1.c We measure our indicators regularly and include their measurements in the end-to-end genealogies of the models
-- [ ] 6.1.d Monitoring our indicators on a regular basis is a formalised and controlled process, from which we set ourselves improvement objectives
+- [ ] 6.1.b We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
+- [ ] 6.1.c We measure our indicators regularly
+- [ ] 6.1.d We include their measurements in the model identity cards
+- [ ] 6.1.e Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
+- [ ] 6.1.f The CO2 impact of our data science activity or our models is made transparent to our counterparts and the general public
 
 <details>
 <summary>Expl6.1 :</summary>
 
-It is important to question and raise awareness of environmental costs.
+It is important to question and raise awareness of environmental costs. In particular one can: (i) measure the environmental cost of data science projects, (ii) publish transparently their environmental impact, expliciting the split between train and production phases, (iii) improve on these indicators by working on different levers (e.g. infrastructure, model architecture, transfer learning, etc.).
 
 </details>
 
@@ -1009,7 +1011,16 @@ It is important to question and raise awareness of environmental costs.
 <summary>Ressources6.1 :</summary>
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
-- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: a Python library to estimate the amount of CO2 produced by computing resources used to execute code
+- (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: python library for evaluation the carbon cost of executing a script
+- (Web article) (In French) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut and Grégoire Martinon, May 2021
+- (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
+- (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
+- (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
+- (Academic paper) *[Energy and Policy Considerations for Deep Learning in NLP](https://aclanthology.org/P19-1355/)*, E. Strubell et al. 2019
+- (Public declaration) (In French) *[DÉPLOYER LA SOBRIÉTÉ NUMÉRIQUE](https://theshiftproject.org/article/deployer-la-sobriete-numerique-rapport-shift/)*, The Shift Project, 2020
+- (Web article) *[How to stop data centres from gobbling up the world’s electricity](https://www.nature.com/articles/d41586-018-06610-y)*, Nicolas Jones, 2018
+- (Web article) *[AI and Climate Change: How they’re connected, and what we can do about it](https://medium.com/@AINowInstitute/ai-and-climate-change-how-theyre-connected-and-what-we-can-do-about-it-6aa8d0f5b32c)*, AI Now Institute, 2019
+- (Academic paper) *[The role of artificial intelligence in achieving the Sustainable Development Goals](https://www.nature.com/articles/s41467-019-14108-y)*, S. Vinuesa et al. 2020
 
 </details>
 
