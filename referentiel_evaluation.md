@@ -6,25 +6,27 @@ Dernière mise à jour : 2nd semestre 2021.
 
 ## Référentiel d'évaluation de la maturité d'une organisation
 
-L'évaluation est composée des 6 sections suivantes :
+L'évaluation est composée des 6 sections suivantes, regroupées en 2 types de section :
 
-- [Section 1 - Protéger les données personnelles ou confidentielles](#section-1---protéger-les-données-personnelles-ou-confidentielles)
-- [Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)
-- [Section 3 - Évaluer la performance de manière rigoureuse](#section-3---evaluer-la-performance-de-manière-rigoureuse)
-- [Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)
-- [Section 5 - Utiliser des modèles en confiance et de manière responsable](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)
-- [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
+- Activités du data scientist :
+  - [Section 1 - Collecter, préparer et protéger les données](#section-1---collecter-préparer-et-protéger-les-données)
+  - [Section 2 - Elaborer, entraîner et évaluer les modèles](#section-2---élaborer-entraîner-et-évaluer-les-modèles)
+  - [Section 3 - Déployer et superviser les modèles](#section-3---déployer-et-superviser-les-modèles)
+- Organisation, processus et externalités :
+  - [Section 4 - Organiser la gouvernance et les processus internes](#section-4---organiser-la-gouvernance-et-les-processus-internes)
+  - [Section 5 - Organiser la gouvernance et les processus avec les parties prenantes externes](#section-5---organiser-la-gouvernance-et-les-processus-avec-les-parties-prenantes-externes)
+  - [Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)
 
 ---
 
-### Section 1 - Protéger les données à caractère personnel ou confidentielles
+### Section 1 - Collecter, préparer et protéger les données
 
-**[Protection des données]**
+**[Les données]**
 
 L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)_]
+[_[⇩ prochaine section](#section-2---élaborer-entraîner-et-évaluer-les-modèles)_]
 
 ---
 
@@ -82,47 +84,6 @@ Il s'agit de s'interroger sur la gestion des données personnelles ou confidenti
 
 ---
 
-Q1.3 : **Veille réglementaire**  
-Un processus de veille réglementaire est-il mis en place, en interne ou via un prestataire spécialisé, pour connaître les évolutions applicables et impactantes pour votre organisation ?
-
-R1.3 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
-
-- [ ] 1.3.a Nous ne faisons pas vraiment de veille réglementaire
-- [ ] 1.3.b Nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
-- [ ] 1.3.c Nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
-
-<details>
-<summary>Expl1.3 :</summary>
-
-Au-delà de l'identification des réglementations et des approches de mise en conformité, il est important de mettre en place des processus de veille pour connaître et suivre **l'évolution** des réglementations applicables (qui peuvent être très spécifiques dans certains secteurs). Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
-
-</details>
-
----
-
-Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
-La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un label ou équivalent ?
-
-R1.4 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
-
-- [ ] 1.4.a Oui
-- [ ] 1.4.b Non
-- [ ] 1.4.c Pas encore, nous préparons actuellement l'audit ou la certification de la conformité de notre organisation aux exigences relatives aux données personnelles et confidentielles
-- [ ] 1.4.d Pas au niveau de l'organisation, mais c'est en revanche le cas pour un projet au moins
-
-<details>
-<summary>Expl1.4 :</summary>
-
-Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification, un audit spécialisé ou l'obtention d'un label (par exemple : AFAQ Protection des données personnelles, ISO 27701).
-
-</details>
-
----
-
 Q1.5 : **Principe de minimisation**  
 Dans le cadre des projets de data science, le principe de minimisation doit guider la collecte et l'utilisation de données personnelles ou confidentielles. Comment est-il mis en oeuvre au sein de votre organisation ?
 
@@ -172,128 +133,6 @@ Le *Privacy Impact Assessment* (PIA) est une méthode d'évaluation de l'impact 
 
 ---
 
-Q1.7 : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
-_(Condition : R1.5 <> 1.5.a)_  
-La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèle d'IA appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
-
-R1.7 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
-
-- [ ] 1.7.a Complètement débutant
-- [ ] 1.7.b Basique
-- [ ] 1.7.c Confirmé
-- [ ] 1.7.d Expert
-
-<details>
-<summary>Expl1.7 :</summary>
-
-L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
-
-</details>
-
-<details>
-<summary>Ressources1.7 :</summary>
-
-- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
-- (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
-- (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
-- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
-- (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
-- (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
-- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
-- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
-- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
-- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
-- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
-- (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
-- (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, article de blog Labelia Labs (ex- Substra Foundation) pour présenter les approches de distillation, Gijs Barmentlo, 2020
-- (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, Mars 2021 : exposition d'une vulnérabilité des modèles de ML utilisant *pickle* pour le stockage d'objets
-
-</details>
-
----
-
-Q1.8 : **Sécurité de l'apprentissage automatique - Mise en oeuvre**  
-_(Condition : R1.5 <> 1.5.a)_  
-Toujours au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir :
-
-R1.8 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
-
-- [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
-- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
-- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
-- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
-- [ ] 1.8.e Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
-
-<details>
-<summary>Expl1.8 :</summary>
-
-L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
-
-Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
-
-</details>
-
-<details>
-<summary>Ressources1.8 :</summary>
-
-- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
-- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
-- (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
-- (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
-- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
-- (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
-- (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
-- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
-- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
-- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
-- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
-- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
-- (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
-
-</details>
-
----
-
-Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
-_(Condition : R1.5 <> 1.5.a)_  
-Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
-
-R1.9 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
-
-- [ ] 1.9.a Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
-- [ ] 1.9.b Nous avons une procédure décrivant la marche à suivre
-- [ ] 1.9.c Nous avons une procédure décrivant la marche à suivre, et celle-ci référence les autorités auxquelles nous devons faire un signalement
-- [ ] 1.9.d Nous avons une procédure décrivant la marche à suivre, qui référence les autorités auxquelles nous devons faire un signalement, et qui inclut une communication aux parties prenantes dont nous disposons des coordonnées
-
-<details>
-<summary>Expl1.9 :</summary>
-
-Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Un point d'entrée intéressant : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
-
-</details>
-
----
----
-
-### Section 2 - Prévenir les biais, élaborer des modèles non discriminatoires
-
-**[Biais et discriminations]**
-
-L'utilisation de modèles d'IA élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
-Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
-
-[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-3---evaluer-la-performance-de-manière-rigoureuse)_]
-
----
-
 Q2.1 : **Analyse des données d'entraînement utilisées**  
 Au sein des projets de data science et lors de l'élaboration de jeux de données d'entraînement, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour prévenir des biais portant atteinte au principe de non-discrimination, de diversité et d'équité. Votre organisation :
 
@@ -320,6 +159,88 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 - (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis*
 
 </details>
+
+---
+
+Q3.1 : **Séparation des jeux de données de test**  
+Au sein des projets de data science et lors de l'élaboration de jeux de données de test, il est capital d'assurer la non-contamination par des données d'entraînement. Votre organisation :
+
+R3.1 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
+- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
+- [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
+
+<details>
+<summary>Expl3.1 :</summary>
+
+Assurer l'étanchéité des jeux de données d'entraînement et de test est un principe connu et maîtrisé par la plupart des organisations. Il peut se révéler délicats dans certaines configurations particulières (e.g. apprentissage continu, apprentissage distribué *privacy-preserving*...).
+
+</details>
+
+---
+
+Q3.2 : **Projets d'apprentissage distribué préservant la confidentialité**  
+Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (*distributed learning* ou *federated learning*) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (*privacy-preserving*) :
+
+R3.2 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : apprentissage distribué sur données sensibles)_
+
+- [ ] 3.2.a Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
+- [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+- [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
+
+<details>
+<summary>Expl3.2 :</summary>
+
+Dans ce type de projet d'apprentissage distribué dans des conditions où les données sont maintenues confidentielles, se pose la question de comment composer un jeu de données de test en s'assurant que celles-ci ne figurent pas aussi dans le jeu de données d'entraînement (par exemple chez un autre partenaire).
+
+</details>
+
+<details>
+<summary>Ressources3.2 :</summary>
+
+- (Academic paper) [Stratified cross-validation for unbiased and privacy-preserving federated learning](https://arxiv.org/abs/2001.08090), R. Bey, R. Goussault, M. Benchoufi, R. Porcher, Janvier 2020
+
+</details>
+
+---
+
+Q3.3 : **Analyse des données de validation et de test**  
+Au sein des projets de data science et lors de l'élaboration de jeux de données de validation ou de test, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
+
+R3.3 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 3.3.a Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
+- [ ] 3.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
+- [ ] 3.3.c Dispose d'une approche documentée et systématiquement mise en oeuvre
+
+<details>
+<summary>Expl3.3 :</summary>
+
+L'utilisation de modèles d'IA validés et testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
+
+</details>
+
+---
+---
+
+### Section 2 - Élaborer, entraîner et évaluer les modèles
+
+**[Élaborer les modèles]**
+
+L'utilisation de modèles d'IA élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
+
+[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-3---déployer-et-superviser-les-modèles)_]
 
 ---
 
@@ -423,83 +344,89 @@ Ces sujets étant très techniques, encore peu diffusés et connus des praticien
 </details>
 
 ---
----
 
-### Section 3 - Évaluer la performance de manière rigoureuse
+Q1.7 : **Sécurité de l'apprentissage automatique - Niveau de connaissance**  
+_(Condition : R1.5 <> 1.5.a)_  
+La sécurité de l'apprentissage automatique (_ML security_) est un domaine en constante évolution. Dans certains cas de figure, les modèle d'IA appris sur des données confidentielles peuvent révéler des éléments de ces données confidentielles (cf. articles cités en ressources). Au sein de votre organisation, au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir, le niveau de connaissance générale des collaborateurs intervenant sur les projets de data science est :
 
-**[Évaluation des performances]**
-
-Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
-
-[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-4---assurer-la-reproductibilité-des-modèles-et-en-établir-la-chaîne-de-responsabilité)_]
-
----
-
-Q3.1 : **Séparation des jeux de données de test**  
-Au sein des projets de data science et lors de l'élaboration de jeux de données de test, il est capital d'assurer la non-contamination par des données d'entraînement. Votre organisation :
-
-R3.1 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
-
-- [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
-- [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
-- [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
-
-<details>
-<summary>Expl3.1 :</summary>
-
-Assurer l'étanchéité des jeux de données d'entraînement et de test est un principe connu et maîtrisé par la plupart des organisations. Il peut se révéler délicats dans certaines configurations particulières (e.g. apprentissage continu, apprentissage distribué *privacy-preserving*...).
-
-</details>
-
----
-
-Q3.2 : **Projets d'apprentissage distribué préservant la confidentialité**  
-Dans les cas de figure de projets de data science basé sur l'apprentissage distribué ou fédéré (*distributed learning* ou *federated learning*) sur des jeux de données multiples et dont la confidentialité doit être préservée vis-à-vis des autres (*privacy-preserving*) :
-
-R3.2 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
-_(Domaine de risque spécifique : apprentissage distribué sur données sensibles)_
-
-- [ ] 3.2.a Nous ne participons pas à des projets d'apprentissage distribué *privacy-preserving* | _(Concerné / Non concerné)_
-- [ ] 3.2.b Nous maîtrisons et mettons en oeuvre des approches permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
-- [ ] 3.2.c À ce stade nous ne maîtrisons pas les méthodes permettant d'élaborer des jeux de données de test de manière à ce qu'il n'y ait pas de contamination croisée entre données d'entraînement et de test provenant des différents partenaires
-
-<details>
-<summary>Expl3.2 :</summary>
-
-Dans ce type de projet d'apprentissage distribué dans des conditions où les données sont maintenues confidentielles, se pose la question de comment composer un jeu de données de test en s'assurant que celles-ci ne figurent pas aussi dans le jeu de données d'entraînement (par exemple chez un autre partenaire).
-
-</details>
-
-<details>
-<summary>Ressources3.2 :</summary>
-
-- (Academic paper) [Stratified cross-validation for unbiased and privacy-preserving federated learning](https://arxiv.org/abs/2001.08090), R. Bey, R. Goussault, M. Benchoufi, R. Porcher, Janvier 2020
-
-</details>
-
----
-
-Q3.3 : **Analyse des données de validation et de test**  
-Au sein des projets de data science et lors de l'élaboration de jeux de données de validation ou de test, un travail de réflexion et recherche de phénomènes problématiques (e.g. qualité de certains points de données, données non comparables du fait des outils ou processus d'enregistrement, phénomène social non souhaitable du fait de l'époque, du contexte, etc.) peut s'avérer crucial pour la signification des scores de performance. Votre organisation :
-
-R3.3 :  
+R1.7 :  
 _(Type : réponse unique)_  
 _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
 
-- [ ] 3.3.a Fonctionne de manière informelle à ce sujet et s'en remet à la pratique de chaque collaborateur impliqué
-- [ ] 3.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés aux risques et bonnes pratiques sur le sujet
-- [ ] 3.3.c Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 1.7.a Complètement débutant
+- [ ] 1.7.b Basique
+- [ ] 1.7.c Confirmé
+- [ ] 1.7.d Expert
 
 <details>
-<summary>Expl3.3 :</summary>
+<summary>Expl1.7 :</summary>
 
-L'utilisation de modèles d'IA validés et testés sur des données historiques peut se révéler contre-productive lorsque les données historiques en question sont contaminées par des phénomènes problématiques. Il apparaît indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
+L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
+
+</details>
+
+<details>
+<summary>Ressources1.7 :</summary>
+
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
+- (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
+- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
+- (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
+- (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
+- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
+- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
+- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
+- (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
+- (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, article de blog Labelia Labs (ex- Substra Foundation) pour présenter les approches de distillation, Gijs Barmentlo, 2020
+- (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, Mars 2021 : exposition d'une vulnérabilité des modèles de ML utilisant *pickle* pour le stockage d'objets
+
+</details>
+
+---
+
+Q1.8 : **Sécurité de l'apprentissage automatique - Mise en oeuvre**  
+_(Condition : R1.5 <> 1.5.a)_  
+Toujours au sujet des vulnérabilités liées aux modèles de ML et aux techniques pour s'en prémunir :
+
+R1.8 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
+
+- [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
+- [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
+- [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
+- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
+- [ ] 1.8.e Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
+
+<details>
+<summary>Expl1.8 :</summary>
+
+L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
+
+Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
+
+</details>
+
+<details>
+<summary>Ressources1.8 :</summary>
+
+- (Software & Tools) *[AI security risk assessment using Counterfit](https://www.microsoft.com/security/blog/2021/05/03/ai-security-risk-assessment-using-counterfit/)*, Microsoft, Mai 2021 : l'outil open source Counterfit permet de tester différentes attaques sur un modèle de ML pour identifier ses éventuelles vulnérabilités. [Lien](https://github.com/Azure/counterfit/) vers le dépôt GitHub
+- (Technical guide) *[Privacy Enhancing Technologies Decision Tree (v2)](http://www.private-ai.ca/PETs_Decision_Tree.svg)*, Private AI, 2020
+- (Web article) *[The secret-sharer: evaluating and testing unintended memorization in neural networks](https://blog.acolyer.org/2019/09/23/the-secret-sharer/)*, A. Colyer, 2019
+- (Academic paper) *[Membership Inference Attacks against Machine Learning Models](https://arxiv.org/abs/1610.05820)*, R. Shokri, M. Stronati, C. Song, V. Shmatikov, 2017
+- (Software & Tools) *[ML Privacy Meter](https://github.com/privacytrustlab/ml_privacy_meter): a tool to quantify the privacy risks of machine learning models with respect to inference attacks*
+- (Web article) *[Demystifying the membership inference attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39)*, Disaitek, 2019
+- (Academic paper) *[Inverting Gradients - How easy is it to break privacy in federated learning?](https://arxiv.org/abs/2003.14053)*, J. Geiping, H. Bauermeister, H. Dröge, M. Moeller, 2020
+- (Web article) *[Top Five ML risks](https://github.com/OWASP/Top-5-Machine-Learning-Risks/blob/master/Top%205%20Machine%20Learning%20Risks.md)*, OWASP
+- (Software & Tools) Outils pour la *differential privacy* : Google *[differential privacy library](https://github.com/google/differential-privacy)*, et le wrapper Python [PyDP](https://github.com/OpenMined/PyDP) d'OpenMined
+- (Software & Tools) *[OpenDP](https://opendp.org)*: *a community effort to build trustworthy, open-source software tools for statistical analysis of sensitive private data. Offers the rigorous protections of differential privacy for the individuals who may be represented in confidential data and statistically valid methods of analysis for researchers who study the data*
+- (Software & Tools) *[Opacus](https://opacus.ai/)*: *a Facebook Open Source project, to enable training PyTorch models with Differential Privacy*
+- (Web article) La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation: Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019
+- (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
 </details>
 
@@ -538,6 +465,46 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 
 ---
 
+Q3.6 : **Seuils de décision et plages d'indécision**  
+Pour la définition des seuils de décision des modèles ou des systèmes automatiques s'appuyant dessus, votre organisation :
+
+R3.6 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 3.6.a Fonctionne de manière informelle à ce sujet, selon les collaborateurs impliquées
+- [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
+- [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
+- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
+
+<details>
+<summary>Expl3.6 :</summary>
+
+L'étude et à la sélection de seuils de décisions pertinents pour un problème de data science donné (*threshold selection*) est lié aux métriques retenues. Comme le présente l'article indiqué dans les ressources de cet élément d'évaluation, il peut être intéressant dans certains cas de considérer la possibilité de définir des plages d'indécision.
+
+</details>
+
+<details>
+<summary>Ressources3.6 :</summary>
+
+- (Web article) *[Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)*, A. Saboni (Octo Technologies), April 2020
+
+</details>
+
+---
+---
+
+### Section 3 - Déployer et superviser les modèles
+
+**[Modèles en production]**
+
+Les performances des modèles sont déterminantes pour leur adoption dans des produits, systèmes ou processus. L'évaluation de la performance se doit donc d'être rigoureuse.
+
+[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-4---organiser-la-gouvernance-et-les-processus-internes)_]
+
+---
+
 Q3.5 : **Suivi de la performance dans le temps**  
 Dans les cas de figure où des modèles d'IA élaborés par votre organisation sont utilisés dans des systèmes en production :
 
@@ -573,138 +540,6 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 
 ---
 
-Q3.6 : **Seuils de décision et plages d'indécision**  
-Pour la définition des seuils de décision des modèles ou des systèmes automatiques s'appuyant dessus, votre organisation :
-
-R3.6 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
-
-- [ ] 3.6.a Fonctionne de manière informelle à ce sujet, selon les collaborateurs impliquées
-- [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
-- [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
-- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
-
-<details>
-<summary>Expl3.6 :</summary>
-
-L'étude et à la sélection de seuils de décisions pertinents pour un problème de data science donné (*threshold selection*) est lié aux métriques retenues. Comme le présente l'article indiqué dans les ressources de cet élément d'évaluation, il peut être intéressant dans certains cas de considérer la possibilité de définir des plages d'indécision.
-
-</details>
-
-<details>
-<summary>Ressources3.6 :</summary>
-
-- (Web article) *[Opening the algorithm’s black box and understand its outputs](https://medium.com/@asaboni/opening-the-algorithms-black-box-and-understand-its-outputs-e2363b0a887c)*, A. Saboni (Octo Technologies), April 2020
-
-</details>
-
----
-
-Q3.7 : **Audits par des tierces parties indépendantes et *verifiable claims***  
-Lorsque votre organisation communique sur les résultats ou la performance d'un système d'IA, et s'appuie sur de telles communications pour son développement et vis-à-vis de ses parties prenantes :
-
-R3.7 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
-_(Domaine de risque spécifique : utilisation de l'évaluation de la performance d'un système d'IA comme argument de communication et de marketing)_
-
-- [ ] 3.7.a Nous ne communiquons pas ou n'avons pas besoin de communiquer sur les résultats ou la performance de nos systèmes d'IA, et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Concerné / Non concerné)_
-- [ ] 3.7.b Nous communiquons sur les résultats ou la performance de nos sytèmes d'IA et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
-- [ ] 3.7.c Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
-
-<details>
-<summary>Expl3.7 :</summary>
-
-L'élaboration d'un modèle d'IA, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats et de s'en prévaloir avec certitude. Et lorsque cela est toutefois possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans avoir à révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de faire procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...), afin de sécuriser les résultats dont l'organisation souhaite se prévaloir.
-
-</details>
-
-<details>
-<summary>Ressources3.7 :</summary>
-
-- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2 p.8-20, Avril 2020
-
-</details>
-
----
----
-
-### Section 4 - Assurer la reproductibilité des modèles et en établir la chaîne de responsabilité
-
-**[Documentation des modèles]**
-
-Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
-
-[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)_]
-
----
-
-Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
-Tracer les étapes de l'élaboration d'un modèle permet d'en constituer une forme de **généalogie**. Au sein de votre organisation, une généalogie de bout-en-bout des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
-
-R4.1 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
-
-- [ ] 4.1.a À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
-- [ ] 4.1.b Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
-- [ ] 4.1.c Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
-- [ ] 4.1.d Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
-
-<details>
-<summary>Expl4.1 :</summary>
-
-Ce concept de "généalogie de bout-en-bout" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
-
-</details>
-
-<details>
-<summary>Ressources4.1 :</summary>
-
-- (Software & Tools) [Substra Framework](http://doc.substra.ai/): *an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations*
-- (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
-- (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
-- (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
-- (Software & Tools) [Modèle de généalogie de bout en bout](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer la généalogie de bout-en-bout d'un modèle*, 2020, Joséphine Lecoq-Vallon
-
-</details>
-
----
-
-Q4.2 : **Conditions et limites d'utilisation d'un modèle**  
-Dans le cadre des projets de data science, les "conditions et limites de validité" d'un modèle conçu, entraîné et validé par l'organisation :
-
-R4.2 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
-
-- [ ] 4.2.a Ne sont pas documentées systématiquement, cela dépend de la pratique de chaque collaborateur impliqué
-- [ ] 4.2.b Sont explicitées et documentées systématiquement
-- [ ] 4.2.c Sont versionnées
-- [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
-- [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
-
-<details>
-<summary>Expl4.2 :</summary>
-
-Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
-
-</details>
-
-<details>
-<summary>Ressources4.2 :</summary>
-
-- (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, Janvier 2019
-- (Web article) [Model Cards](https://modelcards.withgoogle.com/about) de Google est un framework ouvert et évolutif, et propose 2 exemples : *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
-- (Web article) *[Model Cards for AI Model Transparency](https://blog.einstein.ai/model-cards-for-ai-model-transparency/)*, Salesforce : exemples de *Model Cards* utilisées et publiées par Salesforce
-- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)* d'IBM Research est un projet visant à définir une méthodologie et des exemples pour cartographier et décrire un modèle et son cycle de vie.
-
-</details>
-
----
-
 Q4.3 : **Analyse et partage d'incidents**  
 Dans le cadre des projets de data science, lorsqu'un comportement inattendu d'un modèle est observé :
 
@@ -733,90 +568,6 @@ La compréhension voire la maîtrise du comportement d'un modèle d'IA appris so
 - (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2.4 p.19, Avril 2020
 
 </details>
-
----
-
-Q4.4 : **Chaîne de valeur et de responsabilités**  
-Dans le cas de figure des projets de data science où plusieurs acteurs, y compris internes à l'organisation (équipes, départements, filiales), sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
-
-R4.4 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
-
-- [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
-- [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
-- [ ] 4.4.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
-- [ ] 4.4.d Nous ne mettons pas systématiquement en place de mesure de ce type
-
-<details>
-<summary>Expl4.4 :</summary>
-
-Il est important de s'assurer que les organisations en amont et en aval de la chaîne identifient et endossent bien leurs responsabilités sur leurs segments de la chaîne de valeur.
-
-</details>
-
----
-
-Q4.5 : **Sous-traitance de tout ou partie des activités data science**  
-Les activités data science sous-traitées à une ou des organisation(s) tierce(s) sont soumises aux mêmes exigences que celles que votre organisation s'applique à elle-même :
-
-R4.5 :  
-_(Type : réponse unique)_  
-_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
-_(Domaine de risque spécifique : sous-traitance d'activités de data science)_
-
-- [ ] 4.5.a Non concerné, nous ne sous-traitons pas ces activités | _(Concerné / Non concerné)_
-- [ ] 4.5.b Oui, nos réponses à cette évaluation tiennent compte des pratiques de nos sous-traitants
-- [ ] 4.5.c Non, nos réponses à cette évaluation ne s'appliquent pas à nos sous-traitants et sur certains points il est possible qu'ils soient moins avancés que nous
-
-<details>
-<summary>Expl4.5 :</summary>
-
-Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées. Cela doit s'appliquer par exemple aux consultants, freelances qui viennent renforcer une équipe interne sur un projet de data science. Il est par exemple possible de demander aux sous-traitants de réaliser cette même évaluation pour leur propre compte et de partager avec vous leurs résultats.
-
-</details>
-
----
-
-Q4.6 : **Répartition de la création de valeur**  
-Dans les cas de figure des projets de data science où plusieurs partenaires concourent aux côtés de votre organisation à l'élaboration d'un modèle, et que celui-ci est ou sera l'objet d'une activité économique :
-
-R4.6 :  
-_(Type : réponses multiples possibles)_  
-_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
-_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
-
-- [ ] 4.6.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée | _(Concerné / Non concerné)_
-- [ ] 4.6.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires
-- [ ] 4.6.c Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
-- [ ] 4.6.d Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
-
-<details>
-<summary>Expl4.6 :</summary>
-
-Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il est important que la répartition de valeur consécutives à une activité économique dans laquelle le modèle joue un rôle soit explicitée et contractualisée. Dans certains cas de figure cette question peut être complexe, par exemple lorsqu'un modèle est entraîné de manière distribuée sur plusieurs jeux de données.
-
-</details>
-
-<details>
-<summary>Ressources4.6 :</summary>
-
-- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), un projet open source animé par [ Labelia Labs (ex- Substra Foundation)](https://www.labelia.org/)
-
-</details>
-
----
----
-
-### Section 5 - Utiliser des modèles en confiance et de manière responsable
-
-**[Utilisation des modèles]**
-
-Un modèle d'IA peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
-
-[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
-[_[⇩ prochaine section](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
 
 ---
 
@@ -935,6 +686,279 @@ Des ressources techniques comme SHAP ou LIME permettent d'entrer de plain-pied d
 - (Software & Tools) *[Shapash](https://github.com/MAIF/shapash)*: un projet open source de MAIF Datalab facilitant la prise en main et permettant de visualiser les analyses d'explicabilité et d'interprétabilité des modèles
 - (Software & Tools) *[FACET](https://github.com/BCG-Gamma/facet)*: un projet open source du BCG Gamma, *FACET is an open source library for human-explainable AI. It combines sophisticated model inspection and model-based simulation to enable better explanations of supervised machine learning models*
 - (Web article) Dans certains cas la réglementation impose de pouvoir expliquer aux personnes concernées comment fonctionne un algorithme (voir par exemple [l'article 22 du RGPD](https://www.cnil.fr/fr/reglement-europeen-protection-donnees/chapitre3#Article22), [l'article 10 de la loi Informatique et libertés](https://www.legifrance.gouv.fr/affichTexteArticle.do;?idArticle=LEGIARTI000037090394&cidTexte=LEGITEXT000006068624&dateTexte=20180624), cités notamment dans le [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/))
+
+</details>
+
+---
+---
+
+### Section 4 - Organiser la gouvernance et les processus internes
+
+**[Org. - Processus internes]**
+
+Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
+
+[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-5---organiser-la-gouvernance-et-les-processus-avec-les-parties-prenantes-externes)_]
+
+---
+
+Q1.3 : **Veille réglementaire**  
+Un processus de veille réglementaire est-il mis en place, en interne ou via un prestataire spécialisé, pour connaître les évolutions applicables et impactantes pour votre organisation ?
+
+R1.3 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 1.3.a Nous ne faisons pas vraiment de veille réglementaire
+- [ ] 1.3.b Nous faisons une veille informelle, chaque collaborateur remonte les informations sur un moyen de communication dédiée
+- [ ] 1.3.c Nous avons une veille formalisée, les responsables sont identifiés, le processus est documenté
+
+<details>
+<summary>Expl1.3 :</summary>
+
+Au-delà de l'identification des réglementations et des approches de mise en conformité, il est important de mettre en place des processus de veille pour connaître et suivre **l'évolution** des réglementations applicables (qui peuvent être très spécifiques dans certains secteurs). Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
+
+---
+
+Q1.4 : **Législation et exigences contractuelles applicables - Audit et certification**  
+La conformité de l'organisation aux exigences relatives aux données personnelles et confidentielles a-t-elle été auditée et est-elle reconnue par une certification, un label ou équivalent ?
+
+R1.4 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 1.4.a Oui
+- [ ] 1.4.b Non
+- [ ] 1.4.c Pas encore, nous préparons actuellement l'audit ou la certification de la conformité de notre organisation aux exigences relatives aux données personnelles et confidentielles
+- [ ] 1.4.d Pas au niveau de l'organisation, mais c'est en revanche le cas pour un projet au moins
+
+<details>
+<summary>Expl1.4 :</summary>
+
+Dans de nombreux secteurs il existe des exigences de conformité spécifiques. Il est généralement possible de formaliser la conformité d'une organisation par une certification, un audit spécialisé ou l'obtention d'un label (par exemple : AFAQ Protection des données personnelles, ISO 27701).
+
+</details>
+
+---
+
+Q3.7 : **Audits par des tierces parties indépendantes et *verifiable claims***  
+Lorsque votre organisation communique sur les résultats ou la performance d'un système d'IA, et s'appuie sur de telles communications pour son développement et vis-à-vis de ses parties prenantes :
+
+R3.7 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : utilisation de l'évaluation de la performance d'un système d'IA comme argument de communication et de marketing)_
+
+- [ ] 3.7.a Nous ne communiquons pas ou n'avons pas besoin de communiquer sur les résultats ou la performance de nos systèmes d'IA, et n'utilisons pas les résultats ou la performance de nos systèmes d'IA comme argument vis-à-vis de nos parties prenantes, nous ne sommes pas concernés par cet élément d'évaluation | _(Concerné / Non concerné)_
+- [ ] 3.7.b Nous communiquons sur les résultats ou la performance de nos sytèmes d'IA et nous appuyons sur ceux-ci pour notre développement sans faire auditer auparavant nos travaux par une tierce partie indépendante, sans mettre à disposition d'éléments de preuve
+- [ ] 3.7.c Nous faisons auditer nos travaux par une tierce partie indépendante, ou nous mettons à disposition des éléments de preuve, avant de communiquer sur nos résultats et de nous en prévaloir vis-à-vis de nos parties prenantes
+
+<details>
+<summary>Expl3.7 :</summary>
+
+L'élaboration d'un modèle d'IA, et la détermination d'une mesure de performance de référence, signifiante et fiable, sont des défis complexes. Il est donc souvent délicat pour une organisation d'affirmer l'obtention d'excellents résultats et de s'en prévaloir avec certitude. Et lorsque cela est toutefois possible, il peut être plus délicat encore de mettre à disposition publiquement des éléments de preuve sans avoir à révéler d'information précieuse composant la propriété intellectuelle de l'organisation et la valeur même des travaux réalisés. Dans ces cas de figure, il est recommandé de faire procéder à un audit par une tierce partie indépendante (e.g. sécurité, privacy, fairness, fiabilité...), afin de sécuriser les résultats dont l'organisation souhaite se prévaloir.
+
+</details>
+
+<details>
+<summary>Ressources3.7 :</summary>
+
+- (Academic paper) [Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims](https://arxiv.org/pdf/2004.07213.pdf), §2 p.8-20, Avril 2020
+
+</details>
+
+---
+
+Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
+Tracer les étapes de l'élaboration d'un modèle permet d'en constituer une forme de **généalogie**. Au sein de votre organisation, une généalogie de bout-en-bout des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
+
+R4.1 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 4.1.a À ce stade nous n'avons pas mis en oeuvre d'approche de ce type
+- [ ] 4.1.b Ces informations existent et sont enregistrées afin de ne pas être perdues, mais elles peuvent l'être de manière désordonnée et ne sont pas versionnées
+- [ ] 4.1.c Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle
+- [ ] 4.1.d Elles sont rassemblées en un unique document qui accompagne systématiquement le modèle et versionnées
+
+<details>
+<summary>Expl4.1 :</summary>
+
+Ce concept de "généalogie de bout-en-bout" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
+
+</details>
+
+<details>
+<summary>Ressources4.1 :</summary>
+
+- (Software & Tools) [Substra Framework](http://doc.substra.ai/): *an open source framework offering distributed orchestration of machine learning tasks among partners while guaranteeing secure and trustless traceability of all operations*
+- (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
+- (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
+- (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
+- (Software & Tools) [Modèle de généalogie de bout en bout](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer la généalogie de bout-en-bout d'un modèle*, 2020, Joséphine Lecoq-Vallon
+
+</details>
+
+---
+
+Q4.2 : **Conditions et limites d'utilisation d'un modèle**  
+Dans le cadre des projets de data science, les "conditions et limites de validité" d'un modèle conçu, entraîné et validé par l'organisation :
+
+R4.2 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_
+
+- [ ] 4.2.a Ne sont pas documentées systématiquement, cela dépend de la pratique de chaque collaborateur impliqué
+- [ ] 4.2.b Sont explicitées et documentées systématiquement
+- [ ] 4.2.c Sont versionnées
+- [ ] 4.2.d Contiennent une description des risques que présenterait une utilisation en dehors des "conditions et limites de validité"
+- [ ] 4.2.e Les documents présentant ces "conditions et limites de validité" accompagnent systématiquement les modèles tout au long de leur cycle de vie
+
+<details>
+<summary>Expl4.2 :</summary>
+
+Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
+
+</details>
+
+<details>
+<summary>Ressources4.2 :</summary>
+
+- (Academic paper) [Model Cards for Model Reporting](https://arxiv.org/abs/1810.03993), M. Mitchell, S. Wu, A. Zaldivar, P. Barnes, L. Vasserman, B. Hutchinson, E. Spitzer, I. D. Raji, T. Gebru, Janvier 2019
+- (Web article) [Model Cards](https://modelcards.withgoogle.com/about) de Google est un framework ouvert et évolutif, et propose 2 exemples : *To explore the possibilities of model cards in the real world, we've designed examples for two features of our Cloud Vision API, Face Detection and Object Detection. They provide simple overviews of both models' ideal forms of input, visualize some of their key limitations, and present basic performance metrics.*
+- (Web article) *[Model Cards for AI Model Transparency](https://blog.einstein.ai/model-cards-for-ai-model-transparency/)*, Salesforce : exemples de *Model Cards* utilisées et publiées par Salesforce
+- (Software & Tools) *[AI FactSheets 360](https://aifs360.mybluemix.net/)* d'IBM Research est un projet visant à définir une méthodologie et des exemples pour cartographier et décrire un modèle et son cycle de vie.
+
+</details>
+
+---
+
+Q4.4 : **Chaîne de valeur et de responsabilités**  
+Dans le cas de figure des projets de data science où plusieurs acteurs, y compris internes à l'organisation (équipes, départements, filiales), sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
+
+R4.4 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
+
+- [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
+- [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
+- [ ] 4.4.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
+- [ ] 4.4.d Nous ne mettons pas systématiquement en place de mesure de ce type
+
+<details>
+<summary>Expl4.4 :</summary>
+
+Il est important de s'assurer que les organisations en amont et en aval de la chaîne identifient et endossent bien leurs responsabilités sur leurs segments de la chaîne de valeur.
+
+</details>
+
+---
+---
+
+### Section 5 - Organiser la gouvernance et les processus avec les parties prenantes externes
+
+**[Org. - Parties prenantes externes]**
+
+Un modèle d'IA peut-être utilisé comme un système automatique, dont les règles de fonctionnement ne sont pas écrites _in extenso_ et ne se prêtent pas ou mal à être explicitées, débattues, ajustées. Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Par ailleurs, des efforts sont donc nécessaires sur l'interprétation et l'explication des choix réalisés à l'aide de ces systèmes.
+
+[_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
+[_[⇩ prochaine section](#section-6---anticiper-suivre-et-minimiser-les-externalités-de-lactivité-data-science)_]
+
+---
+
+Q1.9 : **Notifications d’incidents de sécurité aux autorités de régulation**  
+_(Condition : R1.5 <> 1.5.a)_  
+Dans le cas de figure où un modèle que l'organisation a élaboré est utilisé ou accessible par une ou plusieurs parties prenantes externes, et qu'une vulnérabilité nouvelle est publiée, présente un risque de s'y appliquer et crée ainsi un risque d'exposition de données personnelles ou confidentielles :
+
+R1.9 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+
+- [ ] 1.9.a Nous n'avons pas encore mis en place de procédure pour couvrir ce cas de figure
+- [ ] 1.9.b Nous avons une procédure décrivant la marche à suivre
+- [ ] 1.9.c Nous avons une procédure décrivant la marche à suivre, et celle-ci référence les autorités auxquelles nous devons faire un signalement
+- [ ] 1.9.d Nous avons une procédure décrivant la marche à suivre, qui référence les autorités auxquelles nous devons faire un signalement, et qui inclut une communication aux parties prenantes dont nous disposons des coordonnées
+
+<details>
+<summary>Expl1.9 :</summary>
+
+Il existe dans certains secteurs des obligations de signalement des incidents de sécurité aux autorités de régulation (e.g. CNIL, ANSSI, ARS...). Un point d'entrée intéressant : [Notifications d’incidents de sécurité aux autorités de régulation : comment s’organiser et à qui s’adresser ?](https://www.cnil.fr/fr/notifications-dincidents-de-securite-aux-autorites-de-regulation-comment-sorganiser-et-qui-sadresser) sur le site de la CNIL.
+
+</details>
+
+---
+
+Q4.4 : **Chaîne de valeur et de responsabilités**  
+Dans le cas de figure des projets de data science où plusieurs acteurs, y compris internes à l'organisation (équipes, départements, filiales), sont parties prenantes tout au long de la chaîne de valeur et de responsabilités :
+
+R4.4 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
+
+- [ ] 4.4.a Au sein de notre organisation les projets de data science sont menés de bout-en-bout par des équipes autonomes, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. En conséquence, pour chaque projet une équipe autonome est seule responsable | _(Concerné / Non concerné)_
+- [ ] 4.4.b Nous procédons systématiquement à l'identification des risques et responsabilités de chacune des parties prenantes internes ou externes avec lesquelles nous collaborons
+- [ ] 4.4.c Nous contractualisons systématiquement avec les acteurs amont (e.g. fournisseurs de données) et aval (e.g. clients, partenaires utilisateurs de modèles)
+- [ ] 4.4.d Nous ne mettons pas systématiquement en place de mesure de ce type
+
+<details>
+<summary>Expl4.4 :</summary>
+
+Il est important de s'assurer que les organisations en amont et en aval de la chaîne identifient et endossent bien leurs responsabilités sur leurs segments de la chaîne de valeur.
+
+</details>
+
+---
+
+Q4.5 : **Sous-traitance de tout ou partie des activités data science**  
+Les activités data science sous-traitées à une ou des organisation(s) tierce(s) sont soumises aux mêmes exigences que celles que votre organisation s'applique à elle-même :
+
+R4.5 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_  
+_(Domaine de risque spécifique : sous-traitance d'activités de data science)_
+
+- [ ] 4.5.a Non concerné, nous ne sous-traitons pas ces activités | _(Concerné / Non concerné)_
+- [ ] 4.5.b Oui, nos réponses à cette évaluation tiennent compte des pratiques de nos sous-traitants
+- [ ] 4.5.c Non, nos réponses à cette évaluation ne s'appliquent pas à nos sous-traitants et sur certains points il est possible qu'ils soient moins avancés que nous
+
+<details>
+<summary>Expl4.5 :</summary>
+
+Comme dans les cadres connues du management des SI (ISO 27001) ou du RGPD, il est important de ne pas diluer les responsabilités dans des chaînes de sous-traitance non maîtrisées. Cela doit s'appliquer par exemple aux consultants, freelances qui viennent renforcer une équipe interne sur un projet de data science. Il est par exemple possible de demander aux sous-traitants de réaliser cette même évaluation pour leur propre compte et de partager avec vous leurs résultats.
+
+</details>
+
+---
+
+Q4.6 : **Répartition de la création de valeur**  
+Dans les cas de figure des projets de data science où plusieurs partenaires concourent aux côtés de votre organisation à l'élaboration d'un modèle, et que celui-ci est ou sera l'objet d'une activité économique :
+
+R4.6 :  
+_(Type : réponses multiples possibles)_  
+_(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation. Attention, certaines combinaisons ne seraient pas cohérentes)_  
+_(Domaine de risque spécifique : rôles et responsabilités morcelés dans les projets de data science)_
+
+- [ ] 4.6.a Notre organisation exerce ses activités de data science de manière autonome, y compris l'élaboration de jeux de données et l'exploitation pour son propre compte des modèles. Elle n'est donc pas concernée | _(Concerné / Non concerné)_
+- [ ] 4.6.b À ce stade nous n'avons pas structuré cet aspect des projets de data science multi-partenaires
+- [ ] 4.6.c Dans ces cas de figure nous contractualisons le volet économique de la relation avec les parties prenantes impliquées en amont du projet
+- [ ] 4.6.d Notre organisation s'est dotée d'une politique encadrant de manière responsable le partage de valeur avec les parties prenantes impliquées
+
+<details>
+<summary>Expl4.6 :</summary>
+
+Lorsque plusieurs partenaires collaborent pour l'élaboration d'un modèle, il est important que la répartition de valeur consécutives à une activité économique dans laquelle le modèle joue un rôle soit explicitée et contractualisée. Dans certains cas de figure cette question peut être complexe, par exemple lorsqu'un modèle est entraîné de manière distribuée sur plusieurs jeux de données.
+
+</details>
+
+<details>
+<summary>Ressources4.6 :</summary>
+
+- (Code repository) [Exploration of dataset contributivity to a model in collaborative ML projects](https://github.com/SubstraFoundation/distributed-learning-contributivity), un projet open source animé par [ Labelia Labs (ex- Substra Foundation)](https://www.labelia.org/)
 
 </details>
 
