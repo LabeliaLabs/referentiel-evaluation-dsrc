@@ -1039,8 +1039,8 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 - [ ] 6.2.a At this stage we are not looking at the social impact of our data science activity or our AI models
 - [ ] 6.2.b In some cases we study the social impact
 - [ ] 6.2.c We study the social impact in each project
-- [ ] 6.2.d We study the social impact in each project and it is documented in the end-to-end genealogy of each model
-- [ ] 6.2.e We study the social impact in each project, it is documented in the end-to-end genealogy of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
+- [ ] 6.2.d We study the social impact in each project and it is documented in the lifecycle documentation of each model
+- [ ] 6.2.e We study the social impact in each project, it is documented in the lifecycle documentation of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
 
 <details>
 <summary>Expl6.2 :</summary>
