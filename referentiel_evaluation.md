@@ -234,7 +234,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
 
-Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés au sein de la documentation du cycle de vie de bout-en-bout du modèle.
+Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés au sein de la documentation du cycle de vie du modèle.
 
 </details>
 
@@ -514,7 +514,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] 3.4.a Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
 - [ ] 3.4.b La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la documentation du cycle de vie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
+- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la documentation du cycle de vie des modèles concernés, y compris les métriques de performance choisies
 - [ ] 3.4.d Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
@@ -641,7 +641,7 @@ Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des 
 
 ---
 
-Q4.1 : **Cycle de vie de bout-en-bout des modèles**  
+Q4.1 : **Cycle de vie des modèles**  
 Tracer les étapes de l'élaboration d'un modèle permet de constituer une documentation de bout-en-bout de son **cycle de vie**. Au sein de votre organisation, une documentation du cycle de vie des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
 
 R4.1 :  
@@ -656,7 +656,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl4.1 :</summary>
 
-Ce concept de "cycle de vie de bout-en-bout" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
+Ce concept de "cycle de vie" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
 
 </details>
 
@@ -689,7 +689,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl4.2 :</summary>
 
-Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la documentation du cycle de vie de bout-en-bout d'un modèle.
+Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la documentation du cycle de vie d'un modèle.
 
 </details>
 
@@ -834,7 +834,7 @@ _(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre c
 - [ ] 5.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
 - [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles d'IA et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 5.1.g Pour chaque modèle, nous étudions son cycle de vie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
+- [ ] 5.1.g Pour chaque modèle, nous étudions son cycle de vie (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
 - [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 - [ ] 5.1.i Nous n'avons pas encore mis en place de mesure de ce type
 
@@ -1035,8 +1035,8 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 6.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles d'IA
 - [ ] 6.2.b Dans certains cas nous nous interrogeons sur l'impact social
 - [ ] 6.2.c Nous menons ce travail de réflexion sur l'impact social à chaque projet
-- [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans le cycle de vie de bout-en-bout de chaque modèle
-- [ ] 6.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans le cycle de vie de bout-en-bout de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
+- [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans le cycle de vie de chaque modèle
+- [ ] 6.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans le cycle de vie de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
 <details>
 <summary>Expl6.2 :</summary>
