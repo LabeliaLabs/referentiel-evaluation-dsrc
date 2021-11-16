@@ -234,7 +234,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
-Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made. The notion of "Model lifecycle" is introduced here.
+Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made, to consitute an end-to-end model lifecycle documentation.
 
 </details>
 
@@ -638,15 +638,15 @@ Developing an AI model, and determining a meaningful and reliable benchmark perf
 
 **[Model documentation]**
 
-An AI model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **model lifecycle**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
+An AI model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a **model lifecycle documentation**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 [_[⇩ next section](#section-5---using-models-responsibly-and-in-confidence)_]
 
 ---
 
-Q4.1 : **"Lifecycle" of ML models**  
-Ensuring the traceability of all steps of the development of an AI model enables building up a form of **model lifecycle**. Within your organisation, a lifecycle documentation of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
+Q4.1 : **Lifecycle end-to-end documentation of ML models**  
+Ensuring the traceability of all steps of the development of an AI model enables building up a **model lifecycle documentation**. Within your organisation, a lifecycle documentation of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
 
 R4.1 :  
 _(Type: single answer)_  
@@ -660,7 +660,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl4.1 :</summary>
 
-This concept of "model lifecycle" of a learned AI model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
+This concept of "model lifecycle documentation" of a learned AI model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
 
 </details>
 
@@ -693,7 +693,7 @@ _(Select all response items that correspond to practices in your organisation. P
 <details>
 <summary>Expl4.2 :</summary>
 
-The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the "model lifecycle" documentation.
+The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the model lifecycle end-to-end documentation.
 
 </details>
 
