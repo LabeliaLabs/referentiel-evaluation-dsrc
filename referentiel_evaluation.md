@@ -226,7 +226,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 1.8.a Nous faisons une veille technique sur les principales attaques et mesures pour s'en prémunir
 - [ ] 1.8.b Les collaborateurs reçoivent régulièrement des informations et formations qui leur permettent de développer leurs compétences dans ce domaine
 - [ ] 1.8.c Dans certains projets, nous mettons en oeuvre des techniques spécifiques permettant de réduire les risques liés aux modèles que nous élaborons (par exemple : confidentialité différentielle, distillation...)
-- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la généalogie de bout-en-bout de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
+- [ ] 1.8.d Sur chaque projet, les vulnérabilités qui s'y appliquent et les techniques mises en oeuvre sont documentées (par exemple dans la documentation du cycle de vie de chaque modèle, voir Section 4 et élément 4.1 pour plus d'information sur ce concept)
 - [ ] 1.8.e Nous n'avons pas encore mis en place d'approche organisée sur ces sujets
 
 <details>
@@ -234,7 +234,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 L'état de l'art de la sécurité du ML est en constante évolution, et si la *membership inference attack* est maintenant relativement connue (voir ressources proposées), d'autres sont publiées régulièrement. S'il est impossible de se prémunir contre toutes les vulnérabilités à tout instant, il est crucial de s'en préoccuper et d'organiser une veille. L'article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) est par exemple un point d'entrée intéressant dans un contexte de données sensibles.
 
-Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés. On introduit ici la notion de "généalogie de bout-en-bout".
+Selon les niveaux de risque et de sensibilité des projets, certaines approches techniques pour s'en prémunir seront sélectionnées et implémentées. Il est important de suivre l'évolution de l'état de l'art et des pratiques, et de documenter les choix réalisés au sein de la documentation du cycle de vie du modèle.
 
 </details>
 
@@ -357,7 +357,7 @@ _(Domaine de risque spécifique : discrimination à l'encontre de certains group
 - [ ] 2.3.c Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
 - [ ] 2.3.d Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
 - [ ] 2.3.e Nous mettons en oeuvre des approches de type _data augmentation_ ou _re-weighting_ dans le but de réduire les éventuels biais des jeux de données
-- [ ] 2.3.f Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées à la généalogie de bout-en-bout des modèles concernés
+- [ ] 2.3.f Les pratiques ci-dessus que nous mettons en oeuvre sont dûment documentées et intégrées dans la documentation du cycle de vie de bout-en-bout des modèles concernés
 - [ ] 2.3.g Nous n'avons pas encore mis en place de mesures de ce type
 
 <details>
@@ -514,7 +514,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 
 - [ ] 3.4.a Lors de l'élaboration d'un modèle, nous choisissons la ou les métrique(s) de performance en amont de l'apprentissage automatique, parmi les métriques les plus standards possibles
 - [ ] 3.4.b La mise en oeuvre de mesures ou tests de robustesse (*robustness metrics*) est considérée et évaluée pour chaque projet d'élaboration d'un modèle, et appliquée par défaut dans les cas de figure où les données d'entrées peuvent être soumises à des perturbations fines (e.g. images, sons)
-- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la généalogie de bout-en-bout des modèles concernés, y compris les métriques de performance choisies
+- [ ] 3.4.c Les pratiques ci-dessus que nous mettons en oeuvre sont documentées et intégrées à la documentation du cycle de vie des modèles concernés, y compris les métriques de performance choisies
 - [ ] 3.4.d Nous n'avons pas encore mis en place de mesure de ce type
 
 <details>
@@ -583,7 +583,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.6.a Fonctionne de manière informelle à ce sujet, selon les collaborateurs impliquées
 - [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 - [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
-- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la généalogie de bout-en-bout des modèles concernés
+- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la documentation du cycle de vie de bout-en-bout des modèles concernés
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -634,15 +634,15 @@ L'élaboration d'un modèle d'IA, et la détermination d'une mesure de performan
 
 **[Documentation des modèles]**
 
-Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet d'en constituer une forme de **généalogie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
+Un modèle d'IA est un objet informatique complexe qui peut évoluer au fil des apprentissages. Tracer les étapes de son élaboration et de son évolution permet de constituer une documentation de bout-en-bout de son **cycle de vie**, pré-requis pour **reproduire ou auditer** un modèle. Par ailleurs utiliser des systèmes automatiques basés sur des modèles dont les règles ont été "apprises" (et non définies et formalisées) interroge le fonctionnement des organisations. Il apparaît indispensable de garantir une chaîne de responsabilité claire, de personnes physiques ou morales, pour chaque modèle.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-5---utiliser-des-modèles-en-confiance-et-de-manière-responsable)_]
 
 ---
 
-Q4.1 : **"Généalogie de bout-en-bout" des modèles**  
-Tracer les étapes de l'élaboration d'un modèle permet d'en constituer une forme de **généalogie**. Au sein de votre organisation, une généalogie de bout-en-bout des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
+Q4.1 : **Cycle de vie des modèles**  
+Tracer les étapes de l'élaboration d'un modèle permet de constituer une documentation de bout-en-bout de son **cycle de vie**. Au sein de votre organisation, une documentation du cycle de vie des modèles est alimentée et tenue à jour dans le cadre des projets de data science, tout au long des phase de collecte de données, conception, entraînement, validation et exploitation des modèles :
 
 R4.1 :  
 _(Type : réponse unique)_  
@@ -656,7 +656,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <details>
 <summary>Expl4.1 :</summary>
 
-Ce concept de "généalogie de bout-en-bout" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
+Ce concept de "cycle de vie" d'un modèle d'IA appris peut se décliner sous la forme par exemple d'un document de référence reprenant tous les choix importants ainsi que tout l'historique d'élaboration du modèle (données utilisées, pré-traitements réalisés, type d'apprentissage et architecture du modèle, hyperparamètres sélectionnés, seuils de décision, métriques de tests...), etc.), et de processus internes organisant cette activité. En particulier, il est intéressant d'y faire figurer les choix de compromis (*trade-offs*) qui ont été faits et pourquoi (e.g. trade-offs précision-spécificité, performance-privacy, performance-coût computationnel, etc.).
 
 </details>
 
@@ -667,7 +667,7 @@ Ce concept de "généalogie de bout-en-bout" d'un modèle d'IA appris peut se d�
 - (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
-- (Software & Tools) [Modèle de généalogie de bout en bout](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer la généalogie de bout-en-bout d'un modèle*, 2020, Joséphine Lecoq-Vallon
+- (Software & Tools) [Modèle de documentation d'un cycle de vie](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer le cycle de vie d'un modèle*, 2020, Joséphine Lecoq-Vallon
 
 </details>
 
@@ -689,7 +689,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl4.2 :</summary>
 
-Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la "généalogie de bout-en-bout".
+Il s'agit d'expliciter et d'adjoindre au modèle la description du contexte d'utilisation pour lequel il a été conçu et dans lequel sa performance annoncée est significative. Ce concept de "conditions et limites de validité" peut se décliner sous la forme d'un document synthétique ou d'une section spécifique dans la documentation du cycle de vie d'un modèle.
 
 </details>
 
@@ -834,7 +834,7 @@ _(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre c
 - [ ] 5.1.d Pour chaque modèle, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels incidents, défaillances ou biais
 - [ ] 5.1.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes basés sur des modèles d'IA et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 5.1.f Pour chaque modèle, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 5.1.g Pour chaque modèle, nous étudions sa généalogie de bout-en-bout (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
+- [ ] 5.1.g Pour chaque modèle, nous étudions son cycle de vie (toutes les étapes et tous les choix qui ont conduit à son élaboration et son évaluation), ainsi que ses conditions et limites d'utilisation, pour comprendre le modèle avant de l'utiliser
 - [ ] 5.1.h Nous utilisons toujours les modèles pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 - [ ] 5.1.i Nous n'avons pas encore mis en place de mesure de ce type
 
@@ -861,7 +861,7 @@ _(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre c
 - [ ] 5.2.d Pour chaque modèle ou application pour un client ou un tiers, nous réalisons systématiquement une **évaluation des risques** consécutifs à d'éventuels, incidents, défaillances, biais
 - [ ] 5.2.e Des outils de monitoring sont mis en place afin d'assurer une surveillance continue des systèmes de ML et peuvent déclencher des alertes directement auprès de l'équipe responsable
 - [ ] 5.2.f Pour chaque modèle ou application pour un client ou un tiers, nous définissons et testons une procédure de suspension du modèle et un mode de fonctionnement dégradé sans le modèle, pour parer au cas de figure où le modèle serait sujet à une défaillance ou un comportement anormal
-- [ ] 5.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions sa généalogie de bout-en-bout et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
+- [ ] 5.2.g Pour chaque modèle ou application pour un client ou un tiers, nous étudions son cycle de vie de bout-en-bout et ses conditions et limites d'utilisation pour comprendre le modèle avant de l'utiliser
 - [ ] 5.2.h Nous fournissons à nos clients ou opérons pour leur compte des modèles ou applications pour des **usages en adéquation avec leurs conditions et limites d'utilisation**
 - [ ] 5.2.i Nous n'avons pas encore mis en place de mesure de ce type
 
@@ -1035,8 +1035,8 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 - [ ] 6.2.a À ce stade nous ne nous penchons pas sur l'impact social de notre activité data science ou de nos modèles d'IA
 - [ ] 6.2.b Dans certains cas nous nous interrogeons sur l'impact social
 - [ ] 6.2.c Nous menons ce travail de réflexion sur l'impact social à chaque projet
-- [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle
-- [ ] 6.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans la généalogie de bout-en-bout de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
+- [ ] 6.2.d Nous menons ce travail de réflexion sur l'impact social à chaque projet et l'impact social est documenté dans le cycle de vie de chaque modèle
+- [ ] 6.2.e Nous menons ce travail de réflexion sur l'impact social à chaque projet, l'impact social est documenté dans le cycle de vie de chaque modèle, et nous entamons systématiquement un dialogue avec les parties prenantes concernées amont et aval
 
 <details>
 <summary>Expl6.2 :</summary>
@@ -1128,7 +1128,7 @@ Découpage en thèmes :
 |  |  |  |
 | **TR** | **Transverse** |  |
 | TR-01 | ne pas maîtriser les conséquences négatives de l'utilisation d'un modèle donné du fait du manque d'une "gouvernance globale" tout au long de la chaîne de valeur de bout-en-bout (données, conception, entraînement, validation, exploitation) |  |
-| TR-02 | ne pas maîtriser les conséquences de l'utilisation d'un modèle du fait du manque de connaissance de sa généalogie et de maîtrise de ses conditions nominales d'utilisation | modèles qui deviennent des références et/ou fournis par des tiers |
+| TR-02 | ne pas maîtriser les conséquences de l'utilisation d'un modèle du fait du manque de connaissance de son cycle de vie et de maîtrise de ses conditions nominales d'utilisation | modèles qui deviennent des références et/ou fournis par des tiers |
 |  |  |  |
 |  | **divers - à catégoriser** |  |
 |  | se faire "voler" un modèle par multiples inférences (_model stealing_) |  |

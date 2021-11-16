@@ -226,7 +226,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 - [ ] 1.8.a We keep a technical watch on the main attacks and measures to mitigate them
 - [ ] 1.8.b Employees receive regular information and training to help them develop their skills in this area
 - [ ] 1.8.c In some projects, we implement specific techniques to reduce the risks associated with the models we develop (for example: differential privacy, distillation, etc.)
-- [ ] 1.8.d On each project, the vulnerabilities that apply to it and the techniques implemented are documented (e.g. in the end-to-end genealogy of each model, see Section 4 and Element 4.1 for more information on this concept)
+- [ ] 1.8.d On each project, the vulnerabilities that apply to it and the techniques implemented are documented (e.g. in the lifecycle documentation of each model, see Section 4 and Element 4.1 for more information on this concept)
 - [ ] 1.8.e We have not yet set up an organised approach to these subjects
 
 <details>
@@ -234,7 +234,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
-Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made. The notion of "end-to-end genealogy" is introduced here.
+Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made, to constitute an model lifecycle end-to-end documentation.
 
 </details>
 
@@ -360,7 +360,7 @@ _(Specific risk domain: discrimination against certain social groups)_
 - [ ] 2.3.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
 - [ ] 2.3.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
 - [ ] 2.3.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
-- [ ] 2.3.f The above practices that we implement are duly documented and integrated into the end-to-end genealogy of the models concerned
+- [ ] 2.3.f The above practices that we implement are duly documented and integrated into the model lifecycle documentation of the models concerned
 - [ ] 2.3.g We have not yet put in place any such measures
 
 <details>
@@ -518,7 +518,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 - [ ] 3.4.a When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
 - [ ] 3.4.b The implementation of robustness metrics is considered and evaluated for each modelling project, and applied by default in cases where the input data may be subject to fine-grain alterations (e.g. images, sounds)
-- [ ] 3.4.c The above practices that we implement are documented and integrated into the end-to-end genealogy of the models concerned, including the performance metrics chosen
+- [ ] 3.4.c The above practices that we implement are documented and integrated into the model lifecycle documentation of the models concerned, including the performance metrics chosen
 - [ ] 3.4.d We have not yet introduced any such measures
 
 <details>
@@ -587,7 +587,7 @@ _(Select all response items that correspond to practices in your organisation. P
 - [ ] 3.6.a Operates informally on this subject, depending upon the collaborators involved
 - [ ] 3.6.b Has a documented approach that is systematically implemented
 - [ ] 3.6.c Takes into account the possibility of maintaining ranges of indecision in certain cases
-- [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the end-to-end genealogy of the models concerned.
+- [ ] 3.6.d The choices made for each model and implemented are documented and integrated into the lifecycle documentation of the models concerned.
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -638,15 +638,15 @@ Developing an AI model, and determining a meaningful and reliable benchmark perf
 
 **[Model documentation]**
 
-An AI model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a form of **genealogy**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
+An AI model is a complex object that can evolve over time. Tracing the stages of its development and evolution allows one to create a **model lifecycle documentation**, which is a prerequisite for **reproducing or auditing** a model. Furthermore, using automatic systems based on models whose rules have been "learned" (and not defined and formalised) questions the way organisations operate. It seems essential to guarantee a clear chain of responsibility, of natural or legal persons, for each model.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
 [_[⇩ next section](#section-5---using-models-responsibly-and-in-confidence)_]
 
 ---
 
-Q4.1 : **"End-to-end genealogy" of ML models**  
-Ensuring the traceability of all steps of the development of an AI model enables building up a form of **genealogy**. Within your organisation, an end-to-end genealogy of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
+Q4.1 : **Lifecycle end-to-end documentation of ML models**  
+Ensuring the traceability of all steps of the development of an AI model enables building up a **model lifecycle documentation**. Within your organisation, a lifecycle documentation of models is fed and maintained within the framework of data science projects, throughout the phases of data collection, design, training, validation and exploitation of the predictive models:
 
 R4.1 :  
 _(Type: single answer)_  
@@ -660,7 +660,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl4.1 :</summary>
 
-This concept of the "end-to-end genealogy" of a learned AI model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
+This concept of "model lifecycle documentation" of a learned AI model can take the form, for example, of a reference document containing all the important choices and the entire history of model development (data used, pre-processing carried out, type of learning and model architecture, hyperparameters selected, decision thresholds, test metrics, etc.), and the internal processes organising this activity. In particular, it is interesting to include the trade-offs that have been made and why (e.g. trade-offs precision-specification, performance-privacy, performance-computing cost, etc.).
 
 </details>
 
@@ -671,7 +671,7 @@ This concept of the "end-to-end genealogy" of a learned AI model can take the fo
 - (Software & Tools) [MLflow](https://mlflow.org/): *an open source platform to manage the ML lifecycle, including experimentation, reproducibility, deployment, and a central model registry*
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC* *a platform for data version control and collaboration, based on DVC*
-- (Software & Tools) [End-to-end genealogy template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the genealogy from end to end of a model*, 2020, Joséphine Lecoq-Vallon
+- (Software & Tools) [Model lifecycle template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the lifecycle from end to end of a model*, 2020, Joséphine Lecoq-Vallon
 
 </details>
 
@@ -693,7 +693,7 @@ _(Select all response items that correspond to practices in your organisation. P
 <details>
 <summary>Expl4.2 :</summary>
 
-The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the "end-to-end genealogy".
+The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the model lifecycle end-to-end documentation.
 
 </details>
 
@@ -838,7 +838,7 @@ _(Specific risk domain: use of AI models, provision or operation of AI model-bas
 - [ ] 5.1.d For each model, we systematically carry out a **risk assessment** following any incidents, failures or biases
 - [ ] 5.1.e Monitoring tools are put in place to ensure continuous monitoring of systems based on AI models and can trigger alerts directly to the team in charge
 - [ ] 5.1.f For each model, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
-- [ ] 5.1.g For each model, we study its entire genealogy (all the steps and choices that led to its development and evaluation), as well as its conditions and limits of validity, in order to understand the model before using it
+- [ ] 5.1.g For each model, we study its entire lifecycle (all the steps and choices that led to its development and evaluation), as well as its conditions and limits of validity, in order to understand the model before using it
 - [ ] 5.1.h We always use the models for **uses in accordance with their conditions and limits of validity**
 - [ ] 5.1.i We have not yet put in place such measures
 
@@ -865,7 +865,7 @@ _(Specific risk domain: use of AI models, provision or operation of AI model-bas
 - [ ] 5.2.d For each model or application for a customer or a third party, we systematically carry out a **risk assessment** resulting from possible incidents, failures, biases, etc., in order to identify the risks involved
 - [ ] 5.2.e Monitoring tools are in place to ensure continuous monitoring of ML systems and can trigger alerts directly to the responsible team
 - [ ] 5.2.f For each model or application for a customer or a third party, we define and test a procedure for suspending the model and a degraded operating mode without the model, in order to prepare for the case where the model is subject to failure or unexpected behaviour
-- [ ] 5.2.g For each model or application for a client or third party, we study its entire genealogy and its conditions and limits of validity to understand the model before using it
+- [ ] 5.2.g For each model or application for a client or third party, we study its entire lifecycle and its conditions and limits of validity to understand the model before using it
 - [ ] 5.2.h We supply our customers or operate on their behalf with models or applications for **uses in accordance with their conditions and limits of validity**
 - [ ] 5.2.i We have not yet put in place such measures
 
@@ -1039,8 +1039,8 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 - [ ] 6.2.a At this stage we are not looking at the social impact of our data science activity or our AI models
 - [ ] 6.2.b In some cases we study the social impact
 - [ ] 6.2.c We study the social impact in each project
-- [ ] 6.2.d We study the social impact in each project and it is documented in the end-to-end genealogy of each model
-- [ ] 6.2.e We study the social impact in each project, it is documented in the end-to-end genealogy of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
+- [ ] 6.2.d We study the social impact in each project and it is documented in the lifecycle documentation of each model
+- [ ] 6.2.e We study the social impact in each project, it is documented in the lifecycle documentation of each model, and we systematically engage in a dialogue with the relevant stakeholders upstream and downstream the value chain.
 
 <details>
 <summary>Expl6.2 :</summary>
