@@ -302,8 +302,8 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_  
 
 - [ ] 2.1.a Nous fonctionnons de manière informelle à ce sujet et nous en remettons à la pratique de chaque collaborateur impliqué
-- [ ] 2.1.c Notre approche inclut le fait de se prémunir contre les risques de poisoning attack lorsque des collectes de données sont mises en oeuvre
-- [ ] 2.1.b Notre approche prend en compte le fait de prêter attention à ce que les jeux de données contiennent des samples d’événements rares lorsque cela est pertinent
+- [ ] 2.1.c Notre approche inclut une ou des méthodes pour se prémunir contre les risques de poisoning attack lorsque des collectes de données sont mises en oeuvre
+- [ ] 2.1.b Notre approche inclut une ou des méthodes pour vérifier, et faire en sorte lorsque cela est nécessaire, que les jeux de données contiennent des samples d’événements rares
 - [ ] 2.1.d Notre approche inclut une ou des méthodes pour compléter des valeurs manquantes dans les jeux de données
 - [ ] 2.1.e Notre approche inclut une ou des méthodes pour traiter les points de données erronés ou atypiques
 
