@@ -133,16 +133,20 @@ L'*[Institute for Ethical AI & Machine Learning](https://ethical.institute)* mai
 - [Serment Holberton-Turing](https://www.holbertonturingoath.org/accueil)
 - [Serment d'Hippocrate pour data scientist](https://hippocrate.tech/)
 - [Future of Life's AI principles](https://futureoflife.org/ai-principles/)
-- [Charte internationale pour une IA inclusive](https://charteia.arborus.org/)
+- [Charte internationale pour une IA inclusive](https://charteia.arborus.org/), Arborus
+- [Manifeste pour des IA éthiques](http://ai-ethical.com/131-2/), Numeum, 2021
 
-### Assessments
+### Assessments et référentiels
 
-- [ADEL - Label éthique pour l'exploitation du big data](http://www.adel-label.com/)
-- [ALTAI - The Assessment List on Trustworthy Artificial Intelligence](https://altai.insight-centre.org/)
+- ADEL - [Label éthique pour l'exploitation du big data](http://www.adel-label.com/)
+- ALTAI - [The Assessment List on Trustworthy Artificial Intelligence](https://altai.insight-centre.org/)
+- Occitanie Data / Ekitia - [Charte éthique de l'usage des données](https://www.occitaniedata.fr/la-charte-ethique/)
+- LNE - [Référentiel certification de processus pour l'intelligence artificielle](https://www.lne.fr/fr/service/certification/certification-processus-ia), 2021
 
 ### Autres
 
-- [Livre blanc Data Responsable](http://www.utopies.com/fr/initiatives/groupe-de-travail-data-responsable)
+- [Guide pratique pour des IA éthiques](http://ai-ethical.com/guide-pratique/), Numeum, 2021
+- [Livre blanc Data Responsable](http://www.utopies.com/fr/initiatives/groupe-de-travail-data-responsable), Utopies & Imaginable For Good
 - [Responsible AI Licenses](https://www.licenses.ai/)
 - [FAT ML](https://www.fatml.org/) : _semble inactif depuis fin 2018_
 - [AI for social good workshops](https://aiforsocialgood.github.io/neurips2019/) and research papers
