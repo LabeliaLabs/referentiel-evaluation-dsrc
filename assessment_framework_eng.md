@@ -294,50 +294,82 @@ Among other things, in some cases a specification of the equity sought between p
 
 ---
 
-Q2.1 : **Analysis of the training data**  
-Within data science projects and when developing training datasets, reflection and research on problematic phenomena (e.g. quality of certain data points, data that are not comparable due to recording tools or processes, social phenomena that are undesirable due to time, context, etc.) can be crucial to prevent bias that undermines the principle of non-discrimination, diversity and equity. Your organisation:
+Q2.1 : **Gathering and assembling data samples into training and validation datasets**  
+Often an initial phase of data science projects consists in gathering and assembling data samples intro training and validation datasets. In many cases this presents difficulties and is a source of risks. About this particular activity, has your organization defined, documented and operationalised an approach or a method taking into account in particular the following:
 
 R2.1 :  
-_(Type: single answer)_  
-_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Type: multiple responses possible)_  
+_(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 2.1.a Operates informally on this subject and relies on the practices of each collaborator involved
-- [ ] 2.1.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
-- [ ] 2.1.c Has a documented approach that is systematically implemented
+- [ ] 2.1.a We operate informally on this subject and relies on the practices of each collaborator involved
+- [ ] 2.1.c Our approach includes methods to prevent poisoninck attacks when collecting and gathering data samples
+- [ ] 2.1.b Our approach includes methods to check and make sure when necessary that datasets include samples of rare events
+- [ ] 2.1.d Our approcah includes methods to complete missing values in datasets
+- [ ] 2.1.e Our approach includes methods to handle erroneous or atypical data samples values
 
 <details>
 <summary>Expl2.1 :</summary>
 
-It is a question of ensuring that oneself considers these subjects and therefore questions the training data, the way in which it was produced, etc.
+Obtaining and preparing datasets is a core acitivity in every data science project. Each data point can have an impact on the learning, and it is thus crucial to define and implement a conscious, coherent, concerted approach to mitigate the risk of learning and testing on problematic datasets.
 
 </details>
 
 <details>
-<summary>Ressources2.1 :</summary>
+<summary>Resources2.1 :</summary>
 
-- (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
-- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for extensive exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis*
 
 </details>
 
 ---
 
-Q2.2 : **Evaluation of the risk of discrimination against certain social groups**  
-In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
+Q2.2 : **Analysis of the training data**  
+Within data science projects and when developing training datasets, reflection and research on problematic phenomena (e.g. quality of certain data points, data that are not comparable due to recording tools or processes, social phenomena that are undesirable due to time, context, etc.) can be crucial to prevent bias that undermines the principle of non-discrimination, diversity and equity. Your organisation:
 
 R2.2 :  
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+
+- [ ] 2.2.a Operates informally on this subject and relies on the practices of each collaborator involved
+- [ ] 2.2.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.2.c Has a documented approach that is systematically implemented
+
+<details>
+<summary>Expl2.2 :</summary>
+
+It is a question of ensuring that oneself considers these subjects and therefore questions the training data, the way in which it was produced, etc. For example:
+- sensors or capture bias, e.g. if sensors used to get and record data points are not identical all along the capture process and lifecycle, or inbetween controlled training data and real data;
+- paying special attention to data labels and annotations: how where they generated? what level of quality, reliability? who are the authors of these annotations or labels? Labels have to be coherent with the modelling objectives and the intended domain of use of the model.
+
+</details>
+
+<details>
+<summary>Resources2.2 :</summary>
+
+- (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
+- (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for extensive exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
+
+</details>
+
+---
+
+Q2.3 : **Evaluation of the risk of discrimination against certain social groups**  
+In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
+
+R2.3 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.2.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
-- [ ] 2.2.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
-- [ ] 2.2.c Has a documented approach that is systematically implemented to evaluate this type of risk
+- [ ] 2.3.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
+- [ ] 2.3.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.3.c Has a documented approach that is systematically implemented to evaluate this type of risk
 
 
 <details>
-<summary>Expl2.2 :</summary>
+<summary>Expl2.3 :</summary>
 
 Configurations with risks of potential discriminations against social groups are particularly sensitive for the organisation and its counterparts. It requires special attention and the use of specific methodologies.
 In certain cases it is obvious if this risk has to be considered or not (e.g. projects on behavioral data on a population of users or customers, vs. projects on oceanographic or astronomical data), whereas in some cases it might be less obvious. It is therefore important to consider the question for each project.
@@ -346,25 +378,25 @@ In certain cases it is obvious if this risk has to be considered or not (e.g. pr
 
 ---
 
-Q2.3 : **Preventing discriminatory bias**  
-_(Condition: R2.2 <> 2.2.b)_  
+Q2.4 : **Preventing discriminatory bias**  
+_(Condition: R2.3 <> 2.3.b)_  
 In cases where the AI models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
 
-R2.3 :  
+R2.4 :  
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.3.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
-- [ ] 2.3.b We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
-- [ ] 2.3.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
-- [ ] 2.3.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
-- [ ] 2.3.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
-- [ ] 2.3.f The above practices that we implement are duly documented and integrated into the model lifecycle documentation of the models concerned
-- [ ] 2.3.g We have not yet put in place any such measures
+- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.4.b We pay special attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
+- [ ] 2.4.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
+- [ ] 2.4.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
+- [ ] 2.4.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
+- [ ] 2.4.f The above practices that we implement are duly documented and integrated into the model lifecycle documentation of the models concerned
+- [ ] 2.4.g We have not yet put in place any such measures
 
 <details>
-<summary>Expl2.3 :</summary>
+<summary>Expl2.4 :</summary>
 
 It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be the source of a risk of discriminatory bias. The term "protected attribute" or "protected variable" is used to refer to attributes whose values define sub-populations at risk of discrimination.
 Complement on the use of synthetic data and _data augmentation_, _re-weighting_ approaches in order to reduce possible biases in the data sets: when such techniques are used it is important to make them explicit, otherwise there is a risk of losing information on how a model was developed.
@@ -372,7 +404,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 </details>
 
 <details>
-<summary>Resources2.3 :</summary>
+<summary>Resources2.4 :</summary>
 
 - (Web article) *[Unfair biases in Machine Learning: what, why, where and how to obliterate them](https://www.mlsecurity.ai/post/unfair-biases-in-machine-learning-what-why-where-and-how-to-obliterate-them)*, blog ML Security, P. Irolla, April 2020
 - (Web article) [Awful AI](https://github.com/daviddao/awful-ai), a registry of worrying AI services or projects, David Dao
@@ -388,23 +420,23 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 
 ---
 
-Q2.4 : **Links between modelisation choices and bias**  
-_(Condition : R2.2 <> 2.2.b)_  
+Q2.5 : **Links between modelisation choices and bias**  
+_(Condition : R2.3 <> 2.3.b)_  
 Recent work has shown the role that modeling and learning choices can play in the formation of discriminatory bias. Differential privacy, compression, the choice of the learning rate, early stopping mechanisms for example can have disproportionate impacts on certain subgroups. Within your organisation, the general level of knowledge of collaborators working on data science projects on this topic is:
 
-R2.4 :  
+R2.5 :  
 _(Type: single answer)_  
 _(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
-- [ ] 2.4.b Complete beginner
-- [ ] 2.4.c Basic
-- [ ] 2.4.d Confirmed
-- [ ] 2.4.e Expert
+- [ ] 2.5.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.5.b Complete beginner
+- [ ] 2.5.c Basic
+- [ ] 2.5.d Confirmed
+- [ ] 2.5.e Expert
 
 <details>
-<summary>Expl2.4 :</summary>
+<summary>Expl2.5 :</summary>
 
 If datasets used to train and evaluate a model require a particular attention to prevent discriminatory biases, recent work shows that modeling choices have to be taken into account too. The article *"Moving beyond “algorithmic bias is a data problem”"* suggested in resources synthesizes very well how the learning algorithm, the model structure, adding or not differential privacy, compression, etc. can have consequences on the fairness of a model. Extracts:
 
@@ -418,7 +450,7 @@ These topics require a strong expertise and few practitioners are familiar with 
 </details>
 
 <details>
-<summary>Resources2.4 :</summary>
+<summary>Resources2.5 :</summary>
 
 - (Academic paper) *[Moving beyond “algorithmic bias is a data problem”](https://www.cell.com/patterns/fulltext/S2666-3899(21)00061-1)*, Sara Hooker, Opinion, April 2021
 - (Academic paper) *[Algorithmic Factors Influencing Bias in Machine Learning](https://arxiv.org/abs/2104.14014)*, W. Blanzeisky, P. Cunningham, April 2021: The authors defines 4 types of algorithmic choices : Data description (for the first version on the model, and feature engineering), Irreductible Errors, Impact of regularization (present in DL or more classical ML), Impact of class & feature imbalance. Those 4 types of choices will generate what they call underestimation bias, opposed to negative latency, bias due to data (that can be due to an under-representative dataset, or other reasons). They also propose some mitigation process.
