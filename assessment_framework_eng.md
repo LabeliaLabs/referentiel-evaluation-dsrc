@@ -310,7 +310,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 <details>
 <summary>Expl2.1 :</summary>
 
-Obtaining and preparing the dataasets is a core acitivity in every data science project. Each data point can have an impact on the learning, and it is thus crucial to define and implement a conscious, coherent, concerted approach to mitigate the risk of learning and testing on problematic datasets.
+Obtaining and preparing datasets is a core acitivity in every data science project. Each data point can have an impact on the learning, and it is thus crucial to define and implement a conscious, coherent, concerted approach to mitigate the risk of learning and testing on problematic datasets.
 
 </details>
 
@@ -318,7 +318,7 @@ Obtaining and preparing the dataasets is a core acitivity in every data science 
 <summary>Resources2.1 :</summary>
 
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
-- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis*
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling): Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for extensive exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis*
 
 </details>
 
@@ -347,7 +347,7 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 - (Web article) *[Hidden Bias](https://pair.withgoogle.com/explorables/hidden-bias/)* explorable from [PAIR](https://pair.withgoogle.com/)
 - (Technical guide) *[Tour of Data Sampling Methods for Imbalanced Classification](https://machinelearningmastery.com/data-sampling-methods-for-imbalanced-classification/)*
-- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for serious exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
+- (Software & Tools) *[Pandas Profiling](https://github.com/pandas-profiling/pandas-profiling)*: Create HTML profiling reports from pandas `DataFrame` objects. The pandas `df.describe()` function is great but a little basic for extensive exploratory data analysis. `pandas_profiling` extends the pandas `DataFrame` with `df.profile_report()` for quick data analysis
 
 </details>
 
@@ -386,7 +386,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 _(Specific risk domain: discrimination against certain social groups)_
 
 - [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
-- [ ] 2.4.b We pay particular attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
+- [ ] 2.4.b We pay special attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
 - [ ] 2.4.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
 - [ ] 2.4.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
 - [ ] 2.4.e We use _data augmentation_ or _re-weighting_ approaches to reduce possible biases in the data sets
