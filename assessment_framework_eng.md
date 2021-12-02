@@ -338,7 +338,9 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <details>
 <summary>Expl2.2 :</summary>
 
-It is a question of ensuring that oneself considers these subjects and therefore questions the training data, the way in which it was produced, etc.
+It is a question of ensuring that oneself considers these subjects and therefore questions the training data, the way in which it was produced, etc. For example:
+- sensors or capture bias, e.g. if sensors used to get and record data points are not identical all along the capture process and lifecycle, or inbetween controlled training data and real data;
+- paying special attention to data labels and annotations: how where they generated? what level of quality, reliability? who are the authors of these annotations or labels? Labels have to be coherent with the modelling objectives and the intended domain of use of the model.
 
 </details>
 
