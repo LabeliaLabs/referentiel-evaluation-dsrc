@@ -22,8 +22,9 @@ Le référentiel est mis à jour officiellement chaque semestre avec une nouvell
 
 > *Pour des introductions à cette initiative sous d'autres formes, voir :*
 >
-> - *[Blog Labelia Labs (ex- Substra Foundation) - Article d'Eric Boniface, octobre 2020](https://www.labelia.org/fr/blog/evaluation-data-science-responsable)*
+> - *[Conférence IA responsable et de confiance](https://www.youtube.com/watch?v=Ip4dCZ8xhEo)* au B-Boost, octobre 2021
 > - *[Podcast C-Ways - Mars 2021](https://c-ways.com/datascience-responsable)*
+> - *[Blog Labelia Labs (ex- Substra Foundation) - Article d'Eric Boniface, octobre 2020](https://www.labelia.org/fr/blog/evaluation-data-science-responsable)*
 
 Un nouvel espace émerge au croisement entre expansion de l'IA dans les organisations et les systèmes automatiques, et inquiétudes du public sur les données privées, la transparence et la robustesse des algorithmes.
 
