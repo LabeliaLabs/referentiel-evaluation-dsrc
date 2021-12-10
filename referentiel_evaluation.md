@@ -286,7 +286,7 @@ Il existe dans certains secteurs des obligations de signalement des incidents de
 
 **[Biais et discriminations]**
 
-L'utilisation de modèles d'IA élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assembées, et ce qu'elles représentent.
+L'utilisation de modèles d'IA élaborés à partir de données historiques peut se révéler contre-productive lorsque les données historiques sont contaminées par des phénomènes problématiques (e.g. qualité de certains points de données, données non comparables, phénomène social non souhaitable du fait de l'époque...). Or un enjeu-clé pour la data science responsable et de confiance est de respecter le principe de diversité, non-discrimination et équité (décrit par exemple à la section 1.5 des [Ethics Guidelines for Trustworthy AI](https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60419) de l'UE). Il apparaît donc indispensable de s'interroger sur ce risque et d'étudier la nature des données utilisées, les conditions dans lesquelles elles ont été produites et assemblées, et ce qu'elles représentent.
 Entre autres, dans certains cas une spécification de l'équité recherchée entre populations doit également être définie. L'équité d'un modèle peut [être définie de plusieurs manières qui peuvent être incompatibles entre elles](https://papers.nips.cc/paper/6995-counterfactual-fairness), et l'interprétation de scores de performances doit donc se faire dans le cadre de l'une de ces définitions.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
@@ -302,15 +302,15 @@ _(Type : réponses multiples possibles)_
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_  
 
 - [ ] 2.1.a Nous fonctionnons de manière informelle à ce sujet et nous en remettons à la pratique de chaque collaborateur impliqué
-- [ ] 2.1.c Notre approche inclut une ou des méthodes pour se prémunir contre les risques de poisoning attack lorsque des collectes de données sont mises en oeuvre
-- [ ] 2.1.b Notre approche inclut une ou des méthodes pour vérifier, et faire en sorte lorsque cela est nécessaire, que les jeux de données contiennent des samples d’événements rares
+- [ ] 2.1.b Notre approche inclut une ou des méthodes pour se prémunir contre les risques de poisoning attack lorsque des collectes de données sont mises en oeuvre
+- [ ] 2.1.c Notre approche inclut une ou des méthodes pour vérifier, et faire en sorte lorsque cela est nécessaire, que les jeux de données contiennent des samples d’événements rares
 - [ ] 2.1.d Notre approche inclut une ou des méthodes pour compléter des valeurs manquantes dans les jeux de données
 - [ ] 2.1.e Notre approche inclut une ou des méthodes pour traiter les points de données erronés ou atypiques
 
 <details>
 <summary>Expl2.1 :</summary>
 
-L'obtention et la préparation des jeux de données est une activité-clé dans tous projet de data science. Chaque point de donnée peut avoir un impact sur l'apprentissage des modèles, et il est donc crucial de définir et mettre en oeuvre une approche consciente, cohérente, concertée pour se prémunir contre le risque de travailler ensuite sur un jeu de données problématique.
+L'obtention et la préparation des jeux de données est une activité-clé dans tout projet de data science. Chaque point de données peut avoir un impact sur l'apprentissage des modèles, et il est donc crucial de définir et mettre en oeuvre une approche consciente, cohérente, concertée pour se prémunir contre le risque de travailler ensuite sur un jeu de données problématique.
 
 </details>
 
@@ -339,8 +339,8 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl2.2 :</summary>
 
 Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux données utilisées, la manière dont elles ont été produites etc. On peut penser par exemple :
-- au biais de captation, i.e. si les capteurs serevant à capter des points de données ne sont pas identiques pour tous les points de données, ou bien entre les données de test et les données d’usage réel ;
-- à porter une attention particulières aux labels ou annotations associées aux points de données : comment ont-elles été générées ? avec quel niveau de certituden de fiabilité, de qualité ? qui en sont les auteurs ? Les labels doivent être cohérents avec les objectifs du modèle et le domaine d’utilisation envisagé.
+- au biais de captation, i.e. si les capteurs servant à capter des points de données ne sont pas identiques pour tous les points de données, ou bien entre les données de test et les données d’usage réel ;
+- à porter une attention particulière aux labels ou annotations associées aux points de données : comment ont-elles été générées ? avec quel niveau de certitude, de fiabilité, de qualité ? qui en sont les auteurs ? Les labels doivent être cohérents avec les objectifs du modèle et le domaine d’utilisation envisagé.
 
 </details>
 
@@ -615,7 +615,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.6.a Fonctionne de manière informelle à ce sujet, selon les collaborateurs impliquées
 - [ ] 3.6.b Dispose d'une approche documentée et systématiquement mise en oeuvre
 - [ ] 3.6.c Prend en compte la possibilité de maintenir des plages d'indécision dans certains cas de figure
-- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la documentation du cycle de vie de bout-en-bout des modèles concernés
+- [ ] 3.6.d Les choix réalisés pour chaque modèle et mis en oeuvre sont documentés et intégrés à la documentation du cycle de vie des modèles concernés
 
 <details>
 <summary>Expl3.6 :</summary>
@@ -752,7 +752,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 <details>
 <summary>Expl4.3 :</summary>
 
-La compréhension voire la maîtrise du comportement d'un modèle d'IA appris sont des défis complexes. De nombreuses recherches sont en cours pour développer des méthodes et des outils dans ce domaine, mais beaucoup reste à faire. Le partage par les praticiens des incidents et comportements inattendus qu'ils rencontrent contribue faire progresser la communauté.
+La compréhension voire la maîtrise du comportement d'un modèle d'IA appris sont des défis complexes. De nombreuses recherches sont en cours pour développer des méthodes et des outils dans ce domaine, mais beaucoup reste à faire. Le partage par les praticiens des incidents et comportements inattendus qu'ils rencontrent contribue à faire progresser la communauté.
 
 </details>
 
@@ -1058,7 +1058,7 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 ---
 
 Q6.2 : **Impact social**  
-Dans certains cas, la mise en place d'un système automatique basé sur un modèle d'IA peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle d'IA, votre organisation :
+Dans certains cas, la mise en place d'un système automatique basé sur un modèle d'IA peut générer des externalités négatives sur les parties prenantes amont (par exemple annotation de données), et sur les parties prenantes aval (par exemple automatisation de certains postes). Lors de chaque projet d'élaboration ou d'utilisation d'un modèle d'IA :
 
 R6.2 :  
 _(Type : réponse unique)_  

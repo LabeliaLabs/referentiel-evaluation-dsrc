@@ -234,7 +234,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 The state of the art in ML security is constantly evolving. If data scientists are now familiar in general with the membership inference attack (see proposed resources), new ones are being published regularly. While it is impossible to guard against all vulnerabilities at all times, it is crucial to be aware of them and to keep a watch on them. The article [Demystifying the Membership Inference Attack](https://medium.com/disaitek/demystifying-the-membership-inference-attack-e33e510a0c39) is for example an interesting entry point in the context of sensitive data.
 
-Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made, to constitute an model lifecycle end-to-end documentation.
+Depending on the level of risk and sensitivity of the projects, certain technical approaches to guard against them will be selected and implemented. It is important to follow the evolution of research and state-of-the-art practices, and to document the choices made, to constitute a model lifecycle documentation.
 
 </details>
 
@@ -301,8 +301,8 @@ R2.1 :
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 2.1.a We operate informally on this subject and relies on the practices of each collaborator involved
-- [ ] 2.1.c Our approach includes methods to prevent poisoninck attacks when collecting and gathering data samples
+- [ ] 2.1.a We operate informally on this subject and rely on the practices of each collaborator involved
+- [ ] 2.1.c Our approach includes methods to prevent poisoning attacks when collecting and gathering data samples
 - [ ] 2.1.b Our approach includes methods to check and make sure when necessary that datasets include samples of rare events
 - [ ] 2.1.d Our approcah includes methods to complete missing values in datasets
 - [ ] 2.1.e Our approach includes methods to handle erroneous or atypical data samples values
@@ -725,7 +725,7 @@ _(Select all response items that correspond to practices in your organisation. P
 <details>
 <summary>Expl4.2 :</summary>
 
-The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the model lifecycle end-to-end documentation.
+The aim is to make explicit and add to the model the description of the context of use for which it was designed and in which its announced performance is significant. This concept of "conditions and limits of validity" can take the form of a synthetic document or a specific section in the model lifecycle documentation.
 
 </details>
 
@@ -1062,7 +1062,7 @@ It is important to question and raise awareness of environmental costs. In parti
 ---
 
 Q6.2 : **Social impact**
-In some cases, the implementation of an automatic system based on an AI model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use an AI model, your organisation:
+In some cases, the implementation of an automatic system based on an AI model can generate negative externalities on upstream stakeholders (e.g. annotation of data), and on downstream stakeholders (e.g. automation of certain positions). Whenever you plan to develop or use an AI model:
 
 R6.2 :  
 _(Type: single answer)_  
@@ -1091,7 +1091,7 @@ _(Type: multiple responses possible)_
 _(Select all response items that correspond to practices in your organisation. Please note that some combinations would not be coherent)_
 
 - [ ] 6.3.a At this stage we have not yet addressed the ethical dimension of our data science projects and activities
-- [ ] 6.3.b We are studying the ethical dimension of our data science projects and activities, it is work in progress
+- [ ] 6.3.b We are studying the ethical dimension of our data science projects and activities, it is a work in progress
 - [ ] 6.3.c Employees involved in data science activities receive training in ethics
 - [ ] 6.3.d Our organisation has adopted an ethics policy
 - [ ] 6.3.e For projects justifying it, we set up an independent ethics committee or ask for the evaluation of an organisation validating the ethics of the projects
