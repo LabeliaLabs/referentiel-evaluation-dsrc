@@ -295,7 +295,7 @@ Entre autres, dans certains cas une spécification de l'équité recherchée ent
 ---
 
 Q2.1 : **Collecte et assemblage de données en jeux de données d'entraînement et de validation**  
-La collecte et l'assemblage de points de données en jeux de données préparés pour entraîner et évaluer des modèles est souvent une phase préalable des projets de data science. Dans bien des cas elle présente des difficultés et est source de risques si elle n'est pas maîtrisée. Sur cette activité votre organisation a-t-elle défini, documenté et mis en oeuvre une approche ou une méthode prenant en compte notamment les points suivants :
+La collecte et l'assemblage de données brutes en jeux de données préparés pour entraîner et évaluer des modèles est souvent une phase préalable des projets de data science. Dans bien des cas elle présente des difficultés et est source de risques si elle n'est pas maîtrisée. Sur cette activité votre organisation a-t-elle défini, documenté et mis en oeuvre une approche ou une méthode prenant en compte notamment les points suivants :
 
 R2.1 :  
 _(Type : réponses multiples possibles)_  
