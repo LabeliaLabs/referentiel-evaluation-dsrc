@@ -98,8 +98,7 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 - Atelier/Meetup #2 : lundi 26 avril 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.04.26_workshop-s02e02_notes.md)
 - Atelier/Meetup #3 : lundi 21 juin 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.06.21_workshop-s02e03_notes.md)
 - Atelier/Meetup #4 : lundi 20 septembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.09.20_workshop-s02e04_notes.md)
-- Atelier/Meetup #5 : lundi 22 novembre 2021
-- Atelier/Meetup #6, suivi d'un temps de convivialité : jeudi 9 décembre 2021
+- Atelier/Meetup #5 : lundi 22 novembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes\2021.11.22_workshop-s02e05_notes.md)
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
