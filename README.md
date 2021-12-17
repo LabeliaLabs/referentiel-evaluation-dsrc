@@ -36,7 +36,7 @@ En s'appuyant sur les travaux, cadres et corpus existants, **nous travaillons de
 
 ### Une initiative de plus ?
 
-Pourquoi cette initiative, dans un univers qui voyait déjà en 2019, et voit encore plus aujourd'hui, émerger un certain nombre de travaux ? Nous tenons à jour [une liste de travaux](./references.md#travaux-dans-ce-domaine) que nous avons identifiés. Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des chartes, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles prédictifs, plateforme d'analyse de risque... Mais à ce stade aucun ne nous a semblé répondre aux deux exigences suivantes :
+Pourquoi cette initiative, dans un univers qui voyait déjà en 2019, et voit encore plus aujourd'hui, émerger un certain nombre de travaux ? Nous tenons à jour [une liste de travaux](./references.md#travaux-dans-ce-domaine) que nous avons identifiés. Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des chartes, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles d'IA, plateforme d'analyse de risque... Mais à ce stade aucun ne nous a semblé répondre aux deux exigences suivantes :
 
 1. porter sur toute **l'activité data science d'une organisation** (comme ensemble de pratiques, de processus, de méthodes...), par opposition à porter sur l'élaboration d'un modèle/système d'IA ou le pilotage d'un projet ;
 
@@ -73,7 +73,7 @@ Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/
 
 ### Que désigne-t-on par _IA_ et _data science_ ?
 
-- Cible : **les modèles prédictifs et les systèmes automatiques résultant de l'utilisation de techniques algorithmiques sur des données**. On prend ici une acception large des termes _IA_ et _data science_ (e.g. on y inclut les systèmes experts).
+- Cible : **les modèles d'IA et les systèmes automatiques résultant de l'utilisation de techniques algorithmiques sur des données**. On prend ici une acception large des termes _IA_ et _data science_ (e.g. on y inclut les systèmes experts).
 - Hors cible : les systèmes informatiques, la sécurité informatique, la gestion des bases de données en général (même si toutefois, en se concentrant sur l'activité data science d'une organisation, des sujets de sécurité et de gestion des données émergeront naturellement).
 
 ## Approche participative
