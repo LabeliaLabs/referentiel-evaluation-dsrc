@@ -80,7 +80,7 @@ Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/
 
 ### Cycle d'ateliers d'échange et de co-construction
 
-Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela des ateliers d'échange et de co-construction :
+Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela des ateliers d'échange et de co-construction. L'inscription est gratuite et sans engagement, via la plateforme Meetup ([lien](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/)).
 
 #### Saison 1
 
@@ -92,13 +92,21 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 - Atelier #6 : mardi 10 novembre 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.11.10_workshop-6_notes.md)
 - Atelier #7 : mardi 15 décembre 2020 par téléconférence - [notes de l'atelier](./workshops-notes/2020.12.16_workshop-7_notes.md)
 
-#### Saison 2
+#### Saison 2 - co-organisée avec Dataforgood
 
 - Atelier/Meetup #1 : lundi 22 février 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.02.22_workshop-s02e01_notes.md)
 - Atelier/Meetup #2 : lundi 26 avril 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.04.26_workshop-s02e02_notes.md)
 - Atelier/Meetup #3 : lundi 21 juin 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.06.21_workshop-s02e03_notes.md)
 - Atelier/Meetup #4 : lundi 20 septembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.09.20_workshop-s02e04_notes.md)
 - Atelier/Meetup #5 : lundi 22 novembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes\2021.11.22_workshop-s02e05_notes.md)
+
+#### Saison 3 - co-organisée avec Dataforgood et la FING
+
+- Meetup #1 : lundi 7 mars 2022 à 17h ([lien d'inscription](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/))
+- Meetup #2 : lundi 9 mai 2022 à 17h
+- Meetup #3 : lundi 20 juin 2022 à 17h
+- Meetup #4 : lundi 19 septembre 2022 à 17h
+- Meetup #5 : lundi 21 novembre 2022 à 17h
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
