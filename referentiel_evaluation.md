@@ -478,6 +478,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
 - [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
+- [ ] 3.1.d Les modalités de train-test split choisies sont documentées et intégrées à la documentation du cycle de vie des modèles concernés
 
 <details>
 <summary>Expl3.1 :</summary>

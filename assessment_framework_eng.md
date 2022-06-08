@@ -482,6 +482,7 @@ _(Select all response items that correspond to practices in your organisation. P
 - [ ] 3.1.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
 - [ ] 3.1.b Has a documented and systematically implemented approach to isolating test datasets
 - [ ] 3.1.c Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
+- [ ] 3.1.d The train-test split technical choices implemented are documented and integrated into the model lifecycle documentation of the concerned models
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -549,7 +550,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 - [ ] 3.4.a When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
 - [ ] 3.4.b The implementation of robustness metrics is considered and evaluated for each modelling project, and applied by default in cases where the input data may be subject to fine-grain alterations (e.g. images, sounds)
-- [ ] 3.4.c The above practices that we implement are documented and integrated into the model lifecycle documentation of the models concerned, including the performance metrics chosen
+- [ ] 3.4.c The above practices that we implement are documented and integrated into the model lifecycle documentation of the concerned models, including the performance metrics chosen
 - [ ] 3.4.d We have not yet introduced any such measures
 
 <details>
