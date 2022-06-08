@@ -703,6 +703,7 @@ This concept of "model lifecycle documentation" of a learned AI model can take t
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC* *a platform for data version control and collaboration, based on DVC*
 - (Software & Tools) [Model lifecycle template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the lifecycle from end to end of a model*, 2020, Joséphine Lecoq-Vallon
+- (Academic paper) [System-Level Transparency of Machine Learning](https://ai.facebook.com/research/publications/system-level-transparency-of-machine-learning), 2022, Meta AI: *System Cards aims to increase the transparency of ML systems by providing stakeholders with an overview of different components of an ML system, how these components interact, and how different pieces of data and protected information are used by the system*
 
 </details>
 
