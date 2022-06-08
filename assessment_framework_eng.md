@@ -482,12 +482,11 @@ _(Select all response items that correspond to practices in your organisation. P
 - [ ] 3.1.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
 - [ ] 3.1.b Has a documented and systematically implemented approach to isolating test datasets
 - [ ] 3.1.c Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
-- [ ] 3.1.d Systematically plans two or more sets of test data to increase resilience
 
 <details>
 <summary>Expl3.1 :</summary>
 
-Ensuring that training and test datasets are kept separated is a principle known and mastered by most organisations. It can however be tricky in some particular configurations (e.g. continuous learning, distributed learning *privacy-preserving*...).
+Ensuring that training and test datasets are kept separated is a principle known and mastered by most organisations. It can however be tricky in some particular configurations (e.g. continuous learning, privacy-preserving federated learning...).
 
 </details>
 
