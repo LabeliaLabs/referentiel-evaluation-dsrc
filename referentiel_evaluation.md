@@ -57,6 +57,7 @@ Il est crucial de mettre en place des processus pour connaître et suivre l'évo
 - (Video) [What is the impact of GDPR on AI and Machine Learning?](https://www.youtube.com/watch?v=RLEtyfmsfs4&app=desktop), SwissAI Machine Learning Meetup, Septembre 2018
 - (Technical guide) [L'Atelier RGPD](https://atelier-rgpd.cnil.fr/), formation en ligne proposée par la CNIL (indisponible en juin 2022, en cours de refonte)
 
+
 </details>
 
 ---
@@ -77,6 +78,14 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl1.2 :</summary>
 
 Il s'agit de s'interroger sur la gestion des données personnelles ou confidentielles (stockage, accès, transfert, protection, responsabilités...), et de documenter les choix effectués.
+
+</details>
+
+<details>
+<summary>Ressources1.2 :</summary>
+
+- (Web Article) Article de la CNIL [IA : comment être en conformité avec le RGPD ?](https://www.cnil.fr/fr/intelligence-artificielle/ia-comment-etre-en-conformite-avec-le-rgpd), avril 2022
+- (Technical guide) Grille d'évaluation de la CNIL [Se poser les bonnes questions avant d’utiliser un système d'intelligence artificielle](https://www.cnil.fr/fr/intelligence-artificielle/guide/se-poser-les-bonnes-questions-avant-dutiliser-un-systeme-dintelligence-artificielle), avril 2022
 
 </details>
 
