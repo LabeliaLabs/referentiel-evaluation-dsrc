@@ -355,8 +355,8 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 ---
 
-Q2.3 : **Evaluation of the risk of discrimination against certain social groups**  
-In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
+Q2.3 : **Evaluation of the risk of population bias and discrimination against certain social groups**  
+In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of population bias against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
 
 R2.3 :  
 _(Type: single answer)_  
@@ -378,16 +378,16 @@ In certain cases it is obvious if this risk has to be considered or not (e.g. pr
 
 ---
 
-Q2.4 : **Preventing discriminatory bias**  
+Q2.4 : **Preventing population bias and discriminatory bias**  
 _(Condition: R2.3 <> 2.3.b)_  
-In cases where the AI models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
+In cases where the AI models your organisation develops are used in thematic environments where there is a risk of population bias or discrimination against certain social groups (gender, origin, age, etc.):
 
 R2.4 :  
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of population bias or discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
 - [ ] 2.4.b We pay special attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
 - [ ] 2.4.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
 - [ ] 2.4.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
@@ -398,7 +398,7 @@ _(Specific risk domain: discrimination against certain social groups)_
 <details>
 <summary>Expl2.4 :</summary>
 
-It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be the source of a risk of discriminatory bias. The term "protected attribute" or "protected variable" is used to refer to attributes whose values define sub-populations at risk of discrimination.
+It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be the source of a risk of population bias discriminatory bias. The term "protected attribute" or "protected variable" is used to refer to attributes whose values define sub-populations at risk of discrimination.
 Complement on the use of synthetic data and _data augmentation_, _re-weighting_ approaches in order to reduce possible biases in the data sets: when such techniques are used it is important to make them explicit, otherwise there is a risk of losing information on how a model was developed.
 
 </details>
