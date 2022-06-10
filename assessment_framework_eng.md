@@ -364,7 +364,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 _(Specific risk domain: discrimination against certain social groups)_
 
 - [ ] 2.3.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
-- [ ] 2.3.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.3.b Does not have a documented approach to the subject, but the collaborators involved are knowledgeable and trained on the risks and best practices on the subject
 - [ ] 2.3.c Has a documented approach that is systematically implemented to evaluate this type of risk
 
 

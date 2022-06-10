@@ -364,7 +364,7 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.3 : **Évaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
+Q2.3 : **Évaluation des risques de biais ou discrimination à l'encontre de certains groupes sociaux**  
 Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de biais populationnel voire de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
 
 R2.3 :  
@@ -373,7 +373,7 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
 - [ ] 2.3.a Fonctionne de manière informelle pour évaluer s'il y a ou non un risque de discrimination et s'en remet à la pratique de chaque collaborateur impliqué
-- [ ] 2.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés sur le sujet
+- [ ] 2.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont compétents et formés sur le sujet
 - [ ] 2.3.c Dispose d'une approche documentée et systématiquement mise en oeuvre pour évaluer ce risque
 
 <details>
