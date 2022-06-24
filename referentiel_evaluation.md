@@ -487,7 +487,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
 - [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d Les modalités de train-test split choisies sont documentées et intégrées à la documentation du cycle de vie des modèles concernés
+- [ ] 3.1.d Les modalités de train-test split choisies sont évaluées, documentées et intégrées à la documentation du cycle de vie des modèles concernés
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -574,6 +574,7 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter et A. Madry
 - (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
+- (Academic paper) *[Towards Accountable AI: Hybrid Human-Machine Analysesfor Characterizing System Failure](https://ojs.aaai.org/index.php/HCOMP/article/view/13337/13185)*, B. Nushi, E. Kamar, E. Horvitz, juin 2018
 
 </details>
 
@@ -609,6 +610,8 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, Mars 2020
 - (Web article) *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 - (Web article) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+- (Academic paper) *[Model reports, a supervision tool for Machine
+Learning engineers and users](https://npublications.com/journals/educationinformation/2022/a102008-005(2022).pdf)*, A. Saboni, M. R. Ouamane, O. Bennis, F. Kratz, décembre 2021
 
 </details>
 

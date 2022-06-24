@@ -378,7 +378,7 @@ In certain cases it is obvious if this risk has to be considered or not (e.g. pr
 
 ---
 
-Q2.4 : **Preventing population bias and discriminatory bias**  
+Q2.4 : **Preventing population bias and discrimination**  
 _(Condition: R2.3 <> 2.3.b)_  
 In cases where the AI models your organisation develops are used in thematic environments where there is a risk of population bias or discrimination against certain social groups (gender, origin, age, etc.):
 
@@ -482,7 +482,7 @@ _(Select all response items that correspond to practices in your organisation. P
 - [ ] 3.1.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
 - [ ] 3.1.b Has a documented and systematically implemented approach to isolating test datasets
 - [ ] 3.1.c Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
-- [ ] 3.1.d The train-test split technical choices implemented are documented and integrated into the model lifecycle documentation of the concerned models
+- [ ] 3.1.d The train-test split technical choices implemented are evaluated, documented and integrated into the model lifecycle documentation of the concerned models
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -569,6 +569,7 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter and A. Madry
 - (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
+- (Academic paper) *[Towards Accountable AI: Hybrid Human-Machine Analysesfor Characterizing System Failure](https://ojs.aaai.org/index.php/HCOMP/article/view/13337/13185)*, B. Nushi, E. Kamar, E. Horvitz, June 2018
 
 </details>
 
@@ -604,6 +605,8 @@ Monitoring the performance of models over time is also particularly important in
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 - (Web article) *[Google's medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 - (Web article) (In French) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+- (Academic paper) *[Model reports, a supervision tool for Machine
+Learning engineers and users](https://npublications.com/journals/educationinformation/2022/a102008-005(2022).pdf)*, A. Saboni, M. R. Ouamane, O. Bennis, F. Kratz, December 2021
 
 </details>
 
