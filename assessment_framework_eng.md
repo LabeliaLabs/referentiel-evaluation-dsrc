@@ -55,7 +55,7 @@ It is crucial to put in place processes to know and follow the evolution of appl
 - (Web article) [Artificial Intelligence and the GDPR: how do they interact](https://www.avocats-mathias.com/technologies-avancees/artificial-intelligence-gdpr), Mathias Avocats, November 2017
 - (Web article) [How to develop Artificial Intelligence that is GDPR-friendly](https://techgdpr.com/blog/develop-artificial-intelligence-ai-gdpr-friendly/), Tech GDRP blog, February 2019
 - (Video) [What is the impact of GDPR on AI and Machine Learning](https://www.youtube.com/watch?v=RLEtyfmsfs4&app=desktop), SwissAI Machine Learning Meetup, September 2018
-- (Technical guide) [L'Atelier RGPD](https://atelier-rgpd.cnil.fr/), online training offered by the CNIL (French data protection authority), in French - unavailable as of June 2022, in the process of being upgraded
+- (Technical guide) [L'Atelier RGPD](https://atelier-rgpd.cnil.fr/), online training offered by the CNIL (French data protection authority), in French - unavailable as of June 2022
 
 </details>
 
