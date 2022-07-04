@@ -57,6 +57,7 @@ Il est crucial de mettre en place des processus pour connaître et suivre l'évo
 - (Video) [What is the impact of GDPR on AI and Machine Learning?](https://www.youtube.com/watch?v=RLEtyfmsfs4&app=desktop), SwissAI Machine Learning Meetup, Septembre 2018
 - (Technical guide) [L'Atelier RGPD](https://atelier-rgpd.cnil.fr/), formation en ligne proposée par la CNIL
 
+
 </details>
 
 ---
@@ -77,6 +78,14 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl1.2 :</summary>
 
 Il s'agit de s'interroger sur la gestion des données personnelles ou confidentielles (stockage, accès, transfert, protection, responsabilités...), et de documenter les choix effectués.
+
+</details>
+
+<details>
+<summary>Ressources1.2 :</summary>
+
+- (Web Article) Article de la CNIL [IA : comment être en conformité avec le RGPD ?](https://www.cnil.fr/fr/intelligence-artificielle/ia-comment-etre-en-conformite-avec-le-rgpd), avril 2022
+- (Technical guide) Grille d'évaluation de la CNIL [Se poser les bonnes questions avant d’utiliser un système d'intelligence artificielle](https://www.cnil.fr/fr/intelligence-artificielle/guide/se-poser-les-bonnes-questions-avant-dutiliser-un-systeme-dintelligence-artificielle), avril 2022
 
 </details>
 
@@ -210,6 +219,7 @@ L'état de l'art de la sécurité du ML est en constante évolution, et si la *m
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 - (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, article de blog Labelia Labs (ex- Substra Foundation) pour présenter les approches de distillation, Gijs Barmentlo, 2020
 - (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, Mars 2021 : exposition d'une vulnérabilité des modèles de ML utilisant *pickle* pour le stockage d'objets
+- (Academic paper) *[Reconstructing Training Data from Trained Neural Networks](https://arxiv.org/pdf/2206.07758v1.pdf)*, N. Haim, G. Vardi, G. Yehudai, O. Shamir, M. Irani, June 2022
 
 </details>
 
@@ -355,8 +365,8 @@ Il s'agit de s'obliger à s'interroger sur ces sujets et donc à réfléchir aux
 
 ---
 
-Q2.3 : **Évaluation des risques de discrimination à l'encontre de certains groupes sociaux**  
-Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
+Q2.3 : **Évaluation des risques de biais ou discrimination à l'encontre de certains groupes sociaux**  
+Dans le cadre de projets de data science, la nature du projet, des données utilisées pour le projet et/ou de l'environnement thématique dans lequel se place le projet, peut amener un risque de biais populationnel voire de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.). Il s'agit dans un premier temps d'évaluer pour chaque projet s'il est concerné ou non par ce risque (pour le cas échéant de chercher à le prévenir). Sur ce sujet, votre organisation :
 
 R2.3 :  
 _(Type : réponse unique)_  
@@ -364,27 +374,27 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
 - [ ] 2.3.a Fonctionne de manière informelle pour évaluer s'il y a ou non un risque de discrimination et s'en remet à la pratique de chaque collaborateur impliqué
-- [ ] 2.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont formés sur le sujet
+- [ ] 2.3.b Ne dispose pas d'une approche documentée sur le sujet, mais les collaborateurs impliqués sont compétents et formés sur le sujet
 - [ ] 2.3.c Dispose d'une approche documentée et systématiquement mise en oeuvre pour évaluer ce risque
 
 <details>
 <summary>Expl2.3 :</summary>
 
-Les cas de figure où il existe des risques de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière. Parfois la présence ou l'absence de ce risque est évidente (e.g. projets sur des données comportementales sur une population de clients particuliers, vs. projets sur des données océaniques ou astronomiques par exemple), dans d'autres cas cela peut-être moins évident (e.g. projet de rédaction automatique de réponses à des messages de clients). Il est donc important de s'interroger pour chaque projet s'il est concerné ou non par ce risque.
+Les cas de figure où il existe des risques de biais voire de discrimination sont particulièrement sensibles pour l'organisation et ses parties prenantes, et requièrent une attention toute particulière. Parfois la présence ou l'absence de ce risque est évidente (e.g. projets sur des données comportementales sur une population de clients particuliers, vs. projets sur des données océaniques ou astronomiques par exemple), dans d'autres cas cela peut-être moins évident (e.g. projet de rédaction automatique de réponses à des messages de clients). Il est donc important de s'interroger pour chaque projet s'il est concerné ou non par ce risque.
 
 </details>
 
 ---
 
-Q2.4 : **Prévention des biais discriminatoires**  
-Dans les cas de figure où les modèles d'IA que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
+Q2.4 : **Prévention des biais et des discriminations**  
+Dans les cas de figure où les modèles d'IA que votre organisation élabore sont utilisés dans des environnements thématiques où il y a des risques de biais populationnel voire de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) :
 
 R2.4 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_  
 _(Domaine de risque spécifique : discrimination à l'encontre de certains groupes sociaux)_
 
-- [ ] 2.4.a Nous ne traitons pas de thématique ou ne portons pas de projet correspondant à des cas de figure avec des risques de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) | _(Concerné / Non concerné)_
+- [ ] 2.4.a Nous ne traitons pas de thématique ou ne portons pas de projet correspondant à des cas de figure avec des risques de biais populationnel et de discrimination à l'encontre de certains groupes sociaux (genre, origine, âge, etc.) | _(Concerné / Non concerné)_
 - [ ] 2.4.b Nous portons une attention particulière à l'identification d'attributs protégés et à leurs proxys éventuels (par exemple étude une à une des variables utilisées en entrées du modèle pour recenser les corrélations qu’elles pourraient avoir avec des données sensibles)
 - [ ] 2.4.c Nous procédons à des évaluations sur des données de test comprenant différentes sous-populations afin d'identifier les éventuels biais problématiques
 - [ ] 2.4.d Nous sélectionnons et mettons en oeuvre une ou plusieurs mesure(s) de justice et d'équité (_fairness metric_)
@@ -395,7 +405,7 @@ _(Domaine de risque spécifique : discrimination à l'encontre de certains group
 <details>
 <summary>Expl2.4 :</summary>
 
-Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais discriminatoire. On parle d'attribut protégé (*protected attribute* ou *protected variable* en anglais) pour désigner les attributs dont les valeurs définissent des sous-populations à risque de discrimination.
+Il s'agit de s'interroger systématiquement, à chaque projet de data science et selon l'objectif et l'usage cible du modèle que l'on veut élaborer, sur les features pouvant directement ou indirectement être à l'origine d'un risque de biais populationnel voire de discrimination. On parle d'attribut protégé (*protected attribute* ou *protected variable* en anglais) pour désigner les attributs dont les valeurs définissent des sous-populations à risque de biais et discrimination.
 Complément sur l'utilisation de données synthétiques et d'approches de _data augmentation_, _re-weighting_ dans le but de réduire les éventuels biais des jeux de données : lorsque de telles techniques sont utilisées il est important de les expliciter, au risque sinon de perdre de l'information sur la manière dont un modèle a été élaboré.
 
 </details>
@@ -478,7 +488,7 @@ _(Sélectionner tous les éléments de réponse correspondant à des pratiques d
 - [ ] 3.1.a Fonctionne de manière informelle à ce sujet et s'appuie sur la compétence et la responsabilité des collaborateurs impliquées
 - [ ] 3.1.b Dispose d'une approche documentée et systématiquement mise en oeuvre d'isolation des jeux de données de test
 - [ ] 3.1.c Utilise un outil de versionnage et de traçabilité des jeux de données d'entraînement et de test utilisés, permettant ainsi de vérifier ou auditer ultérieurement la non-contamination des données de tests
-- [ ] 3.1.d Prévoit systématiquement l'élaboration de deux jeux de données de test ou plus pour gagner en résilience
+- [ ] 3.1.d Les modalités de train-test split choisies sont évaluées, documentées et intégrées à la documentation du cycle de vie des modèles concernés
 
 <details>
 <summary>Expl3.1 :</summary>
@@ -565,6 +575,7 @@ Sur la robustesse, une définition intuitive est qu'un modèle est robuste lorsq
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter et A. Madry
 - (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
+- (Academic paper) *[Towards Accountable AI: Hybrid Human-Machine Analysesfor Characterizing System Failure](https://ojs.aaai.org/index.php/HCOMP/article/view/13337/13185)*, B. Nushi, E. Kamar, E. Horvitz, juin 2018
 
 </details>
 
@@ -600,6 +611,8 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, Mars 2020
 - (Web article) *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 - (Web article) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+- (Academic paper) *[Model reports, a supervision tool for Machine
+Learning engineers and users](https://npublications.com/journals/educationinformation/2022/a102008-005(2022).pdf)*, A. Saboni, M. R. Ouamane, O. Bennis, F. Kratz, décembre 2021
 
 </details>
 
@@ -700,6 +713,7 @@ Ce concept de "cycle de vie" d'un modèle d'IA appris peut se décliner sous la 
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC*
 - (Software & Tools) [Modèle de documentation d'un cycle de vie](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template à destination des Data Scientists pour aider à collecter toutes les informations afin de tracer le cycle de vie d'un modèle*, 2020, Joséphine Lecoq-Vallon
+- (Academic paper) [System-Level Transparency of Machine Learning](https://ai.facebook.com/research/publications/system-level-transparency-of-machine-learning), 2022, Meta AI: *System Cards aims to increase the transparency of ML systems by providing stakeholders with an overview of different components of an ML system, how these components interact, and how different pieces of data and protected information are used by the system*
 
 </details>
 

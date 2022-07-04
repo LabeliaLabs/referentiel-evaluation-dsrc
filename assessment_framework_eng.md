@@ -210,6 +210,7 @@ The state of the art in ML security is constantly evolving. If data scientists a
 - (Academic paper) *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 - (Web article) *[Model distillation and privacy](https://www.labelia.org/en/blog/model-distillation)*, Labelia Labs (ex- Substra Foundation) blog post to introduce distillation approaches, Gijs Barmentlo, 2020
 - (Web article) *[Never a dill moment: Exploiting machine learning pickle files](https://blog.trailofbits.com/2021/03/15/never-a-dill-moment-exploiting-machine-learning-pickle-files/)*, Trail of Bits, March 2021: exposition of a vulnerability of ML models using pickle for objects storage
+- (Academic paper) *[Reconstructing Training Data from Trained Neural Networks](https://arxiv.org/pdf/2206.07758v1.pdf)*, N. Haim, G. Vardi, G. Yehudai, O. Shamir, M. Irani, June 2022
 
 </details>
 
@@ -355,8 +356,8 @@ It is a question of ensuring that oneself considers these subjects and therefore
 
 ---
 
-Q2.3 : **Evaluation of the risk of discrimination against certain social groups**  
-In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of discrimination against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
+Q2.3 : **Evaluation of the risk of population bias and discrimination against certain social groups**  
+In the context of data science projects, the nature of the project, the data used for the project and/or the thematic environment of the project can foster a risk of population bias against certain social groups (gender, origin, age, etc.). Evaluating first for each project if it is subject or not to such a risk seems key (in which case mitigation measures can be then contemplated). On that topic, your organisation:
 
 R2.3 :  
 _(Type: single answer)_  
@@ -364,7 +365,7 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 _(Specific risk domain: discrimination against certain social groups)_
 
 - [ ] 2.3.a Operates informally and relies on the practices of each collaborator involved to evaluate if there is a risk
-- [ ] 2.3.b Does not have a documented approach to the subject, but the collaborators involved are trained on the risks and best practices on the subject
+- [ ] 2.3.b Does not have a documented approach to the subject, but the collaborators involved are knowledgeable and trained on the risks and best practices on the subject
 - [ ] 2.3.c Has a documented approach that is systematically implemented to evaluate this type of risk
 
 
@@ -378,16 +379,16 @@ In certain cases it is obvious if this risk has to be considered or not (e.g. pr
 
 ---
 
-Q2.4 : **Preventing discriminatory bias**  
+Q2.4 : **Preventing population bias and discrimination**  
 _(Condition: R2.3 <> 2.3.b)_  
-In cases where the AI models your organisation develops are used in thematic environments where there is a risk of discrimination against certain social groups (gender, origin, age, etc.):
+In cases where the AI models your organisation develops are used in thematic environments where there is a risk of population bias or discrimination against certain social groups (gender, origin, age, etc.):
 
 R2.4 :  
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_  
 _(Specific risk domain: discrimination against certain social groups)_
 
-- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
+- [ ] 2.4.a We are not involved in cases where AI models are used in thematic environments with risks of population bias or discrimination against certain social groups (gender, origin, age, etc.) | _(Concerned / Not concerned)_
 - [ ] 2.4.b We pay special attention to the identification of protected attributes and their possible proxies (e.g. studying one by one the variables used as model inputs to identify the correlations they might have with sensitive data)
 - [ ] 2.4.c We carry out evaluations on test data from different sub-populations in order to identify possible problematic biases
 - [ ] 2.4.d We select and implement one or more justice and equity measure(s) (_fairness metrics_)
@@ -398,7 +399,7 @@ _(Specific risk domain: discrimination against certain social groups)_
 <details>
 <summary>Expl2.4 :</summary>
 
-It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be the source of a risk of discriminatory bias. The term "protected attribute" or "protected variable" is used to refer to attributes whose values define sub-populations at risk of discrimination.
+It is a question of systematically questioning, for each data science project and according to the objective and target use of the model that one wants to develop, the features that may directly or indirectly be the source of a risk of population bias discriminatory bias. The term "protected attribute" or "protected variable" is used to refer to attributes whose values define sub-populations at risk of discrimination.
 Complement on the use of synthetic data and _data augmentation_, _re-weighting_ approaches in order to reduce possible biases in the data sets: when such techniques are used it is important to make them explicit, otherwise there is a risk of losing information on how a model was developed.
 
 </details>
@@ -482,12 +483,12 @@ _(Select all response items that correspond to practices in your organisation. P
 - [ ] 3.1.a Operates informally on this subject and relies on the competence and responsibility of the collaborators involved
 - [ ] 3.1.b Has a documented and systematically implemented approach to isolating test datasets
 - [ ] 3.1.c Uses a tool for versioning and tracing the training and test datasets used, thus enabling the non-contamination of test data to be checked or audited at a later stage
-- [ ] 3.1.d Systematically plans two or more sets of test data to increase resilience
+- [ ] 3.1.d The train-test split technical choices implemented are evaluated, documented and integrated into the model lifecycle documentation of the concerned models
 
 <details>
 <summary>Expl3.1 :</summary>
 
-Ensuring that training and test datasets are kept separated is a principle known and mastered by most organisations. It can however be tricky in some particular configurations (e.g. continuous learning, distributed learning *privacy-preserving*...).
+Ensuring that training and test datasets are kept separated is a principle known and mastered by most organisations. It can however be tricky in some particular configurations (e.g. continuous learning, privacy-preserving federated learning...).
 
 </details>
 
@@ -550,7 +551,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 
 - [ ] 3.4.a When developing a model, we choose the performance metric(s) prior to actually training the model, from among the most standard metrics possible
 - [ ] 3.4.b The implementation of robustness metrics is considered and evaluated for each modelling project, and applied by default in cases where the input data may be subject to fine-grain alterations (e.g. images, sounds)
-- [ ] 3.4.c The above practices that we implement are documented and integrated into the model lifecycle documentation of the models concerned, including the performance metrics chosen
+- [ ] 3.4.c The above practices that we implement are documented and integrated into the model lifecycle documentation of the concerned models, including the performance metrics chosen
 - [ ] 3.4.d We have not yet introduced any such measures
 
 <details>
@@ -569,6 +570,7 @@ On robustness, an intuitive definition is that a model is robust when its perfor
 - (Academic paper) *Robustness metrics* : *[noise sensitivity score](https://arxiv.org/abs/1806.01477)*.
 - (Technical guide) *[Adversarial Robustness - Theory and Practice](https://adversarial-ml-tutorial.org/)*, Z. Kolter and A. Madry
 - (Technical guide) *[Understand Robustness](https://github.com/Nathanlauga/understand-robustness/blob/main/notebooks/understand_robustness.ipynb)*, Nathan Lauga, 2020
+- (Academic paper) *[Towards Accountable AI: Hybrid Human-Machine Analysesfor Characterizing System Failure](https://ojs.aaai.org/index.php/HCOMP/article/view/13337/13185)*, B. Nushi, E. Kamar, E. Horvitz, June 2018
 
 </details>
 
@@ -604,6 +606,8 @@ Monitoring the performance of models over time is also particularly important in
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 - (Web article) *[Google's medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
 - (Web article) (In French) *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
+- (Academic paper) *[Model reports, a supervision tool for Machine
+Learning engineers and users](https://npublications.com/journals/educationinformation/2022/a102008-005(2022).pdf)*, A. Saboni, M. R. Ouamane, O. Bennis, F. Kratz, December 2021
 
 </details>
 
@@ -704,6 +708,7 @@ This concept of "model lifecycle documentation" of a learned AI model can take t
 - (Software & Tools) [DVC](https://dvc.org/): *an Open-source Version Control System for Machine Learning Projects*
 - (Software & Tools) [DAGsHub](https://dagshub.com/docs/): *a platform for data version control and collaboration, based on DVC* *a platform for data version control and collaboration, based on DVC*
 - (Software & Tools) [Model lifecycle template](https://github.com/dataforgoodfr/batch8_substra/blob/master/G%C3%A9n%C3%A9alogie%20de%20bout-en-bout/Genealogie-de-bout-en-bout_template.md): *template for Data Scientists to help collect all the information in order to trace the lifecycle from end to end of a model*, 2020, Joséphine Lecoq-Vallon
+- (Academic paper) [System-Level Transparency of Machine Learning](https://ai.facebook.com/research/publications/system-level-transparency-of-machine-learning), 2022, Meta AI: *System Cards aims to increase the transparency of ML systems by providing stakeholders with an overview of different components of an ML system, how these components interact, and how different pieces of data and protected information are used by the system*
 
 </details>
 

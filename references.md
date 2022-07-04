@@ -37,6 +37,8 @@
 
   - La *distillation* d'un modèle, en plus de la compression qu'elle apporte, peut être utilisée comme une mesure de protection du modèle et des données d'entraînement utilisées, voir par exemple *[Knowledge Distillation : Simplified](https://towardsdatascience.com/knowledge-distillation-simplified-dd4973dbc764)*, Towards Data Science, 2019, et *[Distilling the Knowledge in a Neural Network](https://arxiv.org/abs/1503.02531)*, G. Hinton, O. Vinyals, J. Dean, 2015
 
+  - *[The FTC’s new enforcement weapon spells death for algorithms](https://www.protocol.com/policy/ftc-algorithm-destroy-data-privacy)*, Protocol Policy, 2022
+
 - Cycle de vie complet :
 
   - *[En route vers le cycle de vie des modèles !](https://www.quantmetry.com/blog/premier-etape-cycle-vie-modeles/)*, G. Martinon, Janvier 2020
@@ -44,6 +46,8 @@
 - "Performance is not outcome", erreurs, crises :
 
   - *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
+
+  - *[Hundreds of AI tools have been built to catch covid. None of them helped](https://www.technologyreview.com/2021/07/30/1030329/machine-learning-ai-failed-covid-hospital-diagnosis-pandemic)*, MIT Technology Review, July 2021
 
 - Various scandals and or controversies:
 
