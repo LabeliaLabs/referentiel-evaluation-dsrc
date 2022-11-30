@@ -305,7 +305,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 - [ ] 2.1.a We operate informally on this subject and rely on the practices of each collaborator involved
 - [ ] 2.1.b Our approach includes methods to prevent poisoning attacks when collecting and gathering data samples
 - [ ] 2.1.c Our approach includes methods to check and make sure when necessary that datasets include samples of rare events
-- [ ] 2.1.d Our approcah includes methods to complete missing values in datasets
+- [ ] 2.1.d Our approach includes methods to complete missing values in datasets
 - [ ] 2.1.e Our approach includes methods to handle erroneous or atypical data samples values
 
 <details>
