@@ -100,13 +100,17 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 - Atelier/Meetup #4 : lundi 20 septembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes/2021.09.20_workshop-s02e04_notes.md)
 - Atelier/Meetup #5 : lundi 22 novembre 2021 par téléconférence - [notes de l'atelier](./workshops-notes\2021.11.22_workshop-s02e05_notes.md)
 
-#### Saison 3 - co-organisée avec Dataforgood et la FING
+#### Saison 3 - co-organisée avec Dataforgood (et la FING au S1 2022)
 
-- Meetup #1 : lundi 7 mars 2022 à 17h ([lien d'inscription](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/))
-- Meetup #2 : lundi 9 mai 2022 à 17h
-- Meetup #3 : lundi 20 juin 2022 à 17h
-- Meetup #4 : lundi 19 septembre 2022 à 17h
-- Meetup #5 : lundi 21 novembre 2022 à 17h
+- Meetup #1 : lundi 7 mars 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2022.03.07_workshop-s03e01_notes.md)
+- Meetup #2 : lundi 9 mai 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2022.05.09_workshop-s03e02_notes.md)
+- Meetup #3 : lundi 20 juin 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2021.06.20_workshop-s03e03_notes.md)
+- Meetup #4 : lundi 19 septembre 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2021.09.19_workshop-s03e04_notes.md)
+- Meetup #5 : lundi 21 novembre 2022 à Paris dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier](./workshops-notes\2022.11.21_workshop-s03e05_notes.md)
+
+#### Saison 4 - co-organisée avec Dataforgood
+
+*L'organisation de la saison 4 (2023) est en cours*.
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
