@@ -110,7 +110,11 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 
 #### Saison 4 - co-organisée avec Dataforgood
 
-*L'organisation de la saison 4 (2023) est en cours*.
+- Meetup #1 : lundi 6 mars 2023 à 17h
+- Meetup #2 : lundi 15 mai 2023 à 17h
+- Meetup #3 : lundi 26 juin 2023 à 17h
+- Meetup #4 : lundi 18 septembre 2023 à 17h
+- Meetup #5 : lundi 20 novembre 2023 à 17h
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
