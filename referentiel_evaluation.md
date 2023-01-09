@@ -2,7 +2,7 @@
 
 Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit du travail participatif initié au printemps 2019 par Labelia Labs (ex- Substra Foundation) et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
 
-Dernière mise à jour : 1er semestre 2022.
+Dernière mise à jour : 2ème semestre 2022.
 
 ## Référentiel d'évaluation de la maturité d'une organisation
 
@@ -418,6 +418,7 @@ Complément sur l'utilisation de données synthétiques et d'approches de _data 
 - (Technical guide) *[A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)*, blog Towards Data Science, Z. Zhong, Octobre 2018
 - (Web article) *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
 - (Software & Tools) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)* : librairie open source permettant d'inspecter et tester des modèles d'IA, de suivre leur comportement en production, annoter des prédictions problématiques
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Livre *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, Décembre 2019
@@ -607,6 +608,7 @@ Suivre l'évolution de la performance des modèles dans le temps est également 
 <details>
 <summary>Ressources3.5 :</summary>
 
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)* : librairie open source permettant d'inspecter et tester des modèles d'IA, de suivre leur comportement en production, annoter des prédictions problématiques
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, Septembre 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, Mars 2020
 - (Web article) *[Google’s medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
@@ -945,6 +947,7 @@ Utiliser des systèmes automatiques basés entre autres sur des modèles dont le
 <summary>Ressources5.3 :</summary>
 
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)* : librairie open source permettant d'inspecter et tester des modèles d'IA, de suivre leur comportement en production, annoter des prédictions problématiques
 
 </details>
 

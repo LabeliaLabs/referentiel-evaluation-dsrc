@@ -2,7 +2,7 @@
 
 The [evaluation framework](#evaluation-framework-to-assess-the-maturity-of-an-organisation) below is the result of the participatory work initiated in the spring of 2019 by Labelia Labs (ex- Substra Foundation) and ongoing since then. It is based on the identification of the risks that we are trying to prevent by aiming for a responsible and trustworthy practice of data science, and best practices to mitigate them. It also brings together for each topic technical resources that can be good entry points for interested organisations.
 
-Last update: 1st semester 2022.
+Last update: 2nd semester 2022.
 
 ## Evaluation framework to assess the maturity of an organisation
 
@@ -305,7 +305,7 @@ _(Select all the answer items that correspond to practices in your organisation)
 - [ ] 2.1.a We operate informally on this subject and rely on the practices of each collaborator involved
 - [ ] 2.1.b Our approach includes methods to prevent poisoning attacks when collecting and gathering data samples
 - [ ] 2.1.c Our approach includes methods to check and make sure when necessary that datasets include samples of rare events
-- [ ] 2.1.d Our approcah includes methods to complete missing values in datasets
+- [ ] 2.1.d Our approach includes methods to complete missing values in datasets
 - [ ] 2.1.e Our approach includes methods to handle erroneous or atypical data samples values
 
 <details>
@@ -412,6 +412,7 @@ Complement on the use of synthetic data and _data augmentation_, _re-weighting_ 
 - (Technical guide) *[A Tutorial on Fairness in Machine Learning](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)*, Towards Data Science blog, Z. Zhong, October 2018
 - (Web article) *[Measuring fairness](https://pair.withgoogle.com/explorables/measuring-fairness)* explorable, [PAIR](https://pair.withgoogle.com/)
 - (Software & Tools) *[AI Fairness 360](https://developer.ibm.com/technologies/artificial-intelligence/projects/ai-fairness-360/): an open source software toolkit that can help detect and remove bias in machine learning models*, IBM
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)*: open source library to inspect & test AI models, monitor models in production, report unexpected predictions
 - (Academic paper) *Fairness metrics* : *[counterfactual fairness](https://papers.nips.cc/paper/6995-counterfactual-fairness)*
 - (Academic paper) *Fairness metrics* : *[adversarial debiaising](https://arxiv.org/pdf/1801.07593.pdf)*
 - (Technical guide) Book *Fair ML* : *[Fairness and machine learning - Limitations and opportunities](https://fairmlbook.org/)*, Solon Barocas, Moritz Hardt, Arvind Narayanan, December 2019
@@ -602,6 +603,7 @@ Monitoring the performance of models over time is also particularly important in
 <details>
 <summary>Resources3.5 :</summary>
 
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)*: open source library to inspect & test AI models, monitor models in production, report unexpected predictions
 - (Technical guide) *[Continuous delivery for machine learning](https://martinfowler.com/articles/cd4ml.html)*, D. Sato, A. Wider, C. Windheuser, September 2019
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
 - (Web article) *[Google's medical AI was super accurate in a lab. Real life was a different story](https://www.technologyreview.com/2020/04/27/1000658/google-medical-ai-accurate-lab-real-life-clinic-covid-diabetes-retina-disease/)*, MIT Technology Review
@@ -940,6 +942,7 @@ Using automatic systems based on models whose rules have been "learned" (and not
 <summary>Ressources5.3 :</summary>
 
 - (Technical guide) *[Monitoring Machine Learning Models in Production - A comprehensive guide](https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/)*, Christopher Samiullah, March 2020
+- (Software & Tools) *[Giskard AI](https://github.com/Giskard-AI/giskard)*: open source library to inspect & test AI models, monitor models in production, report unexpected predictions
 
 </details>
 
