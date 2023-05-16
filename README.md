@@ -132,13 +132,9 @@ Un versionnage officiel est proposé en complément afin de fournir un repère t
 
 Afin d'assurer la transparence et la sincérité de l'élaboration participative du référentiel cadre de la data science responsable et de confiance, le processus décrit sur le schéma ci-dessous est mis en place.
 
-Le travail itératif pour améliorer le référentiel se déroule tout au long de l'année, mais les mises à jour officielles du référentiel ne sont entérinées qu'une fois par semestre. Pour celles-ci, la version candidate pour mise à jour, composée de toutes les contributions des premiers mois du semestre, sont transmises pro-activement à la communauté (suiveurs de ce repository, inscrits au Meetup, abonnés au Slack, inscrits à la mailing list). Toutes les questions, remarques, propositions et objections sont traitées en toute transparence via les issues et PRs sur ce repository. Le comité de gouvernance s'en assure en observant les interactions sur les issues et PRs. La version candidate pour mise à jour est ainsi affinée pour faire consensus, et entérinée une fois tous les retours traités et le consensus assuré.
+Le travail itératif pour améliorer le référentiel se déroule tout au long de l'année, mais les mises à jour officielles du référentiel ne sont entérinées qu'une fois par semestre. Pour celles-ci, la version candidate pour mise à jour, composée de toutes les contributions des premiers mois du semestre, sont transmises pro-activement à la communauté (suiveurs de ce repository, inscrits au Meetup, inscrits à la mailing list, abonnés au Slack). Toutes les questions, remarques, propositions et objections sont traitées en toute transparence via les issues et PRs sur ce repository. La version candidate pour mise à jour est ainsi affinée pour faire consensus, et entérinée une fois tous les retours traités et le consensus assuré.
 
 ![Représentation schématique du processus de supervision et validation de mise à jour du référentiel cadre](./img/processus_mise_a_jour_referentiel_cadre_dsrc.png)
-
-Le comité de gouvernance est composé de professionnels de la data science et du numérique, avec une diversité d'expériences et de savoir-faire (public et privé, spécialistes techniques et responsables de projets, industrie et recherche). Il est composé de 7 à 10 membres y siégeant à titre individuel, et sera renouvelé annuellement.
-
-![Composition du comité de gouvernance](./img/composition_comite_gouvernance.png)
 
 ### Elaboration participative, contributions et retours - Remerciements
 
