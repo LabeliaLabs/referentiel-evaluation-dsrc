@@ -111,7 +111,7 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 #### Saison 4 - co-organisée avec Dataforgood
 
 - Meetup #1 : lundi 6 mars 2023 à Paris dans les locaux de Quantmetry et par téléconférence - [notes de l'atelier](./workshops-notes\2023.03.06_workshop-s04e01_notes.md)
-- Meetup #2 : lundi 26 juin 2023 à 17h
+- Meetup #2 : lundi 3 juillet 2023 à 17h dans les locaux d'Ekimetrics et par téléconférence
 - Meetup #3 : lundi 18 septembre 2023 à 17h
 - Meetup #4 : lundi 20 novembre 2023 à 17h
 
