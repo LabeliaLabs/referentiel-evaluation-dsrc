@@ -1034,19 +1034,19 @@ La mise en place d'un système automatique basé sur un modèle d'IA peut géné
 
 ---
 
-Q6.1 : **Impact CO2**  
-Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
+Q6.1 : **Impact environnemental (consommation d'énergie et empreinte carbone)**  
+Au sujet de l'impact environnemental de l'activité data science au sein de votre organisation :
 
 R6.1 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles d'IA
-- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de l'impact CO2 de notre activité data science ou de nos modèles
+- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact environnemental de notre activité data science ou de nos modèles d'IA
+- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de la consommation d'énergie et de l'empreinte carbone de notre activité data science ou de nos modèles
 - [ ] 6.1.c Nous mesurons nos indicateurs régulièrement
 - [ ] 6.1.d Nous incluons leurs mesures dans les cartes d'identité des modèles
 - [ ] 6.1.e La mesure de ces indicateurs et un processus formalisé dans le cadre duquel nous fixons et pilotons des objectifs d'amélioration
-- [ ] 6.1.f L'impact CO2 de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
+- [ ] 6.1.f La consommation d'énergie et l'empreinte carbone de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
 
 <details>
 <summary>Expl6.1 :</summary>
