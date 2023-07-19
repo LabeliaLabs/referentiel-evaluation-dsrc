@@ -17,14 +17,14 @@ The evaluation is composed of the following 6 sections:
 
 ---
 
-### Section 1 - Protecting personal or confidential data
+### Section 1 - Protecting personal or confidential data and comply with regulatory requirements
 
-**[Data privacy]**
+**[Data privacy and regulatory compliance]**
 
-The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised.
+The use of personal or confidential data carries the risk of exposure of such data, which can have very detrimental consequences for the producers, controllers or subjects of such data. Particularly in data science projects, they must therefore be protected and the risks of their leakage or exposure must be minimised. Additionnally, AI models themselves can be attacked and must be protected. Finally, regulatory requirements specific to AI systems but be identified, known, and the data science activities of the organization must be compliant.
 
 [_[⇧ back to the list of sections](#evaluation-framework-to-assess-the-maturity-of-an-organisation)_]  
-[_[⇩ next section](#section-2---preventing-bias-developing-non-discriminatory-models)
+[_[⇩ next section](#section-2---preventing-bias-developing-non-discriminatory-models)_]
 
 ---
 
@@ -97,6 +97,13 @@ _(Select one answer only, which best corresponds to the level of maturity of the
 <summary>Expl1.3 :</summary>
 
 In addition to identifying regulations and compliance approaches, it is important to set up a surveillance processe to know and follow **the evolution** of applicable regulations (which can be very specific in certain sectors). Interesting example(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
+
+<details>
+<summary>Ressources1.3 :</summary>
+
+- (Academic paper) *[Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)*, Rishi Bommasani and Kevin Klyman and Daniel Zhang and Percy Liang (Stanford University, Center for Research on Foundation Models), June 2023
 
 </details>
 
@@ -1055,6 +1062,7 @@ It is important to question and raise awareness of environmental costs. In parti
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: python library for evaluation the carbon cost of executing a script
+- (Web article) (In French) *[La frugalité, ou comment empêcher l’IA de franchir les limites](https://www.quantmetry.com/blog/ia-confiance-frugalite/)*, Geoffray Brelurut (Quantmetry), June 2023
 - (Web article) (In French) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut and Grégoire Martinon, May 2021
 - (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
 - (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018

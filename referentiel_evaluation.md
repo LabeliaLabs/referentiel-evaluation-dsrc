@@ -17,11 +17,11 @@ L'évaluation est composée des 6 sections suivantes :
 
 ---
 
-### Section 1 - Protéger les données à caractère personnel ou confidentielles
+### Section 1 - Protéger les données à caractère personnel ou confidentielles et se conformer aux exigences réglementaires
 
-**[Protection des données]**
+**[Protection des données et conformité réglementaire]**
 
-L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
+L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés. Par ailleurs, les modèles d'IA eux-mêmes peuvent être attaqués et doivent être protégés. Enfin, les exigences réglementaires spécifiques aux systèmes d'IA doivent être connus, maîtrisés et l'activité data science de l'organisation doit s'y conformer.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)_]
@@ -29,7 +29,7 @@ L'utilisation de données à caractère personnel ou confidentielles fait porter
 ---
 
 Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
-En ce qui concerne les données à caractère personnel ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
+En ce qui concerne les données à caractère personnel ou confidentielles et les systèmes d'IA, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
 _(Type : réponse unique)_  
@@ -106,6 +106,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl1.3 :</summary>
 
 Au-delà de l'identification des réglementations et des approches de mise en conformité, il est important de mettre en place des processus de veille pour connaître et suivre **l'évolution** des réglementations applicables (qui peuvent être très spécifiques dans certains secteurs). Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
+
+<details>
+<summary>Ressources1.3 :</summary>
+
+- (Academic paper) *[Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)*, Rishi Bommasani and Kevin Klyman and Daniel Zhang and Percy Liang (Stanford University, Center for Research on Foundation Models), June 2023
 
 </details>
 
