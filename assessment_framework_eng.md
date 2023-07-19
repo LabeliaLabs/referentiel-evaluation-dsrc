@@ -1041,7 +1041,9 @@ _(Select all the answer items that correspond to practices in your organisation)
 - [ ] 6.1.c We measure our indicators regularly
 - [ ] 6.1.d We include their measurements in the model identity cards
 - [ ] 6.1.e Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
-- [ ] 6.1.f The energy consumption and carbon footprint of our data science activity or our models is made transparent to our counterparts and the general public
+- [ ] 6.1.f We consolidate an aggregated view of the energy consumtion and carbon footprint of our data science activities
+- [ ] 6.1.g This aggregated view is taken into account in the global environmental impact evaluation of our organization (e.g. carbon footprint, regulatory GHG evaluation, Paris Agreement compatibility score...)
+- [ ] 6.1.h The energy consumption and carbon footprint of our data science activity or our models is made transparent to our counterparts and the general public
 
 <details>
 <summary>Expl6.1 :</summary>
