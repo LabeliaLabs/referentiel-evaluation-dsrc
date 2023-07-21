@@ -1034,24 +1034,26 @@ La mise en place d'un système automatique basé sur un modèle d'IA peut géné
 
 ---
 
-Q6.1 : **Impact CO2**  
-Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
+Q6.1 : **Impact environnemental (consommation d'énergie et empreinte carbone)**  
+Au sujet de l'impact environnemental de l'activité data science au sein de votre organisation :
 
 R6.1 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles d'IA
-- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de l'impact CO2 de notre activité data science ou de nos modèles
+- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact environnemental de notre activité data science ou de nos modèles d'IA
+- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de la consommation d'énergie et de l'empreinte carbone de notre activité data science ou de nos modèles
 - [ ] 6.1.c Nous mesurons nos indicateurs régulièrement
 - [ ] 6.1.d Nous incluons leurs mesures dans les cartes d'identité des modèles
 - [ ] 6.1.e La mesure de ces indicateurs et un processus formalisé dans le cadre duquel nous fixons et pilotons des objectifs d'amélioration
-- [ ] 6.1.f L'impact CO2 de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
+- [ ] 6.1.f Nous consolidons une vue agrégée de la consommation d'énergie et l'empreinte carbone de notre activité data science
+- [ ] 6.1.g Cette vue agrégée est prise en compte dans l'évaluation de l'impact environnemental global de notre organisation (e.g. bilan carbone, bilan GES réglementaire, score de compatibilité avec l'Accord de Paris...)
+- [ ] 6.1.h La consommation d'énergie et l'empreinte carbone de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
 
 <details>
 <summary>Expl6.1 :</summary>
 
-Il est important de s'interroger et de conscientiser les coûts environnementaux. En particulier, on peut (i) mesurer l'impact environnemental des projets data science, (ii) publier de manière transparente leur impact environnemental en séparant phase d'entraînement et de déploiement, (iii) piloter et diminuer ces indicateurs en actionnant différents leviers (infrastructure, typologie de modèle, recyclage et apprentissage par transfert).
+Il est important de s'interroger et de conscientiser les coûts environnementaux. En particulier, on peut (i) mesurer l'impact environnemental des projets data science, (ii) publier de manière transparente leur impact environnemental en séparant phase d'entraînement et de déploiement, (iii) piloter et diminuer ces indicateurs en actionnant différents leviers (infrastructure, typologie de modèle, recyclage et apprentissage par transfert). De tels choix peuvent avoir un impact sur l'empreinte carbone de l'entraînement d'un modèle d'un facteur 100 à 1000 (voir ressources ci-dessous).
 
 </details>
 
@@ -1061,7 +1063,9 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
 - (Web article) *[La frugalité, ou comment empêcher l’IA de franchir les limites](https://www.quantmetry.com/blog/ia-confiance-frugalite/)*, Geoffray Brelurut (Quantmetry), Juin 2023
+- (Academic paper) *[Carbon Emissions and Large Neural Network Training](https://arxiv.org/ftp/arxiv/papers/2104/2104.10350.pdf)*, David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean, 2021. Extrait : *Remarkably, the choice of DNN, datacenter, and processor can reduce the carbon footprint up to ~100-1000X*
 - (Web article) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut et Grégoire Martinon, Mai 2021
+- (Academic paper) *[Sustainable AI: Environmental Implications, Challenges and Opportunities](https://arxiv.org/abs/2111.00364)*, Facebook AI, 2021
 - (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
 - (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
 - (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
