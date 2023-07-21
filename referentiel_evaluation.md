@@ -1022,6 +1022,27 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 </details>
 
 ---
+
+Q5.6 : **Historisation des prédictions des modèles d'IA**  
+Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles d'IA. Afin d'assurer l'auditabilité et de faciliter l'amélioration dans le temps de ces modèles et applications associées, il est important d'en historiser les prédictions. Sur ce thème :
+
+R5.6 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
+
+- [ ] 5.6.a Notre organisation n'utilise pas de modèles d'IA élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles d'IA | _(Concerné / Non concerné)_
+- [ ] 5.6.b Nous n'avons pas encore mis en place l'historisation systématique des prédictions issues des modèles utilisés en production
+- [ ] 5.6.c Nous historisons systématiquement toutes les prédictions issues des modèles utilisés en production (associées aux données d'entrée et aux références des modèles concernés)
+
+<details>
+<summary>Expl5.6 :</summary>
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été apprises interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Pour ce faire, l'historistation des prédictions obtenues des modèles (avec les données d'entrée et les références des modèles concernés) est cruciales pour permettre l'auditabilité a posteriori de cas de figure concrets.
+
+</details>
+
+---
 ---
 
 ### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science

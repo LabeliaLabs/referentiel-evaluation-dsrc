@@ -1017,6 +1017,27 @@ Using automatic systems based on models whose rules have been "learned" (and not
 </details>
 
 ---
+
+Q5.6 : **Logging predictions from AI models**  
+If your organisation provides or operates AI model-based applications to customers or third parties, to enable auditability of such applications and facilitate their continuous improvement, it is key to implement predictions logging. On that topic:
+
+R5.6 :  
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
+
+- [ ] 5.6.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.6.b Logging predictions from AI models used in production is not yet systematically implemented
+- [ ] 5.6.c We systematically log all predictions from AI models used in production (coupled with the input data and the associated models references)
+
+<details>
+<summary>Expl5.6 :</summary>
+
+Using automatic systems based on AI models whose rules have been learned questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those AI models, particularly in dealing with situations where AI models have led to an undesirable outcome for the organisation or its stakeholders. To that end, logging predictions from AI models used in production  (coupled with the input data and the associated models references) is key to enable ex-post auditability on concrete use cases.
+
+</details>
+
+---
 ---
 
 ### Section 6 - Anticipating, monitoring and minimising the negative externalities of data science activities
