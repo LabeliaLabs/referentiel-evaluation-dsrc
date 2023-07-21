@@ -1062,6 +1062,7 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
+- (Web article) *[La frugalité, ou comment empêcher l’IA de franchir les limites](https://www.quantmetry.com/blog/ia-confiance-frugalite/)*, Geoffray Brelurut (Quantmetry), Juin 2023
 - (Academic paper) *[Carbon Emissions and Large Neural Network Training](https://arxiv.org/ftp/arxiv/papers/2104/2104.10350.pdf)*, David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean, 2021. Extrait : *Remarkably, the choice of DNN, datacenter, and processor can reduce the carbon footprint up to ~100-1000X*
 - (Web article) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut et Grégoire Martinon, Mai 2021
 - (Academic paper) *[Sustainable AI: Environmental Implications, Challenges and Opportunities](https://arxiv.org/abs/2111.00364)*, Facebook AI, 2021
