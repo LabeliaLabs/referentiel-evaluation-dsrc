@@ -1024,6 +1024,27 @@ Using automatic systems based on models whose rules have been "learned" (and not
 </details>
 
 ---
+
+Q5.6 : **Logging predictions from AI models**  
+If your organisation provides or operates AI model-based applications to customers or third parties, to enable auditability of such applications and facilitate their continuous improvement, it is key to implement predictions logging. On that topic:
+
+R5.6 :  
+_(Type: single answer)_  
+_(Select one answer only, which best corresponds to the level of maturity of the organisation on this topic)_
+_(Specific risk domain: use of AI models, provision or operation of AI model-based applications for customers or third parties)_
+
+- [ ] 5.6.a Our organisation does not use AI models on its own behalf or on behalf of its clients, and does not provide its clients with applications based on AI models | _(Concerned / Not concerned)_
+- [ ] 5.6.b Logging predictions from AI models used in production is not yet systematically implemented
+- [ ] 5.6.c We systematically log all predictions from AI models used in production (coupled with the input data and the associated models references)
+
+<details>
+<summary>Expl5.6 :</summary>
+
+Using automatic systems based on AI models whose rules have been learned questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those AI models, particularly in dealing with situations where AI models have led to an undesirable outcome for the organisation or its stakeholders. To that end, logging predictions from AI models used in production  (coupled with the input data and the associated models references) is key to enable ex-post auditability on concrete use cases.
+
+</details>
+
+---
 ---
 
 ### Section 6 - Anticipating, monitoring and minimising the negative externalities of data science activities
@@ -1036,24 +1057,26 @@ The implementation of an automatic system based on an AI model can generate nega
 
 ---
 
-Q6.1 : **CO2 impact**  
-About the CO2 impact of the data science activity in your organisation:
+Q6.1 : **Environmental impact (energy consumption and carbon footprint)**  
+About the environmental impact of the data science activity in your organisation:
 
 R6.1 :  
 _(Type: multiple responses possible)_  
 _(Select all the answer items that correspond to practices in your organisation)_
 
-- [ ] 6.1.a At this stage we have not looked at the CO2 impact of our data science activity or our AI models
-- [ ] 6.1.b We have developed indicators that define what we want to measure regarding the CO2 impact of our data science activity or our models
+- [ ] 6.1.a At this stage we have not studied specifically the environmental impact of our data science activity or our AI models
+- [ ] 6.1.b We have developed indicators that define what we want to measure regarding the energy consumption and the carbon footprint of our data science activity or our models
 - [ ] 6.1.c We measure our indicators regularly
 - [ ] 6.1.d We include their measurements in the model identity cards
 - [ ] 6.1.e Monitoring our indicators on a regular basis is a formalised and controlled process, from which we define and drive improvement objectives
-- [ ] 6.1.f The CO2 impact of our data science activity or our models is made transparent to our counterparts and the general public
+- [ ] 6.1.f We consolidate an aggregated view of the energy consumtion and carbon footprint of our data science activities
+- [ ] 6.1.g This aggregated view is taken into account in the global environmental impact evaluation of our organization (e.g. carbon footprint, regulatory GHG evaluation, Paris Agreement compatibility score...)
+- [ ] 6.1.h The energy consumption and carbon footprint of our data science activity or our models is made transparent to our counterparts and the general public
 
 <details>
 <summary>Expl6.1 :</summary>
 
-It is important to question and raise awareness of environmental costs. In particular one can: (i) measure the environmental cost of data science projects, (ii) publish transparently their environmental impact, expliciting the split between train and production phases, (iii) improve on these indicators by working on different levers (e.g. infrastructure, model architecture, transfer learning, etc.).
+It is important to question and raise awareness of environmental costs. In particular one can: (i) measure the environmental cost of data science projects, (ii) publish transparently their environmental impact, expliciting the split between train and production phases, (iii) improve on these indicators by working on different levers (e.g. infrastructure, model architecture, transfer learning, etc.). It has been demonstrated that such choices can impact the carbon footprint of model training up to x100-x1000 (see resources below).
 
 </details>
 
@@ -1063,7 +1086,9 @@ It is important to question and raise awareness of environmental costs. In parti
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: python library for evaluation the carbon cost of executing a script
 - (Web article) (In French) *[La frugalité, ou comment empêcher l’IA de franchir les limites](https://www.quantmetry.com/blog/ia-confiance-frugalite/)*, Geoffray Brelurut (Quantmetry), June 2023
+- (Academic paper) *[Carbon Emissions and Large Neural Network Training](https://arxiv.org/ftp/arxiv/papers/2104/2104.10350.pdf)*, David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean, 2021. Extract : *Remarkably, the choice of DNN, datacenter, and processor can reduce the carbon footprint up to ~100-1000X*
 - (Web article) (In French) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut and Grégoire Martinon, May 2021
+- (Academic paper) *[Sustainable AI: Environmental Implications, Challenges and Opportunities](https://arxiv.org/abs/2111.00364)*, Facebook AI, 2021
 - (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
 - (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
 - (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
