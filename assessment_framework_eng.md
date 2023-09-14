@@ -1040,7 +1040,7 @@ _(Specific risk domain: use of AI models, provision or operation of AI model-bas
 <details>
 <summary>Expl5.6 :</summary>
 
-Using automatic systems based on AI models whose rules have been learned questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those AI models, particularly in dealing with situations where AI models have led to an undesirable outcome for the organisation or its stakeholders. To that end, logging predictions from AI models used in production  (coupled with the input data and the associated models references) is key to enable ex-post auditability on concrete use cases.
+Using automatic systems based on AI models whose rules have been learned questions the way organisations design and operate their products and services. It is important to preserve the responsiveness and resilience of organisations using those AI models, particularly in dealing with situations where AI models have led to an undesirable outcome for the organisation or its stakeholders. To that end, logging predictions from AI models used in production (coupled with the input data and the associated models references) is key to enable ex-post auditability on concrete use cases. It should be noted that predictions might involve personal data and be regulated by GDPR. Anonymization of processed data, when logged & made available to customers or internal operators, could be part of a solution to avoid leaking sensitive information.
 
 </details>
 

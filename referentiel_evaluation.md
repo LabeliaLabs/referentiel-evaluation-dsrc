@@ -1045,7 +1045,7 @@ _(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre c
 <details>
 <summary>Expl5.6 :</summary>
 
-Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été apprises interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Pour ce faire, l'historistation des prédictions obtenues des modèles (avec les données d'entrée et les références des modèles concernés) est cruciales pour permettre l'auditabilité a posteriori de cas de figure concrets.
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été apprises interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Pour ce faire, l'historistation des prédictions obtenues des modèles (avec les données d'entrée et les références des modèles concernés) est cruciales pour permettre l'auditabilité a posteriori de cas de figure concrets. Il est à noter cependant que les prédictions et les données d'entrée peuvent être des données personnelles soumises au RGPD (auquel cas leur anonymisation peut être une voie à considérer).
 
 </details>
 
