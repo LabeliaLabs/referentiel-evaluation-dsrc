@@ -2,7 +2,7 @@
 
 Le [référentiel d'évaluation](#référentiel-dévaluation-de-la-maturité-dune-organisation) ci-dessous est le fruit du travail participatif initié au printemps 2019 par Labelia Labs (ex- Substra Foundation) et en cours depuis. Il procède de l'identification des [risques](#risques) que l'on cherche à prévenir en visant une pratique responsable et de confiance de la data science, et des bonnes pratiques qui permettent d'y faire face. Il regroupe également pour chaque sujet des ressources techniques qui peuvent être de bons points d'entrée pour les organisations intéressées.
 
-Dernière mise à jour : 2ème semestre 2022.
+Dernière mise à jour : 1er semestre 2023.
 
 ## Référentiel d'évaluation de la maturité d'une organisation
 
@@ -17,11 +17,11 @@ L'évaluation est composée des 6 sections suivantes :
 
 ---
 
-### Section 1 - Protéger les données à caractère personnel ou confidentielles
+### Section 1 - Protéger les données à caractère personnel ou confidentielles et se conformer aux exigences réglementaires
 
-**[Protection des données]**
+**[Protection des données et conformité réglementaire]**
 
-L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés.
+L'utilisation de données à caractère personnel ou confidentielles fait porter le risque d'exposition de celles-ci, ce qui peut avoir des conséquences très préjudiciables pour les producteurs, gestionnaires, ou sujets de ces données. En particulier dans les projets de data science, elles doivent donc être protégées et les risques qu'elles fuitent ou soient exposées doivent être minimisés. Par ailleurs, les modèles d'IA eux-mêmes peuvent être attaqués et doivent être protégés. Enfin, les exigences réglementaires spécifiques aux systèmes d'IA doivent être connus, maîtrisés et l'activité data science de l'organisation doit s'y conformer.
 
 [_[⇧ retour à la liste des sections](#référentiel-dévaluation-de-la-maturité-dune-organisation)_]  
 [_[⇩ prochaine section](#section-2---prévenir-les-biais-élaborer-des-modèles-non-discriminatoires)_]
@@ -29,7 +29,7 @@ L'utilisation de données à caractère personnel ou confidentielles fait porter
 ---
 
 Q1.1 : **Législation et exigences contractuelles applicables - Identification**  
-En ce qui concerne les données à caractère personnel ou confidentielles, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
+En ce qui concerne les données à caractère personnel ou confidentielles et les systèmes d'IA, les exigences légales, statutaires, réglementaires et contractuelles en vigueur et concernant votre organisation sont :
 
 R1.1 :  
 _(Type : réponse unique)_  
@@ -106,6 +106,13 @@ _(Sélectionner une seule réponse, correspondant le mieux au niveau de maturit�
 <summary>Expl1.3 :</summary>
 
 Au-delà de l'identification des réglementations et des approches de mise en conformité, il est important de mettre en place des processus de veille pour connaître et suivre **l'évolution** des réglementations applicables (qui peuvent être très spécifiques dans certains secteurs). Exemple(s) intéressant(s) : [Welfare surveillance system violates human rights, Dutch court rules](https://www.theguardian.com/technology/2020/feb/05/welfare-surveillance-system-violates-human-rights-dutch-court-rules).
+
+</details>
+
+<details>
+<summary>Ressources1.3 :</summary>
+
+- (Academic paper) *[Do Foundation Model Providers Comply with the Draft EU AI Act?](https://crfm.stanford.edu/2023/06/15/eu-ai-act.html)*, Rishi Bommasani and Kevin Klyman and Daniel Zhang and Percy Liang (Stanford University, Center for Research on Foundation Models), June 2023
 
 </details>
 
@@ -1022,6 +1029,27 @@ Utiliser des systèmes automatiques basés sur des modèles dont les règles ont
 </details>
 
 ---
+
+Q5.6 : **Historisation des prédictions des modèles d'IA**  
+Votre organisation utilise pour son propre compte, fournit à ses clients ou opère pour le compte de ses clients des applications basées sur des modèles d'IA. Afin d'assurer l'auditabilité et de faciliter l'amélioration dans le temps de ces modèles et applications associées, il est important d'en historiser les prédictions. Sur ce thème :
+
+R5.6 :  
+_(Type : réponse unique)_  
+_(Sélectionner une seule réponse, correspondant le mieux au niveau de maturité de l'organisation sur ce sujet)_
+_(Domaine de risque spécifique : utilisation de modèles d'IA pour son propre compte, fourniture et opération de modèles d'IA à ses clients ou à des tiers)_
+
+- [ ] 5.6.a Notre organisation n'utilise pas de modèles d'IA élaborés par apprentissage automatique pour son propre compte ou celui de ses clients, et ne fournit pas à ses clients d'application basée sur des modèles d'IA | _(Concerné / Non concerné)_
+- [ ] 5.6.b Nous n'avons pas encore mis en place l'historisation systématique des prédictions issues des modèles utilisés en production
+- [ ] 5.6.c Nous historisons systématiquement toutes les prédictions issues des modèles utilisés en production (associées aux données d'entrée et aux références des modèles concernés)
+
+<details>
+<summary>Expl5.6 :</summary>
+
+Utiliser des systèmes automatiques basés sur des modèles dont les règles ont été apprises interroge donc le fonctionnement des organisations. Il est important de préserver la capacité de réaction et la résilience de l'organisation utilisatrice, notamment pour traiter les cas de figure où les modèles d'IA auront été à l'origine d'un résultat non souhaitable pour l'organisation ou ses parties prenantes. Pour ce faire, l'historistation des prédictions obtenues des modèles (avec les données d'entrée et les références des modèles concernés) est cruciales pour permettre l'auditabilité a posteriori de cas de figure concrets. Il est à noter cependant que les prédictions et les données d'entrée peuvent être des données personnelles soumises au RGPD (auquel cas leur anonymisation peut être une voie à considérer).
+
+</details>
+
+---
 ---
 
 ### Section 6 - Anticiper, suivre et minimiser les externalités négatives de l'activité data science
@@ -1034,24 +1062,26 @@ La mise en place d'un système automatique basé sur un modèle d'IA peut géné
 
 ---
 
-Q6.1 : **Impact CO2**  
-Au sujet de l'impact CO2 de l'activité data science au sein de votre organisation :
+Q6.1 : **Impact environnemental (consommation d'énergie et empreinte carbone)**  
+Au sujet de l'impact environnemental de l'activité data science au sein de votre organisation :
 
 R6.1 :  
 _(Type : réponses multiples possibles)_  
 _(Sélectionner tous les éléments de réponse correspondant à des pratiques de votre organisation)_
 
-- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact CO2 de notre activité data science ou de nos modèles d'IA
-- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de l'impact CO2 de notre activité data science ou de nos modèles
+- [ ] 6.1.a À ce stade nous ne nous sommes pas penchés sur l'impact environnemental de notre activité data science ou de nos modèles d'IA
+- [ ] 6.1.b Nous avons élaboré des indicateurs définissant ce que nous souhaitons mesurer au sujet de la consommation d'énergie et de l'empreinte carbone de notre activité data science ou de nos modèles
 - [ ] 6.1.c Nous mesurons nos indicateurs régulièrement
 - [ ] 6.1.d Nous incluons leurs mesures dans les cartes d'identité des modèles
 - [ ] 6.1.e La mesure de ces indicateurs et un processus formalisé dans le cadre duquel nous fixons et pilotons des objectifs d'amélioration
-- [ ] 6.1.f L'impact CO2 de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
+- [ ] 6.1.f Nous consolidons une vue agrégée de la consommation d'énergie et l'empreinte carbone de notre activité data science
+- [ ] 6.1.g Cette vue agrégée est prise en compte dans l'évaluation de l'impact environnemental global de notre organisation (e.g. bilan carbone, bilan GES réglementaire, score de compatibilité avec l'Accord de Paris...)
+- [ ] 6.1.h La consommation d'énergie et l'empreinte carbone de notre activité data science ou de nos modèles est transparent pour nos parties prenantes et pour le grand public
 
 <details>
 <summary>Expl6.1 :</summary>
 
-Il est important de s'interroger et de conscientiser les coûts environnementaux. En particulier, on peut (i) mesurer l'impact environnemental des projets data science, (ii) publier de manière transparente leur impact environnemental en séparant phase d'entraînement et de déploiement, (iii) piloter et diminuer ces indicateurs en actionnant différents leviers (infrastructure, typologie de modèle, recyclage et apprentissage par transfert).
+Il est important de s'interroger et de conscientiser les coûts environnementaux. En particulier, on peut (i) mesurer l'impact environnemental des projets data science, (ii) publier de manière transparente leur impact environnemental en séparant phase d'entraînement et de déploiement, (iii) piloter et diminuer ces indicateurs en actionnant différents leviers (infrastructure, typologie de modèle, recyclage et apprentissage par transfert). De tels choix peuvent avoir un impact sur l'empreinte carbone de l'entraînement d'un modèle d'un facteur 100 à 1000 (voir ressources ci-dessous).
 
 </details>
 
@@ -1060,7 +1090,11 @@ Il est important de s'interroger et de conscientiser les coûts environnementaux
 
 - (Software & Tools) *[ML Impact Calculator](https://mlco2.github.io/impact/)*
 - (Software & Tools) *[Code Carbon](https://codecarbon.io/)*: librairie Python permettant d'évaluer le coût carbone de l'exécution d'un script
+- (Web article) *[La frugalité, ou comment empêcher l’IA de franchir les limites](https://www.quantmetry.com/blog/ia-confiance-frugalite/)*, Geoffray Brelurut (Quantmetry), Juin 2023
+- (Academic paper) *[Carbon Emissions and Large Neural Network Training](https://arxiv.org/ftp/arxiv/papers/2104/2104.10350.pdf)*, David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, Jeff Dean, 2021. Extrait : *Remarkably, the choice of DNN, datacenter, and processor can reduce the carbon footprint up to ~100-1000X*
+- (Academic paper) *[Estimating the carbon footprint of Bloom, a 176B parameter language model](https://arxiv.org/pdf/2211.02001.pdf)*, Alexandra Sasha Luccioni, Sylvain Viguier, Anne-Laure Ligozat, 2022. Extrait : *While we will predominantly focus on model training, we will also take into account the emissions produced by manufacturing the computing equipment used for running the training, the energy-based operational emissions, as well as the carbon footprint of model deployment and inference*
 - (Web article) *[IA durable : ce que les professionnels de la donnée peuvent faire](https://medium.com/quantmetry/ia-durable-et-sobri%C3%A9t%C3%A9-num%C3%A9rique-ce-que-les-professionnels-de-la-donn%C3%A9e-peuvent-faire-5782289b73cc)*, Geoffray Brerelut et Grégoire Martinon, Mai 2021
+- (Academic paper) *[Sustainable AI: Environmental Implications, Challenges and Opportunities](https://arxiv.org/abs/2111.00364)*, Facebook AI, 2021
 - (Web article) *[The carbon impact of artificial intelligence](https://www.nature.com/articles/s42256-020-0219-9)*, Payal Dhar, 2020
 - (Web article) *[AI and Compute](https://openai.com/blog/ai-and-compute/)*, OpenAI, 2018
 - (Academic paper) *[Green AI](https://cacm.acm.org/magazines/2020/12/248800-green-ai/fulltext)*, R. Schwart et al. 2020
