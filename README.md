@@ -112,8 +112,8 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 
 - Meetup #1 : lundi 6 mars 2023 à Paris dans les locaux de Quantmetry et par téléconférence - [notes de l'atelier](./workshops-notes\2023.03.06_workshop-s04e01_notes.md)
 - Meetup #2 : lundi 3 juillet 2023 à 17h dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier](./workshops-notes\2023.07.03_workshop-s04e02_notes.md)
-- Meetup #3 : lundi 18 septembre 2023 à 17h
-- Meetup #4 : lundi 20 novembre 2023 à 17h
+- Meetup #3 : lundi 18 septembre 2023 à 17h par téléconférence - [notes de l'atelier](./workshops-notes\2023.09.18_workshop-s04e03_notes.md)
+- Meetup #4 : lundi 27 novembre 2023 à 17h dans les locaux de la MAIF à Paris et par téléconférence
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
