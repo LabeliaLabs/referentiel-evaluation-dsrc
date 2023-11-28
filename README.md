@@ -4,7 +4,7 @@
 
 ## Résumé rapide
 
-Ce dépôt de fichiers héberge le [référentiel cadre](./referentiel_evaluation.md) de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Labelia Labs (ex- Substra Foundation) en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Labelia Labs (ex- Substra Foundation) et Dataforgood.
+Ce dépôt de fichiers héberge le [référentiel cadre](./referentiel_evaluation.md) de la data science responsable et de confiance (aussi dit *assessment*), élaboré de manière participative dans le cadre de l'initiative du même nom initiée par Labelia Labs en 2019. Il regroupe également les notes des [ateliers-meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) qui jalonnent cette initiative, co-animés par Labelia Labs et Dataforgood.
 
 Le référentiel est mis à jour officiellement chaque semestre avec une nouvelle version. Les travaux aboutissant à ces mises à jour sont ouverts à tous, ils peuvent être consultés via les *issues* et *PRs* de ce dépôt.
 
@@ -24,11 +24,11 @@ Le référentiel est mis à jour officiellement chaque semestre avec une nouvell
 >
 > - *[Conférence IA responsable et de confiance](https://www.youtube.com/watch?v=Ip4dCZ8xhEo)* au B-Boost, octobre 2021
 > - *[Podcast C-Ways - Mars 2021](https://c-ways.com/datascience-responsable)*
-> - *[Blog Labelia Labs (ex- Substra Foundation) - Article d'Eric Boniface, octobre 2020](https://www.labelia.org/fr/blog/evaluation-data-science-responsable)*
+> - *[Blog Labelia Labs - Article d'Eric Boniface, octobre 2020](https://www.labelia.org/fr/blog/evaluation-data-science-responsable)*
 
 Un nouvel espace émerge au croisement entre expansion de l'IA dans les organisations et les systèmes automatiques, et inquiétudes du public sur les données privées, la transparence et la robustesse des algorithmes.
 
-Ce sont deux tendances puissantes qui commencent déjà à se percuter (voir par exemple [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) en novembre 2019 ou le formidable article du New York Times en février 2020, [An Algorithm that grants Freedom, or Takes it away](https://www.nytimes.com/2020/02/06/technology/predictive-algorithms-crime.html)). Comment les réconcilier, les conjuguer ensemble ? Des solutions techniques et organisationnelles nouvelles sont indispensables pour cela, pour accorder un cadre de confiance qui manque aujourd’hui, pour rendre possible des collaborations nouvelles, prometteuses et sûres entre les entreprises, les institutions publiques et les citoyens.
+Ce sont deux tendances puissantes qui se percutent (voir par exemple [le cas Apple Card](https://twitter.com/dhh/status/1192540900393705474) en novembre 2019 ou le formidable article du New York Times en février 2020, [An Algorithm that grants Freedom, or Takes it away](https://www.nytimes.com/2020/02/06/technology/predictive-algorithms-crime.html)). Comment les réconcilier, les conjuguer ensemble ? Des solutions techniques et organisationnelles nouvelles sont indispensables pour cela, pour accorder un cadre de confiance qui manque aujourd’hui, pour rendre possible des collaborations nouvelles, prometteuses et sûres entre les entreprises, les institutions publiques et les citoyens.
 
 De nombreux acteurs s'emparent du sujet et travaillent par exemple déjà à des cadres pour un usage à impact positif des technologies d'IA, à des outils pour apporter de la traçabilité aux travaux de data science, à des formations pour éviter la reproduction de biais discriminatoires, à des briques techniques pour permettre la mutualisation et renforcer la confidentialité des données, etc.
 
@@ -36,13 +36,13 @@ En s'appuyant sur les travaux, cadres et corpus existants, **nous travaillons de
 
 ### Une initiative de plus ?
 
-Pourquoi cette initiative, dans un univers qui voyait déjà en 2019, et voit encore plus aujourd'hui, émerger un certain nombre de travaux ? Nous tenons à jour [une liste de travaux](./references.md#travaux-dans-ce-domaine) que nous avons identifiés. Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des chartes, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles d'IA, plateforme d'analyse de risque... Mais à ce stade aucun ne nous a semblé répondre aux deux exigences suivantes :
+Pourquoi cette initiative, dans un univers qui voyait déjà en 2019, et voit encore plus aujourd'hui, émerger un certain nombre de travaux ? Nous avons longtemps tenu à jour [une liste de travaux](./references.md#travaux-dans-ce-domaine). Ils sont tous intéressants, inspirants, utiles. Beaucoup proposent des _guidelines_, des chartes, des engagements à prendre, traitent de l'éthique de l'usage de technologies d'IA. Certains explorent des voies nouvelles : licences spécifiques aux modèles d'IA, plateforme d'analyse de risque... Mais à l'époque aucun ne nous avait semblé répondre aux deux exigences suivantes :
 
 1. porter sur toute **l'activité data science d'une organisation** (comme ensemble de pratiques, de processus, de méthodes...), par opposition à porter sur l'élaboration d'un modèle/système d'IA ou le pilotage d'un projet ;
 
 1. être fait **pour être utilisé comme un outil concret d'évaluation** de la maturité de l'organisation.
 
-Nous imaginons un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine.  
+Nous imaginions un référentiel qui soit actionnable, opérationnel, pour que cela puisse être utile le plus rapidement possible et, à l'usage, susciter des réflexions, des échanges, des souhaits d'amélioration. Qu'il puisse faciliter l'émergence d'offres d'évaluation, audit, formation dans ce domaine.  
 Nous pensons que la communauté data science responsable et de confiance en France et en Europe pourrait bénéficier d'un tel cadre commun. L'enjeu est de fournir des repères pour augmenter la lisibilité du sujet et de le faire connaître le plus largement possible, de faciliter la montée en maturité des organisations, les nouvelles collaborations entre prestataires spécialisés et grandes organisations... L'enjeu est aussi d'animer une dynamique d'échanges au sein de la communauté et d'amélioration continue du référentiel lui-même.
 
 ### Pourquoi _responsable_ et _de confiance_, et pourquoi pas _éthique_ ?
@@ -55,9 +55,7 @@ _De confiance_ : Dans lequel on peut avoir un niveau de confiance raisonnable ca
 
 Les deux notions se recouvrent en partie. Il est cependant difficile de trouver un terme unique satisfaisant. La combinaison des deux apporte une richesse qui nous semble utile.
 
-On considère ici la _data science_ comme une combinaison de techniques et d'outils. Dans ce contexte l'_éthique_ de la data science ou de l'intelligence artificielle ne nous semble pas être le meilleur angle pour aborder et étudier les questions et défis inhérents à la data science dans le but d'élaborer un référentiel opérationnel. L'angle éthique polarise la réflexion sur les usages de l'IA, et la fond dans celle de l'éthique de l'usage des technologies ou des capacités techniques de manière plus générale (voir par exemple [cet article de Tom Chatfield sur OneZero](https://onezero.medium.com/theres-no-such-thing-as-ethical-a-i-38891899261d)). Il s'agit cependant d'un excellent sujet de discussion et débat, la conversation est donc très ouverte en ce moment dans la communauté.
-
-Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance/issues/23) sur ce sujet pour prolonger la réflexion.
+On considère ici la _data science_ comme une combinaison de techniques et d'outils. Dans ce contexte l'_éthique_ de la data science ou de l'intelligence artificielle ne nous semble pas être le meilleur angle pour aborder et étudier les questions et défis inhérents à la data science dans le but d'élaborer un référentiel opérationnel. L'angle éthique polarise la réflexion sur les usages de l'IA, et la fond dans celle de l'éthique de l'usage des technologies ou des capacités techniques de manière plus générale (voir par exemple [cet article de Tom Chatfield sur OneZero](https://onezero.medium.com/theres-no-such-thing-as-ethical-a-i-38891899261d)). Il s'agit cependant d'un excellent sujet de discussion et débat, la conversation est donc vivante (voir par exemple [cette issue](https://github.com/SubstraFoundation/referentiel-ds-responsable-confiance/issues/23) sur le repo).
 
 ## Périmètre du référentiel d'évaluation
 
@@ -80,7 +78,7 @@ Par ailleurs, une [discussion est ouverte](https://github.com/SubstraFoundation/
 
 ### Cycle d'ateliers d'échange et de co-construction
 
-Nous proposons de travailler de manière ouverte et collaborative et organisons pour cela des ateliers d'échange et de co-construction. L'inscription est gratuite et sans engagement, via la plateforme Meetup ([lien](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/)).
+Nous proposons de travailler de manière ouverte et collaborative. Les premières années furent l'occasion d'ateliers d'échange et de co-construction, relayés par la suite par le travail asynchrone sur ce repo, via l'espace d'échange Slack, au travers des [Meetups](https://www.meetup.com/fr-FR/data-science-responsable-et-de-confiance/) et autres événements de la communauté.
 
 #### Saison 1
 
@@ -113,15 +111,15 @@ Nous proposons de travailler de manière ouverte et collaborative et organisons 
 - Meetup #1 : lundi 6 mars 2023 à Paris dans les locaux de Quantmetry et par téléconférence - [notes de l'atelier](./workshops-notes\2023.03.06_workshop-s04e01_notes.md)
 - Meetup #2 : lundi 3 juillet 2023 à 17h dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier](./workshops-notes\2023.07.03_workshop-s04e02_notes.md)
 - Meetup #3 : lundi 18 septembre 2023 à 17h par téléconférence - [notes de l'atelier](./workshops-notes\2023.09.18_workshop-s04e03_notes.md)
-- Meetup #4 : lundi 27 novembre 2023 à 17h dans les locaux de la MAIF à Paris et par téléconférence
+- Meetup #4 : lundi 27 novembre 2023 à 17h dans les locaux de la MAIF à Paris et par téléconférence - [notes de l'atelier](./workshops-notes\2023.11.27_workshop-s04e04_notes.md)
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
 ### Responsabilité éditoriale, disponibilité en ligne des travaux et participation asynchrone
 
-Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Labelia Labs (ex- Substra Foundation), qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
+Ce travail est élaboré sous la responsabilité éditoriale de l'association à but non lucratif Labelia Labs, qui s'engage à le mettre à disposition de manière à ce qu'il puisse être librement reproduit et partagé.
 
-Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Labelia Labs (ex- Substra Foundation) sur GitHub, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des ateliers participatifs bimestriels, il est donc également possible de participer de manière asynchrone.
+Ainsi, le projet en ligne et le dépôt de fichiers associés, hébergés par Labelia Labs sur GitHub, assurent la disponibilité en ligne de ces travaux et du référentiel de la data science responsable et de confiance. Au-delà des meetups 4 à 5 fois par an, il est donc également possible de participer de manière asynchrone.
 
 ### Nature évolutive
 
