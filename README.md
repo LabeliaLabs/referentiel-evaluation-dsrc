@@ -100,18 +100,25 @@ Nous proposons de travailler de manière ouverte et collaborative. Les première
 
 #### Saison 3 - co-organisée avec Dataforgood (et la FING au S1 2022)
 
-- Meetup #1 : lundi 7 mars 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2022.03.07_workshop-s03e01_notes.md)
-- Meetup #2 : lundi 9 mai 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2022.05.09_workshop-s03e02_notes.md)
-- Meetup #3 : lundi 20 juin 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2021.06.20_workshop-s03e03_notes.md)
-- Meetup #4 : lundi 19 septembre 2022 par téléconférence - [notes de l'atelier](./workshops-notes\2021.09.19_workshop-s03e04_notes.md)
-- Meetup #5 : lundi 21 novembre 2022 à Paris dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier](./workshops-notes\2022.11.21_workshop-s03e05_notes.md)
+- Meetup #1 : lundi 7 mars 2022 par téléconférence - [notes de l'atelier et replay](./workshops-notes\2022.03.07_workshop-s03e01_notes.md)
+- Meetup #2 : lundi 9 mai 2022 par téléconférence - [notes de l'atelier et replay](./workshops-notes\2022.05.09_workshop-s03e02_notes.md)
+- Meetup #3 : lundi 20 juin 2022 par téléconférence - [notes de l'atelier et replay](./workshops-notes\2021.06.20_workshop-s03e03_notes.md)
+- Meetup #4 : lundi 19 septembre 2022 par téléconférence - [notes de l'atelier et replay](./workshops-notes\2021.09.19_workshop-s03e04_notes.md)
+- Meetup #5 : lundi 21 novembre 2022 à Paris dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier et replay](./workshops-notes\2022.11.21_workshop-s03e05_notes.md)
 
 #### Saison 4 - co-organisée avec Dataforgood
 
-- Meetup #1 : lundi 6 mars 2023 à Paris dans les locaux de Quantmetry et par téléconférence - [notes de l'atelier](./workshops-notes\2023.03.06_workshop-s04e01_notes.md)
-- Meetup #2 : lundi 3 juillet 2023 à 17h dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier](./workshops-notes\2023.07.03_workshop-s04e02_notes.md)
-- Meetup #3 : lundi 18 septembre 2023 à 17h par téléconférence - [notes de l'atelier](./workshops-notes\2023.09.18_workshop-s04e03_notes.md)
-- Meetup #4 : lundi 27 novembre 2023 à 17h dans les locaux de la MAIF à Paris et par téléconférence - [notes de l'atelier](./workshops-notes\2023.11.27_workshop-s04e04_notes.md)
+- Meetup #1 : lundi 6 mars 2023 à Paris dans les locaux de Quantmetry et par téléconférence - [notes de l'atelier et replay](./workshops-notes\2023.03.06_workshop-s04e01_notes.md)
+- Meetup #2 : lundi 3 juillet 2023 à 17h dans les locaux d'Ekimetrics et par téléconférence - [notes de l'atelier et replay](./workshops-notes\2023.07.03_workshop-s04e02_notes.md)
+- Meetup #3 : lundi 18 septembre 2023 à 17h par téléconférence - [notes de l'atelier et replay](./workshops-notes\2023.09.18_workshop-s04e03_notes.md)
+- Meetup #4 : lundi 27 novembre 2023 à 17h dans les locaux de la MAIF à Paris et par téléconférence - [notes de l'atelier et replay](./workshops-notes\2023.11.27_workshop-s04e04_notes.md)
+
+#### Saison 5 - co-organisée avec Dataforgood
+
+- Meetup #1 : lundi 18 mars 2024 à 17h - en visioconférence
+- Meetup #2 : lundi 17 juin 2024 à 17h - en visioconférence
+- Meetup #3 : lundi 16 septembre 2024 à 17h - en visioconférence
+- Meetup #4 : lundi 18 novembre 2024 à 17h - en visioconférence
 
 Curieux ? Enthousiaste ? Sceptique ? Essayons ensemble, avec toutes les bonnes énergies de celles et ceux qui sont intéressés par le sujet et la démarche, avec l'esprit ouvert à la possibilité que cette démarche puisse muter, rencontrer d’autres initiatives… avec la certitude cependant d'échanger et d'apprendre sur des sujets passionnants.
 
