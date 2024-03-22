@@ -115,7 +115,7 @@ Nous proposons de travailler de manière ouverte et collaborative. Les première
 
 #### Saison 5 - co-organisée avec Dataforgood
 
-- Meetup #1 : lundi 18 mars 2024 à 17h - en visioconférence
+- Meetup #1 : lundi 18 mars 2024 à 17h en visioconférence - [notes de l'atelier et replay](./workshops-notes\2024.03.18_workshop-s05e01_notes.md)
 - Meetup #2 : lundi 17 juin 2024 à 17h - en visioconférence
 - Meetup #3 : lundi 16 septembre 2024 à 17h - en visioconférence
 - Meetup #4 : lundi 18 novembre 2024 à 17h - en visioconférence
